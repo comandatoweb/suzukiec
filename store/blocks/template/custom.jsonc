@@ -1,0 +1,22 @@
+{
+  "store.custom#custom": {
+    "blocks": [
+      "iframe#custom"
+    ]
+  },
+
+  "iframe#custom": {
+    "props": {
+      "width": "100%",
+      "height":"620px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "custom",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/slider-suzuki/html/motos-suzuki-custom.html"
+    }
+  }
+
+}

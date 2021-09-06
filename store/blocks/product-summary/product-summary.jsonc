@@ -1,0 +1,135 @@
+{
+  "product-summary.shelf": {
+    "children": [
+
+      
+     "stack-layout#prodsum",
+   //   "list-context.image-list#imagenperzonalizada",
+     "product-summary-name",
+      
+      "flex-layout.col#productRating",
+      "product-summary-space",
+      "product-list-price#summary",
+      "flex-layout.row#selling-price-savings",
+      "product-installments#summary",
+      "link.product#button-pdpHome"//AGREGANDO EL BOTON VER MAS DETALLE
+     // "add-to-cart-button#vistaprevia"// AGREGAR UN BOTON MINICART V2
+    //  "product-summary-buy-button" //COMPRA PRODUCTO MINICARTV1
+    
+      
+    ]
+ },
+ "list-context.image-list#imagenperzonalizada": {
+  "children": ["slider-layout#demo-images1"],
+  "props": {
+   // "height": 720,
+    "images": [
+      {
+        "image": "https://img.motoryracing.com/noticias/portada/20000/20320-n.jpg"
+      //  "mobileImage": "https://img.motoryracing.com/noticias/portada/20000/20320-n.jpg"        
+      },
+      {
+        "image": "https://revistamoto.com/wp_rm/wp-content/uploads/2020/11/Suzuki_GSX-S_00-1300x731-1.jpg"
+     //   "mobileImage": "https://revistamoto.com/wp_rm/wp-content/uploads/2020/11/Suzuki_GSX-S_00-1300x731-1.jpg"
+      }
+    ]
+  }
+},
+"slider-layout#demo-images1": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "infinite": true,
+    "showNavigationArrows": "desktopOnly",
+    "blockClass": "carousel"
+  }
+}, "add-to-cart-button#vistaprevia": {
+  "props": {
+    "text" : "AGREGAR A SU CARRITO",
+   "isOneClickBuy" : true
+   // "customOneClickBuyLink": "https://suzuki--suzukiecuador.myvtex.com/moto-suzuki-gd115-evolution/p"
+  }
+},
+
+ 
+  "flex-layout.col#productRating": {
+    "props": {
+      "blockClass": "productRating"
+    },
+    "children": ["product-rating-inline"]
+  },
+
+  "stack-layout#prodsum": {
+    "children": [
+      "product-summary-image#shelf",
+      "vtex.product-highlights@2.x:product-highlights#collection",
+      "modal-trigger#quickview" // Check quickview.jsonc
+    ]
+  },
+
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "maxHeight": 300
+    }
+  },
+
+  "vtex.product-highlights@2.x:product-highlights#collection": {
+    "props": {
+      "type": "collection"
+    },
+    "children": ["product-highlight-wrapper"]
+  },
+  "product-highlight-wrapper": {
+    "props": {
+      "blockClass": "collection"
+    },
+    "children": ["product-highlight-text"]
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  },
+
+  "product-list-price#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "flex-layout.row#selling-price-savings": {
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 4
+    },
+    "children": [
+      "product-selling-price#summary",
+      "product-price-savings#summary"
+    ]
+  },
+  "product-installments#summary": {
+    "props": {
+      "blockClass": "summary",
+        "message" : "DESDE {installmentsNumber} CUOTAS DE {installmentValue}{hasInterest, select, true {, {interestRate} de interés} false { }}"
+    }
+  },
+  "product-selling-price#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "product-price-savings#summary": {
+    "props": {
+      "markers": [
+        "discount"
+      ],
+      "blockClass": "summary"
+    }
+  }
+}

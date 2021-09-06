@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100");
+.productHighlightWrapper--collection {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  width: 200px;
+}
+
+.productHighlightText {
+  background: antiquewhite;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+/*MOTOCICLETAS #0f3e99 azul #EEF1F7 plomo*/
+:global(.vtex-rich-text-0-x-container--shelfTitle)
+{
+  background-color: #EEF1F7;
+  height: 3rem;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+}
+:global(.vtex-rich-text-0-x-heading--shelfTitle)
+{
+  color: #0f3e99;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  bottom: 1.5rem;
+}
+
+/*QUITAR ICONO CHIQUITO MOTO*/
+:global(.vtex-product-highlights-2-x-productHighlightWrapper)
+{
+  display: none;
+}
+/*QUITAR AGREGAR A SU CARRITO
+.justify-center :global(.vtex-add-to-cart-button-0-x-buttonText)
+{
+  visibility: hidden;
+}
+/*AGREGAR VER PRODUCTO
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--shelf)
+:global(.vtex-button)::before
+{
+  
+  content: "VER PRODUCTO";
+  visibility: visible;
+}
+/*POSICIONAR EN MEDIO 
+:global(.vtex-add-to-cart-button-0-x-buttonDataContainer)
+{
+  position: relative;
+  left: 2.25em;
+  top: 0.5em;
+}
+*/
+
+
+:global(.vtex-menu-2-x-styledLinkContent--credito)
+{
+  font-family: 'Poppins', sans-serif;
+  font-size: larger;
+  transition: all 0.2s ease;
+  
+}
+:global(.vtex-menu-2-x-styledLinkContent--credito):hover
+{
+  
+  background: #f0f0f0;
+  padding: 8px;
+  border-radius: 15px;
+  color: #03044e;
+}
+/*
+:global(.vtex-menu-2-x-styledLinkContent--credito)
+{
+  border: 2px solid currentColor;
+  border-radius: 1rem;
+  color: 03044e;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 100;
+  overflow: hidden;
+  padding: 0.2rem 1.5rem;
+  position: relative;
+  text-decoration: none;
+  transition: .2s transform ease-in-out;
+  will-change: transform;
+  z-index: 0;
+}
+:global(.vtex-menu-2-x-styledLinkContent--credito)::after
+{
+ 
+  background-color: white;
+  border-radius: 3rem;
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left :0;
+  top :0;
+  transform: translate(-100%, 0) rotate(10deg);
+  transform-origin: top left;
+  transition: .2s transform ease-out;
+  will-change: transform;
+  z-index: -1;
+ 
+ 
+}
+:global(.vtex-menu-2-x-styledLinkContent--credito):hover::after
+{
+ 
+  transform: translate(0, 0)
+  
+ 
+}
+:global(.vtex-menu-2-x-styledLinkContent--credito):hover
+{
+  border: 2px solid transparent;
+  color: black;
+  transform :scale(1.05);
+  will-change: transform;
+}
+*/
+ 
+ 
+ :global(.vtex-iframe-0-x-container--altocilindrajem)
+ {
+  overflow-x: hidden; overflow-y: auto;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+

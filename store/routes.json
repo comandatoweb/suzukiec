@@ -1,0 +1,40 @@
+{
+  "store.custom#about-us": {
+    "path": "/about-us"
+  },
+  "store.custom#faq": {
+    "path": "/faq"
+  },
+  "store.custom#contact-us": {
+    "path": "/contact-us"
+  },
+  "store.custom#be-sustainable": {
+    "path": "/be-sustainable"
+  },
+  "store.custom#utilitaria": {
+    "path": "/utilitaria"
+  },
+  "store.custom#utilitaria-deportiva": {
+    "path": "/utilitaria-deportiva"
+  },
+  "store.custom#doble-proposito": {
+    "path": "/doble-proposito"
+  },
+  "store.custom#croos": {
+    "path": "/croos"
+  },
+  "store.custom#deportiva": {
+    "path": "/deportiva"
+  },
+  "store.custom#utv": {
+    "path": "/utv"
+  },
+  "store.custom#custom": {
+    "path": "/custom"
+  },
+  "store.custom#scooter": {
+    "path": "/scooter"
+  }
+  
+  
+}

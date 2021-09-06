@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,800&display=swap');
+.flexRow--orderByAndSwitcher {
+  padding-right: 1.5em;
+}
+
+.flexRowContent--savingsSummaryListDesktop {
+  justify-content: flex-start;
+}
+
+.flexCol--summaryRightListDesktop {
+  justify-content: space-around;
+}
+
+.flexRow--buyNowButton :global(.vtex-button) {
+  background: #eef3f7;
+  border-color:#eef3f7;
+  color: #0f3e99;
+}
+
+.flexRow--buyNowButton:hover :global(.vtex-button) {
+  background: #dbe9fd;
+  border-color:#dbe9fd;
+}
+/*PADRE*/
+:global(.vtex-flex-layout-0-x-flexRow--buyNowButtonw)
+{
+  background-color: white;
+}
+/*HIJO*/
+.flexRowContent--buyNowButtonw :global(.vtex-button)
+{
+  opacity: 1;
+  outline: 0;
+  color: #fff;
+  line-height: 40px;
+  position: relative;
+  text-align: center;
+  letter-spacing: 1px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  
+}
+.flexCol--productRating {
+  margin-bottom: 0.25rem;
+}
+
+.flexCol--summaryDetailsListMobile {
+  justify-content: space-between;
+}
+
+.flexCol--summaryUpDetailsListMobile {
+  margin-bottom: 0.25rem
+}
+:global(.vtex-flex-layout-0-x-flexRow--gsx725)
+{
+  background-image: url("https://suzukiecuador.vteximg.com.br/arquivos/logogsx750.png");
+  /*background-size: contain,cover;*/
+  /*background-repeat: no-repeat;*/
+  background-size: 100% 100%;
+  
+ 
+}
+:global(.vtex-store-components-3-x-productBrand--quickview)
+{
+  color: black;
+  font-family: 'Rubik', sans-serif;
+  font-size: xx-large;
+  
+}
+:global(.vtex-product-price-1-x-installments)
+{
+  color: black;
+  font-family: 'Rubik', sans-serif;
+}

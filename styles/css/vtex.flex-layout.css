@@ -1,0 +1,800 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+  padding: 0 0.5rem;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+@media screen and (min-width: 80rem) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+}
+
+.flexRowContent--menu-link {
+  background-color: #03044e;
+  color: #fff;
+}
+
+.flexRowContent--main-header {
+  background-color: #f0f0f0;
+}
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  background-color: #f0f0f0;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #727273;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: poppins;
+}
+
+
+.flexRow--deals {
+  background-color: #e10c1a;
+  padding: 14px 0px;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexRow--quickviewMainRow {
+  display: flex;
+  max-height: 100%;
+}
+
+.flexColChild--quickviewDetails:first-child {
+  overflow-y: auto;
+  height: 66% !important;
+  overflow-x: hidden;
+}
+
+.flexColChild--quickviewDetails:last-child {
+  height: 34% !important;
+}
+
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 1120px) {
+  .flexCol--cards-sustainability-wrapper {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px
+  }
+}
+
+.flexColChild--sustainability-wrapper{
+  margin: auto;
+}
+
+ .altocilindraje {
+  overflow: hidden;
+ }
+
+ .formulario{
+  margin-top: -2354px;
+ }
+
+ :global(.vtex-iframe-0-x-container--formulario)
+{
+  margin-top: -2754px;
+  z-index: 1;
+  position: absolute;
+}
+
+:global(.vtex-iframe-0-x-container--360)
+{
+  margin-top: -6em;
+  margin-bottom: -6em;
+}
+
+
+ /*CSS PARA LA FICHA TECNICA
+:global(.vtex-flex-layout-0-x-flexRowContent--productSpecificationGroup)
+{
+  width: 100%;
+  
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--productSpecification)
+{
+  background: #033872;
+  float: left;
+  height: 70px;
+  border-top: 0.2px white solid;
+  border-right:0.2px white solid ;
+}
+:global(.vtex-store-components-3-x-container)
+{
+  color: white; 
+}
+
+:global(.vtex-product-specifications-1-x-groupName)
+{
+text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+padding: 5px;
+width: 100% !important;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--productSpecification)
+{
+  width: 50% !important;
+}
+:global(.vtex-flex-layout-0-x-flexRow--productSpecificationGroupName){
+  
+  background: #033872 !important;
+  border-right: 0.2px white solid !important;
+}
+:global(.vtex-product-specifications-1-x-specificationName)
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+:global(.vtex-store-components-3-x-container)
+{
+  width: 100% !important;
+}*/
+
+:global(.vtex-menu-2-x-menuItem--credito)
+{
+  border-right: 1px solid #03044e !important;
+}
+
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+{
+  width: 40%;
+}
+
+:global(.vtex-iframe-0-x-container--altocilindrajem)
+{
+  padding-top: 40px;
+}
+
+:global(.vtex-slider-layout-0-x-imageElement--banerfinal)
+{
+  padding-top: 40px;
+}
+/*FICHA TECNICA V2*/
+/*CONTENEDOR PADRE*/
+:global(.vtex-flex-layout-0-x-flexRowContent--productSpecificationGroup)
+{
+margin: auto;
+width: 70%;
+opacity: .75;
+background-color: white;
+
+}
+/*FICHA TECNICA*/
+:global(.vtex-product-specifications-1-x-groupName)
+{
+  text-transform: uppercase;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 900;
+  font-size: xx-large !important;
+  text-align: center;
+  letter-spacing: 3px;
+  
+}
+/*IMAGEN*/
+:global(.vtex-flex-layout-0-x-flexRow--productSpecificationGroup)
+{
+  background-image: url('https://feralf.com/images/Autos/Octubre_17/Suzuki/Suzuki_V-Strom_250_cover_fx.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0px 20px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--productSpecificationGroupName)
+{
+  background: none !important;
+  color: #727273;
+  padding: 30px !important;
+
+}
+:global(.vtex-product-specifications-1-x-specificationName)
+{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bolder;
+}
+
+
+
+/*BOTONES PRODUCT PAGE */
+
+
+  
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+      justify-content: center;
+  }
+  
+  
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--boton1)
+  {
+    width: 50%;
+   
+    
+  }
+ 
+  :global(.vtex-flex-layout-0-x-flexRowContent--boton2)
+  {
+    width: 50%;
+  
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--boton3)
+  {
+    width: 50%;
+  
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--buyNowButtons )
+  {
+    width: 50%;
+    color: #fff;
+    background-color: #193d8a;
+  
+  }
+  
+   :global(.vtex-flex-layout-0-x-flexRow--buyNowButtonw )/*HECHO POR ENRIQUE CALLE*/
+  {
+    width: 50%;
+    color: #fff;
+    background-color: #bdc5d8;
+  
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--buyNowButtonf )
+  {
+    width: 50%;
+    color: #fff;
+  
+  }
+ /*color de botones  product page */
+  .flexRow--buyNowButtons :global(.vtex-button) {
+    background-color: #193d8a;
+    border-color: #002d8f;
+  }
+
+ 
+
+  .flexRow--buyNowButtonf :global(.vtex-button) {
+    background-color: #cb2128;
+    border-color: #bc030a;
+  }
+
+ 
+  
+
+
+  :global( .vtex-store-components-3-x-fadeBottom){
+    height: 100%;
+    background-image: none;
+  }
+
+  /********************************************** ***********************************************
+  ************************************************* ***********************************************/
+  /*CONTAINER PARA EL VIDEO, LO QUE HACEMOS ES UBICARLO EN EL TOP*/
+  :global(.vtex-store-video-1-x-videoContainer)
+  {
+    margin-top: 0 !important;
+  }
+  /*CONTENEDOR PRINCIPAL QUE MUESTRA QUE PRODUCTO ES, LAS CUOTAS, HASTA LOS BOTONES*/
+  /*CONTENEDOR PARA UBICARLO EN LA PARTE SUPERIOR*/
+  :global(.vtex-flex-layout-0-x-flexRow--containDescriptionForTheVideo)
+  {
+    font-family: 'Poppins', sans-serif;
+    background: none !important;
+    position: relative;
+    top: -32rem;
+    
+  }
+   /*BLOQUE PARA CAMBIAR LAS LETRAS QUE VIENE POR DEFECTO A DL250VSTROM*/
+ .flexRow--name :global(.vtex-store-components-3-x-productBrand)
+ {
+   
+   visibility: hidden;
+ }
+ .flexRow--name :global(.vtex-store-components-3-x-productBrand)::before
+ {
+  font-family: 'Poppins', sans-serif;
+   content: "DL250 V-STROM";
+   visibility: visible;
+   font-size: 4rem;
+   color:white;
+   font-style: italic;
+   font-weight: bolder;
+ }
+ /*AQUI TERMINA EL BLOQUE PARA CAMBIAR DL250VSTROM*/
+
+ /*BLOQUE PARA CAMBIAR LAS LETRAS QUE VIENE POR DEFECTO A DL250VSTROM*/
+ .flexRow--description :global(.vtex-store-components-3-x-productBrand)
+ {
+   
+   visibility: hidden;
+ }
+ .flexRow--description :global(.vtex-store-components-3-x-productBrand)::before
+ {
+  font-family: 'Poppins', sans-serif;
+   content: "Poder en tus manos, poder en las calles.";
+   visibility: visible;
+   font-size: 2rem;
+   color:white;
+   font-weight: normal;
+   font-style: italic;
+ }
+ /* AQUI TERMINA BLOQUE PARA CAMBIAR LAS LETRAS QUE VIENE POR DEFECTO A DL250VSTROM*/
+
+ /*BOTON SOLICITAR PRODUCTO*/
+ /*CAJA PADRE BOTON SOLICITAR PRODUCTO*/
+ .flexRow--buyNowButtons
+ {
+   background: none;
+ }
+
+/*EL BOTON EN SI*/
+.flexRow--buyNowButtons  :global(.vtex-button)
+{
+  
+  width: 50%;
+  height: 49%;
+  margin-top: 2rem;
+  position: relative;
+  right: 13rem;
+  /* background: transparent; */
+  border: none;
+  transition: all 0.2s ease;
+ 
+  border-radius: 10px;
+  
+}
+.flexRow--buyNowButtons  :global(.vtex-button):hover
+{
+ /* border: 3px silver solid; */
+ 
+  background: #1041a3;
+  
+}
+:global(.vtex-add-to-cart-button-0-x-buttonText--buyNows)
+{
+  font-size: 1.2rem;
+  padding: 1rem;
+  font-family: 'Poppins', sans-serif;
+
+}
+/*FIN BOTON SOLICITAR PRODUCTO*/
+
+.flexRow--buyNowButtonw /*HECHO POR ENRIQUE CALLE*/
+ {
+   background: none !important;
+ }
+.flexRow--buyNowButtonw  :global(.vtex-button)/*HECHO POR ENRIQUE CALLE*/
+{
+  width: 50%;
+  height: 55%;
+  margin-top: 0rem;
+  position: relative;
+  right: 13rem;
+  border: none;
+  transition: all 0.2s ease;
+  background: green;
+  border-radius: 10px;
+}
+.flexRow--buyNowButtonw  :global(.vtex-button):hover/*HECHO POR ENRIQUE CALLE*/
+{
+ 
+  background: rgb(9, 153, 9);
+}
+:global(.vtex-add-to-cart-button-0-x-buttonText--buyNoww)
+{
+  font-size: 1.2rem;
+  padding: 1rem;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+/*SEGUNDA PARTE*/
+.flexRow--subTitleForTheMoto
+{
+  position: relative;
+    bottom: 28rem;
+  
+    height: 8rem;
+}
+:global(.vtex-rich-text-0-x-heading--subtittleMoto)
+{
+  color: rgb(0, 48, 69);
+  font-weight: 900;
+  letter-spacing: 5px;
+  /* font-style: normal; */
+  font-style: italic;
+  font-size: 3rem;
+}
+:global(.vtex-rich-text-0-x-container--subtittleMoto2)
+{
+  position: relative;
+  bottom: 3.3rem;
+}
+:global(.vtex-rich-text-0-x-heading--subtittleMoto2)
+{
+  color: rgb(0, 48, 69);
+}
+
+/****************************************************/
+.flexRow--subTitleForTheMoto2
+{
+  position: relative;
+    bottom: 28rem;
+    background: #003045;
+    height: 8rem;
+}
+:global(.vtex-rich-text-0-x-wrapper--subtittleMoto2_1)
+{
+  color: white;
+    font-weight: 800;
+    letter-spacing: 5px;
+    font-style: normal;
+}
+
+
+
+.flexCol--BlockcolorSwatchBlock
+{
+  position: relative;
+  top: 7rem;
+}
+
+ /********************************************** ***********************************************
+  ************************************************* ***********************************************/
+ 
+ /*MARGIN TOP EN EL BLOQUE PODER EN TU MANOS PODEER EN LAS CALLES*/
+ .flexRow--description :global(.vtex-store-components-3-x-productNameContainer)
+ {
+   margin-top: 2rem;
+ }
+ /*.flexRow--description :global(.vtex-store-components-3-x-productBrand)::after
+ {
+   color: white;
+   content : '\A\rger'; white-space: pre;
+   
+ }*/
+/**********13-08-2021 17:37:00 DESARROLLADOR POR ENRIQUE CALLE****************BOTON SOLICITAR*******************/
+ 
+
+
+/**************************FIN BOTON SOLICITAR*******************/
+
+
+
+
+
+ /*FIN BOTON SOLICITAR MOTO*/
+ :global(.vtex-store-video-1-x-videoContainer--videoEl)::before
+ {
+  content:'';
+	position: absolute;
+  top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+ }
+
+ /*CSS QUE REPRESENTA DESDE 36 CUOTAS DE*/
+ :global(.vtex-product-price-1-x-installments--text)
+{
+  color:white !important;
+  font-family: 'Poppins', sans-serif;
+
+  font-size: 2rem;
+  font-style: italic;
+}
+/*REPRESENTA EL VALOR*/
+:global(.vtex-product-price-1-x-currencyContainer--text)
+{
+  font-size: 3.2rem;
+  font-style: italic;
+    font-weight: bolder;
+    color: yellow;
+}
+
+
+
+  
+@media screen and (min-width:708px){
+  .sliderjs{height:250px;}
+  }
+  @media screen and (min-width:1900px){
+  .sliderjs{height:500px;}
+  }
+  @media only screen and (min-width:320px){
+  .sliderjs{height: 1240px;}
+  }
+  @media screen and (min-width:1600px){
+  .sliderjs{height: 597px!important;}
+  }
+  @media (min-width:800px) and (max-width:1024px){
+  .sliderjs{height:216px;}
+  }
+  @media (min-width:700px) and (max-width:768px){
+  .sliderjs{height: 1260px;}
+  }
+  @media (min-width:1025px) and (max-width:1555px){
+  .sliderjs{height:244px;}
+  }
+  @media screen and (min-width:1024px){
+  .sliderjs{height: 600px;}
+  }
+  @media screen and (min-width:1500px){
+  .sliderjs{height:355px;}
+  }
+  @media screen and (min-width:1400px){
+  .sliderjs{height:353px;}
+  }
+  @media screen and (min-width:1360px){
+  .sliderjs{height:333px;}
+  }
+  @media screen and (min-width:1280px){
+  .sliderjs{height: 603px;}
+  }
+  @media screen and (min-width:1920px){
+  .sliderjs{height:490px;}
+  }
+  @media only screen and (min-width:320px){
+  .sliderjsm{height: 635px;}
+  }
+  @media (min-width:375px) and (max-width:384px){
+  .sliderjsm{height: 635px;}
+  }
+  @media (min-width:321px) and (max-width:360px){
+  .sliderjsm{height: 640px;}
+  }
+  @media (min-width:411px) and (max-width:414px){
+  .sliderjsm{height: 650px;}
+  }
+  @media only screen and (max-width:414px){
+  .sliderjs{display:none!important;}
+  .sliderjsm :global(.vtex-store-components) {
+    display:block!important; 
+    height: 1506px;
+  }
+
+  .sliderjsm{display:block!important; height: 1506px;}
+  }
+
+  @media only screen and (max-width:414px){
+   
+    
+     :global(.vtex-iframe-0-x-container--collage) {
+      height: 575px ;
+    }
+    
+    }
+
+    
+  
+
+
+  /*modificacion enrique calle 15-08-2021*/
+  /*BLOQUE ABAJO DESPUES DE BANNER*/
+
+
+/*bloque que contiene potencia en ti... y sencillez ...*/
+:global(.vtex-flex-layout-0-x-flexRow--divsegundo)
+{
+ 
+  position: relative;
+  top: -36rem;
+  /* height: 50%; */
+  height: 15rem;
+}
+/*Controlamos el subtitulo Potencia en ti.....*/
+.flexRow--subtitulo :global(.vtex-store-components-3-x-productBrand)
+{
+  visibility: hidden;
+
+}
+
+.flexRow--subtitulo :global(.vtex-store-components-3-x-productBrand)::before
+ {
+   content: "POTENCIA EN TI, POTENCIA ANTE TUS RIVALES";
+   visibility: visible;
+   font-size: 3rem;
+   color:#12467e !important;
+   font-weight: bolder;
+   font-style: italic;
+   
+   width: 150%;
+   font-size: 5rem;
+   font-family: 'Poppins', sans-serif;
+
+
+  
+ }
+ /*Hasta aca*/
+/*:global(.vtex-flex-layout-0-x-flexRow--subtitulo)
+{
+    position: relative;
+    margin-right: -534px;
+    left: -25%;
+}*/
+
+/*Contenedor global de proceso de sencillesz y ....*/
+/*
+:global(.vtex-flex-layout-0-x-flexRow--subtitulo2)
+{
+  position: relative;
+  right: 25%;
+}*/
+
+ /*Aqui hacemos el proceso de sencillez y armonia en una sola moto*/
+ .flexRow--subtitulo2 :global(.vtex-store-components-3-x-productBrand)
+{
+  visibility: hidden;
+
+}
+/**/
+.flexRow--subtitulo2 :global(.vtex-store-components-3-x-productBrand)::before
+ {
+   content: "Sencillez y armonia en una sola moto";
+   visibility: visible;
+   font-size: 3rem;
+   color:#12467e !important;
+   font-weight: 100;
+   font-style: italic;
+   font-size: 4rem;
+  font-family: 'Poppins', sans-serif;
+
+  
+ }
+ /*Hasta aca finaliza sencillez y armonia en un sola moto*/
+
+/*flex-layout.row#colorSwatchBlock*/
+:global(.vtex-flex-layout-0-x-flexRow--colorSwatchBlock)
+  {
+    position: relative;
+    bottom: 20rem;
+    
+  }
+
+/* FINAL  flex-layout.row#colorSwatchBlock */
+:global(.vtex-flex-layout-0-x-flexRowContent--divsegundo)
+{
+ /* width: 150%;*/ 
+}
+:global(.vtex-store-components-3-x-skuSelectorName)
+{
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+}
+:global(.vtex-store-components-3-x-skuSelectorNameSeparator)
+{
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+:global(.vtex-store-components-3-x-skuSelectorSelectorImageValue)
+{
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+/*SELECTOR PARA CONTROLAR LA IMAGEN EN SI DE LA ESPECFICACION*/
+.flexCol--BlockstackImage
+{
+ /* position: relative;
+  bottom: 4rem;
+  right: 4rem;*/
+}
+.flexRow--miniBanner
+{
+  background-image: url("https://www.dtbc.eu/wp-content/uploads/suzuki-logo.png");
+}
+
+/*DIV PARA IMAGENES*/
+.flexRow--divParaimagenes
+{
+ /* background-color: #bdc5d8!important;
+   border-bottom: #12467e solid 3px; */
+  /* border-top: #12467e solid 3px; */
+  position: relative;
+  bottom: 22rem;
+/*  background: linear-gradient(#fafafa, #727273);*/
+  
+  height: 20rem;
+}
+.flexRow--descripciondivimagenes
+{
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  bottom: 42rem;
+
+}
+:global(.vtex-rich-text-0-x-container--mensaje1),
+:global(.vtex-rich-text-0-x-container--mensaje2),
+:global(.vtex-rich-text-0-x-container--mensaje3)
+{
+  color: black;
+  
+}
+:global(.vtex-rich-text-0-x-strong--mensaje1),
+:global(.vtex-rich-text-0-x-strong--mensaje2),
+:global(.vtex-rich-text-0-x-strong--mensaje3)
+{
+ 
+  font-weight: 600 !important;
+  
+}
+:global(.vtex-store-video-1-x-videoContainer--videoGif)
+{
+  position: relative;
+  bottom: 79rem;
+}
+
+.flexRow--containBannerVlStrom250
+{
+  position: relative;
+  bottom: 47rem;
+}
+.flexRow--divParaImagenRevista
+{
+  /*background-image: url("https://suzukiecuador.vteximg.com.br/arquivos/LOGO-SUZUKI.jpg");
+    background-attachment: fixed;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    
+}
+
+
+ 
+
+/*:global(.vtex-store-components-3-x-imageElement--motor)
+{
+  position: relative;
+    right: 41%;
+}*/
+

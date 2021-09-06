@@ -1,0 +1,22 @@
+{
+  "store.custom#utv": {
+    "blocks": [
+      "iframe#utv"
+    ]
+  },
+
+  "iframe#utv": {
+    "props": {
+      "width": "100%",
+      "height":"620px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "utv",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/slider-suzuki/html/motos-utv.html"
+    }
+  }
+
+}

@@ -1,0 +1,1287 @@
+{
+  "condition-layout.product#conditionForTheVideo": {
+    "props": {
+  //   "matchType" : "any",
+  
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049300"//gsx750
+          }
+        }
+      ],
+      "toBe" : true,
+      "Then": "video#backgroundVideo",
+      "Else": "video#backgroundVideo"
+     // "Then": "list-context.image-list#topbaner",
+     // "Else": "flex-layout.row#gsx725"
+      
+    }
+  },
+  "video#backgroundVideo": {
+   "props": {
+     "width": "100%",
+     "height": "450px",
+     "loop": true,
+     "autoPlay": true,
+     "muted": false,
+     "type":"mp4",
+     "src": "https://site.comandato.com/video/bannerVideo-82.mp4",
+     "blockClass": "videoEl"
+   }
+ },
+ "flex-layout.row#containDescriptionForTheVideo" :
+  {
+    
+    "props": {
+      "blockClass": "containDescriptionForTheVideo",
+      "colGap": 0,
+      "rowGap": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+
+    }  ,
+    "children": ["flex-layout.col#descriptionForTheVideo"]
+    
+  },
+  //COMPONENTE QUE MUESTRA LA ESPEFICIACION CON LOS BOTONES
+  "flex-layout.col#descriptionForTheVideo": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "hasMoreThanOne" : true
+    },
+    "children": [
+      "flex-layout.row#product-name",//NOMBRE DEL PRODUCTO
+      "flex-layout.row#descriptionProduct",//NOMBRE DEL PRODUCTO
+  //    "product-rating-summary",//muestra la calificación promedio del producto que se está viendo
+      "flex-layout.row#list-price-savings",
+      //"flex-layout.row#selling-price",
+      //"product-spot-price", 
+      // "product-installments-list",
+   //    "product-installments-list-item",
+       // "product-installments#summary",
+      "product-price-savings",
+      //AGREGADO
+      "product-selling-price#summary",
+      "product-installments#text",//DESDE 36 CUOTAS 
+      //FIN AGREGADO
+      "product-spot-price-savings",
+      "product-list-price-range",
+      // "product-selling-price-range",
+      // "product-seller-name",
+    //  "product-separator", //LINEA SEPARADORA
+     // "product-identifier.product", //IDENTIFICACION DEL PRODUCTO
+  ///--  "sku-selector",POSIBLEMENTE LAS ELECCIONES DE LAS MOTOS
+      //"product-quantity",
+     "product-assembly-options",
+     "product-gifts",
+      "flex-layout.row#buyNowButtons",
+      "flex-layout.row#buyNowButtonw"
+    //  "flex-layout.row#buyNowButtonf",
+    //  
+      //"availability-subscriber",
+      // "shipping-simulator",
+   //   "share#default"
+    ]
+  },
+  "flex-layout.row#subTitleForTheMoto":{
+    "props":{
+      "blockClass": "subTitleForTheMoto"
+    },
+    "children":["flex-layout.col#columnForTheSubTitleMoto"]
+  },
+  "flex-layout.col#columnForTheSubTitleMoto":{
+    "props":{
+      "blockClass": "columnForTheSubTitleMoto"
+    },
+    "children":["rich-text#subtittleMoto","rich-text#subtittleMoto2"]
+
+  },
+  "rich-text#subtittleMoto":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "## DISEÑADA PARA DARTE POTENCIA Y AVENTURA",
+    "blockClass": "subtittleMoto"
+    }
+  },
+  "rich-text#subtittleMoto2":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "### EL PODER LLEGA A LAS CALLES",
+    "blockClass": "subtittleMoto2"
+    }
+  },
+  "flex-layout.row#colorSwatchBlock": {
+    "props": {
+      "blockClass": "colorSwatchBlock"
+     
+    },
+    "children": ["flex-layout.col#BlockcolorSwatchBlock","flex-layout.col#BlockstackImage"]
+  },
+  "flex-layout.col#BlockcolorSwatchBlock": {
+    "props": {
+      "blockClass": "BlockcolorSwatchBlock",
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "hasMoreThanOne" : true
+    },
+    "children": [
+      "rich-text#subtittleDescriptionMoto",
+      "product-separator",
+      "sku-selector"
+    ]
+  },
+  "flex-layout.col#BlockstackImage": {
+    "children": ["stack-layout#BlockImage"],
+    "props": {
+      "blockClass": "BlockstackImage",
+      "width": "60%",
+      "rowGap": 0
+    }
+  },
+  "stack-layout#BlockImage": {
+    "props": {
+      "blockClass": "BlockImage"
+    },
+    "children": [
+    "flex-layout.row#product-image",//COMPONENTE QUE MUESTRA EL LADO IZQUIERDO DE LA IMAGEN
+   "product-bookmark",
+     "product-specification-badges"
+    ]
+  },
+
+  "product-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": "True",
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+  "flex-layout.row#divParaimagenes":{
+    "props": {
+      "blockClass": "divParaimagenes",
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 7,
+      "marginBottom": 7,
+      "paddingTop": 0,
+      "paddingBottom": 7
+    },
+    "children": ["image#motor","image#rapido","image#disco_freno"]
+  },
+  "image#motor": {
+    "props": {
+      "blockClass": "motor",
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/motores.png",
+      "maxHeight": 100,
+      "maxWidth" : 100
+    }
+   
+  },
+  "image#rapido": {
+    "props": {
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/rapido.png",
+      "maxHeight": 100,
+      "maxWidth" : 100
+      
+    }
+  },
+  "image#disco_freno": {
+    "props": {
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/disco-del-freno.png",
+      "maxHeight": 100,
+      "maxWidth" : 100
+    }
+  },
+  "flex-layout.row#descripciondivimagenes" :{
+    "props": {
+      "blockClass": "descripciondivimagenes",
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 7,
+      "marginBottom": 7,
+      "paddingTop": 9,
+      "paddingBottom": 9
+
+    },
+    "children" :["rich-text#mensaje1","rich-text#mensaje2","rich-text#mensaje3"]
+  },
+  "rich-text#mensaje1":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "**250 CC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+    "textColor": "c-on-emphasis",
+    "font": "t-heading-5",
+    "blockClass": "mensaje1"
+    }
+  },
+  "rich-text#mensaje2":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "**6 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+    "textColor": "c-on-emphasis",
+    "font": "t-heading-5",
+    "blockClass": "mensaje2"
+    }
+  },
+  "rich-text#mensaje3":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "**Disco / Disco  - Frenos (Delantero / Trasero)**\nFrenos de confianza \nrodada en cualquier sitio",
+    "textColor": "c-on-emphasis",
+    "font": "t-heading-5",
+    "blockClass": "mensaje3"
+    }
+  },
+
+  
+  "list-context.image-list#sliderVLS": {
+    "children": ["slider-layout#sliderVLSitems"],
+    "props": {
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/bannerx.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/bannerx.png"
+        },
+        {
+          "width" : "100%",
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/bannerx2.png",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/bannerx2.png"
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#sliderVLSitems": {
+    "props": {
+      "blockClass": "sliderVLSitems",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
+  //CARACTERISTICAS ESPECIALES
+  "flex-layout.row#caracteristicasEspecialesText" : {
+    "props": {
+      "blockClass": "caracteristicasEspecialesText"
+    },
+      "children" :["rich-text#textoCaracterisitcasEspeciales"]
+    },
+    "rich-text#textoCaracterisitcasEspeciales":{
+      "props":{
+        "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**CARACTERISTICAS ESPECIALES**",
+      "blockClass": "textoCaracterisitcasEspeciales"
+      }
+    },
+  //FIN DE CARACTERISTICAS ESPECIALES
+
+  //LISTA PARA TU AVENTURA
+  "flex-layout.row#listaparatuaventuraText" : {
+    "props": {
+      "blockClass": "listaparatuaventuraText"
+    },
+      "children" :[ "rich-text#textolistaparatuaventuraText"]
+    },
+    "rich-text#textolistaparatuaventuraText":{
+      "props":{
+        "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**LISTA PARA TU \n PRIMER AVENTURA**",
+      "blockClass": "textoCaracterisitcasEspeciales"
+      }
+    },
+  // FIN DE LISTA PARA TU AVENTURA
+
+  //SOLICITA CREDITO DIRECTO
+  "flex-layout.row#solicitaCreditoDirecto" : {
+    "props": {
+      "blockClass": "solicitaCreditoDirecto"
+    },
+      "children" :[ "rich-text#textosolicitaCreditoDirecto"]
+    },
+    "rich-text#textosolicitaCreditoDirecto":{
+      "props":{
+        "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**SOLICITA TU CREDITO DIRECTO**",
+      "blockClass": "textosolicitaCreditoDirecto"
+      }
+    },
+  //FIN SOLICITA CREDITO DIRECTO
+  "flex-layout.row#containBannerVlStrom250" : {
+    "props": {
+      "blockClass": "containBannerVlStrom250"
+    },
+    "children": ["image#collageVlStrom250"]
+  },
+  "image#collageVlStrom250": {
+    "props": {
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/COLLAGEX.png",
+      "maxHeight": "100%",
+      "maxWidth" : "100%",
+      "blockClass" : "collageVlStrom250"
+      
+    }
+  },
+  "flex-layout.row#containercompraEnLineaVlStrom250":{
+    "props": {
+      "blockClass": "containercompraEnLineaVlStrom250",
+      "colGap": 0,
+      "rowGap": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+
+    },
+    "children": ["image#compraEnLineaVlStrom250"]
+  },
+  "image#compraEnLineaVlStrom250": {
+    "props": {
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/acampar_1.jpg",
+      "maxHeight": "100%",
+      "maxWidth" : "100%",
+      "blockClass" : "compraEnLineaVlStrom250"
+      
+    }
+  },
+  "store.product": {
+    "children": [
+     "condition-layout.product#conditionForTheVideo",
+     //   "flex-layout.row#product-breadcrumb",//indica donde estas ubicado
+     // "list-context.image-list#topbaner",//BANNER
+     "flex-layout.row#containDescriptionForTheVideo",//Esto es como un div
+     "flex-layout.row#subTitleForTheMoto",
+     //"flex-layout.row#divsegundo",//ESTE ES EL DIV QUE MUESTRA POTENCIA EN TI Y EL RESTO....
+     "flex-layout.row#colorSwatchBlock",//Esto es la division entre la imagen y la especificacion
+     //"flex-layout.row#subTitleForTheMoto2",
+     //"flex-layout.row#gsx725-2",
+     // "flex-layout.row#containX"
+   //  "flex-layout.row#product-main",
+   
+   "flex-layout.row#divParaimagenes",//Div que contiene las imagenes motor, velocidad, freno
+   "flex-layout.row#descripciondivimagenes",//Descripcion del motor velocidad, freno
+//PARTE DEL CREDITO DIRECTO
+"flex-layout.row#solicitaCreditoDirecto",
+//FIN DE PARTE DEL CREDITO DIRECTO
+
+   "video#videoGif",
+   "list-context.image-list#sliderVLS",//SLIDER
+    "flex-layout.row#caracteristicasEspecialesText",
+    //BANNER
+    "flex-layout.row#contenedorDivParaImagenRevista",
+    "flex-layout.row#listaparatuaventuraText",
+    "image#collageVlStrom250",
+   //   "flex-layout.row#divParaImagenRevista",//Div parecido a revista
+     
+ //  "flex-layout.row#divParaBanneryDescripcion",//Banner con su descripcion
+
+ /*FICHA TECNICA*/
+
+ "flex-layout.row#contenedorFichaTecnia",
+ /*FIN FICHA TECNICA*/
+ "flex-layout.row#containercompraEnLineaVlStrom250",
+    // "product-specification-group#table",
+     // "shelf.relatedProducts",
+     //"list-context.image-list#productbaner",
+     "product-questions-and-answers"
+    ]
+  },
+  
+  
+
+  /*FICHA TECNICA*/
+  "flex-layout.row#contenedorFichaTecnia":{
+    "props":{
+      "blockClass": "contenedorFichaTecnia",
+      "colGap": 0,
+      "rowGap": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    "children" :["flex-layout.col#subContenedorRenglonesFichaTecnica"]
+  },
+  "flex-layout.col#subContenedorRenglonesFichaTecnica":{
+    "props": {
+      "blockClass": "subContenedorRenglonesFichaTecnica",
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "hasMoreThanOne" : true
+    },
+    "children":[
+      "flex-layout.row#containFichcaTecnica",
+
+      //1 BLOQUE MOTOR
+      "flex-layout.row#containNameMotor",
+      "flex-layout.row#containImageMotor",
+      "flex-layout.row#containDescriptionImageMotor",
+
+      //2 BLOQUE CHASIS
+      "flex-layout.row#containNameChasis",
+      "flex-layout.row#containImageChasis",
+      "flex-layout.row#containDescriptionImageChasis",
+
+      //3 BLOQUE DIMENSION PESO
+      "flex-layout.row#containNameDi_Wei",
+      "flex-layout.row#containImageDi_Wei",
+      "flex-layout.row#containDescriptionImageDi_Wei"
+    ]
+
+  },
+  //********************************************1 BLOQUE****************************************//
+  /*flex-layout.row#containImageMotor*/
+  "flex-layout.row#containNameMotor" : {
+    "props":{
+      "blockClass": "containNameMotor"
+    },
+    "children":["rich-text#nameMotor"]
+  },
+  "rich-text#nameMotor":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "## Motor",
+    "blockClass": "nameMotor"
+    }
+  },
+  /*FIN flex-layout.row#containImageMotor*/
+  /*flex-layout.row#containImageMotor*/
+  "flex-layout.row#containImageMotor":{
+    "props":{
+      "blockClass": "containImageMotor",
+      "colGap": 0,
+      "rowGap": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    "children" : ["image#typeMotor","image#displacement","image#startSystem"]
+  },
+  "image#typeMotor": {
+    "props": {
+      "blockClass": "typeMotor",
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/tipo-motor.png",
+      "maxHeight":100,
+      "maxWidth" : 100
+    } 
+  },
+  "image#displacement": {
+    "props": {
+      "blockClass": "typeMotor",
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/desplazamiento.png",
+      "maxHeight":100,
+      "maxWidth" : 100
+    } 
+  },
+  "image#startSystem": {
+    "props": {
+      "blockClass": "typeMotor",
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/sistemaDearranque.png",
+      "maxHeight":100,
+      "maxWidth" : 100
+    } 
+  },
+  /*FIN flex-layout.row#containImageMotor*/
+  /*flex-layout.row#containDescriptionImageMotor*/
+  "flex-layout.row#containDescriptionImageMotor":{
+    "props":{
+    "blockClass": "containDescriptionImageMotor",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+    },
+    "children" : ["rich-text#descriptionTypeMotor","rich-text#descriptionDisplacement","rich-text#descriptionStartSystem"]
+
+  },
+  "rich-text#descriptionTypeMotor":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+    "blockClass": "descriptionTypeMotor"
+    }
+  },
+  "rich-text#descriptionDisplacement":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "**DESPLAZAMIENTO** \n248 cm3",
+    "blockClass": "descriptionDisplacement"
+    }
+  },
+  "rich-text#descriptionStartSystem":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "**SISTEMA DE ARRANQUE** \nElectrico",
+    "blockClass": "descriptionStartSystem"
+    }
+  },
+  /* FIN flex-layout.row#containDescriptionImageMotor*/
+
+  //********************************************FIN 1 BLOQUE****************************************//
+
+  //********************************************2 BLOQUE****************************************//
+ /*flex-layout.row#containImageMotor*/
+ "flex-layout.row#containNameChasis" : {
+  "props":{
+    "blockClass": "containNameChasis"
+  },
+  "children":["rich-text#nameChasis"]
+},
+"rich-text#nameChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## Chasis",
+  "blockClass": "nameChasis"
+  }
+},
+/*FIN flex-layout.row#containImageMotor*/
+/*flex-layout.row#containImageMotor*/
+"flex-layout.row#containImageChasis":{
+  "props":{
+    "blockClass": "containImageChasis",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children" : ["image#frontlight","image#wheels","image#frontSuspension"]
+},
+"image#frontlight": {
+  "props": {
+    "blockClass": "frontlight",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/FrenoDelantero.png",
+    "maxHeight":100,
+    "maxWidth" : 100
+  } 
+},
+"image#wheels": {
+  "props": {
+    "blockClass": "wheels",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/Rines.png",
+    "maxHeight":100,
+    "maxWidth" : 100
+  } 
+},
+"image#frontSuspension": {
+  "props": {
+    "blockClass": "frontSuspension",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/SuspensionDelantera.png",
+    "maxHeight":100,
+    "maxWidth" : 100
+  } 
+},
+/*FIN flex-layout.row#containImageMotor*/
+/*flex-layout.row#containDescriptionImageMotor*/
+"flex-layout.row#containDescriptionImageChasis":{
+  "props":{
+  "blockClass": "containDescriptionImageChasis",
+  "colGap": 0,
+  "rowGap": 0,
+  "marginTop": 0,
+  "marginBottom": 0,
+  "paddingTop": 0,
+  "paddingBottom": 0
+  },
+  "children" : ["rich-text#descriptionfrontlight","rich-text#descriptionwheels","rich-text#descriptionfrontSuspension"]
+
+},
+"rich-text#descriptionfrontlight":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**FARO DELANTERO** \nTipo linterna, de aluminio anodizado",
+  "blockClass": "descriptionfrontlight"
+  }
+},
+"rich-text#descriptionwheels":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**RINES**\nAleación de aluminio",
+  "blockClass": "descriptionwheels"
+  }
+},
+"rich-text#descriptionfrontSuspension":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**SUSPESION DELANTERA**\nTelescopica hidráulica con aceite",
+  "blockClass": "descriptionfrontSuspension"
+  }
+},
+/* FIN flex-layout.row#containDescriptionImageMotor*/
+  //********************************************FIN 2 BLOQUE****************************************//
+
+
+  //********************************************3 BLOQUE****************************************//
+  /*flex-layout.row#containImageMotor*/
+  "flex-layout.row#containNameDi_Wei" : {
+    "props":{
+      "blockClass": "containNameDi_Wei"
+    },
+    "children":["rich-text#nameDi_Wei"]
+  },
+  "rich-text#nameDi_Wei":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "## DIMENSIÓN Y PESO",
+    "blockClass": "nameDi_Wei"
+    }
+  },
+  /*FIN flex-layout.row#containImageMotor*/
+  /*flex-layout.row#containImageMotor*/
+  "flex-layout.row#containImageDi_Wei":{
+    "props":{
+      "blockClass": "containImageDi_Wei",
+      "colGap": 0,
+      "rowGap": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    "children" : ["image#Weight","image#large","image#tank"]
+  },
+  "image#Weight": {
+    "props": {
+      "blockClass": "Weight",
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/peso.png",
+      "maxHeight":100,
+      "maxWidth" : 100
+    } 
+  },
+  "image#large": {
+    "props": {
+      "blockClass": "large",
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/LargoTotal.png",
+      "maxHeight":100,
+      "maxWidth" : 100
+    } 
+  },
+  "image#tank": {
+    "props": {
+      "blockClass": "tank",
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/TanqueCombustible.png",
+      "maxHeight":100,
+      "maxWidth" : 100
+    } 
+  },
+  /*FIN flex-layout.row#containImageMotor*/
+  /*flex-layout.row#containDescriptionImageMotor*/
+  "flex-layout.row#containDescriptionImageDi_Wei":{
+    "props":{
+    "blockClass": "containDescriptionImageDi_Wei",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+    },
+    "children" : ["rich-text#descriptionWeight","rich-text#descriptionlarge","rich-text#descriptiontank"]
+
+  },
+  "rich-text#descriptionWeight":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "**PESO** \n188 Kg",
+    "blockClass": "descriptionTypeMotor"
+    }
+  },
+  "rich-text#descriptionlarge":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "**LARGO TOTAL**\n2150 mm",
+    "blockClass": "descriptionDisplacement"
+    }
+  },
+  "rich-text#descriptiontank":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "**TANQUE DE COMBUSTIBLE**\n17.3 Lts (Incluida reserva)",
+    "blockClass": "descriptionStartSystem"
+    }
+  },
+  /* FIN flex-layout.row#containDescriptionImageMotor*/
+
+  //********************************************FIN 2 BLOQUE****************************************//
+
+
+  
+
+
+  
+
+
+  /*flex-layout.row#nameFichcaTecnica*/
+  "flex-layout.row#containFichcaTecnica":{
+    "props":{
+      "blockClass": "containFichcaTecnica"
+    },
+    "children":["rich-text#namefichaTecnica"]
+  },
+  "rich-text#namefichaTecnica":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "# FICHA TECNICA",
+    "blockClass": "namefichaTecnica"
+    }
+  },
+  /*FIN flex-layout.row#nameFichcaTecnica*/
+
+  /*FIN FICHA TECNICA*/
+  "flex-layout.row#contenedorDivParaImagenRevista" : {
+    "props": {
+      "blockClass": "contenedorDivParaImagenRevista",
+      "colGap": 0,
+      "rowGap": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    "children":["flex-layout.col#contenedorColumnaDivParaImagenRevista"]
+  },
+  "flex-layout.col#contenedorColumnaDivParaImagenRevista" : {
+    "props": {
+      "blockClass": "contenedorColumnaDivParaImagenRevista",
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "hasMoreThanOne" : true
+    },
+    "children":["flex-layout.row#divParaImagenRevista","flex-layout.row#divParaImagenRevista2","flex-layout.row#divParaImagenRevista3"]
+  },
+  "flex-layout.row#divParaImagenRevista":{
+    "props": {
+      "blockClass": "divParaImagenRevista",
+      "colGap": 0,
+      "rowGap": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    "children":["image#motovlStrom","rich-text#descripcionDeFoto"]
+  },
+  "image#motovlStrom": {
+    "props": {
+      "blockClass": "motovlStrom",
+      "src": "https://www.motofichas.com/images/phocagallery/Suzuki/V-Strom_250_2017/01-suzuki-v-strom-250-2017.jpg"
+      
+    }
+   
+  },
+  "flex-layout.row#divParaImagenRevista2":{
+    "props": {
+      "blockClass": "divParaImagenRevista2",
+      "colGap": 0,
+      "rowGap": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    "children":["rich-text#descripcionDeFoto","image#motovlStrom2"]
+  },
+  "image#motovlStrom2": {
+    "props": {
+      "blockClass": "motovlStrom2",
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/arranqueVLSTROM-DL-250.jpg"
+    }
+   
+  },
+  "flex-layout.row#divParaImagenRevista3":{
+    "props": {
+      "blockClass": "divParaImagenRevista3",
+      "colGap": 0,
+      "rowGap": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    "children":["image#motovlStrom3","rich-text#descripcionDeFoto"]
+  },
+  "image#motovlStrom3": {
+    "props": {
+      "blockClass": "motovlStrom3",
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/Suzuki%20MOTORDL%20250%202017-04.jpg"
+     
+    }
+   
+  },
+  "rich-text#descripcionDeFoto":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "## DISEÑADA PARA DARTE POTENCIA Y AVENTURA\n ### EL PODER LLEGA A LAS CALLES\nLa máquina perfecta para el motociclismo de turismo, ahora con sistema de frenos ABS para mayor seguridad. V-Strom 250 ABS entrega un desempeño impecable gracias a su tecnología japonesa que hará que tengas mayor potencia con menor consumo de combustible.",
+    "blockClass": "descripcionDeFoto"
+    }
+  },
+  "video#videoGif": {
+    "props": {
+      "width": "100%",
+      "height": "462px",
+      "loop": true,
+      "autoPlay": true,
+      "muted": false,
+      "type":"mp4",
+      "src": "https://site.comandato.com/video/VSTROM-250-1.mp4",
+      "blockClass": "videoGif"
+    }
+  },
+  "flex-layout.row#divParaBanneryDescripcion":{
+    "props":{
+      "blockClass" :"divParaBanneryDescripcion",
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 7,
+      "marginBottom": 7,
+      "paddingTop": 0,
+      "paddingBottom": 7
+    },
+    "children": ["list-context.image-list#bannerSecunadario","rich-text#descriptionDelProducto"]
+  },
+  "list-context.image-list#bannerSecunadario": {
+    "children": ["slider-layout#topbaner"],
+    "props": {
+      "height":"1200px",
+      "images": [
+        {
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/bannerSecundarioVLSTROM-250.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/bannerSecundarioVLSTROM-250.png"
+          
+           
+        }
+      ]
+    }
+  },
+  "rich-text#descriptionDelProducto":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "**250 CC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+  
+   
+    "blockClass": "mensaje1"
+    }
+  },
+  
+ 
+ 
+    //DIV
+    "flex-layout.row#divsegundo" :
+    {
+      "props": {
+        "blockClass": "divsegundo",
+        "colGap": 7,
+        "rowGap": 7,
+        "marginTop": 4,
+        "marginBottom": 7,
+        "paddingTop": 7,
+        "paddingBottom": 7
+      },
+      "children": ["flex-layout.col#bloqueSegundoDebajo"]
+    },
+    "flex-layout.col#bloqueSegundoDebajo": 
+    {
+      "props": {
+        "preventVerticalStretch": true,
+        "rowGap": 0,
+        "hasMoreThanOne" : true
+      },
+        "children" : ["flex-layout.row#subtitulo","flex-layout.row#subtitulo2"]
+      
+    },
+    "flex-layout.row#subtitulo": {
+      "props": {
+        "blockClass": "subtitulo",
+        "marginBottom": 3
+      },
+      "children": ["vtex.store-components:product-name"]
+    },
+    "flex-layout.row#subtitulo2": {
+      "props": {
+        "blockClass": "subtitulo2",
+        "marginBottom": 3
+      },
+      "children": ["vtex.store-components:product-name"]
+    },
+    
+    
+
+  //AGREGANDO OTRO BLOQUE DIV
+ 
+  
+  "rich-text#subtittleDescriptionMoto":{
+    "props":{
+      "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "## Una presencia imponente \n### **Un color ideal para ti.**",
+    "blockClass": "subtittleDescriptionMoto"
+    }
+  },
+  //FIN DEL AGREGADO OTRO BLOQUE DIV
+ 
+  "slider-layout#topbaner": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+  "list-context.image-list#descripcion": {
+    "children": ["slider-layout#descripcion"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/motores-dsc.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/motores-dsc.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#descripcion": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "list-context.image-list#iconos": {
+    "children": ["slider-layout#iconos-images"],
+    "props": {
+      "height": 200,
+      "images": [
+        {
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/motor.png",
+          "description": "Descripcion"
+        },
+        {
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/transmision.png",
+          "description": "Descripcion"
+        },
+        {
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/3.png",
+          "description": "Descripcion"
+        }
+      ]
+    }
+  },
+  "slider-layout#iconos-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  },
+
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 4
+    },
+    "children": ["breadcrumb"]
+  },
+  "flex-layout.row#description": {
+    "props": {
+      "marginBottom": 7
+    },
+    "children": ["product-description"]
+  },
+  //CONTENEDOR QUE MUESTRA LA DIVISICION ENTRE LA MOTO Y LA ESPECIFICACION
+  
+  //COMPONENTE QUE MUESTRA LA DIVICION ENTRE LA IMAGEN Y LA ESPECIFICACION
+ 
+  //COMPONENTE QUE CONTROLA LA IMAGEN 
+ 
+  "flex-layout.row#product-image": {
+    "children": ["product-images"]
+  },
+  "product-images": {
+    "props": {
+      "aspectRatio": "4:4",
+      "displayThumbnailsArrows": true,
+      "zoomFactor" : "2"
+    }
+  },
+  
+  //AGREGADO
+  "product-selling-price#summary": {
+    "props": {
+      "markers": [
+        "highlight"
+      ],
+      "blockClass": "summary",
+      "message": ""
+    }
+  },
+  "product-installments#text": {
+    "props": {
+     "blockClass": "text",
+     // "installmenerwfenterés} false { }}"
+     "message" : "DESDE {installmentsNumber} CUOTAS DE {installmentValue}{hasInterest, select, true {, {interestRate} de interés} false { }}"
+
+    }
+  },
+  //FIN AGREGADO
+  //NOMBRE DEL PRODUCTO
+  "flex-layout.row#product-name": {
+    "props": {
+      "blockClass": "name",
+      "marginBottom": 3
+    },
+    "children": ["vtex.store-components:product-name"]
+  },
+  "flex-layout.row#descriptionProduct": {
+    "props": {
+      "blockClass": "description",
+      "marginBottom": 3
+    },
+    "children": ["vtex.store-components:product-name"]
+  },
+
+  "sku-selector": {
+    "props": {
+      "imageHeight" : "100px",
+      "imageWidth" : "100px",
+      "variationsSpacing": 3,
+      "showValueNameForImageVariation": true
+    }
+  },  
+
+  "flex-layout.row#buy-button": {
+    "props": {
+      "blockClass": "boton1",
+      "marginTop": 4,
+      "marginBottom": 2,
+      "text": "VER MÁS"
+    },
+    "children": ["add-to-cart-button"]
+  },
+
+
+//botones
+//boton solicitud
+//PADRE
+  "flex-layout.row#buyNowButtons": {
+    "props": {
+      "blockClass": "buyNowButtons",
+      "marginTop": 4,
+      "marginBottom": 2
+    },
+    "children": [
+      "add-to-cart-button#buyNows"
+    ]
+  },
+//HIJO 
+  "add-to-cart-button#buyNows": {
+    "props": {
+      "text": "SOLICITAR PRODUCTO", 
+      "isOneClickBuy": true,
+      "onClickEventPropagation":  "enabled",
+      "blockClass": "buyNows"
+    }
+  },
+//PADRE
+  "flex-layout.row#buyNowButtonw": {
+    "props": {
+      "blockClass": "buyNowButtonw",
+      "marginTop": 4,
+      "marginBottom": 2
+    },
+    "children": [
+      "add-to-cart-button#buyNoww"
+    ]
+  },
+//HIJO
+  "add-to-cart-button#buyNoww": {
+    "props": {
+      "text": "SOLICITAR POR WHATSAPP", 
+      "isOneClickBuy": true,
+   //   "customOneClickBuyLink": "https://api.whatsapp.com/send?phone=593993227987&text=Hola!,%20Me%20gustar%C3%ADa%20adquirir%20un%20producto!&utm_source=wsweb&utm_social=whatsapp&utm_campaing=whatsapp",
+      "onClickEventPropagation":  "enabled",
+      "blockClass": "buyNoww"
+    }
+  },
+
+  "flex-layout.row#buyNowButtonf": {
+    "props": {
+      "blockClass": "buyNowButtonf",
+      "marginTop": 4,
+      "marginBottom": 2
+    },
+    "children": [
+      "add-to-cart-button#buyNowf"
+    ]
+  },
+
+  "add-to-cart-button#buyNowf": {
+    "props": {
+      "text": "VER FICHA TÉCNICA", 
+      "isOneClickBuy": true,
+      "onClickEventPropagation":  "enabled",
+      "blockClass": "buyNowf"
+    }
+  },
+  
+//  El bloque le permite elegir entre diferentes tipos de recomendaciones.
+//  La propiedad recomendación puede ser uno de los siguientes valores: 
+//  .shelf.relatedProducts['similars', 'view', 'buy', 'accessories', 'viewAndBought', 'suggestions']
+  
+"list-context.image-list#productbaner": {
+  "children": ["slider-layout#productbaner"],
+  "props": {
+    "height": 720,
+    "images": [
+      {
+        "image": "https://suzukiecuador.vteximg.com.br/arquivos/BANNER_SUZUKI_UK.jpg",
+        "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/BANNER_SUZUKI_UK.jpg"
+      }
+    ]
+  }
+},
+"slider-layout#productbaner": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "infinite": true,
+    "showNavigationArrows": "desktopOnly",
+    "blockClass": "banerfinal"
+  }
+},
+
+
+
+"iframe#360": {
+  "props": {
+    "width": "100%",
+    "height":"720px",
+    "scrolling":"no" ,
+    "blockClass": "360",
+    "frameborder":"0",
+    "allowfullscreen":"true",
+    "allowtransparency":"true", 
+    "src": "https://site.comandato.com/360/intruder/"
+  }
+},
+
+"iframe#formulario": {
+  "props": {
+    "width": "100%",
+    "height":"720px",
+    "scrolling":"no" ,
+    "blockClass": "formulario",
+    "frameborder":"0",
+    "allowfullscreen":"true",
+    "allowtransparency":"true", 
+    "margin-top": "-2354px",
+    "src": "https://www.comandato.com/formulario-suzuki"
+  }
+},
+
+
+
+"share#default": {
+  "props": {
+    "social": {
+      "Facebook": true,
+      "WhatsApp": true,
+      "Twitter": false,
+      "Pinterest": true
+    }
+  }
+}
+ }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

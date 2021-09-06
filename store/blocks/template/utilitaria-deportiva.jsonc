@@ -1,0 +1,22 @@
+{
+  "store.custom#utilitaria-deportiva": {
+    "blocks": [
+      "iframe#utilitaria-deportiva"
+    ]
+  },
+
+  "iframe#utilitaria-deportiva": {
+    "props": {
+      "width": "100%",
+      "height":"620px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "utilitaria-deportiva",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/slider-suzuki/html/motos-suzuki-utilitaria-deportiva.html"
+    }
+  }
+
+}

@@ -1,0 +1,22 @@
+{
+  "store.custom#deportiva": {
+    "blocks": [
+      "iframe#deportiva"
+    ]
+  },
+
+  "iframe#deportiva": {
+    "props": {
+      "width": "100%",
+      "height":"620px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "deportiva",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/slider-suzuki/html/motos-deportiva.html"
+    }
+  }
+
+}
