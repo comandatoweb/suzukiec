@@ -1,0 +1,23 @@
+{
+  "store.custom#talleres": {
+    "blocks": [
+      "iframe#talleres"  
+    ]
+  },
+
+  
+  "iframe#talleres": {
+    "props": {
+      "width": "100%",
+      "height": "5800",
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "talleres",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/talleres-suzuki/index.html"
+    }
+  }
+ 
+
+}
