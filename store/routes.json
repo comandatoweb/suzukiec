@@ -35,10 +35,9 @@
   "store.custom#scooter": {
     "path": "/scooter"
   },
-  "store.custom#talleres": {
+  "store.custom#talleres-suzuki": {
     "path": "/talleres-suzuki"
-  }
-  
+  } 
   
   
 }

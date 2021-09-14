@@ -15,10 +15,11 @@
      // "flex-layout.row#motorfueradeborda",
       
       "list-context.image-list#servicios",
-      "list-context.image-list#suscribete",
+      "list-context.image-list#suscribete"
       //"newsletter",    
       // "iframe#map",
-      "iframe#feed"
+    
+      //"iframe#feed"
       
       
       
@@ -30,15 +31,15 @@
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 720,
+      "height": 450,
       "images": [
         {
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki-fw110.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki-fw110.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/banner_suzuki_uk110-es.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/banner_suzuki_uk110-es.jpg"
         },
         {
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/banner_suzuki_home_2.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/banner_suzuki_home_2.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/banner_suzuki_uk110.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/banner_suzuki_uk110.jpg"
         }
       ]
     }
@@ -234,8 +235,8 @@
         "height": 720,
         "images": [
           {
-            "image": "https://suzukiecuador.vtexassets.com/arquivos/gif-suzuki.gif",
-            "mobileImage": "https://suzukiecuador.vtexassets.com/arquivos/gif-suzuki.gif"
+            "image": "https://suzukiecuador.vtexassets.com/arquivos/gif-suzuki-home-l.gif",
+            "mobileImage": "https://suzukiecuador.vtexassets.com/arquivos/gif-suzuki-home-l.gif"
           }
        //   {
        //     "image": "https://suzukiecuador.vteximg.com.br/arquivos/serviciotecnicosuzuki.jpg",
@@ -265,8 +266,6 @@
         "blockClass": "carousel"
       }
     }
-  
-
     
 
 
