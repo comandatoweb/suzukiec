@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,800;1,400&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .flexRowContent--menu-link,
@@ -185,10 +185,7 @@ width: 100% !important;
   border-right: 1px solid #03044e !important;
 }
 
-:global(.vtex-flex-layout-0-x-stretchChildrenWidth)
-{
-  width: 40%;
-}
+
 
 :global(.vtex-iframe-0-x-container--altocilindrajem)
 {
@@ -247,9 +244,6 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 
 
   
-  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-      justify-content: center;
-  }
   
   
 
@@ -271,21 +265,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   
   }
 
-  :global(.vtex-flex-layout-0-x-flexRow--buyNowButtons )
-  {
-    width: 50%;
-    color: #fff;
-    background-color: #193d8a;
   
-  }
-  
-   :global(.vtex-flex-layout-0-x-flexRow--buyNowButtonw )/*HECHO POR ENRIQUE CALLE*/
-  {
-    width: 50%;
-    color: #fff;
-    background-color: #bdc5d8;
-  
-  }
 
   :global(.vtex-flex-layout-0-x-flexRow--buyNowButtonf )
   {
@@ -293,11 +273,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     color: #fff;
   
   }
- /*color de botones  product page */
-  .flexRow--buyNowButtons :global(.vtex-button) {
-    background-color: #193d8a;
-    border-color: #002d8f;
-  }
+ 
 
  
 
@@ -332,23 +308,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     top: -32rem;
     
   }
-   /*BLOQUE PARA CAMBIAR LAS LETRAS QUE VIENE POR DEFECTO A DL250VSTROM*/
- .flexRow--name :global(.vtex-store-components-3-x-productBrand)
- {
-   
-   visibility: hidden;
- }
- .flexRow--name :global(.vtex-store-components-3-x-productBrand)::before
- {
-  font-family: 'Poppins', sans-serif;
-   content: "DL250 V-STROM";
-   visibility: visible;
-   font-size: 4rem;
-   color:white;
-   font-style: italic;
-   font-weight: bolder;
- }
- /*AQUI TERMINA EL BLOQUE PARA CAMBIAR DL250VSTROM*/
+  
 
  /*BLOQUE PARA CAMBIAR LAS LETRAS QUE VIENE POR DEFECTO A DL250VSTROM*/
  .flexRow--description :global(.vtex-store-components-3-x-productBrand)
@@ -368,100 +328,11 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
  }
  /* AQUI TERMINA BLOQUE PARA CAMBIAR LAS LETRAS QUE VIENE POR DEFECTO A DL250VSTROM*/
 
- /*BOTON SOLICITAR PRODUCTO*/
- /*CAJA PADRE BOTON SOLICITAR PRODUCTO*/
- .flexRow--buyNowButtons
- {
-   background: none;
- }
-
-/*EL BOTON EN SI*/
-.flexRow--buyNowButtons  :global(.vtex-button)
-{
-  
-  width: 50%;
-  height: 49%;
-  margin-top: 2rem;
-  position: relative;
-  right: 13rem;
-  /* background: transparent; */
-  border: none;
-  transition: all 0.2s ease;
  
-  border-radius: 10px;
-  
-}
-.flexRow--buyNowButtons  :global(.vtex-button):hover
-{
- /* border: 3px silver solid; */
- 
-  background: #1041a3;
-  
-}
-:global(.vtex-add-to-cart-button-0-x-buttonText--buyNows)
-{
-  font-size: 1.2rem;
-  padding: 1rem;
-  font-family: 'Poppins', sans-serif;
-
-}
 /*FIN BOTON SOLICITAR PRODUCTO*/
 
-.flexRow--buyNowButtonw /*HECHO POR ENRIQUE CALLE*/
- {
-   background: none !important;
- }
-.flexRow--buyNowButtonw  :global(.vtex-button)/*HECHO POR ENRIQUE CALLE*/
-{
-  width: 50%;
-  height: 55%;
-  margin-top: 0rem;
-  position: relative;
-  right: 13rem;
-  border: none;
-  transition: all 0.2s ease;
-  background: green;
-  border-radius: 10px;
-}
-.flexRow--buyNowButtonw  :global(.vtex-button):hover/*HECHO POR ENRIQUE CALLE*/
-{
- 
-  background: rgb(9, 153, 9);
-}
-:global(.vtex-add-to-cart-button-0-x-buttonText--buyNoww)
-{
-  font-size: 1.2rem;
-  padding: 1rem;
-  font-family: 'Poppins', sans-serif;
 
-}
 
-/*SEGUNDA PARTE*/
-.flexRow--subTitleForTheMoto
-{
-  position: relative;
-    bottom: 28rem;
-  
-    height: 8rem;
-}
-:global(.vtex-rich-text-0-x-heading--subtittleMoto)
-{
-  color: rgb(0, 48, 69);
-  font-weight: 900;
-  letter-spacing: 5px;
-  /* font-style: normal; */
-  font-style: italic;
-  font-size: 3rem;
-}
-:global(.vtex-rich-text-0-x-container--subtittleMoto2)
-{
-  position: relative;
-  bottom: 3.3rem;
-}
-:global(.vtex-rich-text-0-x-heading--subtittleMoto2)
-{
-  color: rgb(0, 48, 69);
-}
 
 /****************************************************/
 .flexRow--subTitleForTheMoto2
@@ -473,19 +344,11 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 }
 :global(.vtex-rich-text-0-x-wrapper--subtittleMoto2_1)
 {
-  color: white;
-    font-weight: 800;
-    letter-spacing: 5px;
-    font-style: normal;
+ 
 }
 
 
 
-.flexCol--BlockcolorSwatchBlock
-{
-  position: relative;
-  top: 7rem;
-}
 
  /********************************************** ***********************************************
   ************************************************* ***********************************************/
@@ -520,26 +383,11 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(0,0,0,0.4);
  }
 
- /*CSS QUE REPRESENTA DESDE 36 CUOTAS DE*/
- :global(.vtex-product-price-1-x-installments--text)
-{
-  color:white !important;
-  font-family: 'Poppins', sans-serif;
+ 
 
-  font-size: 2rem;
-  font-style: italic;
-}
-/*REPRESENTA EL VALOR*/
-:global(.vtex-product-price-1-x-currencyContainer--text)
-{
-  font-size: 3.2rem;
-  font-style: italic;
-    font-weight: bolder;
-    color: yellow;
-}
 
 
 
@@ -613,8 +461,6 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     }
     
     }
-
-    
   
 
 
@@ -692,19 +538,8 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
  }
  /*Hasta aca finaliza sencillez y armonia en un sola moto*/
 
-/*flex-layout.row#colorSwatchBlock*/
-:global(.vtex-flex-layout-0-x-flexRow--colorSwatchBlock)
-  {
-    position: relative;
-    bottom: 20rem;
-    
-  }
 
-/* FINAL  flex-layout.row#colorSwatchBlock */
-:global(.vtex-flex-layout-0-x-flexRowContent--divsegundo)
-{
- /* width: 150%;*/ 
-}
+
 :global(.vtex-store-components-3-x-skuSelectorName)
 {
   font-size: 1rem;
@@ -741,16 +576,29 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
    border-bottom: #12467e solid 3px; */
   /* border-top: #12467e solid 3px; */
   position: relative;
-  bottom: 22rem;
+  bottom: 0rem;
 /*  background: linear-gradient(#fafafa, #727273);*/
   
   height: 20rem;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--sliderVLSitems)
+{
+  position: relative;
+  bottom: 20rem;
+}
+  
+
+:global(.vtex-flex-layout-0-x-flexRow--solicitaCreditoDirecto)
+{
+  position: relative;
+  top: 6rem;
 }
 .flexRow--descripciondivimagenes
 {
   font-family: 'Poppins', sans-serif;
   position: relative;
-  bottom: 42rem;
+  bottom: 13rem;
 
 }
 :global(.vtex-rich-text-0-x-container--mensaje1),
@@ -758,6 +606,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 :global(.vtex-rich-text-0-x-container--mensaje3)
 {
   color: black;
+  font-size: 1.1rem;
   
 }
 :global(.vtex-rich-text-0-x-strong--mensaje1),
@@ -771,7 +620,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 :global(.vtex-store-video-1-x-videoContainer--videoGif)
 {
   position: relative;
-  bottom: 79rem;
+  bottom: 31rem;
 }
 
 .flexRow--containBannerVlStrom250
@@ -798,3 +647,251 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     right: 41%;
 }*/
 
+/*CODIGO AGREGADO POR ENRIQUE CALLE 30-08-2021*/
+
+:global(.vtex-store-components-3-x-imageElement--topBannerVL250strom)
+{
+  width: 100% !important;
+}
+/*css caja para mover lo que viene del primer slider*/
+
+
+/*SEGUNDA PARTE*/
+:global(.vtex-flex-layout-0-x-flexCol--columnForTheSubTitleMoto)
+{
+  background: black;
+  position: relative;
+  bottom: .2rem;
+}
+/*.flexRow--subTitleForTheMoto
+{
+  position: relative;
+ /*   bottom: 28rem; 
+  
+    height: 8rem;
+}*/
+:global(.vtex-rich-text-0-x-heading--subtittleMoto)
+{
+ 
+}
+:global(.vtex-rich-text-0-x-container--subtittleMoto2)
+{
+
+}
+:global(.vtex-rich-text-0-x-heading--subtittleMoto2)
+{
+
+}
+
+/*TERCER BLOQUE colorSwatchBlock*/
+
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+{
+  width: 40%;
+}
+.flexCol--BlockcolorSwatchBlock
+{
+  position: relative;
+  left: 4rem;
+  top: 5rem;
+}
+/*CSS QUE REPRESENTA DESDE 36 CUOTAS DE*/
+:global(.vtex-product-price-1-x-installments--text)
+{
+  color: #3f3f40!important;
+  font-family: 'Poppins',sans-serif!important;
+  font-size: 1.5rem;
+  font-weight: 300;
+  
+}
+/*REPRESENTA EL VALOR*/
+:global(.vtex-product-price-1-x-currencyContainer--text)
+{
+  font-size: 2.5rem;
+  font-style: italic;
+    font-weight: 600;
+    color: rgb(0,48,69);
+}
+ /*BLOQUE PARA CAMBIAR LAS LETRAS QUE VIENE POR DEFECTO A DL250VSTROM*/
+ .flexRow--name :global(.vtex-store-components-3-x-productBrand)
+ {
+   
+   visibility: hidden;
+ }
+ .flexRow--name :global(.vtex-store-components-3-x-productBrand)::before
+ {
+  font-family: 'Poppins',sans-serif;
+    content: "DL250 V-STROM";
+    visibility: visible;
+    /* font-size: 4rem; */
+    color: black;
+    /* font-style: italic; */
+    /* font-weight: bolder; */
+    font-weight: 800;
+ }
+ /*AQUI TERMINA EL BLOQUE PARA CAMBIAR DL250VSTROM*/
+
+ /*BOTON SOLICITAR PRODUCTO*/
+ /*CAJA PADRE BOTON SOLICITAR PRODUCTO*/
+ .flexRow--buyNowButtons
+ {
+   background: none;
+ }
+
+/*EL BOTON EN SI*/
+.flexRow--buyNowButtons  :global(.vtex-button)
+{
+  
+     /* height: 49%; */
+     width: 34%;
+     /* color: white !important; */
+     margin-top: 1rem;
+     position: relative;
+     background: rgb(0,48,69);
+     color: white;
+     /* border: 1px solid #91C9FF; */
+     transition: 0.2s ease-in-out;
+     border: none;
+ 
+  
+  
+}
+
+.flexRow--buyNowButtonw /*HECHO POR ENRIQUE CALLE*/
+ {
+   background: none !important;
+ }
+.flexRow--buyNowButtonw  :global(.vtex-button)/*HECHO POR ENRIQUE CALLE*/
+{
+    /* height: 49%; */
+    width: 44%;
+    /* color: white !important; */
+    margin-top: 1rem;
+    position: relative;
+    background: green;
+    color: white;
+    /* border: 1px solid #91C9FF; */
+    transition: 0.2s ease-in-out;
+    border: none;
+
+}
+.flexRow--buyNowButtonw  :global(.vtex-button):hover/*HECHO POR ENRIQUE CALLE*/
+{
+ 
+}
+:global(.vtex-add-to-cart-button-0-x-buttonText--buyNoww)
+{
+  font-family: 'Poppins', sans-serif;
+  font-size: .9rem !important;
+
+
+}
+.flexRow--buyNowButtons  :global(.vtex-button):hover
+{
+ /* border: 3px silver solid; */
+ 
+ 
+  
+}
+:global(.vtex-add-to-cart-button-0-x-buttonText--buyNows)
+{
+ 
+  font-family: 'Poppins', sans-serif;
+  font-size: .9rem !important;
+
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--containImageDescription)
+{
+  background-color: #f0f0f0;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--IMD1col),
+:global(.vtex-flex-layout-0-x-flexColChild--IMD2col),
+:global(.vtex-flex-layout-0-x-flexColChild--IMD3col)
+{
+  display: block;
+  margin: auto;
+}
+:global(.vtex-flex-layout-0-x-flexCol--IMD2col)
+{
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+/*GALERIA DE VLSTROM*/
+:global(.vtex-iframe-0-x-container--collage)
+{
+  position: relative;
+  bottom: 2.2rem;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--caracteristicasEspecialesText)
+{
+  background: black;
+  position: relative;
+  bottom: 23rem;
+}
+
+:global(.vtex-rich-text-0-x-strong--textoCaracterisitcasEspeciales)
+{
+  color: white;
+  font-size: x-large;
+  letter-spacing: .5rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--listaparatuaventuraText)
+{
+  background: black;
+  position: relative;
+  bottom: 20rem;
+
+}
+
+:global(.vtex-rich-text-0-x-strong--textolistaparatuaventuraText)
+{
+  color: white;
+  font-size: x-large;
+  letter-spacing: .5rem;
+}
+
+
+
+/*ficha tecnica*/
+:global(.vtex-flex-layout-0-x-flexRow--contenedorFichaTecnia)
+{
+  position: relative;
+  bottom: 15rem;
+}
+
+.wrapper--namefichaTecnica
+{
+  color: #003145;
+}
+
+:global(.vtex-rich-text-0-x-heading--namefichaTecnica)
+{
+  font-weight: 800;
+}
+
+.flexRow--contenedorImagen
+{
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/9fd3a364566837.5ad68e5f46ba7.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+:global(.vtex-search-result-3-x-galleryTitle--layout),
+:global(.vtex-flex-layout-0-x-flexCol--filterCol),
+:global(.vtex-search-result-3-x-galleryLayoutSwitcher),
+:global(.vtex-search-result-3-x-totalProducts--layout)
+
+{
+  display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--HayunaSuzuki)
+
+{
+  
+  margin-bottom: -20px;
+  margin-top: -20px;
+}

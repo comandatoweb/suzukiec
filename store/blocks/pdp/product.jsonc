@@ -1,4 +1,13 @@
 {
+  "image#topBannerVL250strom": {
+    "props": {
+      "src": "https://suzukiecuador.vtexassets.com/arquivos/vtrom.png",
+   //   "maxHeight": "100%",
+    //  "maxWidth" : "100%",
+      "blockClass" : "topBannerVL250strom"
+      
+    }
+  },
   "condition-layout.product#conditionForTheVideo": {
     "props": {
   //   "matchType" : "any",
@@ -12,22 +21,31 @@
         }
       ],
       "toBe" : true,
-      "Then": "video#backgroundVideo",
-      "Else": "video#backgroundVideo"
+      "Then": "flex-layout.row#containforTheVideo2",
+      "Else": "flex-layout.row#containforTheVideo2"
      // "Then": "list-context.image-list#topbaner",
      // "Else": "flex-layout.row#gsx725"
       
-    }
+}
+  },
+  "flex-layout.row#containforTheVideo2":{
+    "props":{
+      "blockClass": "containforTheVideo2",
+      
+      "fullWidth" : true
+    },
+    "children":["video#backgroundVideo"]
   },
   "video#backgroundVideo": {
    "props": {
      "width": "100%",
-     "height": "450px",
+     "height": "540px",
+    
      "loop": true,
      "autoPlay": true,
      "muted": false,
      "type":"mp4",
-     "src": "https://site.comandato.com/video/bannerVideo-82.mp4",
+     "src": "https://site.comandato.com/video/vstrom.mp4",
      "blockClass": "videoEl"
    }
  },
@@ -55,7 +73,7 @@
       "hasMoreThanOne" : true
     },
     "children": [
-      "flex-layout.row#product-name",//NOMBRE DEL PRODUCTO
+   //   "flex-layout.row#product-name",//NOMBRE DEL PRODUCTO
       "flex-layout.row#descriptionProduct",//NOMBRE DEL PRODUCTO
   //    "product-rating-summary",//muestra la calificación promedio del producto que se está viendo
       "flex-layout.row#list-price-savings",
@@ -90,7 +108,9 @@
   },
   "flex-layout.row#subTitleForTheMoto":{
     "props":{
-      "blockClass": "subTitleForTheMoto"
+      "blockClass": "subTitleForTheMoto",
+      
+      "fullWidth" : true
     },
     "children":["flex-layout.col#columnForTheSubTitleMoto"]
   },
@@ -105,7 +125,7 @@
     "props":{
       "textAlignment": "CENTER",
     "textPosition": "CENTER",
-    "text": "## DISEÑADA PARA DARTE POTENCIA Y AVENTURA",
+    "text": "## DOBLE PROPÓSITO",
     "blockClass": "subtittleMoto"
     }
   },
@@ -132,16 +152,30 @@
       "hasMoreThanOne" : true
     },
     "children": [
+    //  "flex-layout.row#descriptionProduct",//NOMBRE DEL PRODUCTO
+   //     "rich-text#Category",
+      "flex-layout.row#product-name",//NOMBRE DEL PRODUCTO
       "rich-text#subtittleDescriptionMoto",
       "product-separator",
       "sku-selector"
+    //  "product-installments#text",//DESDE 36 CUOTAS 
+     
     ]
+  },
+  "rich-text#Category":
+  {
+    "props":{
+      "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "#### DOBLE PROPOSITO.",
+    "blockClass": "subtittleDescriptionMoto"
+    }
   },
   "flex-layout.col#BlockstackImage": {
     "children": ["stack-layout#BlockImage"],
     "props": {
       "blockClass": "BlockstackImage",
-      "width": "60%",
+      "width": "50%",
       "rowGap": 0
     }
   },
@@ -171,7 +205,7 @@
       "rowGap": 7,
       "marginTop": 7,
       "marginBottom": 7,
-      "paddingTop": 0,
+      "paddingTop": 7,
       "paddingBottom": 7
     },
     "children": ["image#motor","image#rapido","image#disco_freno"]
@@ -179,36 +213,31 @@
   "image#motor": {
     "props": {
       "blockClass": "motor",
-      "src": "https://suzukiecuador.vteximg.com.br/arquivos/motores.png",
-      "maxHeight": 100,
-      "maxWidth" : 100
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/motornegro.png",
+      "maxHeight": 80,
+      "maxWidth" : 80
     }
    
   },
   "image#rapido": {
     "props": {
       "src": "https://suzukiecuador.vteximg.com.br/arquivos/rapido.png",
-      "maxHeight": 100,
-      "maxWidth" : 100
+      "maxHeight": 80,
+      "maxWidth" : 80
       
     }
   },
   "image#disco_freno": {
     "props": {
       "src": "https://suzukiecuador.vteximg.com.br/arquivos/disco-del-freno.png",
-      "maxHeight": 100,
-      "maxWidth" : 100
+      "maxHeight": 80,
+      "maxWidth" : 80
     }
   },
   "flex-layout.row#descripciondivimagenes" :{
     "props": {
-      "blockClass": "descripciondivimagenes",
-      "colGap": 7,
-      "rowGap": 7,
-      "marginTop": 7,
-      "marginBottom": 7,
-      "paddingTop": 9,
-      "paddingBottom": 9
+      "blockClass": "descripciondivimagenes"
+      
 
     },
     "children" :["rich-text#mensaje1","rich-text#mensaje2","rich-text#mensaje3"]
@@ -253,13 +282,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/bannerx.png",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/bannerx.png"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/slider2.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/slider2.png"
         },
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/bannerx2.png",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/bannerx2.png"
+         
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/slider1.png",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/slider1.png"
         }
         
       ]
@@ -281,7 +311,8 @@
   //CARACTERISTICAS ESPECIALES
   "flex-layout.row#caracteristicasEspecialesText" : {
     "props": {
-      "blockClass": "caracteristicasEspecialesText"
+      "blockClass": "caracteristicasEspecialesText",
+      "fullWidth" : true
     },
       "children" :["rich-text#textoCaracterisitcasEspeciales"]
     },
@@ -298,7 +329,8 @@
   //LISTA PARA TU AVENTURA
   "flex-layout.row#listaparatuaventuraText" : {
     "props": {
-      "blockClass": "listaparatuaventuraText"
+      "blockClass": "listaparatuaventuraText",
+      "fullWidth" : true
     },
       "children" :[ "rich-text#textolistaparatuaventuraText"]
     },
@@ -306,8 +338,8 @@
       "props":{
         "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "**LISTA PARA TU \n PRIMER AVENTURA**",
-      "blockClass": "textoCaracterisitcasEspeciales"
+      "text": "**LISTO PARA TU PRIMER AVENTURA**",
+      "blockClass": "textolistaparatuaventuraText"
       }
     },
   // FIN DE LISTA PARA TU AVENTURA
@@ -359,18 +391,122 @@
   "image#compraEnLineaVlStrom250": {
     "props": {
       "src": "https://suzukiecuador.vteximg.com.br/arquivos/acampar_1.jpg",
-      "maxHeight": "100%",
+     "maxHeight": "100%",
       "maxWidth" : "100%",
       "blockClass" : "compraEnLineaVlStrom250"
       
     }
   },
+  "iframe#galleryMoto": {
+    "props": {
+      "width": "100%",
+      "height":"700px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "collage",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/GaleriaVStrom250/index.html"
+    }
+  },
+  "flex-layout.row#containImageDescription":
+  {
+    "props": {
+      "blockClass": "containImageDescription",
+      "fullWidth" : true,
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 7,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7
+
+    },
+    "children": ["flex-layout.row#IMD1","flex-layout.row#IMD2","flex-layout.row#IMD3"]
+  },
+  "flex-layout.row#IMD1":
+  {
+    "props":{
+      "blockClass": "IMD1"
+     
+    },
+    "children": ["flex-layout.col#IMD1col"]
+
+  },
+  "flex-layout.col#IMD1col":
+  {
+    "props": {
+    "blockClass": "IMD1col",
+    "preventVerticalStretch": true,
+    "rowGap": 0,
+    "hasMoreThanOne" : true
+    },
+    "children":["image#motor","rich-text#mensaje1"]
+  },
+  "flex-layout.row#IMD2":
+  {
+    "props":{
+      "blockClass": "IMD2"
+     
+    },
+    "children": ["flex-layout.col#IMD2col"]
+
+  },
+  "flex-layout.col#IMD2col":
+  {
+    "props": {
+    "blockClass": "IMD2col",
+    "preventVerticalStretch": true,
+    "rowGap": 0,
+    "hasMoreThanOne" : true
+    },
+    "children":["image#rapido","rich-text#mensaje2"]
+  },
+  "flex-layout.row#IMD3":
+  {
+    "props":{
+      "blockClass": "IMD3"
+     
+    },
+    "children": ["flex-layout.col#IMD3col"]
+
+  },
+  "flex-layout.col#IMD3col":
+  {
+    "props": {
+    "blockClass": "IMD3col",
+    "preventVerticalStretch": true,
+    "rowGap": 0,
+    "hasMoreThanOne" : true
+    },
+    "children":["image#disco_freno","rich-text#mensaje3"]
+  },
+  "flex-layout.row#contenedorImagen":
+  {
+    "props":{
+      "fullWidth":true,
+      "blockClass":"contenedorImagen",
+  
+      "colGap": 20,
+      "rowGap": 20,
+      "marginTop": 20,
+      "marginBottom": 20,
+      "paddingTop": 20,
+      "paddingBottom": 20
+    }
+    
+  },
+
   "store.product": {
     "children": [
-     "condition-layout.product#conditionForTheVideo",
+
+     // "image#topBannerVL250strom",
+    // "list-context.image-list#sliderVLS",
+    "condition-layout.product#conditionForTheVideo",
      //   "flex-layout.row#product-breadcrumb",//indica donde estas ubicado
      // "list-context.image-list#topbaner",//BANNER
-     "flex-layout.row#containDescriptionForTheVideo",//Esto es como un div
+   //  "flex-layout.row#containDescriptionForTheVideo",//Esto es como un div
      "flex-layout.row#subTitleForTheMoto",
      //"flex-layout.row#divsegundo",//ESTE ES EL DIV QUE MUESTRA POTENCIA EN TI Y EL RESTO....
      "flex-layout.row#colorSwatchBlock",//Esto es la division entre la imagen y la especificacion
@@ -379,19 +515,26 @@
      // "flex-layout.row#containX"
    //  "flex-layout.row#product-main",
    
-   "flex-layout.row#divParaimagenes",//Div que contiene las imagenes motor, velocidad, freno
-   "flex-layout.row#descripciondivimagenes",//Descripcion del motor velocidad, freno
+   "flex-layout.row#containImageDescription",
+   
+//   "flex-layout.row#divParaimagenes",//Div que contiene las imagenes motor, velocidad, freno
+  // "flex-layout.row#descripciondivimagenes",//Descripcion del motor velocidad, freno
 //PARTE DEL CREDITO DIRECTO
-"flex-layout.row#solicitaCreditoDirecto",
 //FIN DE PARTE DEL CREDITO DIRECTO
 
-   "video#videoGif",
-   "list-context.image-list#sliderVLS",//SLIDER
-    "flex-layout.row#caracteristicasEspecialesText",
-    //BANNER
-    "flex-layout.row#contenedorDivParaImagenRevista",
-    "flex-layout.row#listaparatuaventuraText",
-    "image#collageVlStrom250",
+
+//IFRAME
+"iframe#galleryMoto",
+//"flex-layout.row#solicitaCreditoDirecto",
+
+//FIN DE IFRAME
+  // "video#videoGif",
+  "flex-layout.row#caracteristicasEspecialesText",
+  //BANNER
+  "flex-layout.row#contenedorDivParaImagenRevista",
+  "flex-layout.row#listaparatuaventuraText",
+  "list-context.image-list#sliderVLS",//SLIDER
+ //   "image#collageVlStrom250",
    //   "flex-layout.row#divParaImagenRevista",//Div parecido a revista
      
  //  "flex-layout.row#divParaBanneryDescripcion",//Banner con su descripcion
@@ -399,14 +542,80 @@
  /*FICHA TECNICA*/
 
  "flex-layout.row#contenedorFichaTecnia",
+ //"flex-layout.row#contenedorImagen",
  /*FIN FICHA TECNICA*/
- "flex-layout.row#containercompraEnLineaVlStrom250",
+ //"flex-layout.row#containercompraEnLineaVlStrom250",
+ "flex-layout.row#contenedor_final",
+
     // "product-specification-group#table",
      // "shelf.relatedProducts",
      //"list-context.image-list#productbaner",
      "product-questions-and-answers"
     ]
   },
+  "flex-layout.row#contenedor_final":
+  {
+    "props":{
+      "blockClass": "contenedor_final",
+      "colGap": 0,
+      "rowGap": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "fullWidth" : true
+
+    },
+    "children" :["flex-layout.col#subContainerRenglon"]
+  },
+  "flex-layout.col#subContainerRenglon" : 
+  {
+    "props": {
+      "blockClass": "subContenedorRenglonesFichaTecnica",
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "hasMoreThanOne" : true
+    },
+    "children" :["rich-text#PoderyDeno","rich-text#NameMoto","rich-text#cotizala","flex-layout.row#botones"]
+  },
+  "rich-text#PoderyDeno":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "## Poder y dominación en una",
+    "blockClass": "PoderyDeno"
+    }
+  },
+  "rich-text#NameMoto":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "## V-STROM DL250",
+    "blockClass": "NameMoto"
+    }
+  },
+  "rich-text#cotizala":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "## ¡ Cotizala ya !",
+    "blockClass": "cotizala"
+    }
+  },
+  "flex-layout.row#botones":
+  {
+    "props":
+    {
+      "blockClass": "botones",
+      "fullWidth" : true
+    },
+    "children":[
+      "flex-layout.row#buyNowButtons",
+      "flex-layout.row#buyNowButtonw"
+    ]
+  },
+  
+ 
   
   
 
@@ -419,7 +628,8 @@
       "marginTop": 0,
       "marginBottom": 0,
       "paddingTop": 0,
-      "paddingBottom": 0
+      "paddingBottom": 0,
+      "fullWidth" : true
     },
     "children" :["flex-layout.col#subContenedorRenglonesFichaTecnica"]
   },
@@ -759,7 +969,7 @@
     "props":{
       "textAlignment": "CENTER",
     "textPosition": "CENTER",
-    "text": "# FICHA TECNICA",
+    "text": "# FICHA \n# TÉCNICA",
     "blockClass": "namefichaTecnica"
     }
   },
@@ -797,15 +1007,23 @@
       "paddingTop": 0,
       "paddingBottom": 0
     },
-    "children":["image#motovlStrom","rich-text#descripcionDeFoto"]
+    "children":["image#motovlStrom","rich-text#descripcionDeFoto1"]
   },
   "image#motovlStrom": {
     "props": {
       "blockClass": "motovlStrom",
-      "src": "https://www.motofichas.com/images/phocagallery/Suzuki/V-Strom_250_2017/01-suzuki-v-strom-250-2017.jpg"
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/motovlstrom250.jpg"
       
     }
    
+  },
+  "rich-text#descripcionDeFoto1":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "## DISEÑADA PARA DARTE POTENCIA Y AVENTURA\nLa máquina perfecta para el motociclismo de turismo, ahora con sistema de frenos ABS para mayor seguridad. V-Strom 250 ABS entrega un desempeño impecable gracias a su tecnología japonesa que hará que tengas mayor potencia con menor consumo de combustible.",
+    "blockClass": "descripcionDeFoto"
+    }
   },
   "flex-layout.row#divParaImagenRevista2":{
     "props": {
@@ -817,7 +1035,7 @@
       "paddingTop": 0,
       "paddingBottom": 0
     },
-    "children":["rich-text#descripcionDeFoto","image#motovlStrom2"]
+    "children":["rich-text#descripcionDeFoto2","image#motovlStrom2"]
   },
   "image#motovlStrom2": {
     "props": {
@@ -825,6 +1043,14 @@
       "src": "https://suzukiecuador.vteximg.com.br/arquivos/arranqueVLSTROM-DL-250.jpg"
     }
    
+  },
+  "rich-text#descripcionDeFoto2":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "## LLEGAR MÁS LEJOS ES PODER DETENERTE EN EL MOMENTO PRECISO\nRodar en una V-Strom 250 ABS es contar con la confianza de tener lo necesario para tu seguridad. Con frenos de disco de pétalo no solo le das un toque elegante y moderno al conjunto de llantas, sobre todo incrementas la seguridad, pues te proporcionan mayor poder de frenado y disipación de calor más veloz, lo que mantiene las pastillas en las condiciones óptimas.",
+    "blockClass": "descripcionDeFoto"
+    }
   },
   "flex-layout.row#divParaImagenRevista3":{
     "props": {
@@ -836,7 +1062,7 @@
       "paddingTop": 0,
       "paddingBottom": 0
     },
-    "children":["image#motovlStrom3","rich-text#descripcionDeFoto"]
+    "children":["image#motovlStrom3","rich-text#descripcionDeFoto3"]
   },
   "image#motovlStrom3": {
     "props": {
@@ -846,11 +1072,11 @@
     }
    
   },
-  "rich-text#descripcionDeFoto":{
+  "rich-text#descripcionDeFoto3":{
     "props":{
       "textAlignment": "CENTER",
     "textPosition": "CENTER",
-    "text": "## DISEÑADA PARA DARTE POTENCIA Y AVENTURA\n ### EL PODER LLEGA A LAS CALLES\nLa máquina perfecta para el motociclismo de turismo, ahora con sistema de frenos ABS para mayor seguridad. V-Strom 250 ABS entrega un desempeño impecable gracias a su tecnología japonesa que hará que tengas mayor potencia con menor consumo de combustible.",
+    "text": "## EL LÍMITIE EN CADA RODADA LO PONES TÚ, NO EL CALOR\nSi el motor de tu moto se calienta, deja de funcionar bien y hasta se apaga. Por eso, equipamos la V-Strom 250 ABS con el Sistema de Enfriamiento por Líquido –más eficiente que enfriarla con aire–, para asegurarte de que la temperatura va a estar bajo control y tú sigas viviendo la mejor experiencia de tu vida todos los días.",
     "blockClass": "descripcionDeFoto"
     }
   },
@@ -953,7 +1179,7 @@
     "props":{
       "textAlignment": "LEFT",
     "textPosition": "LEFT",
-    "text": "## Una presencia imponente \n### **Un color ideal para ti.**",
+    "text": "####  Presencia imponente. Color ideal para ti.",
     "blockClass": "subtittleDescriptionMoto"
     }
   },
@@ -1093,8 +1319,8 @@
 
   "sku-selector": {
     "props": {
-      "imageHeight" : "100px",
-      "imageWidth" : "100px",
+      "imageHeight" : "75px",
+      "imageWidth" : "75px",
       "variationsSpacing": 3,
       "showValueNameForImageVariation": true
     }
@@ -1246,42 +1472,3 @@
   }
 }
  }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

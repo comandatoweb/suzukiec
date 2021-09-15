@@ -2,7 +2,9 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#demo",
-      "iframe#collage",
+      "flex-layout.row#HayunaSuzuki",
+      "iframe#galleryMoto2",
+      //"iframe#collage",
       "iframe#altocilindraje",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
@@ -34,12 +36,16 @@
       "height": 450,
       "images": [
         {
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/banner_suzuki_uk110-es.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/banner_suzuki_uk110-es.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-viva-cool-es.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-viva-cool-es.jpg"
         },
         {
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/banner_suzuki_uk110.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/banner_suzuki_uk110.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-dr650-esc.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-dr650-esc.jpg"
+        },
+        {
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-uk110-es.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-uk110-es.jpg"
         }
       ]
     }
@@ -57,14 +63,43 @@
     }
   },
 
-  "iframe#collage": {
+  "flex-layout.row#HayunaSuzuki":{
+    "props":{
+      "blockClass": "HayunaSuzuki"
+    },
+    "children":["rich-text#descriptionHayunaSuzuki"]
+  },
+  "rich-text#descriptionHayunaSuzuki":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "## UNA _SUZUKI_ PARA TI",
+    "blockClass": "descriptionHayunaSuzuki"
+    }
+  },
+
+  "iframe#galleryMoto2": {
     "props": {
       "width": "100%",
-      "height":"1000px",
+      "height":"330px",
       "scrolling":"no" ,
       "frameborder":"0",
       "overflow": "hidden",
-      "blockClass": "collage",
+      "blockClass": "galleryMoto2",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/GALLERYHOMESUZUKI/index.html"
+    }
+  },
+
+  "iframe#collage": {
+    "props": {
+      "width": "100%",
+      "height":"940px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "collage-home",
       "allowfullscreen":"true",
       "allowtransparency":"true", 
       "src": "https://consultordigitalec.com/suzuki/slider/"
