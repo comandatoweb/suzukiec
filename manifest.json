@@ -1,7 +1,7 @@
 {
   "vendor": "suzukiecuador",
   "name": "store-suzuki",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
