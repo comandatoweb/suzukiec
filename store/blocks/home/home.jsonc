@@ -243,6 +243,20 @@
       "src": "https://consultordigitalec.com/store/menu/"
     }
   },
+  "iframe#menumotomb": {
+    "props": {
+      "width": "100%",
+      "height":"620px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "menumotomb",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://consultordigitalec.com/suzuki/menumb/"
+    }
+  },
+
 
     // "iframe#map": {
       // "props": {

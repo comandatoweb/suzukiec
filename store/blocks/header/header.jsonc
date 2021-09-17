@@ -103,7 +103,6 @@
       "drawer",
       "logo#mobile",
       "flex-layout.col#spacer",
-      "login",
       "minicart.v2"
     ],
     "props": {
@@ -120,7 +119,12 @@
   "menu#drawer": {
     "children": [
       "slider-layout#demo-products",
-      "menu-item#category-apparel"
+      "menu-item#menumb",
+      "menu-item#category-fueradeborda",
+      "menu-item#category-repuestos",
+      "menu-item#category-tiendasuzuki",
+      "menu-item#solicita-credito"    
+      
     ],
     "props": {
       "orientation": "vertical"
@@ -132,7 +136,7 @@
       "title": "Logo",
       "href": "/",
       "url": "https://suzukiecuador.vteximg.com.br/arquivos/logo-suzuki-mb.png",
-      "width": "70"
+      "width": "100"
     }
   }
 }

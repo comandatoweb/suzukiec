@@ -9,6 +9,7 @@
       "menu-item#category-repuestos",
       "menu-item#category-tiendasuzuki",
 	    "menu-item#solicita-credito"
+      
     ]
   },
   "menu-item#category-apparel": {
@@ -46,6 +47,45 @@
       "iframe#menumoto"
     ]
   },
+
+
+  "menu-item#menumb": {
+    "props": {
+      "id": "menu-item-menumb",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "MOTOCICLETAS",
+        "text": "MOTOCICLETAS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#menumb"
+    ]
+  },
+  "vtex.menu@2.x:submenu#menumb": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menumb"
+    ]
+  },
+  "vtex.menu@2.x:menu#menumb": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "motos_menu_tipos_mb"
+    },
+    "children": [
+      "iframe#menumotomb"
+    ]
+  },
+
+
 
   "menu-item#category-fueradeborda": {
     "props": {
@@ -119,7 +159,7 @@
       "id": "menu-item-category-solicitacredito",
       "type": "custom",
       "iconId": null,
-      "highlight": true,
+      "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "https://creditodirecto.comandato.com/?moto=1",
