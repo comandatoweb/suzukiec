@@ -584,8 +584,8 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 
 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--sliderVLSitems)
 {
-  position: relative;
-  bottom: 20rem;
+  /*position: relative;
+  bottom: 20rem;*/
 }
   
 
@@ -691,9 +691,9 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 }
 .flexCol--BlockcolorSwatchBlock
 {
-  position: relative;
+ /* position: relative;
   left: 4rem;
-  top: 5rem;
+  top: 5rem;*/
 }
 /*CSS QUE REPRESENTA DESDE 36 CUOTAS DE*/
 :global(.vtex-product-price-1-x-installments--text)
@@ -721,7 +721,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
  .flexRow--name :global(.vtex-store-components-3-x-productBrand)::before
  {
   font-family: 'Poppins',sans-serif;
-    content: "DL250 V-STROM";
+    content: "DL250 V-STROM - 6 VELOCIDADES";
     visibility: visible;
     /* font-size: 4rem; */
     color: black;
@@ -729,6 +729,10 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     /* font-weight: bolder; */
     font-weight: 800;
  }
+
+ @media screen and (max-width:500px){
+  
+}
  /*AQUI TERMINA EL BLOQUE PARA CAMBIAR DL250VSTROM*/
 
  /*BOTON SOLICITAR PRODUCTO*/
@@ -744,6 +748,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   
      /* height: 49%; */
      width: 34%;
+     height: 50px;
      /* color: white !important; */
      margin-top: 1rem;
      position: relative;
@@ -813,6 +818,11 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   display: block;
   margin: auto;
 }
+:global(.vtex-store-components-3-x-imageElement--imageFichaTecnica)
+{
+  display: block;
+  margin: auto;
+}
 :global(.vtex-flex-layout-0-x-flexCol--IMD2col)
 {
   border-left: 2px solid black;
@@ -827,8 +837,8 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 :global(.vtex-flex-layout-0-x-flexRowContent--caracteristicasEspecialesText)
 {
   background: black;
-  position: relative;
-  bottom: 23rem;
+ /* position: relative;
+  bottom: 23rem; */
 }
 
 :global(.vtex-rich-text-0-x-strong--textoCaracterisitcasEspeciales)
@@ -841,8 +851,8 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 :global(.vtex-flex-layout-0-x-flexRowContent--listaparatuaventuraText)
 {
   background: black;
-  position: relative;
-  bottom: 20rem;
+ /* position: relative;
+  bottom: 20rem;*/
 
 }
 
@@ -858,8 +868,8 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 /*ficha tecnica*/
 :global(.vtex-flex-layout-0-x-flexRow--contenedorFichaTecnia)
 {
-  position: relative;
-  bottom: 15rem;
+ /* position: relative;
+  bottom: 15rem; */
 }
 
 .wrapper--namefichaTecnica
@@ -877,6 +887,12 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/9fd3a364566837.5ad68e5f46ba7.jpg");
   background-attachment: fixed;
   background-size: cover;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--contenedorDivParaImagenRevista)
+{
+ /* position: relative;
+    bottom: 20rem;*/
 }
 
 :global(.vtex-search-result-3-x-galleryTitle--layout),
@@ -898,13 +914,11 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 
 
 :global(.vtex-flex-layout-0-x-flexRow--menu-row)
-
 { 
   background: #222;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--credits)
-
 {
   background: #171717;
 }
@@ -914,3 +928,77 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 {
   max-width: 1600px !important;
 }
+
+@media screen and (min-width: 1120px){
+:global(.vtex-iframe-0-x-container--talleres-suzuki)
+
+{
+  height: 5900px;
+  margin: auto;
+  padding-top: 20px;
+  display: contents;
+  vertical-align: middle;
+}
+}
+@media screen and (min-width: 1100px) {
+  .flex.flex-grow-1 :global(.vtex-iframe-0-x-container--talleres-suzuki)   {
+    height: 6100px;
+    margin: auto;
+    padding-top: 20px;
+    display: contents;
+    vertical-align: middle;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .flexRow--buyNowButtonw  :global(.vtex-button)
+{
+    
+    width: 80%;
+    height: 50px;
+    margin-top: 1rem;
+    position: relative;
+    background: green;
+    color: white;
+    transition: 0.2s ease-in-out;
+    border: none;
+
+}
+.flexRow--buyNowButtons  :global(.vtex-button)
+{
+     width: 80%;
+     height: 50px;
+     margin-top: 1rem;
+     position: relative;
+     background: rgb(0,48,69);
+     color: white;
+     transition: 0.2s ease-in-out;
+     border: none; 
+}
+:global(.vtex-flex-layout-0-x-flexRow--menu-row),
+:global(.vtex-flex-layout-0-x-flexColChild--payment-methods)
+{ 
+  background: #222;
+  padding-top: 12px;
+  height: 59px;
+  margin-right: -4px;
+  margin-left: -4px;
+  padding-left: 10px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--credits),
+:global(.vtex-rich-text-0-x-container--footer)
+{
+  background: #171717;
+  margin-left: -8px;
+}
+:global(.vtex-rich-text-0-x-paragraph--footer)
+{
+  padding-left: 6px;
+}
+:global(.vtex-store-footer-2-x-socialNetworksContainer)
+{
+  padding-top: 5px;
+}
+}
+

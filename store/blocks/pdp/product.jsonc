@@ -1,42 +1,33 @@
 {
-  "image#topBannerVL250strom": {
+  //==============================================================================================================================
+  //*********************************************PARTE DEL VIDEO********************************************************************//
+  //==============================================================================================================================
+  //MOTO SUZUKI V STROM 1050
+  "condition-layout.product#conditionForTheVideoCategoryDoublePurpose": 
+  {
     "props": {
-      "src": "https://suzukiecuador.vtexassets.com/arquivos/vtrom.png",
-   //   "maxHeight": "100%",
-    //  "maxWidth" : "100%",
-      "blockClass" : "topBannerVL250strom"
-      
-    }
-  },
-  "condition-layout.product#conditionForTheVideo": {
-    "props": {
-  //   "matchType" : "any",
-  
       "conditions": [
         {
           "subject": "productId",
           "arguments": {
-            "id": "2049300"//gsx750
+            "id": "2048798" // v - strom dl250 
           }
         }
       ],
       "toBe" : true,
-      "Then": "flex-layout.row#containforTheVideo2",
-      "Else": "flex-layout.row#containforTheVideo2"
-     // "Then": "list-context.image-list#topbaner",
-     // "Else": "flex-layout.row#gsx725"
-      
-}
+     "Then": "flex-layout.row#containforTheVideoDoublePurpose"
+     
+    }
   },
-  "flex-layout.row#containforTheVideo2":{
+  "flex-layout.row#containforTheVideoDoublePurpose":{
     "props":{
-      "blockClass": "containforTheVideo2",
+      "blockClass": "containforTheVideoDoublePurpose",
       
       "fullWidth" : true
     },
-    "children":["video#backgroundVideo"]
+    "children":["video#VideoDoublePurpose"]
   },
-  "video#backgroundVideo": {
+  "video#VideoDoublePurpose": {
    "props": {
      "width": "100%",
      "height": "540px",
@@ -46,9 +37,1809 @@
      "muted": false,
      "type":"mp4",
      "src": "https://site.comandato.com/video/vstrom.mp4",
-     "blockClass": "videoEl"
+     "blockClass": "VideoDoublePurpose"
    }
  },
+ //MOTO KATANA
+ "condition-layout.product#conditionForTheVideoCategorySporty": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049621" // KATANA
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#containforTheVideoSporty"
+    
+   }
+ },
+ "flex-layout.row#containforTheVideoSporty":{
+   "props":{
+     "blockClass": "containforTheVideoSporty",
+     
+     "fullWidth" : true
+   },
+   "children":["video#VideoSporty"]
+ },
+ "video#VideoSporty": {
+  "props": {
+    "width": "100%",
+    "height": "540px",
+   
+    "loop": true,
+    "autoPlay": true,
+    "muted": false,
+    "type":"mp4",
+    "src": "https://site.comandato.com/video/KATANASUZUKITRAILER.mp4",
+    "blockClass": "VideoSporty"
+  }
+},
+ //==============================================================================================================================
+ //*********************************************FIN PARTE DEL VIDEO********************************************************************//
+ //==============================================================================================================================
+
+
+ //==============================================================================================================================
+ //*********************************************TITULO PARA EL VIDEO********************************************************************//
+ //==============================================================================================================================
+//VSTROMDL250
+ "condition-layout.product#conditionForSubittleMotoVSTROMDL250": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2048798" // v - strom dl250 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#subTitleForTheMoto"
+    
+   }
+ },
+ "flex-layout.row#subTitleForTheMoto":{
+  "props":{
+    "blockClass": "subTitleForTheMoto",
+    
+    "fullWidth" : true
+  },
+  "children":["flex-layout.col#columnForTheSubTitleMoto"]
+},
+"flex-layout.col#columnForTheSubTitleMoto":{
+  "props":{
+    "blockClass": "columnForTheSubTitleMoto"
+   
+  },
+  "children":["rich-text#subtittleMoto","rich-text#subtittleMoto2"]
+  //"children" :["condition-layout.product#conditionForTheSubtittleCategory","condition-layout.product#conditionForTheDescriptionCategory"]
+
+},
+"rich-text#subtittleMoto":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## DOBLE PROPÓSITO",
+  "blockClass": "subtittleMoto"
+  }
+},
+"rich-text#subtittleMoto2":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "### EL PODER LLEGA A LAS CALLES",
+  "blockClass": "subtittleMoto2"
+  }
+},
+//KATANA
+ "condition-layout.product#conditionForSubittleKATANA": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049621" // KATANA
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#subTitleForTheMoto2"
+    
+   }
+ },
+
+"flex-layout.row#subTitleForTheMoto2":{
+  "props":{
+    "blockClass": "subTitleForTheMoto",
+    
+    "fullWidth" : true
+  },
+  "children":["flex-layout.col#columnForTheSubTitleMoto2"]
+},
+"flex-layout.col#columnForTheSubTitleMoto2":{
+  "props":{
+    "blockClass": "columnForTheSubTitleMoto"
+   
+  },
+  "children":["rich-text#subtittleMoto22","rich-text#subtittleMoto222"]
+  //"children" :["condition-layout.product#conditionForTheSubtittleCategory","condition-layout.product#conditionForTheDescriptionCategory"]
+
+},
+
+
+"rich-text#subtittleMoto22":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## DEPORTIVA",
+  "blockClass": "subtittleMoto"
+  }
+},
+"rich-text#subtittleMoto222":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "### EL CAMINO ESTA EN TUS MANOS",
+  "blockClass": "subtittleMoto2"
+  }
+},
+
+
+//==============================================================================================================================
+ //*********************************************FIN DE TITULO PARA VIDEO********************************************************************//
+ //==============================================================================================================================
+
+
+
+//==============================================================================================================================
+ //*********************************************PARTES DE LA MOTO CON SU CARACTERITISTICA*******************************************//
+ //==============================================================================================================================
+ "flex-layout.row#colorSwatchBlock": {
+  "props": {
+    "blockClass": "colorSwatchBlock"
+   
+  },
+  "children": ["flex-layout.col#BlockcolorSwatchBlock","flex-layout.col#BlockstackImage"]
+},
+"flex-layout.col#BlockcolorSwatchBlock": {
+  "props": {
+    "blockClass": "BlockcolorSwatchBlock",
+    "preventVerticalStretch": true,
+    "rowGap": 0,
+    "hasMoreThanOne" : true
+  },
+  "children": [
+  //  "flex-layout.row#descriptionProduct",//NOMBRE DEL PRODUCTO
+ //     "rich-text#Category",
+    "flex-layout.row#product-name",//NOMBRE DEL PRODUCTO
+    "rich-text#subtittleDescriptionMoto",
+    "product-separator",
+    "sku-selector"
+  //  "product-installments#text",//DESDE 36 CUOTAS 
+   
+  ]
+},
+"flex-layout.col#BlockstackImage": {
+  "children": ["stack-layout#BlockImage"],
+  "props": {
+    "blockClass": "BlockstackImage",
+    "width": "50%",
+    "rowGap": 0
+  }
+},
+"stack-layout#BlockImage": {
+  "props": {
+    "blockClass": "BlockImage"
+  },
+  "children": [
+  "flex-layout.row#product-image",//COMPONENTE QUE MUESTRA EL LADO IZQUIERDO DE LA IMAGEN
+ "product-bookmark",
+   "product-specification-badges"
+  ]
+},
+//==============================================================================================================================
+ //********************************************* FIN PARTES DE LA MOTO CON SU CARACTERITISTICA*******************************************//
+ //==============================================================================================================================
+ 
+
+ //==============================================================================================================================
+ //*********************************************CARACTERISTICAS DE LA MOTO*******************************************//
+ //==============================================================================================================================
+
+
+ "flex-layout.row#containImageDescription":
+ {
+   "props": {
+     "blockClass": "containImageDescription",
+     "fullWidth" : true
+    
+
+   },
+   "children": ["flex-layout.row#IMD1","flex-layout.row#IMD2","flex-layout.row#IMD3"]
+ },
+ "flex-layout.row#IMD1":
+ {
+   "props":{
+     "blockClass": "IMD1"
+    
+   },
+   "children": ["flex-layout.col#IMD1col"]
+
+ },
+      //PRIMERA CONDDICION DE LA IMAGEN CON SU TEXTO
+ "flex-layout.col#IMD1col":
+ {
+   "props": {
+   "blockClass": "IMD1col",
+   "preventVerticalStretch": true,
+   "rowGap": 0,
+   "hasMoreThanOne" : true
+   },
+   "children":["image#motor","condition-layout.product#conditionFirstTextvstrom","condition-layout.product#conditionFirstTextKatana"]
+
+  
+ },
+ "image#motor": {
+  "props": {
+    "blockClass": "motor",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/motornegro.png",
+    "maxHeight": 80,
+    "maxWidth" : 80
+  }
+ 
+},
+  //CONDICIONES
+ "condition-layout.product#conditionFirstTextvstrom": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2048798" // v - strom dl250 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then":  "rich-text#firstTextVstrom"
+    
+   }
+ },
+ "rich-text#firstTextVstrom":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**250 CC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+ "condition-layout.product#conditionFirstTextKatana": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049621" // v - strom dl250 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then":  "rich-text#firstTextKatana"
+    
+   }
+ },
+ 
+ "rich-text#firstTextKatana":{
+   "props":{
+     "textAlignment": "CENTER",
+   "textPosition": "CENTER",
+   "text": "**999 CC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+   "textColor": "c-on-emphasis",
+   "font": "t-heading-5",
+   "blockClass": "mensaje1"
+   }
+ },
+
+
+ //SEGUNDA CONDDICION DE LA IMAGEN CON SU TEXTO
+ "flex-layout.row#IMD2":
+ {
+   "props":{
+     "blockClass": "IMD2"
+    
+   },
+   "children": ["flex-layout.col#IMD2col"]
+
+ },
+ "flex-layout.col#IMD2col":
+ {
+   "props": {
+   "blockClass": "IMD2col",
+   "preventVerticalStretch": true,
+   "rowGap": 0,
+   "hasMoreThanOne" : true
+   },
+   "children":["image#rapido","condition-layout.product#conditionSecondtTextvstrom","condition-layout.product#conditionSecondTextKatana"]
+ },
+ "image#rapido": {
+  "props": {
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/rapido.png",
+    "maxHeight": 80,
+    "maxWidth" : 80
+    
+  }
+},
+//CONDICIONES
+ "condition-layout.product#conditionSecondtTextvstrom": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2048798" // v - strom dl250 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then":  "rich-text#SecondTextVstrom"
+    
+   }
+ },
+ "rich-text#SecondTextVstrom":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**6 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje2"
+  }
+},
+ "condition-layout.product#conditionSecondTextKatana": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049621" // v - strom dl250 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then":  "rich-text#SecondTextKatana"
+    
+   }
+ },
+ "rich-text#SecondTextKatana":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**6 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje2"
+  }
+},
+
+//TERCERA CONDICION DE LA IMAGEN CON SU TEXTO
+"flex-layout.row#IMD3":
+ {
+   "props":{
+     "blockClass": "IMD3"
+    
+   },
+   "children": ["flex-layout.col#IMD3col"]
+
+ },
+ "flex-layout.col#IMD3col":
+ {
+   "props": {
+   "blockClass": "IMD3col",
+   "preventVerticalStretch": true,
+   "rowGap": 0,
+   "hasMoreThanOne" : true
+   },
+   "children":["image#disco_freno","condition-layout.product#conditionThirdtTextvstrom","condition-layout.product#conditionThirdTextKatana"]
+ },
+
+ 
+"image#disco_freno": {
+  "props": {
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/disco-del-freno.png",
+    "maxHeight": 80,
+    "maxWidth" : 80
+  }
+},
+"condition-layout.product#conditionThirdtTextvstrom": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2048798" // v - strom dl250 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextVstrom"
+   
+  }
+},
+"rich-text#ThirdTextVstrom":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Disco / Disco  - Frenos (Delantero / Trasero)**\nFrenos de confianza \nrodada en cualquier sitio",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje3"
+  }
+},
+"condition-layout.product#conditionThirdTextKatana": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049621" // v - strom dl250 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextKatana"
+   
+  }
+},
+"rich-text#ThirdTextKatana":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**ABS / ABS  - Frenos (Delantero / Trasero)**\nFrenos de confianza \nrodada en cualquier sitio",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje3"
+  }
+},
+
+ //==============================================================================================================================
+ //********************************************* FIN CARACTERISTICAS DE LA MOTO*******************************************//
+ //==============================================================================================================================
+
+
+
+
+
+  //==============================================================================================================================
+ //*********************************************PARTES DE LA MOTO EN FOTO *******************************************//
+ //==============================================================================================================================
+
+   //==============================================================================================================================
+ //*********************************************FIN PARTES DE LA MOTO EN FOTO *******************************************//
+ //==============================================================================================================================
+
+
+
+
+
+   //==============================================================================================================================
+ //*********************************************TEXTO CARACTERISTTICA ESPECIALES*******************************************//
+ //==============================================================================================================================
+
+ "flex-layout.row#caracteristicasEspecialesText" : {
+  "props": {
+    "blockClass": "caracteristicasEspecialesText",
+    "fullWidth" : true
+  },
+    "children" :["rich-text#textoCaracterisitcasEspeciales"]
+  },
+  "rich-text#textoCaracterisitcasEspeciales":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "**CARACTERÍSTICAS ESPECIALES**",
+    "blockClass": "textoCaracterisitcasEspeciales"
+    }
+  },
+   //==============================================================================================================================
+ //*********************************************FIN DE TEXTO CARACTERISTTICA ESPECIALES*******************************************//
+ //==============================================================================================================================
+
+  
+ //==============================================================================================================================
+ //*********************************************DESCRIPCION DE LA MOTO EN FORMA DE REVISTA*******************************************//
+ //==============================================================================================================================
+ //VSTROM DL250
+ "condition-layout.product#conditionRevistavstrom": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2048798" // v - strom dl250 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then":  "flex-layout.row#contenedorDivParaImagenRevistaVSTROMDL250"
+    
+   }
+ },
+ 
+ "flex-layout.row#contenedorDivParaImagenRevistaVSTROMDL250" : {
+  "props": {
+    "blockClass": "contenedorDivParaImagenRevista",
+    "fullWidth":true,
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaVSTROM"]
+},
+
+"flex-layout.col#contenedorColumnaDivParaImagenRevistaVSTROM" : {
+  "props": {
+    "blockClass": "contenedorColumnaDivParaImagenRevista",
+    "preventVerticalStretch": true,
+    "rowGap": 0,
+    "hasMoreThanOne" : true
+  },
+  "children":["flex-layout.row#divParaImagenRevistaVSTROMDL250","flex-layout.row#divParaImagenRevista2VSTROMDL250","flex-layout.row#divParaImagenRevista3VSTROMDL250"]
+},
+
+"flex-layout.row#divParaImagenRevistaVSTROMDL250":{
+  "props": {
+    "blockClass": "divParaImagenRevista",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["image#motovlStrom","rich-text#descripcionDeFoto1VSTROMDL250"]
+},
+"image#motovlStrom": {
+  "props": {
+    "blockClass": "motovlStrom",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/motovlstrom250.jpg"
+    
+  }
+ 
+},
+"rich-text#descripcionDeFoto1VSTROMDL250":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## DISEÑADA PARA DARTE POTENCIA Y AVENTURA\nLa máquina perfecta para el motociclismo de turismo, ahora con sistema de frenos ABS para mayor seguridad. V-Strom 250 ABS entrega un desempeño impecable gracias a su tecnología japonesa que hará que tengas mayor potencia con menor consumo de combustible.",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+"flex-layout.row#divParaImagenRevista2VSTROMDL250":{
+  "props": {
+    "blockClass": "divParaImagenRevista2",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["rich-text#descripcionDeFoto2VSTROMDL250","image#motovlStrom2"]
+},
+"image#motovlStrom2": {
+  "props": {
+    "blockClass": "motovlStrom2",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/arranqueVLSTROM-DL-250.jpg"
+  }
+ 
+},
+"rich-text#descripcionDeFoto2VSTROMDL250":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## LLEGAR MÁS LEJOS ES PODER DETENERTE EN EL MOMENTO PRECISO\nRodar en una V-Strom 250 ABS es contar con la confianza de tener lo necesario para tu seguridad. Con frenos de disco de pétalo no solo le das un toque elegante y moderno al conjunto de llantas, sobre todo incrementas la seguridad, pues te proporcionan mayor poder de frenado y disipación de calor más veloz, lo que mantiene las pastillas en las condiciones óptimas.",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+"flex-layout.row#divParaImagenRevista3VSTROMDL250":{
+  "props": {
+    "blockClass": "divParaImagenRevista3",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["image#motovlStrom3","rich-text#descripcionDeFoto3VSTROMDL250"]
+},
+"image#motovlStrom3": {
+  "props": {
+    "blockClass": "motovlStrom3",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/Suzuki%20MOTORDL%20250%202017-04.jpg"
+   
+  }
+ 
+},
+"rich-text#descripcionDeFoto3VSTROMDL250":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## EL LÍMITIE EN CADA RODADA LO PONES TÚ, NO EL CALOR\nSi el motor de tu moto se calienta, deja de funcionar bien y hasta se apaga. Por eso, equipamos la V-Strom 250 ABS con el Sistema de Enfriamiento por Líquido –más eficiente que enfriarla con aire–, para asegurarte de que la temperatura va a estar bajo control y tú sigas viviendo la mejor experiencia de tu vida todos los días.",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+
+ //KATANA
+"condition-layout.product#conditionRevistaKatana": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049621" // v - strom dl250 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "flex-layout.row#contenedorDivParaImagenRevistaKatana" 
+   
+  }
+},
+"flex-layout.row#contenedorDivParaImagenRevistaKatana" : {
+  "props": {
+    "blockClass": "contenedorDivParaImagenRevista",
+    "fullWidth":true,
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaKatana"]
+},
+
+
+"flex-layout.col#contenedorColumnaDivParaImagenRevistaKatana" : {
+  "props": {
+    "blockClass": "contenedorColumnaDivParaImagenRevista",
+    "preventVerticalStretch": true,
+    "rowGap": 0,
+    "hasMoreThanOne" : true
+  },
+  "children":["flex-layout.row#divParaImagenRevistaKatana","flex-layout.row#divParaImagenRevista2Katana","flex-layout.row#divParaImagenRevista3Katana"]
+},
+
+"flex-layout.row#divParaImagenRevistaKatana":{
+  "props": {
+    "blockClass": "divParaImagenRevista",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["image#motoKatana","rich-text#descripcionDeFoto1Katana"]
+},
+"image#motoKatana": {
+  "props": {
+    "blockClass": "motovlStrom",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/KatanaDiagonal.jpg"
+    
+  }
+ 
+},
+"rich-text#descripcionDeFoto1Katana":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## DISEÑADA PARA DARTE POTENCIA Y AVENTURA\nLa máquina perfecta para el motociclismo de turismo, ahora con sistema de frenos ABS para mayor seguridad. V-Strom 250 ABS entrega un desempeño impecable gracias a su tecnología japonesa que hará que tengas mayor potencia con menor consumo de combustible.",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+"flex-layout.row#divParaImagenRevista2Katana":{
+  "props": {
+    "blockClass": "divParaImagenRevista2",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["rich-text#descripcionDeFoto2Katana","image#arranqueKatana"]
+},
+"image#arranqueKatana": {
+  "props": {
+    "blockClass": "motovlStrom2",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/katanasuperior.jpg"
+  }
+ 
+},
+"rich-text#descripcionDeFoto2Katana":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## LLEGAR MÁS LEJOS ES PODER DETENERTE EN EL MOMENTO PRECISO\nRodar en una V-Strom 250 ABS es contar con la confianza de tener lo necesario para tu seguridad. Con frenos de disco de pétalo no solo le das un toque elegante y moderno al conjunto de llantas, sobre todo incrementas la seguridad, pues te proporcionan mayor poder de frenado y disipación de calor más veloz, lo que mantiene las pastillas en las condiciones óptimas.",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+"flex-layout.row#divParaImagenRevista3Katana":{
+  "props": {
+    "blockClass": "divParaImagenRevista3",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["image#motorKatana","rich-text#descripcionDeFoto3Katana"]
+},
+"image#motorKatana": {
+  "props": {
+    "blockClass": "motovlStrom3",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/KatanaMotor.png"
+   
+  }
+ 
+},
+"rich-text#descripcionDeFoto3Katana":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## EL LÍMITIE EN CADA RODADA LO PONES TÚ, NO EL CALOR\nSi el motor de tu moto se calienta, deja de funcionar bien y hasta se apaga. Por eso, equipamos la V-Strom 250 ABS con el Sistema de Enfriamiento por Líquido –más eficiente que enfriarla con aire–, para asegurarte de que la temperatura va a estar bajo control y tú sigas viviendo la mejor experiencia de tu vida todos los días.",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+ //==============================================================================================================================
+ //*********************************************FIN DESCRIPCION DE LA MOTO EN FORMA DE REVISTA*******************************************//
+ //==============================================================================================================================
+
+
+  //==============================================================================================================================
+ //*********************************************LISTA PARA TU PRIMER AVENTURA*******************************************//
+ //==============================================================================================================================
+
+  
+  "flex-layout.row#listaparatuaventuraText" : {
+    "props": {
+      "blockClass": "listaparatuaventuraText",
+      "fullWidth" : true
+    },
+      "children" :[ "rich-text#textolistaparatuaventuraText"]
+    },
+    "rich-text#textolistaparatuaventuraText":{
+      "props":{
+        "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**LISTO PARA TU PRIMER AVENTURA**",
+      "blockClass": "textolistaparatuaventuraText"
+      }
+    },
+
+
+  //==============================================================================================================================
+ //*********************************************FIN DE LISTA PARA TU PRIMER AVENTURA*******************************************//
+ //==============================================================================================================================
+
+
+
+ 
+  //==============================================================================================================================
+ //*********************************************SLIDER PARA MOTO*******************************************//
+ //==============================================================================================================================
+
+//VSTROM DL250
+ "condition-layout.product#conditionForTheSliderVSTROMDL250": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2048798" // v - strom dl250 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "list-context.image-list#sliderVLS"
+     
+    }
+  },
+  
+  
+  "list-context.image-list#sliderVLS": {
+    "children": ["slider-layout#sliderVLSitems"],
+    "props": {
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/slider2.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/slider2.png"
+        },
+        {
+          "width" : "100%",
+         
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/slider1.png",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/slider1.png"
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#sliderVLSitems": {
+    "props": {
+      "blockClass": "sliderVLSitems",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
+//KATANA
+  "condition-layout.product#conditionForTheSliderKATANA": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049621" // v - strom dl250 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "list-context.image-list#sliderKatana"
+     
+    }
+  },
+  "list-context.image-list#sliderKatana": {
+    "children": ["slider-layout#sliderKatanaitems"],
+    "props": {
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-katana-collage.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-katana.collage.jpg"
+        },
+        {
+          "width" : "100%",
+         
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/KatanaFoto3.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/KatanaFoto3.jpg"
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#sliderKatanaitems": {
+    "props": {
+      "blockClass": "sliderVLSitems",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
+ 
+ 
+  //==============================================================================================================================
+ //*********************************************FIN DE SILDER PARA MOTO*******************************************//
+ //==============================================================================================================================
+
+
+
+
+   //==============================================================================================================================
+ //*********************************************FICHA TECNICA NOMBRE*******************************************//
+ //==============================================================================================================================
+
+
+ "flex-layout.row#containFichcaTecnica":{
+  "props":{
+    "blockClass": "containFichcaTecnica"
+  },
+  "children":["rich-text#namefichaTecnica"]
+},
+"rich-text#namefichaTecnica":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "# FICHA \n# TÉCNICA",
+  "blockClass": "namefichaTecnica"
+  }
+},
+
+
+   //==============================================================================================================================
+ //*********************************************FIN DE FICHA TECNICA NOMBRE*******************************************//
+ //==============================================================================================================================
+
+
+
+
+    //==============================================================================================================================
+ //*********************************************MOTOR NOMBRE FICHA TECNICA *******************************************//
+ //==============================================================================================================================
+ "flex-layout.row#containNameMotor" : {
+  "props":{
+    "blockClass": "containNameMotor"
+  },
+  "children":["rich-text#nameMotor"]
+},
+"rich-text#nameMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## Motor",
+  "blockClass": "nameMotor"
+  }
+},
+    //==============================================================================================================================
+ //*********************************************FIN MOTOR NOMBRE FICHA TECNICA *******************************************//
+ //==============================================================================================================================
+
+
+
+
+
+
+
+     //==============================================================================================================================
+ //*********************************************CONTENIDO MOTOR FICHA TECNICA *******************************************//
+ //==============================================================================================================================
+
+
+ "flex-layout.row#contenedorMotor":{
+  "props":{
+    "blockClass": "contenedorMotor",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0,
+    "fullWidth" : true
+  },
+  "children" :["flex-layout.row#IMC1","flex-layout.row#IMC2","flex-layout.row#IMC3"]
+},
+  //BLOQUE 1
+"flex-layout.row#IMC1":
+{
+  "props" :{
+    "blockClass" :"IMC1"
+  },
+  "children":["flex-layout.col#IMC1col"]
+},
+"flex-layout.col#IMC1col" : {
+  "props": {
+    "blockClass": "IMC1col",
+    "preventVerticalStretch": true,
+    "rowGap": 0,
+    "hasMoreThanOne" : true
+  },
+  "children":["image#typeMotor", "condition-layout.product#conditionFirstTextvstromFichaTecnicaMotor", "condition-layout.product#conditionFirstTextKatanaFichaTecnicaMotor"]
+},
+"image#typeMotor": {
+  "props": {
+    "blockClass": "imageFichaTecnica",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/tipo-motor.png",
+    "maxHeight":100,
+    "maxWidth" : 100
+  } 
+},
+
+//V STROM DL 250
+"condition-layout.product#conditionFirstTextvstromFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2048798" // v - strom dl250 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextVstromFichaTecnicaMotor"
+  }
+},
+"rich-text#TextVstromFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextVstromFichaTecnicaMotor"
+  }
+},
+
+//KATANA
+"condition-layout.product#conditionFirstTextKatanaFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049621" // v - strom dl250 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextKatanaFichaTecnicaMotor"
+  }
+},
+"rich-text#TextKatanaFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextKatanaFichaTecnicaMotor"
+  }
+},
+
+
+//BLOQUE 2
+"flex-layout.row#IMC2":
+{
+  "props" :{
+    "blockClass" :"IMC2"
+  },
+  "children":["flex-layout.col#IMC2col"]
+},
+"flex-layout.col#IMC2col" : {
+  "props": {
+    "blockClass": "IMC2col",
+    "preventVerticalStretch": true,
+    "rowGap": 0,
+    "hasMoreThanOne" : true
+  },
+  "children":["image#displacement", "condition-layout.product#conditionSecondTextvstromFichaTecnicaMotor", "condition-layout.product#conditionnSecondTextKatanaFichaTecnicaMotor"]
+},
+
+"image#displacement": {
+  "props": {
+    "blockClass": "imageFichaTecnica",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/desplazamiento.png",
+    "maxHeight":100,
+    "maxWidth" : 100
+  } 
+},
+
+//VSTROM DL250
+"condition-layout.product#conditionSecondTextvstromFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2048798" // v - strom dl250 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextVstromFichaTecnicaMotor"
+  }
+},
+"rich-text#SecondTextVstromFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**DESPLAZAMIENTO** \n248 cm3",
+  "blockClass": "SecondTextVstromFichaTecnicaMotor"
+  }
+},
+//KATANA
+"condition-layout.product#conditionnSecondTextKatanaFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049621" // v - strom dl250 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextKatanaFichaTecnicaMotor"
+  }
+},
+"rich-text#SecondTextKatanaFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**DESPLAZAMIENTO** \n999 cm3",
+  "blockClass": "SecondTextKatanaFichaTecnicaMotor"
+  }
+},
+
+
+//BLOQUE 3
+"flex-layout.row#IMC3":
+{
+  "props" :{
+    "blockClass" :"IMC3"
+  },
+  "children":["flex-layout.col#IMC3col" ]
+},
+"flex-layout.col#IMC3col" : {
+  "props": {
+    "blockClass": "IMC3col",
+    "preventVerticalStretch": true,
+    "rowGap": 0,
+    "hasMoreThanOne" : true
+  },
+  "children":["image#startSystem", "condition-layout.product#conditionThirdTextvstromFichaTecnicaMotor", "condition-layout.product#conditionnThirdTextKatanaFichaTecnicaMotor"]
+},
+
+"image#startSystem": {
+  "props": {
+    "blockClass": "imageFichaTecnica",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/sistemaDearranque.png",
+    "maxHeight":100,
+    "maxWidth" : 100
+  } 
+},
+
+//VSTROM DL250
+"condition-layout.product#conditionThirdTextvstromFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2048798" // v - strom dl250 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextVstromFichaTecnicaMotor"
+  }
+},
+"rich-text#ThirdTextVstromFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**SISTEMA DE ARRANQUE** \nElectrico",
+  "blockClass": "descriptionStartSystem"
+  }
+},
+
+//KATANA
+"condition-layout.product#conditionnThirdTextKatanaFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049621" // KATANA
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextKatanaFichaTecnicaMotor"
+  }
+},
+
+"rich-text#ThirdTextKatanaFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**SISTEMA DE ARRANQUE** \nElectrico",
+  "blockClass": "descriptionStartSystem"
+  }
+},
+
+
+ 
+     //==============================================================================================================================
+ //*********************************************FIN CONTENIDO MOTOR FICHA TECNICA *******************************************//
+ //==============================================================================================================================
+
+
+
+
+ 
+ 
+     //==============================================================================================================================
+ //*********************************************NOMBRE CHASIS FICHA TECNICA *******************************************//
+ //==============================================================================================================================
+ "flex-layout.row#containNameChasis" : {
+  "props":{
+    "blockClass": "containNameChasis"
+  },
+  "children":["rich-text#nameChasis"]
+},
+"rich-text#nameChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## Chasis",
+  "blockClass": "nameChasis"
+  }
+},
+ 
+ 
+     //==============================================================================================================================
+ //*********************************************FIN NOMBRE CHASIS FICHA TECNICA *******************************************//
+ //==============================================================================================================================
+
+
+
+
+     //==============================================================================================================================
+ //*********************************************CONTENIDO CHASIS FICHA TECNICA *******************************************//
+ //==============================================================================================================================
+
+ "flex-layout.row#contenedorChasis":{
+    "props":{
+      "blockClass": "contenedorChasis",
+      "colGap": 0,
+      "rowGap": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "fullWidth" : true
+    },
+    "children" :["flex-layout.row#IMG1","flex-layout.row#IMG2","flex-layout.row#IMG3"]
+  },
+    //BLOQUE 1
+  "flex-layout.row#IMG1":
+  {
+    "props" :{
+      "blockClass" :"IMG1"
+    },
+    "children":["flex-layout.col#IMG1col"]
+  },
+  "flex-layout.col#IMG1col" : {
+    "props": {
+      "blockClass": "IMG1col",
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "hasMoreThanOne" : true
+    },
+    "children":["image#frontlight", "condition-layout.product#conditionFirstTextvstromFichaTecnicaChasis", "condition-layout.product#conditionFirstTextKatanaFichaTecnicaChasis"]
+  },
+  "image#frontlight": {
+    "props": {
+      "blockClass": "imageFichaTecnica",
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/FrenoDelantero.png",
+      "maxHeight":100,
+      "maxWidth" : 100
+    } 
+  },
+  //VSTROM DL250
+  "condition-layout.product#conditionFirstTextvstromFichaTecnicaChasis": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2048798" // v - strom dl250 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "rich-text#TextVstromFichaTecnicaChasis"
+    }
+  },
+  "rich-text#TextVstromFichaTecnicaChasis":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "**FARO DELANTERO** \nTipo linterna, de aluminio anodizado",
+    "blockClass": "descriptionfrontlight"
+    }
+  },
+   //KATANA
+  "condition-layout.product#conditionFirstTextKatanaFichaTecnicaChasis": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049621" // v - strom dl250 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "rich-text#TextKatanaFichaTecnicaChasis"
+    }
+  },
+  "rich-text#TextKatanaFichaTecnicaChasis":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "**FARO DELANTERO** \nTipo linterna, de aluminio anodizado",
+    "blockClass": "descriptionfrontlight"
+    }
+  },
+
+//BLOQUE 2
+  "flex-layout.row#IMG2":
+  {
+    "props" :{
+      "blockClass" :"IMG2"
+    },
+    "children":["flex-layout.col#IMG2col"]
+  },
+  "flex-layout.col#IMG2col" : {
+    "props": {
+      "blockClass": "IMG2col",
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "hasMoreThanOne" : true
+    },
+    "children":["image#wheels", "condition-layout.product#conditionSecondTextvstromFichaTecnicaChasis", "condition-layout.product#conditionnSecondTextKatanaFichaTecnicaChasis"]
+  },
+  
+  "image#wheels": {
+    "props": {
+      "blockClass": "imageFichaTecnica",
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/Rines.png",
+      "maxHeight":100,
+      "maxWidth" : 100
+    } 
+  },
+ 
+  "condition-layout.product#conditionSecondTextvstromFichaTecnicaChasis": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2048798" // v - strom dl250 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "rich-text#SecondTextVstromFichaTecnicaChasis"
+    }
+  },
+  "rich-text#SecondTextVstromFichaTecnicaChasis":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "**RINES**\nAleación de aluminio",
+    "blockClass": "descriptionwheels"
+    }
+  },
+  "condition-layout.product#conditionnSecondTextKatanaFichaTecnicaChasis": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049621" // katana
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "rich-text#SecondTextKatanaFichaTecnicaChasis"
+    }
+  },
+  "rich-text#SecondTextKatanaFichaTecnicaChasis":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "**RINES**\nAleación de aluminio",
+    "blockClass": "descriptionwheels"
+    }
+  },
+
+
+
+
+  
+  //BLOQUE 3
+  "flex-layout.row#IMG3":
+  {
+    "props" :{
+      "blockClass" :"IMG3"
+    },
+    "children":["flex-layout.col#IMG3col" ]
+  },
+  "flex-layout.col#IMG3col" : {
+    "props": {
+      "blockClass": "IMG3col",
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "hasMoreThanOne" : true
+    },
+    "children":["image#frontSuspension", "condition-layout.product#conditionThirdTextvstromFichaTecnicaChasis", "condition-layout.product#conditionnThirdTextKatanaFichaTecnicaChasis"]
+  },
+ 
+  "image#frontSuspension": {
+    "props": {
+      "blockClass": "imageFichaTecnica",
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/SuspensionDelantera.png",
+      "maxHeight":100,
+      "maxWidth" : 100
+    } 
+  },
+  "condition-layout.product#conditionThirdTextvstromFichaTecnicaChasis": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2048798" // v - strom dl250 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "rich-text#ThirdTextVstromFichaTecnicaChasis"
+    }
+  },
+  "rich-text#ThirdTextVstromFichaTecnicaChasis":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "**SUSPESION DELANTERA**\nTelescopica hidráulica con aceite",
+    "blockClass": "descriptionfrontSuspension"
+    }
+  },
+  "condition-layout.product#conditionnThirdTextKatanaFichaTecnicaChasis": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049621" // KATANA
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "rich-text#ThirdTextKatanaFichaTecnicaChasis"
+    }
+  },
+
+  "rich-text#ThirdTextKatanaFichaTecnicaChasis":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "**SUSPESION DELANTERA**\nHorquilla invertida totalmente ajustable",
+    "blockClass": "descriptionfrontSuspension"
+    }
+  },
+
+
+ 
+     //==============================================================================================================================
+ //*********************************************FIN CONTENIDO CHASIS FICHA TECNICA *******************************************//
+ //==============================================================================================================================
+  
+ 
+     //==============================================================================================================================
+ //*********************************************NOMBRE DIMENSION Y PESO FICHA TECNICA *******************************************//
+ //==============================================================================================================================
+"flex-layout.row#containNameDi_Wei" : {
+  "props":{
+    "blockClass": "containNameDi_Wei"
+  },
+  "children":["rich-text#nameDi_Wei"]
+},
+"rich-text#nameDi_Wei":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## DIMENSIÓN Y PESO",
+  "blockClass": "nameDi_Wei"
+  }
+},
+    //==============================================================================================================================
+ //*********************************************FIN NOMBRE DIMENSION Y PESO FICHA TECNICA *******************************************//
+ //==============================================================================================================================
+
+
+     //==============================================================================================================================
+ //*********************************************CONTENIDO DIMENSION Y PESO FICHA TECNICA *******************************************//
+ //==============================================================================================================================
+
+ "flex-layout.row#contenedorDyP":{
+  "props":{
+    "blockClass": "contenedorChasis",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0,
+    "fullWidth" : true
+  },
+  "children" :["flex-layout.row#IMDP1","flex-layout.row#IMDP2","flex-layout.row#IMDP3"]
+},
+  //BLOQUE 1
+"flex-layout.row#IMDP1":
+{
+  "props" :{
+    "blockClass" :"IMDP1"
+  },
+  "children":["flex-layout.col#IMDP1col"]
+},
+"flex-layout.col#IMDP1col" : {
+  "props": {
+    "blockClass": "IMDP1col",
+    "preventVerticalStretch": true,
+    "rowGap": 0,
+    "hasMoreThanOne" : true
+  },
+  "children":["image#Weight", "condition-layout.product#conditionFirstTextvstromFichaTecnicaDP", "condition-layout.product#conditionFirstTextKatanaFichaTecnicaDP"]
+},
+"image#Weight": {
+  "props": {
+    "blockClass": "imageFichaTecnica",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/peso.png",
+    "maxHeight":100,
+    "maxWidth" : 100
+  } 
+},
+//VL STROM 250
+"condition-layout.product#conditionFirstTextvstromFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2048798" // v - strom dl250 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextVstromFichaTecnicaDP"
+  }
+},
+"rich-text#TextVstromFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**PESO** \n188 Kg",
+  "blockClass": "descriptionTypeMotor"
+  }
+},
+//KATANA
+"condition-layout.product#conditionFirstTextKatanaFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049621" // v - strom dl250 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextKatanaFichaTecnicaDP"
+  }
+},
+"rich-text#TextKatanaFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**PESO** \n215 Kg",
+  "blockClass": "descriptionTypeMotor"
+  }
+},
+
+//BLOQUE 2
+"flex-layout.row#IMDP2":
+{
+  "props" :{
+    "blockClass" :"IMDP2"
+  },
+  "children":["flex-layout.col#IMDP2col"]
+},
+"flex-layout.col#IMDP2col" : {
+  "props": {
+    "blockClass": "IMDP2col",
+    "preventVerticalStretch": true,
+    "rowGap": 0,
+    "hasMoreThanOne" : true
+  },
+  "children":["image#large", "condition-layout.product#conditionSecondTextvstromFichaTecnicaDP", "condition-layout.product#conditionnSecondTextKatanaFichaTecnicaDP"]
+},
+
+"image#large": {
+  "props": {
+    "blockClass": "imageFichaTecnica",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/LargoTotal.png",
+    "maxHeight":100,
+    "maxWidth" : 100
+  } 
+},
+//VLSTROM1250
+"condition-layout.product#conditionSecondTextvstromFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2048798" // v - strom dl250 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextVstromFichaTecnicaDP"
+  }
+},
+"rich-text#SecondTextVstromFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**LARGO TOTAL**\n2150 mm",
+  "blockClass": "descriptionDisplacement"
+  }
+},
+//KATANA
+"condition-layout.product#conditionnSecondTextKatanaFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049621" // katana
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextKatanaFichaTecnicaDP"
+  }
+},
+"rich-text#SecondTextKatanaFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**LARGO TOTAL**\n2130 mm",
+  "blockClass": "descriptionDisplacement"
+  }
+},
+
+
+
+
+
+//BLOQUE 3
+"flex-layout.row#IMDP3":
+{
+  "props" :{
+    "blockClass" :"IMDP3"
+  },
+  "children":["flex-layout.col#IMDP3col" ]
+},
+"flex-layout.col#IMDP3col" : {
+  "props": {
+    "blockClass": "IMDP3col",
+    "preventVerticalStretch": true,
+    "rowGap": 0,
+    "hasMoreThanOne" : true
+  },
+  "children":["image#tank", "condition-layout.product#conditionThirdTextvstromFichaTecnicaDP", "condition-layout.product#conditionnThirdTextKatanaFichaTecnicaDP"]
+},
+
+"image#tank": {
+  "props": {
+    "blockClass": "imageFichaTecnica",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/TanqueCombustible.png",
+    "maxHeight":100,
+    "maxWidth" : 100
+  } 
+},
+
+//VSTROM DL 250
+"condition-layout.product#conditionThirdTextvstromFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2048798" // v - strom dl250 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextVstromFichaTecnicaDP"
+  }
+},
+"rich-text#ThirdTextVstromFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TANQUE DE COMBUSTIBLE**\n17.3 Lts (Incluida reserva)",
+  "blockClass": "descriptionStartSystem"
+  }
+},
+
+//KATANA
+"condition-layout.product#conditionnThirdTextKatanaFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049621" // KATANA
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextKatanaFichaTecnicaDP"
+  }
+},
+
+"rich-text#ThirdTextKatanaFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TANQUE DE COMBUSTIBLE**\n12 Lts",
+  "blockClass": "descriptionStartSystem"
+  }
+},
+
+ 
+     //==============================================================================================================================
+ //*********************************************FIN CONTENIDO DIMENSION Y PESO FICHA TECNICA *******************************************//
+ //==============================================================================================================================
+
+ "image#topBannerVL250strom": {
+    "props": {
+      "src": "https://suzukiecuador.vtexassets.com/arquivos/vtrom.png",
+   //   "maxHeight": "100%",
+    //  "maxWidth" : "100%",
+      "blockClass" : "topBannerVL250strom"
+      
+    }
+  },
+ 
  "flex-layout.row#containDescriptionForTheVideo" :
   {
     
@@ -106,62 +1897,9 @@
    //   "share#default"
     ]
   },
-  "flex-layout.row#subTitleForTheMoto":{
-    "props":{
-      "blockClass": "subTitleForTheMoto",
-      
-      "fullWidth" : true
-    },
-    "children":["flex-layout.col#columnForTheSubTitleMoto"]
-  },
-  "flex-layout.col#columnForTheSubTitleMoto":{
-    "props":{
-      "blockClass": "columnForTheSubTitleMoto"
-    },
-    "children":["rich-text#subtittleMoto","rich-text#subtittleMoto2"]
+  
+ 
 
-  },
-  "rich-text#subtittleMoto":{
-    "props":{
-      "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-    "text": "## DOBLE PROPÓSITO",
-    "blockClass": "subtittleMoto"
-    }
-  },
-  "rich-text#subtittleMoto2":{
-    "props":{
-      "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-    "text": "### EL PODER LLEGA A LAS CALLES",
-    "blockClass": "subtittleMoto2"
-    }
-  },
-  "flex-layout.row#colorSwatchBlock": {
-    "props": {
-      "blockClass": "colorSwatchBlock"
-     
-    },
-    "children": ["flex-layout.col#BlockcolorSwatchBlock","flex-layout.col#BlockstackImage"]
-  },
-  "flex-layout.col#BlockcolorSwatchBlock": {
-    "props": {
-      "blockClass": "BlockcolorSwatchBlock",
-      "preventVerticalStretch": true,
-      "rowGap": 0,
-      "hasMoreThanOne" : true
-    },
-    "children": [
-    //  "flex-layout.row#descriptionProduct",//NOMBRE DEL PRODUCTO
-   //     "rich-text#Category",
-      "flex-layout.row#product-name",//NOMBRE DEL PRODUCTO
-      "rich-text#subtittleDescriptionMoto",
-      "product-separator",
-      "sku-selector"
-    //  "product-installments#text",//DESDE 36 CUOTAS 
-     
-    ]
-  },
   "rich-text#Category":
   {
     "props":{
@@ -170,24 +1908,6 @@
     "text": "#### DOBLE PROPOSITO.",
     "blockClass": "subtittleDescriptionMoto"
     }
-  },
-  "flex-layout.col#BlockstackImage": {
-    "children": ["stack-layout#BlockImage"],
-    "props": {
-      "blockClass": "BlockstackImage",
-      "width": "50%",
-      "rowGap": 0
-    }
-  },
-  "stack-layout#BlockImage": {
-    "props": {
-      "blockClass": "BlockImage"
-    },
-    "children": [
-    "flex-layout.row#product-image",//COMPONENTE QUE MUESTRA EL LADO IZQUIERDO DE LA IMAGEN
-   "product-bookmark",
-     "product-specification-badges"
-    ]
   },
 
   "product-specification-badges": {
@@ -198,151 +1918,11 @@
       "displayValue": "SPECIFICATION_NAME"
     }
   },
-  "flex-layout.row#divParaimagenes":{
-    "props": {
-      "blockClass": "divParaimagenes",
-      "colGap": 7,
-      "rowGap": 7,
-      "marginTop": 7,
-      "marginBottom": 7,
-      "paddingTop": 7,
-      "paddingBottom": 7
-    },
-    "children": ["image#motor","image#rapido","image#disco_freno"]
-  },
-  "image#motor": {
-    "props": {
-      "blockClass": "motor",
-      "src": "https://suzukiecuador.vteximg.com.br/arquivos/motornegro.png",
-      "maxHeight": 80,
-      "maxWidth" : 80
-    }
-   
-  },
-  "image#rapido": {
-    "props": {
-      "src": "https://suzukiecuador.vteximg.com.br/arquivos/rapido.png",
-      "maxHeight": 80,
-      "maxWidth" : 80
-      
-    }
-  },
-  "image#disco_freno": {
-    "props": {
-      "src": "https://suzukiecuador.vteximg.com.br/arquivos/disco-del-freno.png",
-      "maxHeight": 80,
-      "maxWidth" : 80
-    }
-  },
-  "flex-layout.row#descripciondivimagenes" :{
-    "props": {
-      "blockClass": "descripciondivimagenes"
-      
-
-    },
-    "children" :["rich-text#mensaje1","rich-text#mensaje2","rich-text#mensaje3"]
-  },
-  "rich-text#mensaje1":{
-    "props":{
-      "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-    "text": "**250 CC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
-    "textColor": "c-on-emphasis",
-    "font": "t-heading-5",
-    "blockClass": "mensaje1"
-    }
-  },
-  "rich-text#mensaje2":{
-    "props":{
-      "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-    "text": "**6 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
-    "textColor": "c-on-emphasis",
-    "font": "t-heading-5",
-    "blockClass": "mensaje2"
-    }
-  },
-  "rich-text#mensaje3":{
-    "props":{
-      "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-    "text": "**Disco / Disco  - Frenos (Delantero / Trasero)**\nFrenos de confianza \nrodada en cualquier sitio",
-    "textColor": "c-on-emphasis",
-    "font": "t-heading-5",
-    "blockClass": "mensaje3"
-    }
-  },
-
   
-  "list-context.image-list#sliderVLS": {
-    "children": ["slider-layout#sliderVLSitems"],
-    "props": {
-  
-      "height":"100%",
-      "images": [
-        {
-          "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/slider2.png",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/slider2.png"
-        },
-        {
-          "width" : "100%",
-         
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/slider1.png",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/slider1.png"
-        }
-        
-      ]
-    }
-  },
-  "slider-layout#sliderVLSitems": {
-    "props": {
-      "blockClass": "sliderVLSitems",
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly"
-      
-    }
-  },
-  //CARACTERISTICAS ESPECIALES
-  "flex-layout.row#caracteristicasEspecialesText" : {
-    "props": {
-      "blockClass": "caracteristicasEspecialesText",
-      "fullWidth" : true
-    },
-      "children" :["rich-text#textoCaracterisitcasEspeciales"]
-    },
-    "rich-text#textoCaracterisitcasEspeciales":{
-      "props":{
-        "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "**CARACTERISTICAS ESPECIALES**",
-      "blockClass": "textoCaracterisitcasEspeciales"
-      }
-    },
-  //FIN DE CARACTERISTICAS ESPECIALES
+ 
+ 
+ 
 
-  //LISTA PARA TU AVENTURA
-  "flex-layout.row#listaparatuaventuraText" : {
-    "props": {
-      "blockClass": "listaparatuaventuraText",
-      "fullWidth" : true
-    },
-      "children" :[ "rich-text#textolistaparatuaventuraText"]
-    },
-    "rich-text#textolistaparatuaventuraText":{
-      "props":{
-        "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "**LISTO PARA TU PRIMER AVENTURA**",
-      "blockClass": "textolistaparatuaventuraText"
-      }
-    },
-  // FIN DE LISTA PARA TU AVENTURA
 
   //SOLICITA CREDITO DIRECTO
   "flex-layout.row#solicitaCreditoDirecto" : {
@@ -400,7 +1980,7 @@
   "iframe#galleryMoto": {
     "props": {
       "width": "100%",
-      "height":"700px",
+      "height" : "420px",
       "scrolling":"no" ,
       "frameborder":"0",
       "overflow": "hidden",
@@ -410,78 +1990,7 @@
       "src": "https://site.comandato.com/GaleriaVStrom250/index.html"
     }
   },
-  "flex-layout.row#containImageDescription":
-  {
-    "props": {
-      "blockClass": "containImageDescription",
-      "fullWidth" : true,
-      "colGap": 7,
-      "rowGap": 7,
-      "marginTop": 7,
-      "marginBottom": 7,
-      "paddingTop": 7,
-      "paddingBottom": 7
-
-    },
-    "children": ["flex-layout.row#IMD1","flex-layout.row#IMD2","flex-layout.row#IMD3"]
-  },
-  "flex-layout.row#IMD1":
-  {
-    "props":{
-      "blockClass": "IMD1"
-     
-    },
-    "children": ["flex-layout.col#IMD1col"]
-
-  },
-  "flex-layout.col#IMD1col":
-  {
-    "props": {
-    "blockClass": "IMD1col",
-    "preventVerticalStretch": true,
-    "rowGap": 0,
-    "hasMoreThanOne" : true
-    },
-    "children":["image#motor","rich-text#mensaje1"]
-  },
-  "flex-layout.row#IMD2":
-  {
-    "props":{
-      "blockClass": "IMD2"
-     
-    },
-    "children": ["flex-layout.col#IMD2col"]
-
-  },
-  "flex-layout.col#IMD2col":
-  {
-    "props": {
-    "blockClass": "IMD2col",
-    "preventVerticalStretch": true,
-    "rowGap": 0,
-    "hasMoreThanOne" : true
-    },
-    "children":["image#rapido","rich-text#mensaje2"]
-  },
-  "flex-layout.row#IMD3":
-  {
-    "props":{
-      "blockClass": "IMD3"
-     
-    },
-    "children": ["flex-layout.col#IMD3col"]
-
-  },
-  "flex-layout.col#IMD3col":
-  {
-    "props": {
-    "blockClass": "IMD3col",
-    "preventVerticalStretch": true,
-    "rowGap": 0,
-    "hasMoreThanOne" : true
-    },
-    "children":["image#disco_freno","rich-text#mensaje3"]
-  },
+ 
   "flex-layout.row#contenedorImagen":
   {
     "props":{
@@ -497,17 +2006,32 @@
     }
     
   },
-
+  "flex-layout.row#containGalleryMoto":
+  {
+    "props":{
+      "fullWidth":true,
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 7,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7
+    },
+    "children" : ["iframe#galleryMoto"]
+  },
   "store.product": {
     "children": [
 
      // "image#topBannerVL250strom",
-    // "list-context.image-list#sliderVLS",
-    "condition-layout.product#conditionForTheVideo",
+     // "list-context.image-list#sliderVLS",
+     "condition-layout.product#conditionForTheVideoCategoryDoublePurpose",
+     "condition-layout.product#conditionForTheVideoCategorySporty",
+     "condition-layout.product#conditionForSubittleMotoVSTROMDL250",
+     "condition-layout.product#conditionForSubittleKATANA",
      //   "flex-layout.row#product-breadcrumb",//indica donde estas ubicado
      // "list-context.image-list#topbaner",//BANNER
    //  "flex-layout.row#containDescriptionForTheVideo",//Esto es como un div
-     "flex-layout.row#subTitleForTheMoto",
+  //   "flex-layout.row#subTitleForTheMoto",
      //"flex-layout.row#divsegundo",//ESTE ES EL DIV QUE MUESTRA POTENCIA EN TI Y EL RESTO....
      "flex-layout.row#colorSwatchBlock",//Esto es la division entre la imagen y la especificacion
      //"flex-layout.row#subTitleForTheMoto2",
@@ -516,7 +2040,7 @@
    //  "flex-layout.row#product-main",
    
    "flex-layout.row#containImageDescription",
-   
+//   "flex-layout.row#containGalleryMoto",
 //   "flex-layout.row#divParaimagenes",//Div que contiene las imagenes motor, velocidad, freno
   // "flex-layout.row#descripciondivimagenes",//Descripcion del motor velocidad, freno
 //PARTE DEL CREDITO DIRECTO
@@ -524,24 +2048,34 @@
 
 
 //IFRAME
-"iframe#galleryMoto",
+//"iframe#galleryMoto",
 //"flex-layout.row#solicitaCreditoDirecto",
 
 //FIN DE IFRAME
   // "video#videoGif",
   "flex-layout.row#caracteristicasEspecialesText",
   //BANNER
-  "flex-layout.row#contenedorDivParaImagenRevista",
+ // "flex-layout.row#contenedorDivParaImagenRevista",
+ "condition-layout.product#conditionRevistavstrom",
+ "condition-layout.product#conditionRevistaKatana",
   "flex-layout.row#listaparatuaventuraText",
-  "list-context.image-list#sliderVLS",//SLIDER
+  //"list-context.image-list#sliderVLS",//SLIDER
+  "condition-layout.product#conditionForTheSliderVSTROMDL250",
+  "condition-layout.product#conditionForTheSliderKATANA",
  //   "image#collageVlStrom250",
    //   "flex-layout.row#divParaImagenRevista",//Div parecido a revista
      
  //  "flex-layout.row#divParaBanneryDescripcion",//Banner con su descripcion
 
  /*FICHA TECNICA*/
-
- "flex-layout.row#contenedorFichaTecnia",
+ "flex-layout.row#containFichcaTecnica",
+ "flex-layout.row#containNameMotor",
+ "flex-layout.row#contenedorMotor",
+ "flex-layout.row#containNameChasis",
+ "flex-layout.row#contenedorChasis",
+ "flex-layout.row#containNameDi_Wei",
+ "flex-layout.row#contenedorDyP",
+ //"flex-layout.row#contenedorFichaTecnia",
  //"flex-layout.row#contenedorImagen",
  /*FIN FICHA TECNICA*/
  //"flex-layout.row#containercompraEnLineaVlStrom250",
@@ -619,21 +2153,66 @@
   
   
 
-  /*FICHA TECNICA*/
-  "flex-layout.row#contenedorFichaTecnia":{
-    "props":{
-      "blockClass": "contenedorFichaTecnia",
-      "colGap": 0,
-      "rowGap": 0,
-      "marginTop": 0,
-      "marginBottom": 0,
-      "paddingTop": 0,
-      "paddingBottom": 0,
-      "fullWidth" : true
-    },
-    "children" :["flex-layout.col#subContenedorRenglonesFichaTecnica"]
-  },
-  "flex-layout.col#subContenedorRenglonesFichaTecnica":{
+
+
+
+  
+  
+ 
+  
+ 
+ 
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  "flex-layout.col#subContenedorRenglonesFichaTecnica":{
     "props": {
       "blockClass": "subContenedorRenglonesFichaTecnica",
       "preventVerticalStretch": true,
@@ -641,17 +2220,18 @@
       "hasMoreThanOne" : true
     },
     "children":[
-      "flex-layout.row#containFichcaTecnica",
+      
 
       //1 BLOQUE MOTOR
-      "flex-layout.row#containNameMotor",
+     
+    
       "flex-layout.row#containImageMotor",
-      "flex-layout.row#containDescriptionImageMotor",
+     // "flex-layout.row#containDescriptionImageMotor",
 
       //2 BLOQUE CHASIS
-      "flex-layout.row#containNameChasis",
+      
       "flex-layout.row#containImageChasis",
-      "flex-layout.row#containDescriptionImageChasis",
+     // "flex-layout.row#containDescriptionImageChasis",
 
       //3 BLOQUE DIMENSION PESO
       "flex-layout.row#containNameDi_Wei",
@@ -659,294 +2239,42 @@
       "flex-layout.row#containDescriptionImageDi_Wei"
     ]
 
-  },
+  },*/
   //********************************************1 BLOQUE****************************************//
   /*flex-layout.row#containImageMotor*/
-  "flex-layout.row#containNameMotor" : {
-    "props":{
-      "blockClass": "containNameMotor"
-    },
-    "children":["rich-text#nameMotor"]
-  },
-  "rich-text#nameMotor":{
-    "props":{
-      "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-    "text": "## Motor",
-    "blockClass": "nameMotor"
-    }
-  },
+  
   /*FIN flex-layout.row#containImageMotor*/
   /*flex-layout.row#containImageMotor*/
-  "flex-layout.row#containImageMotor":{
-    "props":{
-      "blockClass": "containImageMotor",
-      "colGap": 0,
-      "rowGap": 0,
-      "marginTop": 0,
-      "marginBottom": 0,
-      "paddingTop": 0,
-      "paddingBottom": 0
-    },
-    "children" : ["image#typeMotor","image#displacement","image#startSystem"]
-  },
-  "image#typeMotor": {
-    "props": {
-      "blockClass": "typeMotor",
-      "src": "https://suzukiecuador.vteximg.com.br/arquivos/tipo-motor.png",
-      "maxHeight":100,
-      "maxWidth" : 100
-    } 
-  },
-  "image#displacement": {
-    "props": {
-      "blockClass": "typeMotor",
-      "src": "https://suzukiecuador.vteximg.com.br/arquivos/desplazamiento.png",
-      "maxHeight":100,
-      "maxWidth" : 100
-    } 
-  },
-  "image#startSystem": {
-    "props": {
-      "blockClass": "typeMotor",
-      "src": "https://suzukiecuador.vteximg.com.br/arquivos/sistemaDearranque.png",
-      "maxHeight":100,
-      "maxWidth" : 100
-    } 
-  },
+ 
+  
   /*FIN flex-layout.row#containImageMotor*/
   /*flex-layout.row#containDescriptionImageMotor*/
-  "flex-layout.row#containDescriptionImageMotor":{
-    "props":{
-    "blockClass": "containDescriptionImageMotor",
-    "colGap": 0,
-    "rowGap": 0,
-    "marginTop": 0,
-    "marginBottom": 0,
-    "paddingTop": 0,
-    "paddingBottom": 0
-    },
-    "children" : ["rich-text#descriptionTypeMotor","rich-text#descriptionDisplacement","rich-text#descriptionStartSystem"]
 
-  },
-  "rich-text#descriptionTypeMotor":{
-    "props":{
-      "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-    "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
-    "blockClass": "descriptionTypeMotor"
-    }
-  },
-  "rich-text#descriptionDisplacement":{
-    "props":{
-      "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-    "text": "**DESPLAZAMIENTO** \n248 cm3",
-    "blockClass": "descriptionDisplacement"
-    }
-  },
-  "rich-text#descriptionStartSystem":{
-    "props":{
-      "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-    "text": "**SISTEMA DE ARRANQUE** \nElectrico",
-    "blockClass": "descriptionStartSystem"
-    }
-  },
+ 
   /* FIN flex-layout.row#containDescriptionImageMotor*/
 
   //********************************************FIN 1 BLOQUE****************************************//
 
   //********************************************2 BLOQUE****************************************//
  /*flex-layout.row#containImageMotor*/
- "flex-layout.row#containNameChasis" : {
-  "props":{
-    "blockClass": "containNameChasis"
-  },
-  "children":["rich-text#nameChasis"]
-},
-"rich-text#nameChasis":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "## Chasis",
-  "blockClass": "nameChasis"
-  }
-},
+ 
 /*FIN flex-layout.row#containImageMotor*/
 /*flex-layout.row#containImageMotor*/
-"flex-layout.row#containImageChasis":{
-  "props":{
-    "blockClass": "containImageChasis",
-    "colGap": 0,
-    "rowGap": 0,
-    "marginTop": 0,
-    "marginBottom": 0,
-    "paddingTop": 0,
-    "paddingBottom": 0
-  },
-  "children" : ["image#frontlight","image#wheels","image#frontSuspension"]
-},
-"image#frontlight": {
-  "props": {
-    "blockClass": "frontlight",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/FrenoDelantero.png",
-    "maxHeight":100,
-    "maxWidth" : 100
-  } 
-},
-"image#wheels": {
-  "props": {
-    "blockClass": "wheels",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/Rines.png",
-    "maxHeight":100,
-    "maxWidth" : 100
-  } 
-},
-"image#frontSuspension": {
-  "props": {
-    "blockClass": "frontSuspension",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/SuspensionDelantera.png",
-    "maxHeight":100,
-    "maxWidth" : 100
-  } 
-},
+
 /*FIN flex-layout.row#containImageMotor*/
 /*flex-layout.row#containDescriptionImageMotor*/
-"flex-layout.row#containDescriptionImageChasis":{
-  "props":{
-  "blockClass": "containDescriptionImageChasis",
-  "colGap": 0,
-  "rowGap": 0,
-  "marginTop": 0,
-  "marginBottom": 0,
-  "paddingTop": 0,
-  "paddingBottom": 0
-  },
-  "children" : ["rich-text#descriptionfrontlight","rich-text#descriptionwheels","rich-text#descriptionfrontSuspension"]
 
-},
-"rich-text#descriptionfrontlight":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**FARO DELANTERO** \nTipo linterna, de aluminio anodizado",
-  "blockClass": "descriptionfrontlight"
-  }
-},
-"rich-text#descriptionwheels":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**RINES**\nAleación de aluminio",
-  "blockClass": "descriptionwheels"
-  }
-},
-"rich-text#descriptionfrontSuspension":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**SUSPESION DELANTERA**\nTelescopica hidráulica con aceite",
-  "blockClass": "descriptionfrontSuspension"
-  }
-},
+
 /* FIN flex-layout.row#containDescriptionImageMotor*/
   //********************************************FIN 2 BLOQUE****************************************//
 
 
   //********************************************3 BLOQUE****************************************//
   /*flex-layout.row#containImageMotor*/
-  "flex-layout.row#containNameDi_Wei" : {
-    "props":{
-      "blockClass": "containNameDi_Wei"
-    },
-    "children":["rich-text#nameDi_Wei"]
-  },
-  "rich-text#nameDi_Wei":{
-    "props":{
-      "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-    "text": "## DIMENSIÓN Y PESO",
-    "blockClass": "nameDi_Wei"
-    }
-  },
+  
   /*FIN flex-layout.row#containImageMotor*/
   /*flex-layout.row#containImageMotor*/
-  "flex-layout.row#containImageDi_Wei":{
-    "props":{
-      "blockClass": "containImageDi_Wei",
-      "colGap": 0,
-      "rowGap": 0,
-      "marginTop": 0,
-      "marginBottom": 0,
-      "paddingTop": 0,
-      "paddingBottom": 0
-    },
-    "children" : ["image#Weight","image#large","image#tank"]
-  },
-  "image#Weight": {
-    "props": {
-      "blockClass": "Weight",
-      "src": "https://suzukiecuador.vteximg.com.br/arquivos/peso.png",
-      "maxHeight":100,
-      "maxWidth" : 100
-    } 
-  },
-  "image#large": {
-    "props": {
-      "blockClass": "large",
-      "src": "https://suzukiecuador.vteximg.com.br/arquivos/LargoTotal.png",
-      "maxHeight":100,
-      "maxWidth" : 100
-    } 
-  },
-  "image#tank": {
-    "props": {
-      "blockClass": "tank",
-      "src": "https://suzukiecuador.vteximg.com.br/arquivos/TanqueCombustible.png",
-      "maxHeight":100,
-      "maxWidth" : 100
-    } 
-  },
-  /*FIN flex-layout.row#containImageMotor*/
-  /*flex-layout.row#containDescriptionImageMotor*/
-  "flex-layout.row#containDescriptionImageDi_Wei":{
-    "props":{
-    "blockClass": "containDescriptionImageDi_Wei",
-    "colGap": 0,
-    "rowGap": 0,
-    "marginTop": 0,
-    "marginBottom": 0,
-    "paddingTop": 0,
-    "paddingBottom": 0
-    },
-    "children" : ["rich-text#descriptionWeight","rich-text#descriptionlarge","rich-text#descriptiontank"]
-
-  },
-  "rich-text#descriptionWeight":{
-    "props":{
-      "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-    "text": "**PESO** \n188 Kg",
-    "blockClass": "descriptionTypeMotor"
-    }
-  },
-  "rich-text#descriptionlarge":{
-    "props":{
-      "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-    "text": "**LARGO TOTAL**\n2150 mm",
-    "blockClass": "descriptionDisplacement"
-    }
-  },
-  "rich-text#descriptiontank":{
-    "props":{
-      "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-    "text": "**TANQUE DE COMBUSTIBLE**\n17.3 Lts (Incluida reserva)",
-    "blockClass": "descriptionStartSystem"
-    }
-  },
+ 
   /* FIN flex-layout.row#containDescriptionImageMotor*/
 
   //********************************************FIN 2 BLOQUE****************************************//
@@ -959,127 +2287,11 @@
 
 
   /*flex-layout.row#nameFichcaTecnica*/
-  "flex-layout.row#containFichcaTecnica":{
-    "props":{
-      "blockClass": "containFichcaTecnica"
-    },
-    "children":["rich-text#namefichaTecnica"]
-  },
-  "rich-text#namefichaTecnica":{
-    "props":{
-      "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-    "text": "# FICHA \n# TÉCNICA",
-    "blockClass": "namefichaTecnica"
-    }
-  },
+  
   /*FIN flex-layout.row#nameFichcaTecnica*/
 
   /*FIN FICHA TECNICA*/
-  "flex-layout.row#contenedorDivParaImagenRevista" : {
-    "props": {
-      "blockClass": "contenedorDivParaImagenRevista",
-      "colGap": 0,
-      "rowGap": 0,
-      "marginTop": 0,
-      "marginBottom": 0,
-      "paddingTop": 0,
-      "paddingBottom": 0
-    },
-    "children":["flex-layout.col#contenedorColumnaDivParaImagenRevista"]
-  },
-  "flex-layout.col#contenedorColumnaDivParaImagenRevista" : {
-    "props": {
-      "blockClass": "contenedorColumnaDivParaImagenRevista",
-      "preventVerticalStretch": true,
-      "rowGap": 0,
-      "hasMoreThanOne" : true
-    },
-    "children":["flex-layout.row#divParaImagenRevista","flex-layout.row#divParaImagenRevista2","flex-layout.row#divParaImagenRevista3"]
-  },
-  "flex-layout.row#divParaImagenRevista":{
-    "props": {
-      "blockClass": "divParaImagenRevista",
-      "colGap": 0,
-      "rowGap": 0,
-      "marginTop": 0,
-      "marginBottom": 0,
-      "paddingTop": 0,
-      "paddingBottom": 0
-    },
-    "children":["image#motovlStrom","rich-text#descripcionDeFoto1"]
-  },
-  "image#motovlStrom": {
-    "props": {
-      "blockClass": "motovlStrom",
-      "src": "https://suzukiecuador.vteximg.com.br/arquivos/motovlstrom250.jpg"
-      
-    }
-   
-  },
-  "rich-text#descripcionDeFoto1":{
-    "props":{
-      "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-    "text": "## DISEÑADA PARA DARTE POTENCIA Y AVENTURA\nLa máquina perfecta para el motociclismo de turismo, ahora con sistema de frenos ABS para mayor seguridad. V-Strom 250 ABS entrega un desempeño impecable gracias a su tecnología japonesa que hará que tengas mayor potencia con menor consumo de combustible.",
-    "blockClass": "descripcionDeFoto"
-    }
-  },
-  "flex-layout.row#divParaImagenRevista2":{
-    "props": {
-      "blockClass": "divParaImagenRevista2",
-      "colGap": 0,
-      "rowGap": 0,
-      "marginTop": 0,
-      "marginBottom": 0,
-      "paddingTop": 0,
-      "paddingBottom": 0
-    },
-    "children":["rich-text#descripcionDeFoto2","image#motovlStrom2"]
-  },
-  "image#motovlStrom2": {
-    "props": {
-      "blockClass": "motovlStrom2",
-      "src": "https://suzukiecuador.vteximg.com.br/arquivos/arranqueVLSTROM-DL-250.jpg"
-    }
-   
-  },
-  "rich-text#descripcionDeFoto2":{
-    "props":{
-      "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-    "text": "## LLEGAR MÁS LEJOS ES PODER DETENERTE EN EL MOMENTO PRECISO\nRodar en una V-Strom 250 ABS es contar con la confianza de tener lo necesario para tu seguridad. Con frenos de disco de pétalo no solo le das un toque elegante y moderno al conjunto de llantas, sobre todo incrementas la seguridad, pues te proporcionan mayor poder de frenado y disipación de calor más veloz, lo que mantiene las pastillas en las condiciones óptimas.",
-    "blockClass": "descripcionDeFoto"
-    }
-  },
-  "flex-layout.row#divParaImagenRevista3":{
-    "props": {
-      "blockClass": "divParaImagenRevista3",
-      "colGap": 0,
-      "rowGap": 0,
-      "marginTop": 0,
-      "marginBottom": 0,
-      "paddingTop": 0,
-      "paddingBottom": 0
-    },
-    "children":["image#motovlStrom3","rich-text#descripcionDeFoto3"]
-  },
-  "image#motovlStrom3": {
-    "props": {
-      "blockClass": "motovlStrom3",
-      "src": "https://suzukiecuador.vteximg.com.br/arquivos/Suzuki%20MOTORDL%20250%202017-04.jpg"
-     
-    }
-   
-  },
-  "rich-text#descripcionDeFoto3":{
-    "props":{
-      "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-    "text": "## EL LÍMITIE EN CADA RODADA LO PONES TÚ, NO EL CALOR\nSi el motor de tu moto se calienta, deja de funcionar bien y hasta se apaga. Por eso, equipamos la V-Strom 250 ABS con el Sistema de Enfriamiento por Líquido –más eficiente que enfriarla con aire–, para asegurarte de que la temperatura va a estar bajo control y tú sigas viviendo la mejor experiencia de tu vida todos los días.",
-    "blockClass": "descripcionDeFoto"
-    }
-  },
+  
   "video#videoGif": {
     "props": {
       "width": "100%",
