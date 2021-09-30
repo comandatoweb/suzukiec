@@ -20,10 +20,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/motos?_q=motos&map=ft",
         "noFollow": false,
-        "tagTitle": "MOTOCICLETAS",
-        "text": "MOTOCICLETAS"
+        "tagTitle": "MOTOS",
+        "text": "MOTOS"
       }
     },
     "blocks": [
@@ -57,10 +57,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/motos?_q=motos&map=ft",
         "noFollow": false,
-        "tagTitle": "MOTOCICLETAS",
-        "text": "MOTOCICLETAS"
+        "tagTitle": "MOTOS",
+        "text": "MOTOS"
       }
     },
     "blocks": [
@@ -95,7 +95,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/motor?_q=motor&map=ft",
         "noFollow": false,
        "tagTitle": "FUERA DE BORDA",
         "text": "FUERA DE BORDA"
@@ -147,7 +147,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "https://site.comandato.com/suzukiTienda/index.html",
         "noFollow": false,
         "tagTitle": "TIENDA SUZUKI",
         "text": "TIENDA SUZUKI"
@@ -164,11 +164,13 @@
         "type": "internal",
         "href": "https://creditodirecto.comandato.com/?moto=1",
         "noFollow": false,
-        "tagTitle": "CREDITO DIRECTO",
-        "text": "CRÉDITO DIRECTO"
+        "tagTitle": "SOLICITA TU CRÉDITO DIRECTO",
+        "text": "SOLICITA TU CRÉDITO DIRECTO"
+        
       },
       "iconProps" :{
         "size" : 10
+
         
       }
     }

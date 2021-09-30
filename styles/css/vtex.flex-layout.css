@@ -898,10 +898,35 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 :global(.vtex-search-result-3-x-galleryTitle--layout),
 :global(.vtex-flex-layout-0-x-flexCol--filterCol),
 :global(.vtex-search-result-3-x-galleryLayoutSwitcher),
-:global(.vtex-search-result-3-x-totalProducts--layout)
+:global(.vtex-search-result-3-x-totalProducts--layout),
+:global(.vtex-order-placed-2-x-packageShippingEstimate),
+:global(.vtex-order-placed-2-x-orderSoldBy),
+:global(.vtex-order-placed-2-x-noticesList),
+:global(.vtex-order-placed-2-x-totalListItem),
+:global(.vtex-store-components-3-x-container),
+:global(.vtex-order-placed-2-x-confirmationTitle)
 
 {
   display: none;
+}
+
+:global(.vtex-order-placed-2-x-confirmationIconWrapper)::after
+ {
+  font-family: 'Poppins',sans-serif;
+    content: "Gracias por tu pedido";
+    line-height:22px;
+    display: block;
+    margin: 10px 0;
+    font-size: xx-large;
+    visibility: visible;
+    color: black;
+    font-weight: 800;
+ }
+
+:global(.vtex-order-placed-2-x-totalListItemValue)
+
+{
+  font-size: 1.25rem;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--HayunaSuzuki)
@@ -1000,5 +1025,6 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 {
   padding-top: 5px;
 }
+
 }
 

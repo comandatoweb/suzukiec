@@ -182,19 +182,23 @@
   "list-context.image-list#suscribete": {
     "children": ["slider-layout#suscribete"],
     "props": {
-      "height": 720,
+      "height": 628, 
       "images": [
         {
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/suscribete-f-e.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/suscribete-f-m.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/repuestos-suzuki-home.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/repuestos-suzuki-home.jpg"
         }
       ]
     }
   }, 
+
   "list-context.image-list#solicitudCredito": {
     "children": ["slider-layout#suscribete"],
     "props": {
+      
       "height": 720,
+      
+  
       "images": [
         {
           "image": "https://suzukiecuador.vteximg.com.br/arquivos/solicita_credito_web_11.png",
@@ -205,11 +209,13 @@
   },
   "slider-layout#suscribete": {
     "props": {
+      
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,
         "phone": 1
       },
+      
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"

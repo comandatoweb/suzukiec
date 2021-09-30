@@ -4,7 +4,7 @@
       "iframe#talleres-suzuki"  
     ]
   },
-  
+ 
   "iframe#talleres-suzuki": {
     "props": {
       "width": "100%",
@@ -16,5 +16,5 @@
       "allowtransparency":"true", 
       "src": "https://site.comandato.com/talleres-suzuki/index.html"
     }
-  }
+  } 
 }

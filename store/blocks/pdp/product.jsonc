@@ -2,8 +2,51 @@
   //==============================================================================================================================
   //*********************************************PARTE DEL VIDEO********************************************************************//
   //==============================================================================================================================
-  //MOTO SUZUKI V STROM 1050
-  "condition-layout.product#conditionForTheVideoCategoryDoublePurpose": 
+
+  //CATEGORIA CROSS
+  // Moto Suzuki DR-Z50  | 3 velocidades
+  "condition-layout.product#conditionForTheVideoCategoryeCross":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049492" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#containforTheVideoCross"
+     
+    }
+  },
+  "flex-layout.row#containforTheVideoCross":{
+    "props":{
+      "blockClass": "containforTheVideoCross",
+      
+      "fullWidth" : true
+    },
+    "children":["video#VideoCross"]
+  },
+  "video#VideoCross": {
+   "props": {
+     "width": "100%",
+     "height": "540px",
+    
+     "loop": true,
+     "autoPlay": true,
+     "muted": false,
+     "type":"mp4",
+     "src": "https://site.comandato.com/video/Cross.mp4",
+     "blockClass": "VideoCross"
+   }
+ },
+
+
+  //CATEGORIA DOBLE PROPOSITO
+  //MOTO SUZUKI V STROM 1050 - V STROM 250 - V STROM 650
+  "condition-layout.product#conditionForTheVideoCategoryDoublePurposeVSTROM250": 
   {
     "props": {
       "conditions": [
@@ -11,6 +54,38 @@
           "subject": "productId",
           "arguments": {
             "id": "2048798" // v - strom dl250 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#containforTheVideoDoublePurpose"
+     
+    }
+  },
+  "condition-layout.product#conditionForTheVideoCategoryDoublePurposeVSTROM650": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049038" // v - strom 650
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#containforTheVideoDoublePurpose"
+     
+    }
+  },
+  "condition-layout.product#conditionForTheVideoCategoryDoublePurposeVSTROM1050": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2054006" // v - strom 1050
           }
         }
       ],
@@ -40,6 +115,48 @@
      "blockClass": "VideoDoublePurpose"
    }
  },
+ //CATEGORIA UTILITARIA
+//GD 115 EVOLUTION
+"condition-layout.product#conditionForTheVideoCategoryeUtilitaria": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054549" // v - strom dl250 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containforTheVideoUtilitaria"
+   
+  }
+},
+"flex-layout.row#containforTheVideoUtilitaria":{
+  "props":{
+    "blockClass": "containforTheVideoUtilitaria",
+    
+    "fullWidth" : true
+  },
+  "children":["video#VideoUtilitaria"]
+},
+"video#VideoUtilitaria": {
+ "props": {
+   "width": "100%",
+   "height": "540px",
+  
+   "loop": true,
+   "autoPlay": true,
+   "muted": false,
+   "type":"mp4",
+   "src": "https://site.comandato.com/video/Utilitaria.mp4",
+   "blockClass": "VideoUtiliraria"
+ }
+},
+
+
+//CATEGORIA DEPORTIVA
  //MOTO KATANA
  "condition-layout.product#conditionForTheVideoCategorySporty": 
  {
@@ -78,6 +195,7 @@
     "blockClass": "VideoSporty"
   }
 },
+
  //==============================================================================================================================
  //*********************************************FIN PARTE DEL VIDEO********************************************************************//
  //==============================================================================================================================
@@ -86,6 +204,58 @@
  //==============================================================================================================================
  //*********************************************TITULO PARA EL VIDEO********************************************************************//
  //==============================================================================================================================
+ //Moto Suzuki DR-Z50  | 3 velocidades
+ "condition-layout.product#conditionForSubittleMotoDR-Z50": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049492" // v - strom dl250 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#subTitleForTheMotoDR-Z50"
+    
+   }
+ },
+ "flex-layout.row#subTitleForTheMotoDR-Z50":{
+  "props":{
+    "blockClass": "subTitleForTheMoto",
+    
+    "fullWidth" : true
+  },
+  "children":["flex-layout.col#columnForTheSubTitleMotoDR-Z50"]
+},
+"flex-layout.col#columnForTheSubTitleMotoDR-Z50":{
+  "props":{
+    "blockClass": "columnForTheSubTitleMoto"
+   
+  },
+  "children":["rich-text#subtittleMotoDR-Z50","rich-text#subtittleMoto2DR-Z50"]
+  //"children" :["condition-layout.product#conditionForTheSubtittleCategory","condition-layout.product#conditionForTheDescriptionCategory"]
+
+},
+"rich-text#subtittleMotoDR-Z50":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## CROSS",
+  "blockClass": "subtittleMoto"
+  }
+},
+"rich-text#subtittleMoto2DR-Z50":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "### SE EL #1 EN TODAS LAS CARRERAS",
+  "blockClass": "subtittleMoto2"
+  }
+},
+
+
 //VSTROMDL250
  "condition-layout.product#conditionForSubittleMotoVSTROMDL250": 
  {
@@ -190,6 +360,166 @@
   }
 },
 
+//VSTROM 650
+"condition-layout.product#conditionForSubittleMotoVSTROM650": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049038" // vstrom650
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#subTitleForTheMotoVstrom650"
+   
+  }
+},
+
+"flex-layout.row#subTitleForTheMotoVstrom650":{
+ "props":{
+   "blockClass": "subTitleForTheMoto",
+   
+   "fullWidth" : true
+ },
+ "children":["flex-layout.col#columnForTheSubTitleMotoVstrom650"]
+},
+"flex-layout.col#columnForTheSubTitleMotoVstrom650":{
+ "props":{
+   "blockClass": "columnForTheSubTitleMoto"
+  
+ },
+ "children":["rich-text#subtittleMotoVstrom650","rich-text#subtittleMoto2Vstrom650"]
+ //"children" :["condition-layout.product#conditionForTheSubtittleCategory","condition-layout.product#conditionForTheDescriptionCategory"]
+
+},
+
+
+"rich-text#subtittleMotoVstrom650":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "## DEPORTIVA",
+ "blockClass": "subtittleMoto"
+ }
+},
+"rich-text#subtittleMoto2Vstrom650":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "### EL CAMINO ESTA EN TUS MANOS",
+ "blockClass": "subtittleMoto2"
+ }
+},
+
+//VSTROM 1050
+"condition-layout.product#conditionForSubittleMotoVSTROM1050": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054006" // vstrom650
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#subTitleForTheMotoVstrom1050"
+   
+  }
+},
+
+"flex-layout.row#subTitleForTheMotoVstrom1050":{
+ "props":{
+   "blockClass": "subTitleForTheMoto",
+   
+   "fullWidth" : true
+ },
+ "children":["flex-layout.col#columnForTheSubTitleMotoVstrom1050"]
+},
+"flex-layout.col#columnForTheSubTitleMotoVstrom1050":{
+ "props":{
+   "blockClass": "columnForTheSubTitleMoto"
+  
+ },
+ "children":["rich-text#subtittleMotoVstrom1050","rich-text#subtittleMoto2Vstrom1050"]
+ //"children" :["condition-layout.product#conditionForTheSubtittleCategory","condition-layout.product#conditionForTheDescriptionCategory"]
+
+},
+
+
+"rich-text#subtittleMotoVstrom1050":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "## DEPORTIVA",
+ "blockClass": "subtittleMoto"
+ }
+},
+"rich-text#subtittleMoto2Vstrom1050":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "### INNOVACIÓN QUE MARCA UN LEGADO",
+ "blockClass": "subtittleMoto2"
+ }
+},
+//GD 115 EVOLUTION
+"condition-layout.product#conditionForSubittleMotoGD115Evolution": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054549" // gd 115 evolution
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#subTitleForTheMotoGD115Evolution"
+   
+  }
+},
+
+"flex-layout.row#subTitleForTheMotoGD115Evolution":{
+ "props":{
+   "blockClass": "subTitleForTheMoto",
+   
+   "fullWidth" : true
+ },
+ "children":["flex-layout.col#columnForTheSubTitleMotoGD115Evolution"]
+},
+"flex-layout.col#columnForTheSubTitleMotoGD115Evolution":{
+ "props":{
+   "blockClass": "columnForTheSubTitleMoto"
+  
+ },
+ "children":["rich-text#subtittleMotoGD115Evolution","rich-text#subtittleMoto2GD115Evolution"]
+ //"children" :["condition-layout.product#conditionForTheSubtittleCategory","condition-layout.product#conditionForTheDescriptionCategory"]
+
+},
+
+
+"rich-text#subtittleMotoGD115Evolution":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "## UTILITARIA",
+ "blockClass": "subtittleMoto"
+ }
+},
+"rich-text#subtittleMoto2GD115Evolution":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "### LA MEJOR MANERA DE MOVILIZARTE",
+ "blockClass": "subtittleMoto2"
+ }
+},
 
 //==============================================================================================================================
  //*********************************************FIN DE TITULO PARA VIDEO********************************************************************//
@@ -281,7 +611,13 @@
    "rowGap": 0,
    "hasMoreThanOne" : true
    },
-   "children":["image#motor","condition-layout.product#conditionFirstTextvstrom","condition-layout.product#conditionFirstTextKatana"]
+   "children":["image#motor",
+    "condition-layout.product#conditionFirstTextDR-Z50",
+    "condition-layout.product#conditionFirstTextGD115Evolution",
+    "condition-layout.product#conditionFirstTextvstrom",
+    "condition-layout.product#conditionFirstTextKatana",
+    "condition-layout.product#conditionFirstTextVstrom650",
+    "condition-layout.product#conditionFirstTextVstrom1050"]
 
   
  },
@@ -294,7 +630,64 @@
   }
  
 },
-  //CONDICIONES
+//PRIMERA CONDICION Moto Suzuki DR-Z50  | 3 velocidades
+"condition-layout.product#conditionFirstTextDR-Z50": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049492" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextDR-Z50"
+   
+  }
+},
+
+"rich-text#firstTextDR-Z50":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**49 CC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+
+  //PRIMERA CONDICION TEXTO GD 115 EVOLUTION
+  "condition-layout.product#conditionFirstTextGD115Evolution": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2054549" // v - sgd 115 evolution
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "rich-text#firstTextGD115Evolution"
+     
+    }
+  },
+ 
+  "rich-text#firstTextGD115Evolution":{
+   "props":{
+     "textAlignment": "CENTER",
+   "textPosition": "CENTER",
+   "text": "**113 CC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+   "textColor": "c-on-emphasis",
+   "font": "t-heading-5",
+   "blockClass": "mensaje1"
+   }
+ },
+  //PRIMERA CONDICION TEXTO V STROM 250
  "condition-layout.product#conditionFirstTextvstrom": 
  {
    "props": {
@@ -311,6 +704,7 @@
     
    }
  },
+
  "rich-text#firstTextVstrom":{
   "props":{
     "textAlignment": "CENTER",
@@ -321,6 +715,7 @@
   "blockClass": "mensaje1"
   }
 },
+//PRIMERA CONDICION TEXTO  KATANA
  "condition-layout.product#conditionFirstTextKatana": 
  {
    "props": {
@@ -350,6 +745,66 @@
  },
 
 
+ //PRIMERA CONDICION TEXTO  V STROM 650
+ "condition-layout.product#conditionFirstTextVstrom650": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049038" // v - strom dl250 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then":  "rich-text#firstTextVstrom650"
+    
+   }
+ },
+ 
+ "rich-text#firstTextVstrom650":{
+   "props":{
+     "textAlignment": "CENTER",
+   "textPosition": "CENTER",
+   "text": "**650 CC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+   "textColor": "c-on-emphasis",
+   "font": "t-heading-5",
+   "blockClass": "mensaje1"
+   }
+ },
+
+ //PRIMERA CONDICION TEXTO  V STROM 1050
+ "condition-layout.product#conditionFirstTextVstrom1050": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2054006" // v - stroM 1050
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then":  "rich-text#firstTextVstrom1050"
+    
+   }
+ },
+ 
+ "rich-text#firstTextVstrom1050":{
+   "props":{
+     "textAlignment": "CENTER",
+   "textPosition": "CENTER",
+   "text": "**1037 cc - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+   "textColor": "c-on-emphasis",
+   "font": "t-heading-5",
+   "blockClass": "mensaje1"
+   }
+ },
+
+
+
  //SEGUNDA CONDDICION DE LA IMAGEN CON SU TEXTO
  "flex-layout.row#IMD2":
  {
@@ -368,7 +823,13 @@
    "rowGap": 0,
    "hasMoreThanOne" : true
    },
-   "children":["image#rapido","condition-layout.product#conditionSecondtTextvstrom","condition-layout.product#conditionSecondTextKatana"]
+   "children":["image#rapido",
+    "condition-layout.product#conditionSecondtTextDR-Z50",
+    "condition-layout.product#conditionSecondtTextGD115Evolution",
+    "condition-layout.product#conditionSecondtTextvstrom",
+    "condition-layout.product#conditionSecondTextKatana",
+    "condition-layout.product#conditionSecondTextVstrom650",
+    "condition-layout.product#conditionSecondTextVstrom1050"]
  },
  "image#rapido": {
   "props": {
@@ -378,7 +839,65 @@
     
   }
 },
-//CONDICIONES
+//SEGUNDA  CONDICION TEXTO  GD 115 EVOLUTION
+"condition-layout.product#conditionSecondtTextDR-Z50": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049492" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDR-Z50"
+   
+  }
+},
+"rich-text#SecondTextDR-Z50":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**3 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+
+
+
+//SEGUNDA  CONDICION TEXTO  GD 115 EVOLUTION
+"condition-layout.product#conditionSecondtTextGD115Evolution": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054549" // v - strom dl250 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGD115Evolution"
+   
+  }
+},
+"rich-text#SecondTextGD115Evolution":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**4 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+
+//SEGUNDA  CONDICION TEXTO  V STROM 250
  "condition-layout.product#conditionSecondtTextvstrom": 
  {
    "props": {
@@ -405,6 +924,8 @@
   "blockClass": "mensaje2"
   }
 },
+
+//SEGUNDA  CONDICION TEXTO  KATANA
  "condition-layout.product#conditionSecondTextKatana": 
  {
    "props": {
@@ -432,6 +953,66 @@
   }
 },
 
+
+//SEGUNDA  CONDICION TEXTO  V STROM 650
+"condition-layout.product#conditionSecondTextVstrom650": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049038" // v - strom dl250 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextVstrom650"
+   
+  }
+},
+"rich-text#SecondTextVstrom650":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**6 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+
+//SEGUNDA  CONDICION TEXTO  V STROM 1050
+"condition-layout.product#conditionSecondTextVstrom1050": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054006" // v - strom 1050
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextVstrom1050"
+   
+  }
+},
+"rich-text#SecondTextVstrom1050":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**6 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+
+
+
+
 //TERCERA CONDICION DE LA IMAGEN CON SU TEXTO
 "flex-layout.row#IMD3":
  {
@@ -450,7 +1031,14 @@
    "rowGap": 0,
    "hasMoreThanOne" : true
    },
-   "children":["image#disco_freno","condition-layout.product#conditionThirdtTextvstrom","condition-layout.product#conditionThirdTextKatana"]
+   "children":["image#disco_freno",
+    "condition-layout.product#conditionThirdtTextDRZ50",
+    "condition-layout.product#conditionThirdtTextGD115Evolution",
+    "condition-layout.product#conditionThirdtTextvstrom",
+    "condition-layout.product#conditionThirdTextKatana",
+    "condition-layout.product#conditionThirdTextVstrom650",
+    "condition-layout.product#conditionThirdTextVstrom1050"
+  ]
  },
 
  
@@ -461,6 +1049,64 @@
     "maxWidth" : 80
   }
 },
+
+//TERCERA CONDICION TEXTO DRZ50
+"condition-layout.product#conditionThirdtTextDRZ50": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049492"  
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextDRZ50"
+   
+  }
+},
+"rich-text#ThirdTextDRZ50":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje3"
+  }
+},
+
+//TERCERA CONDICION TEXTO GD 115 EVOLUTION
+"condition-layout.product#conditionThirdtTextGD115Evolution": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054549"  
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGD115Evolution"
+   
+  }
+},
+"rich-text#ThirdTextGD115Evolution":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**tambor / Tambor  - Frenos (Delantero / Trasero)**\nFrenos de confianza \nrodada en cualquier sitio",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje3"
+  }
+},
+
+//TERCERA CONDICION TEXTO V STROM 250
 "condition-layout.product#conditionThirdtTextvstrom": 
 {
   "props": {
@@ -487,6 +1133,7 @@
   "blockClass": "mensaje3"
   }
 },
+//TERCERA CONDICION TEXTO KATANA
 "condition-layout.product#conditionThirdTextKatana": 
 {
   "props": {
@@ -504,6 +1151,63 @@
   }
 },
 "rich-text#ThirdTextKatana":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**ABS / ABS  - Frenos (Delantero / Trasero)**\nFrenos de confianza \nrodada en cualquier sitio",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje3"
+  }
+},
+
+
+//TERCERA CONDICION TEXTO V STROM 650
+"condition-layout.product#conditionThirdTextVstrom650": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049621" // v - strom dl250 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextVstrom650"
+   
+  }
+},
+"rich-text#ThirdTextVstrom650":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**ABS / ABS  - Frenos (Delantero / Trasero)**\nFrenos de confianza \nrodada en cualquier sitio",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje3"
+  }
+},
+
+//TERCERA CONDICION TEXTO V STROM 1050
+"condition-layout.product#conditionThirdTextVstrom1050": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054006" // v - strom 1050
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextVstrom1050"
+   
+  }
+},
+"rich-text#ThirdTextVstrom1050":{
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
@@ -695,7 +1399,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "2049621" // v - strom dl250 
+          "id": "2049621" // v KATANA
         }
       }
     ],
@@ -812,6 +1516,519 @@
   "blockClass": "descripcionDeFoto"
   }
 },
+
+
+
+ //vstrom 650
+ "condition-layout.product#conditionRevistaVstrom650": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049038" // v - strom 650
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then":  "flex-layout.row#contenedorDivParaImagenRevistaVstrom650" 
+    
+   }
+ },
+ "flex-layout.row#contenedorDivParaImagenRevistaVstrom650" : {
+   "props": {
+     "blockClass": "contenedorDivParaImagenRevista",
+     "fullWidth":true,
+     "colGap": 0,
+     "rowGap": 0,
+     "marginTop": 0,
+     "marginBottom": 0,
+     "paddingTop": 0,
+     "paddingBottom": 0
+   },
+   "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaVstrom650"]
+ },
+ 
+ 
+ "flex-layout.col#contenedorColumnaDivParaImagenRevistaVstrom650" : {
+   "props": {
+     "blockClass": "contenedorColumnaDivParaImagenRevista",
+     "preventVerticalStretch": true,
+     "rowGap": 0,
+     "hasMoreThanOne" : true
+   },
+   "children":["flex-layout.row#divParaImagenRevistaVstrom650","flex-layout.row#divParaImagenRevista2Vstrom650","flex-layout.row#divParaImagenRevista3Vstrom650"]
+ },
+ 
+ "flex-layout.row#divParaImagenRevistaVstrom650":{
+   "props": {
+     "blockClass": "divParaImagenRevista",
+     "colGap": 0,
+     "rowGap": 0,
+     "marginTop": 0,
+     "marginBottom": 0,
+     "paddingTop": 0,
+     "paddingBottom": 0
+   },
+   "children":["image#motoVstrom650","rich-text#descripcionDeFoto1Vstrom650"]
+ },
+ "image#motoVstrom650": {
+   "props": {
+     "blockClass": "motovlStrom",
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/VLSTROM6501.jpg"
+     
+   }
+  
+ },
+ "rich-text#descripcionDeFoto1Vstrom650":{
+   "props":{
+     "textAlignment": "CENTER",
+   "textPosition": "CENTER",
+   "text": "## XTREMA EL CONTROL. EN CUALQUIER TERRENO\nNo habrá camino que no puedas dominar con V-Strom 650XT, ya que puedes elegir entre 2 modos de conducción o apagarlo para así conseguir un manejo más personalizado. Desde condiciones de camino ideales hasta condiciones de humedad o poca adherencia.",
+   "blockClass": "descripcionDeFoto"
+   }
+ },
+ "flex-layout.row#divParaImagenRevista2Vstrom650":{
+   "props": {
+     "blockClass": "divParaImagenRevista2",
+     "colGap": 0,
+     "rowGap": 0,
+     "marginTop": 0,
+     "marginBottom": 0,
+     "paddingTop": 0,
+     "paddingBottom": 0
+   },
+   "children":["rich-text#descripcionDeFoto2Vstrom650","image#arranqueVstrom650"]
+ },
+ "image#arranqueVstrom650": {
+   "props": {
+     "blockClass": "motovlStrom2",
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/VLSTROM6502.jpg"
+   }
+  
+ },
+ "rich-text#descripcionDeFoto2Vstrom650":{
+   "props":{
+     "textAlignment": "CENTER",
+   "textPosition": "CENTER",
+   "text": "## ADRENALINA Y EMOCIÓN SIEMPRE CON SEGURIDAD\nExpande tus horizontes e impón tu dominio en cualquier terreno con total confianza y mayor seguridad gracias a su Sistema de Frenos ABS que evita que se bloquee la llanta al presionar bruscamente el freno en una situación de frenado repentino.",
+   "blockClass": "descripcionDeFoto"
+   }
+ },
+ "flex-layout.row#divParaImagenRevista3Vstrom650":{
+   "props": {
+     "blockClass": "divParaImagenRevista3",
+     "colGap": 0,
+     "rowGap": 0,
+     "marginTop": 0,
+     "marginBottom": 0,
+     "paddingTop": 0,
+     "paddingBottom": 0
+   },
+   "children":["image#motorVstrom650","rich-text#descripcionDeFoto3Vstrom650"]
+ },
+ "image#motorVstrom650": {
+   "props": {
+     "blockClass": "motovlStrom3",
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/VLSTROM6503.png"
+    
+   }
+  
+ },
+ "rich-text#descripcionDeFoto3Vstrom650":{
+   "props":{
+     "textAlignment": "CENTER",
+   "textPosition": "CENTER",
+   "text": "## UN DESEMPEÑO ENVIDIABLE EN CUALQUIER VELOCIDAD\nCon el Asistente de Bajas Revoluciones lograrás que la emoción no termine, pues incluso en revoluciones bajas el motor es capaz de mantenerse encendido. No te preocuparás por la marcha puesta cuando viajas por calles o atraviesas ríos. Con V-Strom 650XT solo disfruta el viaje.",
+   "blockClass": "descripcionDeFoto"
+   }
+ },
+
+
+
+  //vstrom 1050xt
+  "condition-layout.product#conditionRevistaVstrom1050": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2054006" // v - strom 1050
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "flex-layout.row#contenedorDivParaImagenRevistaVstrom1050" 
+     
+    }
+  },
+  "flex-layout.row#contenedorDivParaImagenRevistaVstrom1050" : {
+    "props": {
+      "blockClass": "contenedorDivParaImagenRevista",
+      "fullWidth":true,
+      "colGap": 0,
+      "rowGap": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaVstrom1050"]
+  },
+  
+  
+  "flex-layout.col#contenedorColumnaDivParaImagenRevistaVstrom1050" : {
+    "props": {
+      "blockClass": "contenedorColumnaDivParaImagenRevista",
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "hasMoreThanOne" : true
+    },
+    "children":["flex-layout.row#divParaImagenRevistaVstrom1050","flex-layout.row#divParaImagenRevista2Vstrom1050","flex-layout.row#divParaImagenRevista3Vstrom1050"]
+  },
+  
+  "flex-layout.row#divParaImagenRevistaVstrom1050":{
+    "props": {
+      "blockClass": "divParaImagenRevista",
+      "colGap": 0,
+      "rowGap": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    "children":["image#motoVstrom1050","rich-text#descripcionDeFoto1Vstrom1050"]
+  },
+  "image#motoVstrom1050": {
+    "props": {
+      "blockClass": "motovlStrom",
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT1.jpg"
+      
+    }
+   
+  },
+  "rich-text#descripcionDeFoto1Vstrom1050":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "## TOMA EL CONTROL EN LAS PENDIENTES Y LLEGA A LO MÁS ALTO DE LA AVENTURA\nSabemos que quieres explorar libremente. Este sistema aplica el freno trasero 30 segundos para evitar que la moto retroceda en pendientes ascendentes  y lo suelta suavemente para subir sin problemas. También impide que se levante la llanta trasera cuando vas cuesta abajo administrando la presión de frenado. Así podrás concentrarte en lograr subidas y bajadas suaves y controladas",
+    "blockClass": "descripcionDeFoto"
+    }
+   
+  },
+  "flex-layout.row#divParaImagenRevista2Vstrom1050":{
+    "props": {
+      "blockClass": "divParaImagenRevista2",
+      "colGap": 0,
+      "rowGap": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    "children":["rich-text#descripcionDeFoto2Vstrom1050","image#arranqueVstrom1050"]
+  },
+  "image#arranqueVstrom1050": {
+    "props": {
+      "blockClass": "motovlStrom2",
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT2.jpg"
+    }
+   
+  },
+  "rich-text#descripcionDeFoto2Vstrom1050":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "## COMODIDAD PARA LARGOS VIAJES\nSistema crucero que puede establecer hasta una velocidad de 160km, se puede activar desde el manillar de forma rápida",
+    "blockClass": "descripcionDeFoto"
+    }
+  },
+  "flex-layout.row#divParaImagenRevista3Vstrom1050":{
+    "props": {
+      "blockClass": "divParaImagenRevista3",
+      "colGap": 0,
+      "rowGap": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    "children":["image#motorVstrom1050","rich-text#descripcionDeFoto3Vstrom1050"]
+  },
+  "image#motorVstrom1050": {
+    "props": {
+      "blockClass": "motovlStrom3",
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT3.jpg"
+     
+    }
+   
+  },
+  "rich-text#descripcionDeFoto3Vstrom1050":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "## TECNOLOGÍA INSUPERABLE\nCON UNIDADES DE MEDIDA INERCIAL ANALIZA A CADA INSTANTE INCLINACION, VELOCIDAD Y DERRAPE PARA MAYOR ESTABILIDAD DE FRENADO EN LINEA RECTA, CURVA, O FRENADO DE EMERGENCIA, ADEMAS APLICA FRENADO COMBINADO AL NOTAR QUE LA LLANTA DELANTERA A ALCANZADO SU LIMITE DE FRENADO",
+    "blockClass": "descripcionDeFoto"
+    }
+  },
+
+
+  //GD 115 EVOLUTION
+  "condition-layout.product#conditionRevistaGD115Evolution": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2054549" 
+          }
+        }
+      ],
+      "toBe" : true,
+      "Then":  "flex-layout.row#contenedorDivParaImagenRevistaGD115Evolution" 
+      
+    }
+  },
+  "flex-layout.row#contenedorDivParaImagenRevistaGD115Evolution" : {
+    "props": {
+      "blockClass": "contenedorDivParaImagenRevista",
+      "fullWidth":true,
+      "colGap": 0,
+      "rowGap": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaGD115Evolution"]
+  },
+  
+  
+  "flex-layout.col#contenedorColumnaDivParaImagenRevistaGD115Evolution" : {
+    "props": {
+      "blockClass": "contenedorColumnaDivParaImagenRevista",
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "hasMoreThanOne" : true
+    },
+    "children":["flex-layout.row#divParaImagenRevistaGD115Evolution","flex-layout.row#divParaImagenRevista2GD115Evolution","flex-layout.row#divParaImagenRevista3GD115Evolution"]
+  },
+  
+  "flex-layout.row#divParaImagenRevistaGD115Evolution":{
+    "props": {
+      "blockClass": "divParaImagenRevista",
+      "colGap": 0,
+      "rowGap": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    "children":["image#motoGD115Evolution","rich-text#descripcionDeFoto1GD115Evolution"]
+  },
+  "image#motoGD115Evolution": {
+    "props": {
+      "blockClass": "motovlStrom",
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT1.jpg"
+      
+    }
+    
+  },
+  "rich-text#descripcionDeFoto1GD115Evolution":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "## GD EVOLUTION\nLo que necesitas para tu día a día y para tu trabajo",
+    "blockClass": "descripcionDeFoto"
+    }
+    
+  },
+  "flex-layout.row#divParaImagenRevista2GD115Evolution":{
+    "props": {
+      "blockClass": "divParaImagenRevista2",
+      "colGap": 0,
+      "rowGap": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    "children":["rich-text#descripcionDeFoto2GD115Evolution","image#arranqueGD115Evolution"]
+  },
+  "image#arranqueGD115Evolution": {
+    "props": {
+      "blockClass": "motovlStrom2",
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT2.jpg"
+    }
+    
+  },
+  "rich-text#descripcionDeFoto2GD115Evolution":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "## LIGERA  Y COMPACTA\nFácil de maniobrar en la ciudad, de tamaño compacto y peso reducido, la puedes manejar con 0 preocupaciones",
+    "blockClass": "descripcionDeFoto"
+    }
+  },
+  "flex-layout.row#divParaImagenRevista3GD115Evolution":{
+    "props": {
+      "blockClass": "divParaImagenRevista3",
+      "colGap": 0,
+      "rowGap": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0
+    },
+    "children":["image#motorGD115Evolution","rich-text#descripcionDeFoto3GD115Evolution"]
+  },
+  "image#motorGD115Evolution": {
+    "props": {
+      "blockClass": "motovlStrom3",
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT3.jpg"
+      
+    }
+    
+  },
+  "rich-text#descripcionDeFoto3GD115Evolution":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "## ENCENDIDO ELÉCTRICO\nDía a día Suzuki va innovando en el mercado, ahora la legendaria ax4 viene renovada con un sistema de encendido para mayor comodidad",
+    "blockClass": "descripcionDeFoto"
+    }
+  },
+
+
+   //DR Z50
+   "condition-layout.product#conditionRevistaDRZ50": 
+   {
+     "props": {
+       "conditions": [
+         {
+           "subject": "productId",
+           "arguments": {
+             "id": "2049492" 
+           }
+         }
+       ],
+       "toBe" : true,
+       "Then":  "flex-layout.row#contenedorDivParaImagenRevistaDRZ50" 
+       
+     }
+   },
+   "flex-layout.row#contenedorDivParaImagenRevistaDRZ50" : {
+     "props": {
+       "blockClass": "contenedorDivParaImagenRevista",
+       "fullWidth":true,
+       "colGap": 0,
+       "rowGap": 0,
+       "marginTop": 0,
+       "marginBottom": 0,
+       "paddingTop": 0,
+       "paddingBottom": 0
+     },
+     "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaDRZ50"]
+   },
+   
+   
+   "flex-layout.col#contenedorColumnaDivParaImagenRevistaDRZ50" : {
+     "props": {
+       "blockClass": "contenedorColumnaDivParaImagenRevista",
+       "preventVerticalStretch": true,
+       "rowGap": 0,
+       "hasMoreThanOne" : true
+     },
+     "children":["flex-layout.row#divParaImagenRevistaDRZ50","flex-layout.row#divParaImagenRevista2DRZ50","flex-layout.row#divParaImagenRevista3DRZ50"]
+   },
+   
+   "flex-layout.row#divParaImagenRevistaDRZ50":{
+     "props": {
+       "blockClass": "divParaImagenRevista",
+       "colGap": 0,
+       "rowGap": 0,
+       "marginTop": 0,
+       "marginBottom": 0,
+       "paddingTop": 0,
+       "paddingBottom": 0
+     },
+     "children":["image#motoDRZ50","rich-text#descripcionDeFoto1DRZ50"]
+   },
+   "image#motoDRZ50": {
+     "props": {
+       "blockClass": "motovlStrom",
+       "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT1.jpg"
+       
+     }
+     
+   },
+   "rich-text#descripcionDeFoto1DRZ50":{
+     "props":{
+       "textAlignment": "CENTER",
+     "textPosition": "CENTER",
+     "text": "## DR-Z250\nAcelera, curva y frena de la mejor manera en las pistas",
+     "blockClass": "descripcionDeFoto"
+     }
+     
+   },
+   "flex-layout.row#divParaImagenRevista2DRZ50":{
+     "props": {
+       "blockClass": "divParaImagenRevista2",
+       "colGap": 0,
+       "rowGap": 0,
+       "marginTop": 0,
+       "marginBottom": 0,
+       "paddingTop": 0,
+       "paddingBottom": 0
+     },
+     "children":["rich-text#descripcionDeFoto2DRZ50","image#arranqueDRZ50"]
+   },
+   "image#arranqueDRZ50": {
+     "props": {
+       "blockClass": "motovlStrom2",
+       "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT2.jpg"
+     }
+     
+   },
+   "rich-text#descripcionDeFoto2DRZ50":{
+     "props":{
+       "textAlignment": "CENTER",
+     "textPosition": "CENTER",
+     "text": "## MOTOR POTENTE Y DISEÑO DE CHASIS INNOVADOR\nLa RM250 permite un manejo espectacular en pista gracias a su potente motor 250 y su desarrollo en el chasis, ultra liviano.",
+     "blockClass": "descripcionDeFoto"
+     }
+   },
+   "flex-layout.row#divParaImagenRevista3DRZ50":{
+     "props": {
+       "blockClass": "divParaImagenRevista3",
+       "colGap": 0,
+       "rowGap": 0,
+       "marginTop": 0,
+       "marginBottom": 0,
+       "paddingTop": 0,
+       "paddingBottom": 0
+     },
+     "children":["image#motorDRZ50","rich-text#descripcionDeFoto3DRZ50"]
+   },
+   "image#motorDRZ50": {
+     "props": {
+       "blockClass": "motovlStrom3",
+       "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT3.jpg"
+       
+     }
+     
+   },
+   "rich-text#descripcionDeFoto3DRZ50":{
+     "props":{
+       "textAlignment": "CENTER",
+     "textPosition": "CENTER",
+     "text": "## SISTEMA SHAC\nSal primero en todas las partidas, con el sistema SHAC vas a lograr un mejor arranque de carrera",
+     "blockClass": "descripcionDeFoto"
+     }
+   },
  //==============================================================================================================================
  //*********************************************FIN DESCRIPCION DE LA MOTO EN FORMA DE REVISTA*******************************************//
  //==============================================================================================================================
@@ -954,6 +2171,58 @@
       
     }
   },
+
+  //V STROM 650 
+  "condition-layout.product#conditionForTheSliderVStrom650": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049038" // v - strom dl250 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "list-context.image-list#sliderVStrom650"
+     
+    }
+  },
+  "list-context.image-list#sliderVStrom650": {
+    "children": ["slider-layout#sliderVStrom650items"],
+    "props": {
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-dl650-collage.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-dl650-collage.jpg"
+        },
+        {
+          "width" : "100%",
+         
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/PRUEBASUZUKI.png",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/PRUEBASUZUKI.png"
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#sliderVStrom650items": {
+    "props": {
+      "blockClass": "sliderVLSitems",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
  
  
   //==============================================================================================================================
@@ -1051,7 +2320,11 @@
     "rowGap": 0,
     "hasMoreThanOne" : true
   },
-  "children":["image#typeMotor", "condition-layout.product#conditionFirstTextvstromFichaTecnicaMotor", "condition-layout.product#conditionFirstTextKatanaFichaTecnicaMotor"]
+  "children":["image#typeMotor", 
+    "condition-layout.product#conditionFirstTextVstrom1050FichaTecnicaMotor",
+    "condition-layout.product#conditionFirstTextvstromFichaTecnicaMotor", 
+    "condition-layout.product#conditionFirstTextKatanaFichaTecnicaMotor",
+    "condition-layout.product#conditionFirstTextVstrom650FichaTecnicaMotor"]
 },
 "image#typeMotor": {
   "props": {
@@ -1060,6 +2333,31 @@
     "maxHeight":100,
     "maxWidth" : 100
   } 
+},
+
+//V STROM DL 1050 XT
+"condition-layout.product#conditionFirstTextVstrom1050FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054006" // v - strom dl250 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextVstrom1050FichaTecnicaMotor"
+  }
+},
+"rich-text#TextVstrom1050FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
 },
 
 //V STROM DL 250
@@ -1083,7 +2381,7 @@
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
-  "blockClass": "TextVstromFichaTecnicaMotor"
+  "blockClass": "TextFichaTecnicaMotor"
   }
 },
 
@@ -1108,7 +2406,31 @@
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
-  "blockClass": "TextKatanaFichaTecnicaMotor"
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//V STROM 650
+"condition-layout.product#conditionFirstTextVstrom650FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049038" // v - strom dl250 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextVstrom650FichaTecnicaMotor"
+  }
+},
+"rich-text#TextVstrom650FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
   }
 },
 
@@ -1128,7 +2450,11 @@
     "rowGap": 0,
     "hasMoreThanOne" : true
   },
-  "children":["image#displacement", "condition-layout.product#conditionSecondTextvstromFichaTecnicaMotor", "condition-layout.product#conditionnSecondTextKatanaFichaTecnicaMotor"]
+  "children":["image#displacement", 
+    "condition-layout.product#conditionSecondTextvstrom1050FichaTecnicaMotor",
+    "condition-layout.product#conditionSecondTextvstromFichaTecnicaMotor", 
+    "condition-layout.product#conditionnSecondTextKatanaFichaTecnicaMotor",
+  "condition-layout.product#conditionnSecondTextVstrom650FichaTecnicaMotor"]
 },
 
 "image#displacement": {
@@ -1138,6 +2464,30 @@
     "maxHeight":100,
     "maxWidth" : 100
   } 
+},
+//VSTROM 1050
+"condition-layout.product#conditionSecondTextvstrom1050FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054006" // v - strom dl250 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextVstrom1050FichaTecnicaMotor"
+  }
+},
+"rich-text#SecondTextVstrom1050FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**DESPLAZAMIENTO** \n1037 cm3",
+  "blockClass": "SecondTextVstromFichaTecnicaMotor"
+  }
 },
 
 //VSTROM DL250
@@ -1188,6 +2538,30 @@
   "blockClass": "SecondTextKatanaFichaTecnicaMotor"
   }
 },
+//V STROM 650
+"condition-layout.product#conditionnSecondTextVstrom650FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049038" // v - strom dl250 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextVstrom650FichaTecnicaMotor"
+  }
+},
+"rich-text#SecondTextVstrom650FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**DESPLAZAMIENTO** \n645 cm3",
+  "blockClass": "SecondTextKatanaFichaTecnicaMotor"
+  }
+},
 
 
 //BLOQUE 3
@@ -1205,7 +2579,11 @@
     "rowGap": 0,
     "hasMoreThanOne" : true
   },
-  "children":["image#startSystem", "condition-layout.product#conditionThirdTextvstromFichaTecnicaMotor", "condition-layout.product#conditionnThirdTextKatanaFichaTecnicaMotor"]
+  "children":["image#startSystem", 
+    "condition-layout.product#conditionThirdTextvstrom1050FichaTecnicaMotor",
+    "condition-layout.product#conditionThirdTextvstromFichaTecnicaMotor", 
+    "condition-layout.product#conditionnThirdTextKatanaFichaTecnicaMotor",
+    "condition-layout.product#conditionnThirdTextVstrom650FichaTecnicaMotor"]
 },
 
 "image#startSystem": {
@@ -1217,6 +2595,31 @@
   } 
 },
 
+
+//VSTROM 1050
+"condition-layout.product#conditionThirdTextvstrom1050FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054006" // v - strom 1050
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextVstrom1050FichaTecnicaMotor"
+  }
+},
+"rich-text#ThirdTextVstrom1050FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**SISTEMA DE ARRANQUE** \nElectrico",
+  "blockClass": "descriptionStartSystem"
+  }
+},
 //VSTROM DL250
 "condition-layout.product#conditionThirdTextvstromFichaTecnicaMotor": 
 {
@@ -1267,6 +2670,33 @@
   "blockClass": "descriptionStartSystem"
   }
 },
+
+//V STROM 650
+"condition-layout.product#conditionnThirdTextVstrom650FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049038" // KATANA
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextVstrom650FichaTecnicaMotor"
+  }
+},
+
+"rich-text#ThirdTextVstrom650FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**SISTEMA DE ARRANQUE** \nElectrico",
+  "blockClass": "descriptionStartSystem"
+  }
+},
+
 
 
  
@@ -1337,7 +2767,11 @@
       "rowGap": 0,
       "hasMoreThanOne" : true
     },
-    "children":["image#frontlight", "condition-layout.product#conditionFirstTextvstromFichaTecnicaChasis", "condition-layout.product#conditionFirstTextKatanaFichaTecnicaChasis"]
+    "children":["image#frontlight", 
+      "condition-layout.product#conditionFirstTextvstrom1050FichaTecnicaChasis",
+      "condition-layout.product#conditionFirstTextvstromFichaTecnicaChasis",
+       "condition-layout.product#conditionFirstTextKatanaFichaTecnicaChasis",
+       "condition-layout.product#conditionFirstTextVstrom650aFichaTecnicaChasis"]
   },
   "image#frontlight": {
     "props": {
@@ -1347,6 +2781,31 @@
       "maxWidth" : 100
     } 
   },
+
+    //VSTROM 1050
+    "condition-layout.product#conditionFirstTextvstrom1050FichaTecnicaChasis": 
+    {
+      "props": {
+        "conditions": [
+          {
+            "subject": "productId",
+            "arguments": {
+              "id": "2054006" // v - strom 1050
+            }
+          }
+        ],
+        "toBe" : true,
+       "Then":  "rich-text#TextVstrom1050FichaTecnicaChasis"
+      }
+    },
+    "rich-text#TextVstrom1050FichaTecnicaChasis":{
+      "props":{
+        "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**FARO DELANTERO** \nTipo linterna, de aluminio anodizado",
+      "blockClass": "descriptionfrontlight"
+      }
+    },
   //VSTROM DL250
   "condition-layout.product#conditionFirstTextvstromFichaTecnicaChasis": 
   {
@@ -1396,6 +2855,33 @@
     }
   },
 
+  //V STROM 650
+  "condition-layout.product#conditionFirstTextVstrom650aFichaTecnicaChasis": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049038" // v - strom dl250 
+          }
+        }
+      ],
+      "toBe" : true,
+      "Then":  "rich-text#TextVstrom650FichaTecnicaChasis"
+    }
+  },
+  "rich-text#TextVstrom650FichaTecnicaChasis":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "**FARO DELANTERO** \nTipo linterna, de aluminio anodizado",
+    "blockClass": "descriptionfrontlight"
+    }
+  },
+
+
+
 //BLOQUE 2
   "flex-layout.row#IMG2":
   {
@@ -1411,7 +2897,11 @@
       "rowGap": 0,
       "hasMoreThanOne" : true
     },
-    "children":["image#wheels", "condition-layout.product#conditionSecondTextvstromFichaTecnicaChasis", "condition-layout.product#conditionnSecondTextKatanaFichaTecnicaChasis"]
+    "children":["image#wheels", 
+      "condition-layout.product#conditionSecondTextvstrom1050FichaTecnicaChasis",
+      "condition-layout.product#conditionSecondTextvstromFichaTecnicaChasis", 
+      "condition-layout.product#conditionnSecondTextKatanaFichaTecnicaChasis",
+      "condition-layout.product#conditionnSecondTextVstrom650FichaTecnicaChasis"]
   },
   
   "image#wheels": {
@@ -1423,6 +2913,31 @@
     } 
   },
  
+    //V STROM 1050
+    "condition-layout.product#conditionSecondTextvstrom1050FichaTecnicaChasis": 
+    {
+      "props": {
+        "conditions": [
+          {
+            "subject": "productId",
+            "arguments": {
+              "id": "2054006" // v - strom dl250 
+            }
+          }
+        ],
+        "toBe" : true,
+       "Then":  "rich-text#SecondTextVstrom1050FichaTecnicaChasis"
+      }
+    },
+    "rich-text#SecondTextVstrom1050FichaTecnicaChasis":{
+      "props":{
+        "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**RINES**\nAluminio fundido",
+      "blockClass": "descriptionwheels"
+      }
+    },
+  //V STROM 250
   "condition-layout.product#conditionSecondTextvstromFichaTecnicaChasis": 
   {
     "props": {
@@ -1446,6 +2961,7 @@
     "blockClass": "descriptionwheels"
     }
   },
+  //KATANA
   "condition-layout.product#conditionnSecondTextKatanaFichaTecnicaChasis": 
   {
     "props": {
@@ -1469,6 +2985,30 @@
     "blockClass": "descriptionwheels"
     }
   },
+  //V STROM 650
+  "condition-layout.product#conditionnSecondTextVstrom650FichaTecnicaChasis": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049038" // katana
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "rich-text#SecondTextVstrom650FichaTecnicaChasis"
+    }
+  },
+  "rich-text#SecondTextVstrom650FichaTecnicaChasis":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "**RINES**\nRayos",
+    "blockClass": "descriptionwheels"
+    }
+  },
 
 
 
@@ -1489,7 +3029,11 @@
       "rowGap": 0,
       "hasMoreThanOne" : true
     },
-    "children":["image#frontSuspension", "condition-layout.product#conditionThirdTextvstromFichaTecnicaChasis", "condition-layout.product#conditionnThirdTextKatanaFichaTecnicaChasis"]
+    "children":["image#frontSuspension",
+      "condition-layout.product#conditionThirdTextvstrom1050FichaTecnicaChasis",
+       "condition-layout.product#conditionThirdTextvstromFichaTecnicaChasis", 
+       "condition-layout.product#conditionnThirdTextKatanaFichaTecnicaChasis",
+       "condition-layout.product#conditionnThirdTextVstrom650FichaTecnicaChasis"]
   },
  
   "image#frontSuspension": {
@@ -1500,6 +3044,31 @@
       "maxWidth" : 100
     } 
   },
+   //V STROM 1050
+   "condition-layout.product#conditionThirdTextvstrom1050FichaTecnicaChasis": 
+   {
+     "props": {
+       "conditions": [
+         {
+           "subject": "productId",
+           "arguments": {
+             "id": "2054006" // v - strom dl250 
+           }
+         }
+       ],
+       "toBe" : true,
+      "Then":  "rich-text#ThirdTextVstrom1050FichaTecnicaChasis"
+     }
+   },
+   "rich-text#ThirdTextVstrom1050FichaTecnicaChasis":{
+     "props":{
+       "textAlignment": "CENTER",
+     "textPosition": "CENTER",
+     "text": "**SUSPESION DELANTERA**\nTelescópica invertida, muelle helicoidal, aceite amortiguado",
+     "blockClass": "descriptionfrontSuspension"
+     }
+   },
+  //V STROM 250
   "condition-layout.product#conditionThirdTextvstromFichaTecnicaChasis": 
   {
     "props": {
@@ -1523,6 +3092,7 @@
     "blockClass": "descriptionfrontSuspension"
     }
   },
+  //KATANA
   "condition-layout.product#conditionnThirdTextKatanaFichaTecnicaChasis": 
   {
     "props": {
@@ -1544,6 +3114,31 @@
       "textAlignment": "CENTER",
     "textPosition": "CENTER",
     "text": "**SUSPESION DELANTERA**\nHorquilla invertida totalmente ajustable",
+    "blockClass": "descriptionfrontSuspension"
+    }
+  },
+  //V STROM 650
+  "condition-layout.product#conditionnThirdTextVstrom650FichaTecnicaChasis": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049038" // KATANA
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "rich-text#ThirdTextVstrom650FichaTecnicaChasis"
+    }
+  },
+
+  "rich-text#ThirdTextVstrom650FichaTecnicaChasis":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "**SUSPESION DELANTERA**\nTelescópica con resorte y aceite",
     "blockClass": "descriptionfrontSuspension"
     }
   },
@@ -1609,7 +3204,11 @@
     "rowGap": 0,
     "hasMoreThanOne" : true
   },
-  "children":["image#Weight", "condition-layout.product#conditionFirstTextvstromFichaTecnicaDP", "condition-layout.product#conditionFirstTextKatanaFichaTecnicaDP"]
+  "children":["image#Weight", 
+    "condition-layout.product#conditionFirstTextvstrom1050FichaTecnicaDP",
+    "condition-layout.product#conditionFirstTextvstromFichaTecnicaDP", 
+    "condition-layout.product#conditionFirstTextKatanaFichaTecnicaDP",
+    "condition-layout.product#conditionFirstTextVstrom650FichaTecnicaDP"]
 },
 "image#Weight": {
   "props": {
@@ -1618,6 +3217,30 @@
     "maxHeight":100,
     "maxWidth" : 100
   } 
+},
+//VL STROM 1050
+"condition-layout.product#conditionFirstTextvstrom1050FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054006" // v - strom dl250 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextVstrom1050FichaTecnicaDP"
+  }
+},
+"rich-text#TextVstrom1050FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**PESO** \n247 kg",
+  "blockClass": "descriptionTypeMotor"
+  }
 },
 //VL STROM 250
 "condition-layout.product#conditionFirstTextvstromFichaTecnicaDP": 
@@ -1651,7 +3274,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "2049621" // v - strom dl250 
+          "id": "2049621" // katana
         }
       }
     ],
@@ -1667,6 +3290,33 @@
   "blockClass": "descriptionTypeMotor"
   }
 },
+//V STROM 650
+"condition-layout.product#conditionFirstTextVstrom650FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049038" // v strom 650
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextVstrom650FichaTecnicaDP"
+  }
+},
+"rich-text#TextVstrom650FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**PESO** \n213/216 Kg",
+  "blockClass": "descriptionTypeMotor"
+  }
+},
+
+
+
 
 //BLOQUE 2
 "flex-layout.row#IMDP2":
@@ -1683,7 +3333,11 @@
     "rowGap": 0,
     "hasMoreThanOne" : true
   },
-  "children":["image#large", "condition-layout.product#conditionSecondTextvstromFichaTecnicaDP", "condition-layout.product#conditionnSecondTextKatanaFichaTecnicaDP"]
+  "children":["image#large", 
+    "condition-layout.product#conditionSecondTextvstrom1050FichaTecnicaDP",
+    "condition-layout.product#conditionSecondTextvstromFichaTecnicaDP", 
+    "condition-layout.product#conditionnSecondTextKatanaFichaTecnicaDP",
+    "condition-layout.product#conditionnSecondTextVstrom650FichaTecnicaDP"]
 },
 
 "image#large": {
@@ -1693,6 +3347,31 @@
     "maxHeight":100,
     "maxWidth" : 100
   } 
+},
+
+//VLSTROM 1050
+"condition-layout.product#conditionSecondTextvstrom1050FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054006" // v - strom 1050
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextVstrom1050FichaTecnicaDP"
+  }
+},
+"rich-text#SecondTextVstrom1050FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**LARGO TOTAL**\n2265 mm",
+  "blockClass": "descriptionDisplacement"
+  }
 },
 //VLSTROM1250
 "condition-layout.product#conditionSecondTextvstromFichaTecnicaDP": 
@@ -1743,6 +3422,31 @@
   }
 },
 
+//V STROM 650
+"condition-layout.product#conditionnSecondTextVstrom650FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049038" // katana
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextVstrom650FichaTecnicaDP"
+  }
+},
+"rich-text#SecondTextVstrom650FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**LARGO TOTAL**\n2275 mm",
+  "blockClass": "descriptionDisplacement"
+  }
+},
+
 
 
 
@@ -1762,7 +3466,11 @@
     "rowGap": 0,
     "hasMoreThanOne" : true
   },
-  "children":["image#tank", "condition-layout.product#conditionThirdTextvstromFichaTecnicaDP", "condition-layout.product#conditionnThirdTextKatanaFichaTecnicaDP"]
+  "children":["image#tank",
+    "condition-layout.product#conditionThirdTextvstrom1050FichaTecnicaDP",
+     "condition-layout.product#conditionThirdTextvstromFichaTecnicaDP",
+      "condition-layout.product#conditionnThirdTextKatanaFichaTecnicaDP",
+      "condition-layout.product#conditionnThirdTextVstrom650FichaTecnicaDP"]
 },
 
 "image#tank": {
@@ -1774,6 +3482,30 @@
   } 
 },
 
+//VSTROM DL 1050
+"condition-layout.product#conditionThirdTextvstrom1050FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054006" // v - strom dl250 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextVstrom1050FichaTecnicaDP"
+  }
+},
+"rich-text#ThirdTextVstrom1050FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TANQUE DE COMBUSTIBLE**\n20 L",
+  "blockClass": "descriptionStartSystem"
+  }
+},
 //VSTROM DL 250
 "condition-layout.product#conditionThirdTextvstromFichaTecnicaDP": 
 {
@@ -1824,6 +3556,33 @@
   "blockClass": "descriptionStartSystem"
   }
 },
+
+//V STROM 650
+"condition-layout.product#conditionnThirdTextVstrom650FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049038" // V STROM 650
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextVstrom650FichaTecnicaDP"
+  }
+},
+
+"rich-text#ThirdTextVstrom650FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TANQUE DE COMBUSTIBLE**\n20 Lts (Incluida reserva)",
+  "blockClass": "descriptionStartSystem"
+  }
+},
+
 
  
      //==============================================================================================================================
@@ -2024,16 +3783,38 @@
 
      // "image#topBannerVL250strom",
      // "list-context.image-list#sliderVLS",
-     "condition-layout.product#conditionForTheVideoCategoryDoublePurpose",
+
+     //CONDICIONES PARA LOS VIDEOS
+
+     "condition-layout.product#conditionForTheVideoCategoryDoublePurposeVSTROM250",
      "condition-layout.product#conditionForTheVideoCategorySporty",
+     "condition-layout.product#conditionForTheVideoCategoryDoublePurposeVSTROM650",
+     "condition-layout.product#conditionForTheVideoCategoryDoublePurposeVSTROM1050",
+     "condition-layout.product#conditionForTheVideoCategoryeUtilitaria",
+     "condition-layout.product#conditionForTheVideoCategoryeCross",
+
+     //FIN DE CONDICIONES PARA LOS VIDEOS
+
+    
+     //CONDICIONES PARA LOS TITULOS
+     "condition-layout.product#conditionForSubittleMotoDR-Z50",
      "condition-layout.product#conditionForSubittleMotoVSTROMDL250",
      "condition-layout.product#conditionForSubittleKATANA",
+     "condition-layout.product#conditionForSubittleMotoVSTROM650",
+     "condition-layout.product#conditionForSubittleMotoVSTROM1050",
+     "condition-layout.product#conditionForSubittleMotoGD115Evolution",
+
+     //FIN DE CONDICIONES PARA LOS TITULOS 
+    
      //   "flex-layout.row#product-breadcrumb",//indica donde estas ubicado
      // "list-context.image-list#topbaner",//BANNER
    //  "flex-layout.row#containDescriptionForTheVideo",//Esto es como un div
   //   "flex-layout.row#subTitleForTheMoto",
      //"flex-layout.row#divsegundo",//ESTE ES EL DIV QUE MUESTRA POTENCIA EN TI Y EL RESTO....
+
      "flex-layout.row#colorSwatchBlock",//Esto es la division entre la imagen y la especificacion
+
+
      //"flex-layout.row#subTitleForTheMoto2",
      //"flex-layout.row#gsx725-2",
      // "flex-layout.row#containX"
@@ -2054,20 +3835,43 @@
 //FIN DE IFRAME
   // "video#videoGif",
   "flex-layout.row#caracteristicasEspecialesText",
-  //BANNER
- // "flex-layout.row#contenedorDivParaImagenRevista",
+
+
+
+
+  //REVISTAS PARA LAS MOTOS
+
  "condition-layout.product#conditionRevistavstrom",
  "condition-layout.product#conditionRevistaKatana",
+ "condition-layout.product#conditionRevistaVstrom650",
+ "condition-layout.product#conditionRevistaVstrom1050",
+ "condition-layout.product#conditionRevistaGD115Evolution",
+ "condition-layout.product#conditionRevistaDRZ50",
+
+  //FIN REVISTAS PARA LAS MOTOS
+
+
+
+
   "flex-layout.row#listaparatuaventuraText",
-  //"list-context.image-list#sliderVLS",//SLIDER
+
+
+  //SLIDERS
   "condition-layout.product#conditionForTheSliderVSTROMDL250",
   "condition-layout.product#conditionForTheSliderKATANA",
+  "condition-layout.product#conditionForTheSliderVStrom650",
+  //FIN DE SLIDERS
+
+
+
  //   "image#collageVlStrom250",
    //   "flex-layout.row#divParaImagenRevista",//Div parecido a revista
      
  //  "flex-layout.row#divParaBanneryDescripcion",//Banner con su descripcion
 
- /*FICHA TECNICA*/
+ //FICHA TECNICA
+
+
  "flex-layout.row#containFichcaTecnica",
  "flex-layout.row#containNameMotor",
  "flex-layout.row#contenedorMotor",
@@ -2075,6 +3879,11 @@
  "flex-layout.row#contenedorChasis",
  "flex-layout.row#containNameDi_Wei",
  "flex-layout.row#contenedorDyP",
+
+ //FIN DE FICHA TECNICA
+
+
+
  //"flex-layout.row#contenedorFichaTecnia",
  //"flex-layout.row#contenedorImagen",
  /*FIN FICHA TECNICA*/
@@ -2144,7 +3953,9 @@
       "fullWidth" : true
     },
     "children":[
+     
       "flex-layout.row#buyNowButtons",
+      "flex-layout.row#buyNowButtonw",
       "flex-layout.row#buyNowButtonw"
     ]
   },
@@ -2684,3 +4495,42 @@
   }
 }
  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
