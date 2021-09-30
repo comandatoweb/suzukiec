@@ -17,7 +17,8 @@
      // "flex-layout.row#motorfueradeborda",
       
       "list-context.image-list#servicios",
-      "list-context.image-list#suscribete"
+      "iframe#pictureForm"
+      //"list-context.image-list#suscribete"
       //"newsletter",    
       // "iframe#map",
     
@@ -178,7 +179,19 @@
       "blockClass": "shelf"
     }
   },
-
+  "iframe#pictureForm": {
+    "props": {
+      "width": "100%",
+      "height":"481px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "repuestos",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/talleres-suzuki/bannerformulario.html"
+    }
+  },
   "list-context.image-list#suscribete": {
     "children": ["slider-layout#suscribete"],
     "props": {

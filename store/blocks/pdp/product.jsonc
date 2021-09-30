@@ -3,6 +3,86 @@
   //*********************************************PARTE DEL VIDEO********************************************************************//
   //==============================================================================================================================
 
+  //CATEGORIA CUSTOM  falta video
+  "condition-layout.product#conditionForTheVideoCategoryCustom":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049444" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#containforTheVideoCustom"
+     
+    }
+  },
+  "flex-layout.row#containforTheVideoCustom":{
+    "props":{
+      "blockClass": "containforTheVideoCustom",
+      
+      "fullWidth" : true
+    },
+    "children":["video#VideoCustom"]
+  },
+  "video#VideoCustom": {
+   "props": {
+     "width": "100%",
+     "height": "540px",
+    
+     "loop": true,
+     "autoPlay": true,
+     "muted": false,
+     "type":"mp4",
+     "src": "https://site.comandato.com/video/Cross.mp4",
+     "blockClass": "VideoCross"
+   }
+ },
+
+
+  //CATEGORIA SCOOTER falta video
+  "condition-layout.product#conditionForTheVideoCategoryScooterUK110":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2054550" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#containforTheVideoScooterUK110"
+     
+    }
+  },
+  "flex-layout.row#containforTheVideoScooterUK110":{
+    "props":{
+      "blockClass": "containforTheVideoScooterUK110",
+      
+      "fullWidth" : true
+    },
+    "children":["video#VideoScooter"]
+  },
+  "video#VideoScooter": {
+   "props": {
+     "width": "100%",
+     "height": "540px",
+    
+     "loop": true,
+     "autoPlay": true,
+     "muted": false,
+     "type":"mp4",
+     "src": "https://site.comandato.com/video/Cross.mp4",
+     "blockClass": "VideoCross"
+   }
+ },
+
+
   //CATEGORIA CROSS
   // Moto Suzuki DR-Z50  | 3 velocidades
   "condition-layout.product#conditionForTheVideoCategoryeCross":
@@ -13,6 +93,23 @@
           "subject": "productId",
           "arguments": {
             "id": "2049492" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#containforTheVideoCross"
+     
+    }
+  },
+  //RM85
+  "condition-layout.product#conditionForTheVideoCategoryeCrossRM85":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049584" 
           }
         }
       ],
@@ -133,6 +230,25 @@
    
   }
 },
+//GD 115
+"condition-layout.product#conditionForTheVideoCategoryeUtilitariaGD115": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011222"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containforTheVideoUtilitaria"
+   
+  }
+},
+
+
 "flex-layout.row#containforTheVideoUtilitaria":{
   "props":{
     "blockClass": "containforTheVideoUtilitaria",
@@ -182,6 +298,86 @@
    },
    "children":["video#VideoSporty"]
  },
+ 
+//GSX250R
+"condition-layout.product#conditionForTheVideoCategorySportyGSX250R": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2048797"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#containforTheVideoSportyGSX250R"
+    
+   }
+ },
+ "flex-layout.row#containforTheVideoSportyGSX250R":{
+   "props":{
+     "blockClass": "containforTheVideoSporty",
+     
+     "fullWidth" : true
+   },
+   "children":["video#VideoSporty"]
+ },
+
+ //GSXS750
+"condition-layout.product#conditionForTheVideoCategorySportyGSXS750": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049300"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containforTheVideoSportyGSXS750"
+   
+  }
+},
+"flex-layout.row#containforTheVideoSportyGSXS750":{
+  "props":{
+    "blockClass": "containforTheVideoSporty",
+    
+    "fullWidth" : true
+  },
+  "children":["video#VideoSporty"]
+},
+
+ //SV650XA
+ "condition-layout.product#conditionForTheVideoCategorySportySV650XA": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2054376"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#containforTheVideoSportySV650XA"
+    
+   }
+ },
+ "flex-layout.row#containforTheVideoSportySV650XA":{
+   "props":{
+     "blockClass": "containforTheVideoSporty",
+     
+     "fullWidth" : true
+   },
+   "children":["video#VideoSporty"]
+ },
+
+
  "video#VideoSporty": {
   "props": {
     "width": "100%",
@@ -196,6 +392,8 @@
   }
 },
 
+ 
+
  //==============================================================================================================================
  //*********************************************FIN PARTE DEL VIDEO********************************************************************//
  //==============================================================================================================================
@@ -204,6 +402,163 @@
  //==============================================================================================================================
  //*********************************************TITULO PARA EL VIDEO********************************************************************//
  //==============================================================================================================================
+
+//SV650XA
+"condition-layout.product#conditionForSubittleMotoSV650XA": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054376" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#subTitleForTheMotoSV650XA"
+   
+  }
+},
+"flex-layout.row#subTitleForTheMotoSV650XA":{
+ "props":{
+   "blockClass": "subTitleForTheMoto",
+   
+   "fullWidth" : true
+ },
+ "children":["flex-layout.col#columnForTheSubTitleMotoSV650XA"]
+},
+"flex-layout.col#columnForTheSubTitleMotoSV650XA":{
+ "props":{
+   "blockClass": "columnForTheSubTitleMoto"
+  
+ },
+ "children":["rich-text#subtittleMotoSV650XA","rich-text#subtittleMoto2SV650XA"]
+ //"children" :["condition-layout.product#conditionForTheSubtittleCategory","condition-layout.product#conditionForTheDescriptionCategory"]
+
+},
+"rich-text#subtittleMotoSV650XA":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "## DEPORTIVA",
+ "blockClass": "subtittleMoto"
+ }
+},
+"rich-text#subtittleMoto2SV650XA":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "### ",
+ "blockClass": "subtittleMoto2"
+ }
+},
+
+
+ //intruder
+ "condition-layout.product#conditionForSubittleMotoIntruder": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049444" 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#subTitleForTheMotoIntruder"
+    
+   }
+ },
+ "flex-layout.row#subTitleForTheMotoIntruder":{
+  "props":{
+    "blockClass": "subTitleForTheMoto",
+    
+    "fullWidth" : true
+  },
+  "children":["flex-layout.col#columnForTheSubTitleMotoIntruder"]
+},
+"flex-layout.col#columnForTheSubTitleMotoIntruder":{
+  "props":{
+    "blockClass": "columnForTheSubTitleMoto"
+   
+  },
+  "children":["rich-text#subtittleMotoIntruder","rich-text#subtittleMoto2Intruder"]
+  //"children" :["condition-layout.product#conditionForTheSubtittleCategory","condition-layout.product#conditionForTheDescriptionCategory"]
+
+},
+"rich-text#subtittleMotoIntruder":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## CUSTOM",
+  "blockClass": "subtittleMoto"
+  }
+},
+"rich-text#subtittleMoto2Intruder":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "### SUZUKI INTRUDER, UNA PEQUEÑA CRUISER CON MUCHOS ARGUMENTOS",
+  "blockClass": "subtittleMoto2"
+  }
+},
+
+
+
+ //UK110
+ "condition-layout.product#conditionForSubittleMotoMUK110": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2054550" 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#subTitleForTheMotoMUK110"
+    
+   }
+ },
+ "flex-layout.row#subTitleForTheMotoMUK110":{
+  "props":{
+    "blockClass": "subTitleForTheMoto",
+    
+    "fullWidth" : true
+  },
+  "children":["flex-layout.col#columnForTheSubTitleMotoMUK110"]
+},
+"flex-layout.col#columnForTheSubTitleMotoMUK110":{
+  "props":{
+    "blockClass": "columnForTheSubTitleMoto"
+   
+  },
+  "children":["rich-text#subtittleMotoMUK110","rich-text#subtittleMoto2UK110"]
+  //"children" :["condition-layout.product#conditionForTheSubtittleCategory","condition-layout.product#conditionForTheDescriptionCategory"]
+
+},
+"rich-text#subtittleMotoMUK110":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## SCOOTER",
+  "blockClass": "subtittleMoto"
+  }
+},
+"rich-text#subtittleMoto2UK110":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "### MOTO URBANA CON ESTILO",
+  "blockClass": "subtittleMoto2"
+  }
+},
+ //CATEGORIA CROSS
  //Moto Suzuki DR-Z50  | 3 velocidades
  "condition-layout.product#conditionForSubittleMotoDR-Z50": 
  {
@@ -251,6 +606,57 @@
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "### SE EL #1 EN TODAS LAS CARRERAS",
+  "blockClass": "subtittleMoto2"
+  }
+},
+
+ //RM85
+ "condition-layout.product#conditionForSubittleRM85": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049584" // v - strom dl250 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#subTitleForTheMotoRM85"
+    
+   }
+ },
+ "flex-layout.row#subTitleForTheMotoRM85":{
+  "props":{
+    "blockClass": "subTitleForTheMoto",
+    
+    "fullWidth" : true
+  },
+  "children":["flex-layout.col#columnForTheSubTitleMotoDR-Z50"]
+},
+"flex-layout.col#columnForTheSubTitleMotoRM85":{
+  "props":{
+    "blockClass": "columnForTheSubTitleMoto"
+   
+  },
+  "children":["rich-text#subtittleMotoRM85","rich-text#subtittleMoto2RM85"]
+  //"children" :["condition-layout.product#conditionForTheSubtittleCategory","condition-layout.product#conditionForTheDescriptionCategory"]
+
+},
+"rich-text#subtittleMotoRM85":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## CROSS",
+  "blockClass": "subtittleMoto"
+  }
+},
+"rich-text#subtittleMoto2RM85":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "### MOTOCICLETA PARA FUTUROS CAMPEONES",
   "blockClass": "subtittleMoto2"
   }
 },
@@ -341,8 +747,6 @@
   //"children" :["condition-layout.product#conditionForTheSubtittleCategory","condition-layout.product#conditionForTheDescriptionCategory"]
 
 },
-
-
 "rich-text#subtittleMoto22":{
   "props":{
     "textAlignment": "CENTER",
@@ -359,6 +763,111 @@
   "blockClass": "subtittleMoto2"
   }
 },
+//GSXS750
+"condition-layout.product#conditionForSubittleGSXS750": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049300" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#subTitleForTheMoto2GSXS750"
+   
+  }
+},
+
+"flex-layout.row#subTitleForTheMoto2GSXS750":{
+ "props":{
+   "blockClass": "subTitleForTheMoto",
+   
+   "fullWidth" : true
+ },
+ "children":["flex-layout.col#columnForTheSubTitleMoto2GSXS750"]
+},
+"flex-layout.col#columnForTheSubTitleMoto2GSXS750":{
+ "props":{
+   "blockClass": "columnForTheSubTitleMoto"
+  
+ },
+ "children":["rich-text#subtittleMotoGSXS750","rich-text#subtittleMoto2GSXS750"]
+ //"children" :["condition-layout.product#conditionForTheSubtittleCategory","condition-layout.product#conditionForTheDescriptionCategory"]
+
+},
+"rich-text#subtittleMotoGSXS750":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## DEPORTIVA",
+  "blockClass": "subtittleMoto"
+  }
+},
+"rich-text#subtittleMoto2GSXS750":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "### VELOCIDAD Y ADRENALINA AL MÁXIMO",
+  "blockClass": "subtittleMoto2"
+  }
+},
+
+//GSX250R
+"condition-layout.product#conditionForSubittleGSX250R": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2048797" // KATANA
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#subTitleForTheMoto2GSX250R"
+   
+  }
+},
+
+"flex-layout.row#subTitleForTheMoto2GSX250R":{
+ "props":{
+   "blockClass": "subTitleForTheMoto",
+   
+   "fullWidth" : true
+ },
+ "children":["flex-layout.col#columnForTheSubTitleMoto2GSX250R"]
+},
+"flex-layout.col#columnForTheSubTitleMoto2GSX250R":{
+ "props":{
+   "blockClass": "columnForTheSubTitleMoto"
+  
+ },
+ "children":["rich-text#subtittleMotoGSX250R","rich-text#subtittleMoto2GSX250R"]
+ //"children" :["condition-layout.product#conditionForTheSubtittleCategory","condition-layout.product#conditionForTheDescriptionCategory"]
+
+},
+"rich-text#subtittleMotoGSX250R":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## DEPORTIVA",
+  "blockClass": "subtittleMoto"
+  }
+},
+"rich-text#subtittleMoto2GSX250R":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "### MOTO  CON ADN DEPORTIVO",
+  "blockClass": "subtittleMoto2"
+  }
+},
+
+
 
 //VSTROM 650
 "condition-layout.product#conditionForSubittleMotoVSTROM650": 
@@ -521,6 +1030,61 @@
  }
 },
 
+
+
+//GD 115 
+"condition-layout.product#conditionForSubittleMotoGD115": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011222" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#subTitleForTheMotoGD115"
+   
+  }
+},
+
+"flex-layout.row#subTitleForTheMotoGD115":{
+ "props":{
+   "blockClass": "subTitleForTheMoto",
+   
+   "fullWidth" : true
+ },
+ "children":["flex-layout.col#columnForTheSubTitleMotoGD115"]
+},
+"flex-layout.col#columnForTheSubTitleMotoGD115":{
+ "props":{
+   "blockClass": "columnForTheSubTitleMoto"
+  
+ },
+ "children":["rich-text#subtittleMotoGD115","rich-text#subtittleMoto2GD115"]
+ //"children" :["condition-layout.product#conditionForTheSubtittleCategory","condition-layout.product#conditionForTheDescriptionCategory"]
+
+},
+
+
+"rich-text#subtittleMotoGD115":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "## UTILITARIA",
+ "blockClass": "subtittleMoto"
+ }
+},
+"rich-text#subtittleMoto2GD115":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "### LIGERA COMPACTA Y ECONÓMICA",
+ "blockClass": "subtittleMoto2"
+ }
+},
 //==============================================================================================================================
  //*********************************************FIN DE TITULO PARA VIDEO********************************************************************//
  //==============================================================================================================================
@@ -612,6 +1176,12 @@
    "hasMoreThanOne" : true
    },
    "children":["image#motor",
+    "condition-layout.product#conditionFirstTextRM85",
+    "condition-layout.product#conditionFirstTextGD115",
+    "condition-layout.product#conditionFirstTextSV650XA",
+    "condition-layout.product#conditionFirstTextIntruder",
+    "condition-layout.product#conditionFirstTextGSXS750",
+    "condition-layout.product#conditionFirstTextGSX250R",
     "condition-layout.product#conditionFirstTextDR-Z50",
     "condition-layout.product#conditionFirstTextGD115Evolution",
     "condition-layout.product#conditionFirstTextvstrom",
@@ -629,6 +1199,180 @@
     "maxWidth" : 80
   }
  
+},
+
+//PRIMERA CONDICION RM85
+"condition-layout.product#conditionFirstTextRM85": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049584" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextRM85"
+   
+  }
+},
+
+"rich-text#firstTextRM85":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**85 CC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+
+
+  //PRIMERA CONDICION TEXTO GD 115 
+  "condition-layout.product#conditionFirstTextGD115": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2011222" // v - sgd 115 evolution
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "rich-text#firstTextGD115Evolution"
+     
+    }
+  },
+ 
+  "rich-text#firstTextGD115":{
+   "props":{
+     "textAlignment": "CENTER",
+   "textPosition": "CENTER",
+   "text": "**113 CC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+   "textColor": "c-on-emphasis",
+   "font": "t-heading-5",
+   "blockClass": "mensaje1"
+   }
+ },
+
+
+//PRIMERA CONDICION SV650XA
+"condition-layout.product#conditionFirstTextSV650XA": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054376" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextSV650XA"
+   
+  }
+},
+"rich-text#firstTextSV650XA":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**650 CC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+
+//PRIMERA CONDICION INTRUDER
+"condition-layout.product#conditionFirstTextIntruder": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049444" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextIntruder"
+   
+  }
+},
+"rich-text#firstTextIntruder":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**154,9 CC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+
+
+//PRIMERA CONDICION GSXS750
+"condition-layout.product#conditionFirstTextGSXS750": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049300" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextGSXS750"
+   
+  }
+},
+"rich-text#firstTextGSXS750":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**749 CC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+
+//PRIMERA CONDICION GSX250R
+"condition-layout.product#conditionFirstTextGSX250R": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2048797" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextGSX250R"
+   
+  }
+},
+
+"rich-text#firstTextGSX250R":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**250 CC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
 },
 //PRIMERA CONDICION Moto Suzuki DR-Z50  | 3 velocidades
 "condition-layout.product#conditionFirstTextDR-Z50": 
@@ -824,6 +1568,12 @@
    "hasMoreThanOne" : true
    },
    "children":["image#rapido",
+    "condition-layout.product#conditionSecondtTextRM85",
+    "condition-layout.product#conditionSecondtTextGD115",
+    "condition-layout.product#conditionSecondtTextSV650XA",
+    "condition-layout.product#conditionSecondtTextIntruder",
+    "condition-layout.product#conditionSecondtTextGSXS750",
+    "condition-layout.product#conditionSecondtTextGSX250R",
     "condition-layout.product#conditionSecondtTextDR-Z50",
     "condition-layout.product#conditionSecondtTextGD115Evolution",
     "condition-layout.product#conditionSecondtTextvstrom",
@@ -839,7 +1589,179 @@
     
   }
 },
-//SEGUNDA  CONDICION TEXTO  GD 115 EVOLUTION
+//SEGUNDA  CONDICION TEXTO  RM85
+"condition-layout.product#conditionSecondtTextRM85": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049584" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextRM85"
+   
+  }
+},
+"rich-text#SecondTextRM85":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**6 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+
+//SEGUNDA  CONDICION TEXTO  GD 115 
+"condition-layout.product#conditionSecondtTextGD115": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011222" // v - strom dl250 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGD115"
+   
+  }
+},
+"rich-text#SecondTextGD115":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**4 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+
+//SEGUNDA  CONDICION TEXTO  SV650XA
+"condition-layout.product#conditionSecondtTextSV650XA": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054376" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTexSV650XA"
+   
+  }
+},
+"rich-text#SecondTexSV650XA":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**6 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+
+
+//SEGUNDA  CONDICION TEXTO  Intruder
+"condition-layout.product#conditionSecondtTextIntruder": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049444" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTexIntruder"
+   
+  }
+},
+"rich-text#SecondTexIntruder":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**5 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+
+
+//SEGUNDA  CONDICION TEXTO  GSX250R
+"condition-layout.product#conditionSecondtTextGSXS750": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049300" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGSXS750"
+   
+  }
+},
+"rich-text#SecondTextGSXS750":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**6 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+
+
+//SEGUNDA  CONDICION TEXTO  GSX250R
+"condition-layout.product#conditionSecondtTextGSX250R": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2048797" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGSX250R"
+   
+  }
+},
+"rich-text#SecondTextGSX250R":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**6 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+
+
+//SEGUNDA  CONDICION TEXTO  DR-Z50
 "condition-layout.product#conditionSecondtTextDR-Z50": 
 {
   "props": {
@@ -1032,6 +1954,12 @@
    "hasMoreThanOne" : true
    },
    "children":["image#disco_freno",
+    "condition-layout.product#conditionThirdtTextRM85",
+    "condition-layout.product#conditionThirdtTextGD115",
+    "condition-layout.product#conditionThirdtTextSV650XA",
+    "condition-layout.product#conditionThirdtTextIntruder",
+    "condition-layout.product#conditionThirdtTextGSXS750",
+    "condition-layout.product#conditionThirdtTextGSX25OR",
     "condition-layout.product#conditionThirdtTextDRZ50",
     "condition-layout.product#conditionThirdtTextGD115Evolution",
     "condition-layout.product#conditionThirdtTextvstrom",
@@ -1047,6 +1975,177 @@
     "src": "https://suzukiecuador.vteximg.com.br/arquivos/disco-del-freno.png",
     "maxHeight": 80,
     "maxWidth" : 80
+  }
+},
+
+//TERCERA CONDICION TEXTO RM85
+"condition-layout.product#conditionThirdtTextRM85": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049584"  
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextRM85"
+   
+  }
+},
+"rich-text#ThirdTextRM85":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje3"
+  }
+},
+
+
+//TERCERA CONDICION TEXTO GD 115 
+"condition-layout.product#conditionThirdtTextGD115": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011222"  
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGD115"
+   
+  }
+},
+"rich-text#ThirdTextGD115":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**tambor / Tambor  - Frenos (Delantero / Trasero)**\nFrenos de confianza \nrodada en cualquier sitio",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje3"
+  }
+},
+
+//TERCERA CONDICION TEXTO SV650XA
+"condition-layout.product#conditionThirdtTextSV650XA": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054376"  
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextSV650XA"
+   
+  }
+},
+"rich-text#ThirdTextSV650XA":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**ABS/ ABS**\nFrenos de confianza \nrodada en cualquier sitio",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje3"
+  }
+},
+
+
+//TERCERA CONDICION TEXTO GSXS750
+"condition-layout.product#conditionThirdtTextIntruder": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049444"  
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextIntruder"
+   
+  }
+},
+"rich-text#ThirdTextIntruder":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje3"
+  }
+},
+
+
+//TERCERA CONDICION TEXTO GSXS750
+"condition-layout.product#conditionThirdtTextGSXS750": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049300"  
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGSXS750"
+   
+  }
+},
+"rich-text#ThirdTextGSXS750":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje3"
+  }
+},
+
+//TERCERA CONDICION TEXTO GSX250R
+"condition-layout.product#conditionThirdtTextGSX25OR": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2048797"  
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGSX25OR"
+   
+  }
+},
+"rich-text#ThirdTextGSX25OR":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje3"
   }
 },
 
@@ -1265,6 +2364,390 @@
  //==============================================================================================================================
  //*********************************************DESCRIPCION DE LA MOTO EN FORMA DE REVISTA*******************************************//
  //==============================================================================================================================
+//SV650XA
+"condition-layout.product#conditionRevistaSV650XA": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054376" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "flex-layout.row#contenedorDivParaImagenRevistaSV650XA"
+   
+  }
+},
+
+"flex-layout.row#contenedorDivParaImagenRevistaSV650XA" : {
+ "props": {
+   "blockClass": "contenedorDivParaImagenRevista",
+   "fullWidth":true,
+   "colGap": 0,
+   "rowGap": 0,
+   "marginTop": 0,
+   "marginBottom": 0,
+   "paddingTop": 0,
+   "paddingBottom": 0
+ },
+ "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaSV650XA"]
+},
+
+"flex-layout.col#contenedorColumnaDivParaImagenRevistaSV650XA" : {
+ "props": {
+   "blockClass": "contenedorColumnaDivParaImagenRevista",
+   "preventVerticalStretch": true,
+   "rowGap": 0,
+   "hasMoreThanOne" : true
+ },
+ "children":["flex-layout.row#divParaImagenRevistaSV650XA","flex-layout.row#divParaImagenRevista2SV650XA","flex-layout.row#divParaImagenRevista3SV650XA"]
+},
+
+"flex-layout.row#divParaImagenRevistaSV650XA":{
+ "props": {
+   "blockClass": "divParaImagenRevista",
+   "colGap": 0,
+   "rowGap": 0,
+   "marginTop": 0,
+   "marginBottom": 0,
+   "paddingTop": 0,
+   "paddingBottom": 0
+ },
+ "children":["image#motoSV650XA","rich-text#descripcionDeFoto1SV650XA"]
+},
+"image#motoSV650XA": {
+ "props": {
+   "blockClass": "motovlStrom",
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/motovlstrom250.jpg"
+   
+ }
+
+},
+"rich-text#descripcionDeFoto1SV650XA":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "## GL150\nTiene el aspecto del cruiser con un sillín más bajo, así mismo la horquilla cuenta con mayor diámetro en la barra y visualmente la inclinación hacia adelante genera más avance.",
+ "blockClass": "descripcionDeFoto"
+ }
+},
+"flex-layout.row#divParaImagenRevista2SV650XA":{
+ "props": {
+   "blockClass": "divParaImagenRevista2",
+   "colGap": 0,
+   "rowGap": 0,
+   "marginTop": 0,
+   "marginBottom": 0,
+   "paddingTop": 0,
+   "paddingBottom": 0
+ },
+ "children":["rich-text#descripcionDeFoto2SV650XA","image#moto2SV650XA"]
+},
+"image#moto2SV650XA": {
+ "props": {
+   "blockClass": "motovlStrom2",
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/arranqueVLSTROM-DL-250.jpg"
+ }
+
+},
+"rich-text#descripcionDeFoto2SV650XA":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "## ABS ADELANTE Y SISTEMA DE INYECCIÓN ELECTRÓNICA\nRespuesta acescente y lineal del propulsor de 155cc, muy bajo en vibraciones.",
+ "blockClass": "descripcionDeFoto"
+ }
+},
+"flex-layout.row#divParaImagenRevista3SV650XA":{
+ "props": {
+   "blockClass": "divParaImagenRevista3",
+   "colGap": 0,
+   "rowGap": 0,
+   "marginTop": 0,
+   "marginBottom": 0,
+   "paddingTop": 0,
+   "paddingBottom": 0
+ },
+ "children":["image#moto3SV650XA","rich-text#descripcionDeFoto3SV650XA"]
+},
+"image#moto3SV650XA": {
+ "props": {
+   "blockClass": "motovlStrom3",
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/Suzuki%20MOTORDL%20250%202017-04.jpg"
+  
+ }
+
+},
+"rich-text#descripcionDeFoto3SV650XA":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "## SUAVE EN CONDUCCIÓN Y EN PASO POR CURVA\nDiseño robusto e impactante, que le da apariencia de ser de mayor cubicaje.",
+ "blockClass": "descripcionDeFoto"
+ }
+},
+
+
+//INTRUDER
+"condition-layout.product#conditionRevistaIntruder": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049444" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "flex-layout.row#contenedorDivParaImagenRevistaIntruder"
+   
+  }
+},
+
+"flex-layout.row#contenedorDivParaImagenRevistaIntruder" : {
+ "props": {
+   "blockClass": "contenedorDivParaImagenRevista",
+   "fullWidth":true,
+   "colGap": 0,
+   "rowGap": 0,
+   "marginTop": 0,
+   "marginBottom": 0,
+   "paddingTop": 0,
+   "paddingBottom": 0
+ },
+ "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaIntruder"]
+},
+
+"flex-layout.col#contenedorColumnaDivParaImagenRevistaIntruder" : {
+ "props": {
+   "blockClass": "contenedorColumnaDivParaImagenRevista",
+   "preventVerticalStretch": true,
+   "rowGap": 0,
+   "hasMoreThanOne" : true
+ },
+ "children":["flex-layout.row#divParaImagenRevistaIntruder","flex-layout.row#divParaImagenRevista2Intruder","flex-layout.row#divParaImagenRevista3Intruder"]
+},
+
+"flex-layout.row#divParaImagenRevistaIntruder":{
+ "props": {
+   "blockClass": "divParaImagenRevista",
+   "colGap": 0,
+   "rowGap": 0,
+   "marginTop": 0,
+   "marginBottom": 0,
+   "paddingTop": 0,
+   "paddingBottom": 0
+ },
+ "children":["image#motoIntruder","rich-text#descripcionDeFoto1Intruder"]
+},
+"image#motoIntruder": {
+ "props": {
+   "blockClass": "motovlStrom",
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/motovlstrom250.jpg"
+   
+ }
+
+},
+"rich-text#descripcionDeFoto1Intruder":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "## GL150\nTiene el aspecto del cruiser con un sillín más bajo, así mismo la horquilla cuenta con mayor diámetro en la barra y visualmente la inclinación hacia adelante genera más avance.",
+ "blockClass": "descripcionDeFoto"
+ }
+},
+"flex-layout.row#divParaImagenRevista2Intruder":{
+ "props": {
+   "blockClass": "divParaImagenRevista2",
+   "colGap": 0,
+   "rowGap": 0,
+   "marginTop": 0,
+   "marginBottom": 0,
+   "paddingTop": 0,
+   "paddingBottom": 0
+ },
+ "children":["rich-text#descripcionDeFoto2Intruder","image#moto2Intruder"]
+},
+"image#moto2Intruder": {
+ "props": {
+   "blockClass": "motovlStrom2",
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/arranqueVLSTROM-DL-250.jpg"
+ }
+
+},
+"rich-text#descripcionDeFoto2Intruder":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "## ABS ADELANTE Y SISTEMA DE INYECCIÓN ELECTRÓNICA\nRespuesta acescente y lineal del propulsor de 155cc, muy bajo en vibraciones.",
+ "blockClass": "descripcionDeFoto"
+ }
+},
+"flex-layout.row#divParaImagenRevista3Intruder":{
+ "props": {
+   "blockClass": "divParaImagenRevista3",
+   "colGap": 0,
+   "rowGap": 0,
+   "marginTop": 0,
+   "marginBottom": 0,
+   "paddingTop": 0,
+   "paddingBottom": 0
+ },
+ "children":["image#moto3Intruder","rich-text#descripcionDeFoto3Intruder"]
+},
+"image#moto3Intruder": {
+ "props": {
+   "blockClass": "motovlStrom3",
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/Suzuki%20MOTORDL%20250%202017-04.jpg"
+  
+ }
+
+},
+"rich-text#descripcionDeFoto3Intruder":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "## SUAVE EN CONDUCCIÓN Y EN PASO POR CURVA\nDiseño robusto e impactante, que le da apariencia de ser de mayor cubicaje.",
+ "blockClass": "descripcionDeFoto"
+ }
+},
+
+
+
+
+ //UK110
+ "condition-layout.product#conditionRevistaUK110": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2054550" 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then":  "flex-layout.row#contenedorDivParaImagenRevistaUK110"
+    
+   }
+ },
+ 
+ "flex-layout.row#contenedorDivParaImagenRevistaUK110" : {
+  "props": {
+    "blockClass": "contenedorDivParaImagenRevista",
+    "fullWidth":true,
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaUK110"]
+},
+
+"flex-layout.col#contenedorColumnaDivParaImagenRevistaUK110" : {
+  "props": {
+    "blockClass": "contenedorColumnaDivParaImagenRevista",
+    "preventVerticalStretch": true,
+    "rowGap": 0,
+    "hasMoreThanOne" : true
+  },
+  "children":["flex-layout.row#divParaImagenRevistaUK110","flex-layout.row#divParaImagenRevista2UK110","flex-layout.row#divParaImagenRevista3UK110"]
+},
+
+"flex-layout.row#divParaImagenRevistaUK110":{
+  "props": {
+    "blockClass": "divParaImagenRevista",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["image#motoUK110","rich-text#descripcionDeFoto1UK110"]
+},
+"image#motoUK110": {
+  "props": {
+    "blockClass": "motovlStrom",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/motovlstrom250.jpg"
+    
+  }
+ 
+},
+"rich-text#descripcionDeFoto1UK110":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## UK110\nConquista la ciudad  con agilidad.",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+"flex-layout.row#divParaImagenRevista2UK110":{
+  "props": {
+    "blockClass": "divParaImagenRevista2",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["rich-text#descripcionDeFoto2UK110","image#moto2UK110"]
+},
+"image#moto2UK110": {
+  "props": {
+    "blockClass": "motovlStrom2",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/arranqueVLSTROM-DL-250.jpg"
+  }
+ 
+},
+"rich-text#descripcionDeFoto2UK110":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## COMPACTA Y ATRACTIVA\nSu diseño innovador  permite una apariencia atractiva  y funcional, espacio amplio para guardar  tu casco y otros elementos bajo el asiento.",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+"flex-layout.row#divParaImagenRevista3UK110":{
+  "props": {
+    "blockClass": "divParaImagenRevista3",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["image#moto3UK110","rich-text#descripcionDeFoto3UK110"]
+},
+"image#moto3UK110": {
+  "props": {
+    "blockClass": "motovlStrom3",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/Suzuki%20MOTORDL%20250%202017-04.jpg"
+   
+  }
+ 
+},
+"rich-text#descripcionDeFoto3UK110":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## SISTEMA F1 INYECCIÓN\nSistema innovador de admisión de combustible, lo que nos permite ahorrar mas y contaminar menos , se rige a normativas euro 4.",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+
+
+
  //VSTROM DL250
  "condition-layout.product#conditionRevistavstrom": 
  {
@@ -1516,6 +2999,260 @@
   "blockClass": "descripcionDeFoto"
   }
 },
+
+
+ //GSX250R
+ "condition-layout.product#conditionRevistaGSX250R": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2048797" // 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then":  "flex-layout.row#contenedorDivParaImagenRevistaGSX250R" 
+    
+   }
+ },
+ "flex-layout.row#contenedorDivParaImagenRevistaGSX250R" : {
+   "props": {
+     "blockClass": "contenedorDivParaImagenRevista",
+     "fullWidth":true,
+     "colGap": 0,
+     "rowGap": 0,
+     "marginTop": 0,
+     "marginBottom": 0,
+     "paddingTop": 0,
+     "paddingBottom": 0
+   },
+   "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaGSX250R"]
+ },
+ 
+ 
+ "flex-layout.col#contenedorColumnaDivParaImagenRevistaGSX250R" : {
+   "props": {
+     "blockClass": "contenedorColumnaDivParaImagenRevista",
+     "preventVerticalStretch": true,
+     "rowGap": 0,
+     "hasMoreThanOne" : true
+   },
+   "children":["flex-layout.row#divParaImagenRevistaGSX250R","flex-layout.row#divParaImagenRevista2GSX250R","flex-layout.row#divParaImagenRevista3GSX250R"]
+ },
+ 
+ "flex-layout.row#divParaImagenRevistaGSX250R":{
+   "props": {
+     "blockClass": "divParaImagenRevista",
+     "colGap": 0,
+     "rowGap": 0,
+     "marginTop": 0,
+     "marginBottom": 0,
+     "paddingTop": 0,
+     "paddingBottom": 0
+   },
+   "children":["image#motoGSX250R","rich-text#descripcionDeFoto1GSX250R"]
+ },
+ "image#motoGSX250R": {
+   "props": {
+     "blockClass": "motovlStrom",
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/KatanaDiagonal.jpg"
+     
+   }
+  
+ },
+ "rich-text#descripcionDeFoto1GSX250R":{
+   "props":{
+     "textAlignment": "CENTER",
+   "textPosition": "CENTER",
+   "text": "## GSX-250R\nRecorre la cuidad con un estilo deportivo.",
+   "blockClass": "descripcionDeFoto"
+   }
+ },
+ "flex-layout.row#divParaImagenRevista2GSX250R":{
+   "props": {
+     "blockClass": "divParaImagenRevista2",
+     "colGap": 0,
+     "rowGap": 0,
+     "marginTop": 0,
+     "marginBottom": 0,
+     "paddingTop": 0,
+     "paddingBottom": 0
+   },
+   "children":["rich-text#descripcionDeFoto2GSX250R","image#arranqueGSX250R"]
+ },
+ "image#arranqueGSX250R": {
+   "props": {
+     "blockClass": "motovlStrom2",
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/katanasuperior.jpg"
+   }
+  
+ },
+ "rich-text#descripcionDeFoto2GSX250R":{
+   "props":{
+     "textAlignment": "CENTER",
+   "textPosition": "CENTER",
+   "text": "## POTENTE MOTOR  Y ESTILO DEPORTIVO\nLa Gsx250r tiene un potente motor cilíndrico de 25 hp , disfruta de las calles y autopistas al máximo.",
+   "blockClass": "descripcionDeFoto"
+   }
+ },
+ "flex-layout.row#divParaImagenRevista3GSX250R":{
+   "props": {
+     "blockClass": "divParaImagenRevista3",
+     "colGap": 0,
+     "rowGap": 0,
+     "marginTop": 0,
+     "marginBottom": 0,
+     "paddingTop": 0,
+     "paddingBottom": 0
+   },
+   "children":["image#motorGSX250R","rich-text#descripcionDeFoto3GSX250R"]
+ },
+ "image#motorGSX250R": {
+   "props": {
+     "blockClass": "motovlStrom3",
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/KatanaMotor.png"
+    
+   }
+  
+ },
+ "rich-text#descripcionDeFoto3GSX250R":{
+   "props":{
+     "textAlignment": "CENTER",
+   "textPosition": "CENTER",
+   "text": "## SISTEMA DE LUCES DIURNAS\nLa seguridad en primordial al momento de manejar tu Suzuki, este sistema de luces permite que seas visible en el día  con su tecnología led",
+   "blockClass": "descripcionDeFoto"
+   }
+ },
+
+
+ //GSXS750
+ "condition-layout.product#conditionRevistaGSXS750": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049300" // 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then":  "flex-layout.row#contenedorDivParaImagenRevistaGSXS750" 
+    
+   }
+ },
+ "flex-layout.row#contenedorDivParaImagenRevistaGSXS750" : {
+   "props": {
+     "blockClass": "contenedorDivParaImagenRevista",
+     "fullWidth":true,
+     "colGap": 0,
+     "rowGap": 0,
+     "marginTop": 0,
+     "marginBottom": 0,
+     "paddingTop": 0,
+     "paddingBottom": 0
+   },
+   "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaGSXS750"]
+ },
+ 
+ 
+ "flex-layout.col#contenedorColumnaDivParaImagenRevistaGSXS750" : {
+   "props": {
+     "blockClass": "contenedorColumnaDivParaImagenRevista",
+     "preventVerticalStretch": true,
+     "rowGap": 0,
+     "hasMoreThanOne" : true
+   },
+   "children":["flex-layout.row#divParaImagenRevistaGSXS750","flex-layout.row#divParaImagenRevista2GSXS750","flex-layout.row#divParaImagenRevista3GSXS750"]
+ },
+ 
+ "flex-layout.row#divParaImagenRevistaGSXS750":{
+   "props": {
+     "blockClass": "divParaImagenRevista",
+     "colGap": 0,
+     "rowGap": 0,
+     "marginTop": 0,
+     "marginBottom": 0,
+     "paddingTop": 0,
+     "paddingBottom": 0
+   },
+   "children":["image#motoGSXS750","rich-text#descripcionDeFoto1GSXS750"]
+ },
+ "image#motoGSXS750": {
+   "props": {
+     "blockClass": "motovlStrom",
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/KatanaDiagonal.jpg"
+     
+   }
+  
+ },
+ "rich-text#descripcionDeFoto1GSXS750":{
+   "props":{
+     "textAlignment": "CENTER",
+   "textPosition": "CENTER",
+   "text": "## GSXS-750\nLa moto perfecta para ir a velocidad",
+   "blockClass": "descripcionDeFoto"
+   }
+ },
+ "flex-layout.row#divParaImagenRevista2GSXS750":{
+   "props": {
+     "blockClass": "divParaImagenRevista2",
+     "colGap": 0,
+     "rowGap": 0,
+     "marginTop": 0,
+     "marginBottom": 0,
+     "paddingTop": 0,
+     "paddingBottom": 0
+   },
+   "children":["rich-text#descripcionDeFoto2GSXS750","image#arranqueGSXS750"]
+ },
+ "image#arranqueGSXS750": {
+   "props": {
+     "blockClass": "motovlStrom2",
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/katanasuperior.jpg"
+   }
+  
+ },
+ "rich-text#descripcionDeFoto2GSXS750":{
+   "props":{
+     "textAlignment": "CENTER",
+   "textPosition": "CENTER",
+   "text": "## POCA VIBRACIÓN A GRANDES VELOCIDADES \nsiéntete seguro y cómodo en cualquier condicion de asfalto,  estabilidad y suavidad al máximo",
+   "blockClass": "descripcionDeFoto"
+   }
+ },
+ "flex-layout.row#divParaImagenRevista3GSXS750":{
+   "props": {
+     "blockClass": "divParaImagenRevista3",
+     "colGap": 0,
+     "rowGap": 0,
+     "marginTop": 0,
+     "marginBottom": 0,
+     "paddingTop": 0,
+     "paddingBottom": 0
+   },
+   "children":["image#motorGSXS750","rich-text#descripcionDeFoto3GSXS750"]
+ },
+ "image#motorGSXS750": {
+   "props": {
+     "blockClass": "motovlStrom3",
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/KatanaMotor.png"
+    
+   }
+  
+ },
+ "rich-text#descripcionDeFoto3GSXS750":{
+   "props":{
+     "textAlignment": "CENTER",
+   "textPosition": "CENTER",
+   "text": "## POTENTE MOTOR Y SISTEMA DE FRENOS\nLa tecnología de la gsx750r permite aprovechar al máximo sus 150 hp y además un frenado seguro y preciso con sus discos de freno de gran diámetro",
+   "blockClass": "descripcionDeFoto"
+   }
+ },
 
 
 
@@ -1902,6 +3639,135 @@
     }
   },
 
+ //GD 115 
+ "condition-layout.product#conditionRevistaGD115": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2011222" 
+         }
+       }
+     ],
+     "toBe" : true,
+     "Then":  "flex-layout.row#contenedorDivParaImagenRevistaGD115" 
+     
+   }
+ },
+ "flex-layout.row#contenedorDivParaImagenRevistaGD115" : {
+   "props": {
+     "blockClass": "contenedorDivParaImagenRevista",
+     "fullWidth":true,
+     "colGap": 0,
+     "rowGap": 0,
+     "marginTop": 0,
+     "marginBottom": 0,
+     "paddingTop": 0,
+     "paddingBottom": 0
+   },
+   "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaGD115"]
+ },
+ 
+ 
+ "flex-layout.col#contenedorColumnaDivParaImagenRevistaGD115" : {
+   "props": {
+     "blockClass": "contenedorColumnaDivParaImagenRevista",
+     "preventVerticalStretch": true,
+     "rowGap": 0,
+     "hasMoreThanOne" : true
+   },
+   "children":["flex-layout.row#divParaImagenRevistaGD115","flex-layout.row#divParaImagenRevista2GD115","flex-layout.row#divParaImagenRevista3GD115"]
+ },
+ 
+ "flex-layout.row#divParaImagenRevistaGD115":{
+   "props": {
+     "blockClass": "divParaImagenRevista",
+     "colGap": 0,
+     "rowGap": 0,
+     "marginTop": 0,
+     "marginBottom": 0,
+     "paddingTop": 0,
+     "paddingBottom": 0
+   },
+   "children":["image#motoGD115","rich-text#descripcionDeFoto1GD115"]
+ },
+ "image#motoGD115": {
+   "props": {
+     "blockClass": "motovlStrom",
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT1.jpg"
+     
+   }
+   
+ },
+ "rich-text#descripcionDeFoto1GD115":{
+   "props":{
+     "textAlignment": "CENTER",
+   "textPosition": "CENTER",
+   "text": "## AX4\nRecorridos cómodos, suspensión regulable según estilo de conducción",
+   "blockClass": "descripcionDeFoto"
+   }
+   
+ },
+ "flex-layout.row#divParaImagenRevista2GD115":{
+   "props": {
+     "blockClass": "divParaImagenRevista2",
+     "colGap": 0,
+     "rowGap": 0,
+     "marginTop": 0,
+     "marginBottom": 0,
+     "paddingTop": 0,
+     "paddingBottom": 0
+   },
+   "children":["rich-text#descripcionDeFoto2GD115","image#arranqueGD115"]
+ },
+ "image#arranqueGD115": {
+   "props": {
+     "blockClass": "motovlStrom2",
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT2.jpg"
+   }
+   
+ },
+ "rich-text#descripcionDeFoto2GD115":{
+   "props":{
+     "textAlignment": "CENTER",
+   "textPosition": "CENTER",
+   "text": "## GASTO EFICIENTE, AMPLIO STOCK DE REPUESTOS, ECONÓMICA\nTe permite mantener bajos costos de mantenimiento, para que puedas ahorrar y ese dinero hacerlo producir en tu negocio",
+   "blockClass": "descripcionDeFoto"
+   }
+ },
+ "flex-layout.row#divParaImagenRevista3GD115":{
+   "props": {
+     "blockClass": "divParaImagenRevista3",
+     "colGap": 0,
+     "rowGap": 0,
+     "marginTop": 0,
+     "marginBottom": 0,
+     "paddingTop": 0,
+     "paddingBottom": 0
+   },
+   "children":["image#motorGD115","rich-text#descripcionDeFoto3GD115"]
+ },
+ "image#motorGD115": {
+   "props": {
+     "blockClass": "motovlStrom3",
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT3.jpg"
+     
+   }
+   
+ },
+ "rich-text#descripcionDeFoto3GD115":{
+   "props":{
+     "textAlignment": "CENTER",
+   "textPosition": "CENTER",
+   "text": "## PARA TRABAJO DURO\nNo solo en componentes mecánicos es duradera, su equipamiento es excepcional, incluye rines de rayo para mayor absorción de golpes ",
+   "blockClass": "descripcionDeFoto"
+   }
+ },
+
+
+
 
    //DR Z50
    "condition-layout.product#conditionRevistaDRZ50": 
@@ -2026,6 +3892,133 @@
        "textAlignment": "CENTER",
      "textPosition": "CENTER",
      "text": "## SISTEMA SHAC\nSal primero en todas las partidas, con el sistema SHAC vas a lograr un mejor arranque de carrera",
+     "blockClass": "descripcionDeFoto"
+     }
+   },
+
+   //RM85
+   "condition-layout.product#conditionRevistaRM85": 
+   {
+     "props": {
+       "conditions": [
+         {
+           "subject": "productId",
+           "arguments": {
+             "id": "2049584" 
+           }
+         }
+       ],
+       "toBe" : true,
+       "Then":  "flex-layout.row#contenedorDivParaImagenRevistaRM85" 
+       
+     }
+   },
+   "flex-layout.row#contenedorDivParaImagenRevistaRM85" : {
+     "props": {
+       "blockClass": "contenedorDivParaImagenRevista",
+       "fullWidth":true,
+       "colGap": 0,
+       "rowGap": 0,
+       "marginTop": 0,
+       "marginBottom": 0,
+       "paddingTop": 0,
+       "paddingBottom": 0
+     },
+     "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaRM85"]
+   },
+   
+   
+   "flex-layout.col#contenedorColumnaDivParaImagenRevistaRM85" : {
+     "props": {
+       "blockClass": "contenedorColumnaDivParaImagenRevista",
+       "preventVerticalStretch": true,
+       "rowGap": 0,
+       "hasMoreThanOne" : true
+     },
+     "children":["flex-layout.row#divParaImagenRevistaRM85","flex-layout.row#divParaImagenRevista2RM85","flex-layout.row#divParaImagenRevista3RM85"]
+   },
+   
+   "flex-layout.row#divParaImagenRevistaRM85":{
+     "props": {
+       "blockClass": "divParaImagenRevista",
+       "colGap": 0,
+       "rowGap": 0,
+       "marginTop": 0,
+       "marginBottom": 0,
+       "paddingTop": 0,
+       "paddingBottom": 0
+     },
+     "children":["image#motoRM85","rich-text#descripcionDeFoto1RM85"]
+   },
+   "image#motoRM85": {
+     "props": {
+       "blockClass": "motovlStrom",
+       "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT1.jpg"
+       
+     }
+     
+   },
+   "rich-text#descripcionDeFoto1RM85":{
+     "props":{
+       "textAlignment": "CENTER",
+     "textPosition": "CENTER",
+     "text": "## RM 85\nEncontraras todo lo necesario para llegar a lo mas alto",
+     "blockClass": "descripcionDeFoto"
+     }
+     
+   },
+   "flex-layout.row#divParaImagenRevista2RM85":{
+     "props": {
+       "blockClass": "divParaImagenRevista2",
+       "colGap": 0,
+       "rowGap": 0,
+       "marginTop": 0,
+       "marginBottom": 0,
+       "paddingTop": 0,
+       "paddingBottom": 0
+     },
+     "children":["rich-text#descripcionDeFoto2RM85","image#arranqueRM85"]
+   },
+   "image#arranqueRM85": {
+     "props": {
+       "blockClass": "motovlStrom2",
+       "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT2.jpg"
+     }
+     
+   },
+   "rich-text#descripcionDeFoto2RM85":{
+     "props":{
+       "textAlignment": "CENTER",
+     "textPosition": "CENTER",
+     "text": "## EL CONFIABLE MOTOR DE DOS TIEMPOS PRODUCE UNA POTENCIA CONTROLADA A CUALQUIER RPM\n",
+     "blockClass": "descripcionDeFoto"
+     }
+   },
+   "flex-layout.row#divParaImagenRevista3RM85":{
+     "props": {
+       "blockClass": "divParaImagenRevista3",
+       "colGap": 0,
+       "rowGap": 0,
+       "marginTop": 0,
+       "marginBottom": 0,
+       "paddingTop": 0,
+       "paddingBottom": 0
+     },
+     "children":["image#motorRM85","rich-text#descripcionDeFoto3RM85"]
+   },
+   "image#motorRM85": {
+     "props": {
+       "blockClass": "motovlStrom3",
+       "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT3.jpg"
+       
+     }
+     
+   },
+   "rich-text#descripcionDeFoto3RM85":{
+     "props":{
+       "textAlignment": "CENTER",
+     "textPosition": "CENTER",
+     "text": "## OFRECE UN MANEJO LÍDER EN SU CLASE TANTO COMO PARA PROFESIONALES Y NOVATOS\n",
      "blockClass": "descripcionDeFoto"
      }
    },
@@ -3746,7 +5739,8 @@
       "blockClass": "collage",
       "allowfullscreen":"true",
       "allowtransparency":"true", 
-      "src": "https://site.comandato.com/GaleriaVStrom250/index.html"
+      "src": "https://site.comandato.com/form_moto_flot/index.html"
+     
     }
   },
  
@@ -3778,6 +5772,7 @@
     },
     "children" : ["iframe#galleryMoto"]
   },
+ 
   "store.product": {
     "children": [
 
@@ -3785,7 +5780,13 @@
      // "list-context.image-list#sliderVLS",
 
      //CONDICIONES PARA LOS VIDEOS
-
+     "condition-layout.product#conditionForTheVideoCategoryeCrossRM85",
+     "condition-layout.product#conditionForTheVideoCategoryeUtilitariaGD115",
+     "condition-layout.product#conditionForTheVideoCategorySportySV650XA",
+     "condition-layout.product#conditionForTheVideoCategoryCustom",
+     "condition-layout.product#conditionForTheVideoCategoryScooterUK110",
+     "condition-layout.product#conditionForTheVideoCategorySportyGSXS750",
+     "condition-layout.product#conditionForTheVideoCategorySportyGSX250R",
      "condition-layout.product#conditionForTheVideoCategoryDoublePurposeVSTROM250",
      "condition-layout.product#conditionForTheVideoCategorySporty",
      "condition-layout.product#conditionForTheVideoCategoryDoublePurposeVSTROM650",
@@ -3797,13 +5798,22 @@
 
     
      //CONDICIONES PARA LOS TITULOS
+     "condition-layout.product#conditionForSubittleRM85",
+     "condition-layout.product#conditionForSubittleMotoGD115",
+     "condition-layout.product#conditionForSubittleMotoSV650XA",
+     "condition-layout.product#conditionForSubittleMotoIntruder",
+     "condition-layout.product#conditionForSubittleMotoMUK110",
+     "condition-layout.product#conditionForSubittleGSXS750",
+     "condition-layout.product#conditionForSubittleGSX250R",
      "condition-layout.product#conditionForSubittleMotoDR-Z50",
      "condition-layout.product#conditionForSubittleMotoVSTROMDL250",
      "condition-layout.product#conditionForSubittleKATANA",
      "condition-layout.product#conditionForSubittleMotoVSTROM650",
      "condition-layout.product#conditionForSubittleMotoVSTROM1050",
      "condition-layout.product#conditionForSubittleMotoGD115Evolution",
-
+   //  "wishlist-button",
+   
+    
      //FIN DE CONDICIONES PARA LOS TITULOS 
     
      //   "flex-layout.row#product-breadcrumb",//indica donde estas ubicado
@@ -3840,7 +5850,13 @@
 
 
   //REVISTAS PARA LAS MOTOS
-
+  "condition-layout.product#conditionRevistaRM85",
+  "condition-layout.product#conditionRevistaGD115",
+  "condition-layout.product#conditionRevistaSV650XA",
+  "condition-layout.product#conditionRevistaIntruder",
+  "condition-layout.product#conditionRevistaUK110",
+  "condition-layout.product#conditionRevistaGSXS750",
+  "condition-layout.product#conditionRevistaGSX250R",
  "condition-layout.product#conditionRevistavstrom",
  "condition-layout.product#conditionRevistaKatana",
  "condition-layout.product#conditionRevistaVstrom650",
@@ -3919,7 +5935,7 @@
       "rowGap": 0,
       "hasMoreThanOne" : true
     },
-    "children" :["rich-text#PoderyDeno","rich-text#NameMoto","rich-text#cotizala","flex-layout.row#botones"]
+    "children" :["rich-text#PoderyDeno","rich-text#NameMoto", "product-installments#text","rich-text#cotizala","flex-layout.row#botones"]
   },
   "rich-text#PoderyDeno":{
     "props":{

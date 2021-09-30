@@ -1,0 +1,20 @@
+{
+  "store.custom#repuestos-suzuki": {
+    "blocks": [
+      "iframe#repuestos-suzuki"  
+    ]
+  },
+ 
+  "iframe#repuestos-suzuki": {
+    "props": {
+      "width": "100%",
+      "height": "1000px",
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "talleres-suzuki",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/FormularioRepuestosSuzuki/index.html"
+    }
+  } 
+}
