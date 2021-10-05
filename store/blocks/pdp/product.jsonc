@@ -3,8 +3,9 @@
   //*********************************************PARTE DEL VIDEO********************************************************************//
   //==============================================================================================================================
 
-  //CATEGORIA CUSTOM  falta video
-  "condition-layout.product#conditionForTheVideoCategoryCustom":
+  //CATEGORIA CUSTOM  
+  //Intruder
+  "condition-layout.product#conditionForTheVideoCategoryCustomIntruder":
   {
     "props": {
       "conditions": [
@@ -37,13 +38,14 @@
      "autoPlay": true,
      "muted": false,
      "type":"mp4",
-     "src": "https://site.comandato.com/video/Cross.mp4",
+     "src": "https://site.comandato.com/video/Custom.mp4",
      "blockClass": "VideoCross"
    }
  },
 
 
-  //CATEGORIA SCOOTER falta video
+  //CATEGORIA SCOOTER 
+  //UK110
   "condition-layout.product#conditionForTheVideoCategoryScooterUK110":
   {
     "props": {
@@ -56,11 +58,27 @@
         }
       ],
       "toBe" : true,
-     "Then": "flex-layout.row#containforTheVideoScooterUK110"
+     "Then": "flex-layout.row#containforTheVideoScooter"
      
     }
   },
-  "flex-layout.row#containforTheVideoScooterUK110":{
+  "condition-layout.product#conditionForTheVideoCategoryScooterUR110":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2011740" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#containforTheVideoScooter"
+     
+    }
+  },
+  "flex-layout.row#containforTheVideoScooter":{
     "props":{
       "blockClass": "containforTheVideoScooterUK110",
       
@@ -77,15 +95,15 @@
      "autoPlay": true,
      "muted": false,
      "type":"mp4",
-     "src": "https://site.comandato.com/video/Cross.mp4",
-     "blockClass": "VideoCross"
+     "src": "https://site.comandato.com/video/LEST.mp4",
+     "blockClass": "VideoScooter"
    }
  },
 
 
   //CATEGORIA CROSS
   // Moto Suzuki DR-Z50  | 3 velocidades
-  "condition-layout.product#conditionForTheVideoCategoryeCross":
+  "condition-layout.product#conditionForTheVideoCategoryeCrossDR-Z50":
   {
     "props": {
       "conditions": [
@@ -141,8 +159,9 @@
  },
 
 
+
   //CATEGORIA DOBLE PROPOSITO
-  //MOTO SUZUKI V STROM 1050 - V STROM 250 - V STROM 650
+  //MOTO SUZUKI V STROM 1050 - V STROM 250 - V STROM 650 - DR650
   "condition-layout.product#conditionForTheVideoCategoryDoublePurposeVSTROM250": 
   {
     "props": {
@@ -191,6 +210,24 @@
      
     }
   },
+   //DR650 
+ "condition-layout.product#conditionForTheVideoCategoryDR650":
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2000136" 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then":  "flex-layout.row#containforTheVideoDoublePurpose"
+    
+   }
+ },
+
   "flex-layout.row#containforTheVideoDoublePurpose":{
     "props":{
       "blockClass": "containforTheVideoDoublePurpose",
@@ -214,7 +251,7 @@
  },
  //CATEGORIA UTILITARIA
 //GD 115 EVOLUTION
-"condition-layout.product#conditionForTheVideoCategoryeUtilitaria": 
+"condition-layout.product#conditionForTheVideoCategoryeUtilitariaGD115EVOLUTION": 
 {
   "props": {
     "conditions": [
@@ -247,6 +284,24 @@
    
   }
 },
+//GN-125
+"condition-layout.product#conditionForTheVideoCategoryeUtilitariaGN125": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000139"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containforTheVideoUtilitaria"
+   
+  }
+},
+
 
 
 "flex-layout.row#containforTheVideoUtilitaria":{
@@ -271,10 +326,50 @@
  }
 },
 
+//CATEGORIA UTILITARIA DEPORTIVA
+//GSX125
+"condition-layout.product#conditionForTheVideoCategoryeUtilitariaDeportivaGSX125": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049461"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containforTheVideoUtilitariaDeportivaGSX125"
+   
+  }
+},
+"flex-layout.row#containforTheVideoUtilitariaDeportivaGSX125":{
+  "props":{
+    "blockClass": "containforTheVideoUtilitariaDeportivaGSX125",
+    
+    "fullWidth" : true
+  },
+  "children":["video#VideoUtilitariaDeportivaGSX125"]
+},
+"video#VideoUtilitariaDeportivaGSX125": {
+ "props": {
+   "width": "100%",
+   "height": "540px",
+  
+   "loop": true,
+   "autoPlay": true,
+   "muted": false,
+   "type":"mp4",
+   "src": "https://site.comandato.com/video/",
+   "blockClass": "VideoUtiliraria"
+ }
+},
+
 
 //CATEGORIA DEPORTIVA
  //MOTO KATANA
- "condition-layout.product#conditionForTheVideoCategorySporty": 
+ "condition-layout.product#conditionForTheVideoCategorySportyKatana": 
  {
    "props": {
      "conditions": [
@@ -403,6 +498,158 @@
  //*********************************************TITULO PARA EL VIDEO********************************************************************//
  //==============================================================================================================================
 
+ //GN125
+ "condition-layout.product#conditionForSubittleMotoGN125": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2000139" 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#subTitleForTheMotoGN125"
+    
+   }
+ },
+ "flex-layout.row#subTitleForTheMotoGN125":{
+  "props":{
+    "blockClass": "subTitleForTheMoto",
+    
+    "fullWidth" : true
+  },
+  "children":["flex-layout.col#columnForTheSubTitleMotoGSX125"]
+ },
+ "flex-layout.col#columnForTheSubTitleMotoGN125":{
+  "props":{
+    "blockClass": "columnForTheSubTitleMoto"
+   
+  },
+  "children":["rich-text#subtittleMotoGN125","rich-text#subtittleMoto2GN125"]
+  //"children" :["condition-layout.product#conditionForTheSubtittleCategory","condition-layout.product#conditionForTheDescriptionCategory"]
+ 
+ },
+ "rich-text#subtittleMotoGN125":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## UTILITARIA DEPORITVA",
+  "blockClass": "subtittleMoto"
+  }
+ },
+ "rich-text#subtittleMoto2GN125":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "### CONFIABLE Y ÁGIL CON DISEÑO DEPORTIVO",
+  "blockClass": "subtittleMoto2"
+  }
+ },
+  //UR110
+"condition-layout.product#conditionForSubittleMotoUR110": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049461" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#subTitleForTheMotoUR110"
+   
+  }
+},
+"flex-layout.row#subTitleForTheMotoUR110":{
+ "props":{
+   "blockClass": "subTitleForTheMoto",
+   
+   "fullWidth" : true
+ },
+ "children":["flex-layout.col#columnForTheSubTitleMotoUR110"]
+},
+"flex-layout.col#columnForTheSubTitleMotoUR110":{
+ "props":{
+   "blockClass": "columnForTheSubTitleMoto"
+  
+ },
+ "children":["rich-text#subtittleMotoUR110","rich-text#subtittleMoto2UR110"]
+ //"children" :["condition-layout.product#conditionForTheSubtittleCategory","condition-layout.product#conditionForTheDescriptionCategory"]
+
+},
+"rich-text#subtittleMotoUR110":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "## UTILITARIA DEPORITVA",
+ "blockClass": "subtittleMoto"
+ }
+},
+"rich-text#subtittleMoto2UR110":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "### CONFIABLE Y ÁGIL CON DISEÑO DEPORTIVO",
+ "blockClass": "subtittleMoto2"
+ }
+},
+ //GSX125
+"condition-layout.product#conditionForSubittleMotoGSX125": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049461" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#subTitleForTheMotoGSX125"
+   
+  }
+},
+"flex-layout.row#subTitleForTheMotoGSX125":{
+ "props":{
+   "blockClass": "subTitleForTheMoto",
+   
+   "fullWidth" : true
+ },
+ "children":["flex-layout.col#columnForTheSubTitleMotoGSX125"]
+},
+"flex-layout.col#columnForTheSubTitleMotoGSX125":{
+ "props":{
+   "blockClass": "columnForTheSubTitleMoto"
+  
+ },
+ "children":["rich-text#subtittleMotoGSX125","rich-text#subtittleMoto2GSX125"]
+ //"children" :["condition-layout.product#conditionForTheSubtittleCategory","condition-layout.product#conditionForTheDescriptionCategory"]
+
+},
+"rich-text#subtittleMotoGSX125":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "## UTILITARIA DEPORITVA",
+ "blockClass": "subtittleMoto"
+ }
+},
+"rich-text#subtittleMoto2GSX125":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "### CONFIABLE Y ÁGIL CON DISEÑO DEPORTIVO",
+ "blockClass": "subtittleMoto2"
+ }
+},
+
+
 //SV650XA
 "condition-layout.product#conditionForSubittleMotoSV650XA": 
 {
@@ -450,6 +697,57 @@
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
  "text": "### ",
+ "blockClass": "subtittleMoto2"
+ }
+},
+
+//DR650
+"condition-layout.product#conditionForSubittleMotoDR650": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000136" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#subTitleForTheMotoDR650"
+   
+  }
+},
+"flex-layout.row#subTitleForTheMotoDR650":{
+ "props":{
+   "blockClass": "subTitleForTheMoto",
+   
+   "fullWidth" : true
+ },
+ "children":["flex-layout.col#columnForTheSubTitleMotoDR650"]
+},
+"flex-layout.col#columnForTheSubTitleMotoDR650":{
+ "props":{
+   "blockClass": "columnForTheSubTitleMoto"
+  
+ },
+ "children":["rich-text#subtittleMotoDR650","rich-text#subtittleMoto2DR650"]
+ //"children" :["condition-layout.product#conditionForTheSubtittleCategory","condition-layout.product#conditionForTheDescriptionCategory"]
+
+},
+"rich-text#subtittleMotoDR650":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "## DOBLE PRÓPOSITO",
+ "blockClass": "subtittleMoto"
+ }
+},
+"rich-text#subtittleMoto2DR650":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "### LA REINA DEL OFF-ROAD",
  "blockClass": "subtittleMoto2"
  }
 },
@@ -1113,12 +1411,60 @@
  //     "rich-text#Category",
     "flex-layout.row#product-name",//NOMBRE DEL PRODUCTO
     "rich-text#subtittleDescriptionMoto",
+    "product-installments#text",//DESDE 36 CUOTAS 
     "product-separator",
-    "sku-selector"
-  //  "product-installments#text",//DESDE 36 CUOTAS 
+    "sku-selector",
+  //  "flex-layout.row#buyNowButtonCreditoDirecto",
+    "flex-layout.row#buyNowButtonCotizaTuMoto"
    
   ]
 },
+/*
+"flex-layout.row#buyNowButtonCreditoDirecto": {
+  "props": {
+    "blockClass": "buyNowButtonCreditoDirecto",
+    "marginTop": 4,
+    "marginBottom": 2
+  },
+  "children": [
+    "add-to-cart-button#buyNowCreditoDirecto"
+  ]
+},
+
+"add-to-cart-button#buyNowCreditoDirecto": {
+  "props": {
+    "text": "SOLICITA TU CREDITO DIRECTO", 
+    "isOneClickBuy": true,
+    "onClickEventPropagation":  "enabled",
+    "blockClass": "buyNowCreditoDirecto"
+  }
+},
+*/
+
+
+"flex-layout.row#buyNowButtonCotizaTuMoto": {
+  "props": {
+    "blockClass": "buyNowButtonCotizaTuMoto",
+    "marginTop": 4,
+    "marginBottom": 2
+  },
+  "children": [
+    "add-to-cart-button#buyNowCotizaTuMoto"
+  ]
+},
+
+"add-to-cart-button#buyNowCotizaTuMoto": {
+  "props": {
+    "text": "COTIZA TU MOTO", 
+    "isOneClickBuy": true,
+    "onClickEventPropagation":  "enabled",
+    "blockClass": "buyNowButtonCotizaTuMoto"
+  }
+},
+
+
+
+
 "flex-layout.col#BlockstackImage": {
   "children": ["stack-layout#BlockImage"],
   "props": {
@@ -1145,7 +1491,22 @@
  //==============================================================================================================================
  //*********************************************CARACTERISTICAS DE LA MOTO*******************************************//
  //==============================================================================================================================
-
+ "condition-layout.product#conditionForTheImageDescriptionVStrom250":
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2048798" 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#containImageDescription"
+    
+   }
+ },
 
  "flex-layout.row#containImageDescription":
  {
@@ -1176,6 +1537,8 @@
    "hasMoreThanOne" : true
    },
    "children":["image#motor",
+    "condition-layout.product#conditionFirstTextGSX125",
+    "condition-layout.product#conditionFirstTextDR650",
     "condition-layout.product#conditionFirstTextRM85",
     "condition-layout.product#conditionFirstTextGD115",
     "condition-layout.product#conditionFirstTextSV650XA",
@@ -1199,6 +1562,63 @@
     "maxWidth" : 80
   }
  
+},
+
+//PRIMERA CONDICION GSX125
+"condition-layout.product#conditionFirstTextGSX125": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049461" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextGSX125"
+   
+  }
+},
+
+"rich-text#firstTextGSX125":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**125 CC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+//PRIMERA CONDICION DR650
+"condition-layout.product#conditionFirstTextDR650": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000136" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextDR650"
+   
+  }
+},
+
+"rich-text#firstTextDR650":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**650 CC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
 },
 
 //PRIMERA CONDICION RM85
@@ -1568,6 +1988,8 @@
    "hasMoreThanOne" : true
    },
    "children":["image#rapido",
+    "condition-layout.product#conditionSecondtTextGSX125",
+    "condition-layout.product#conditionSecondtTextDR650",
     "condition-layout.product#conditionSecondtTextRM85",
     "condition-layout.product#conditionSecondtTextGD115",
     "condition-layout.product#conditionSecondtTextSV650XA",
@@ -1588,6 +2010,61 @@
     "maxWidth" : 80
     
   }
+},
+
+//SEGUNDA  CONDICION TEXTO  GSX125
+"condition-layout.product#conditionSecondtTextGSX125": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049461" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGSX125"
+   
+  }
+},
+"rich-text#SecondTextGSX125":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**5 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+//SEGUNDA  CONDICION TEXTO  DR650
+"condition-layout.product#conditionSecondtTextDR650": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000136" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDR650"
+   
+  }
+},
+"rich-text#SecondTextDR650":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**5 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
 },
 //SEGUNDA  CONDICION TEXTO  RM85
 "condition-layout.product#conditionSecondtTextRM85": 
@@ -1954,6 +2431,8 @@
    "hasMoreThanOne" : true
    },
    "children":["image#disco_freno",
+    "condition-layout.product#conditionThirdtTextGSX1250",
+    "condition-layout.product#conditionThirdtTextDR650",
     "condition-layout.product#conditionThirdtTextRM85",
     "condition-layout.product#conditionThirdtTextGD115",
     "condition-layout.product#conditionThirdtTextSV650XA",
@@ -1977,6 +2456,62 @@
     "maxWidth" : 80
   }
 },
+
+//TERCERA CONDICION GSX1250
+"condition-layout.product#conditionThirdtTextGSX1250": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049461"  
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGSX1250"
+   
+  }
+},
+"rich-text#ThirdTextGSX1250":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje3"
+  }
+},
+//TERCERA CONDICION DR650
+"condition-layout.product#conditionThirdtTextDR650": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000136"  
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextDR650"
+   
+  }
+},
+"rich-text#ThirdTextDR650":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje3"
+  }
+},
+
 
 //TERCERA CONDICION TEXTO RM85
 "condition-layout.product#conditionThirdtTextRM85": 
@@ -2329,6 +2864,65 @@
  //*********************************************PARTES DE LA MOTO EN FOTO *******************************************//
  //==============================================================================================================================
 
+ "condition-layout.product#conditionForTheGaleryVstrom250":
+ {
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2048798" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containforTheGalleryVstrom250"
+   
+  }
+},
+"flex-layout.row#containforTheGalleryVstrom250":{
+  "props":{
+    "blockClass": "containforTheVideoCustom",
+    
+    "fullWidth" : true
+  },
+  "children":[
+    "image#fotoVstrom250-1",
+    "image#fotoVstrom250-2",
+    "image#fotoVstrom250-3",
+    "image#fotoVstrom250-4"
+  ]
+},
+"image#fotoVstrom250-1": {
+  "props": {
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/GaleriaVStrom250-1.jpg"
+    
+  }
+},
+"image#fotoVstrom250-2": {
+  "props": {
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/GaleriaVStrom250-2.jpg"
+  
+  }
+},
+"image#fotoVstrom250-3": {
+  "props": {
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/GaleriaVStrom250-3.jpg"
+    
+  }
+},
+"image#fotoVstrom250-4": {
+  "props": {
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/GaleriaVStrom250-4.png"
+   
+  }
+},
+
+
+
+
+
+
    //==============================================================================================================================
  //*********************************************FIN PARTES DE LA MOTO EN FOTO *******************************************//
  //==============================================================================================================================
@@ -2364,7 +2958,134 @@
  //==============================================================================================================================
  //*********************************************DESCRIPCION DE LA MOTO EN FORMA DE REVISTA*******************************************//
  //==============================================================================================================================
-//SV650XA
+//GSX125
+"condition-layout.product#conditionRevistaGSX125": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049461" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "flex-layout.row#contenedorDivParaImagenRevistaGSX125"
+   
+  }
+},
+
+"flex-layout.row#contenedorDivParaImagenRevistaGSX125" : {
+ "props": {
+   "blockClass": "contenedorDivParaImagenRevista",
+   "fullWidth":true,
+   "colGap": 0,
+   "rowGap": 0,
+   "marginTop": 0,
+   "marginBottom": 0,
+   "paddingTop": 0,
+   "paddingBottom": 0
+ },
+ "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaGSX125"]
+},
+
+"flex-layout.col#contenedorColumnaDivParaImagenRevistaGSX125" : {
+ "props": {
+   "blockClass": "contenedorColumnaDivParaImagenRevista",
+   "preventVerticalStretch": true,
+   "rowGap": 0,
+   "hasMoreThanOne" : true
+ },
+ "children":["flex-layout.row#divParaImagenRevistaGSX125","flex-layout.row#divParaImagenRevista2GSX125","flex-layout.row#divParaImagenRevista3GSX125"]
+},
+
+"flex-layout.row#divParaImagenRevistaGSX125":{
+ "props": {
+   "blockClass": "divParaImagenRevista",
+   "colGap": 0,
+   "rowGap": 0,
+   "marginTop": 0,
+   "marginBottom": 0,
+   "paddingTop": 0,
+   "paddingBottom": 0
+ },
+ "children":["image#motoGSX125","rich-text#descripcionDeFoto1GSX125"]
+},
+"image#motoGSX125": {
+ "props": {
+   "blockClass": "motovlStrom",
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/motovlstrom250.jpg"
+   
+ }
+
+},
+"rich-text#descripcionDeFoto1GSX125":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "## GSX125\nDiseño deportivo que no pasara desapercibido en las calles.",
+ "blockClass": "descripcionDeFoto"
+ }
+},
+"flex-layout.row#divParaImagenRevista2GSX125":{
+ "props": {
+   "blockClass": "divParaImagenRevista2",
+   "colGap": 0,
+   "rowGap": 0,
+   "marginTop": 0,
+   "marginBottom": 0,
+   "paddingTop": 0,
+   "paddingBottom": 0
+ },
+ "children":["rich-text#descripcionDeFoto2GSX125","image#moto2GSX125"]
+},
+"image#moto2GSX125": {
+ "props": {
+   "blockClass": "motovlStrom2",
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/arranqueVLSTROM-DL-250.jpg"
+ }
+
+},
+"rich-text#descripcionDeFoto2GSX125":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "## UNA MOTOCICLETA DISEÑADA PARA LA DIVERSIÓN Y EMOCIÓN\nRespuesta acescente y lineal del propulsor de 155cc, muy bajo en vibraciones.",
+ "blockClass": "descripcionDeFoto"
+ }
+},
+"flex-layout.row#divParaImagenRevista3GSX125":{
+ "props": {
+   "blockClass": "divParaImagenRevista3",
+   "colGap": 0,
+   "rowGap": 0,
+   "marginTop": 0,
+   "marginBottom": 0,
+   "paddingTop": 0,
+   "paddingBottom": 0
+ },
+ "children":["image#moto3GSX125","rich-text#descripcionDeFoto3GSX125"]
+},
+"image#moto3GSX125": {
+ "props": {
+   "blockClass": "motovlStrom3",
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/Suzuki%20MOTORDL%20250%202017-04.jpg"
+  
+ }
+
+},
+"rich-text#descripcionDeFoto3GSX125":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "## DISFRUTA DE UNA MOTO DEPORTIVA GRACIAS A SU FARO DELANTERO NAKED, ALETAS LATERALES QUE ROBUSTECEN Y AYUDAN A TENER UNA MEJOR VENTILACIÓN DE MOTOR FRENO DELANTERO DE DISCO PARA MAYOR SEGURIDAD AL FRENAR\n",
+ "blockClass": "descripcionDeFoto"
+ }
+},
+
+
+ //SV650XA
 "condition-layout.product#conditionRevistaSV650XA": 
 {
   "props": {
@@ -4022,6 +4743,134 @@
      "blockClass": "descripcionDeFoto"
      }
    },
+
+
+    //DR650
+    "condition-layout.product#conditionRevistaDR650": 
+    {
+      "props": {
+        "conditions": [
+          {
+            "subject": "productId",
+            "arguments": {
+              "id": "2000136" 
+            }
+          }
+        ],
+        "toBe" : true,
+        "Then":  "flex-layout.row#contenedorDivParaImagenRevistaDR650" 
+        
+      }
+    },
+    "flex-layout.row#contenedorDivParaImagenRevistaDR650" : {
+      "props": {
+        "blockClass": "contenedorDivParaImagenRevista",
+        "fullWidth":true,
+        "colGap": 0,
+        "rowGap": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0
+      },
+      "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaDR650"]
+    },
+    
+    
+    "flex-layout.col#contenedorColumnaDivParaImagenRevistaDR650" : {
+      "props": {
+        "blockClass": "contenedorColumnaDivParaImagenRevista",
+        "preventVerticalStretch": true,
+        "rowGap": 0,
+        "hasMoreThanOne" : true
+      },
+      "children":["flex-layout.row#divParaImagenRevistaDR650","flex-layout.row#divParaImagenRevista2DR650","flex-layout.row#divParaImagenRevista3DR650"]
+    },
+    
+    "flex-layout.row#divParaImagenRevistaDR650":{
+      "props": {
+        "blockClass": "divParaImagenRevista",
+        "colGap": 0,
+        "rowGap": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0
+      },
+      "children":["image#motoDR650","rich-text#descripcionDeFoto1DR650"]
+    },
+    "image#motoDR650": {
+      "props": {
+        "blockClass": "motovlStrom",
+        "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT1.jpg"
+        
+      }
+      
+    },
+    "rich-text#descripcionDeFoto1DR650":{
+      "props":{
+        "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "## DR 650\nDomina cualquier superficie con esta poderosa todo terreno",
+      "blockClass": "descripcionDeFoto"
+      }
+      
+    },
+    "flex-layout.row#divParaImagenRevista2DR650":{
+      "props": {
+        "blockClass": "divParaImagenRevista2",
+        "colGap": 0,
+        "rowGap": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0
+      },
+      "children":["rich-text#descripcionDeFoto2DR650","image#arranqueDR650"]
+    },
+    "image#arranqueDR650": {
+      "props": {
+        "blockClass": "motovlStrom2",
+        "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT2.jpg"
+      }
+      
+    },
+    "rich-text#descripcionDeFoto2DR650":{
+      "props":{
+        "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "## FACILIDAD PARA SUPERAR TODOS LOS OBSTÁCULOS QUE SE CRUCEN EN SU CAMINO\n",
+      "blockClass": "descripcionDeFoto"
+      }
+    },
+    "flex-layout.row#divParaImagenRevista3DR650":{
+      "props": {
+        "blockClass": "divParaImagenRevista3",
+        "colGap": 0,
+        "rowGap": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0
+      },
+      "children":["image#motorDR650","rich-text#descripcionDeFoto3DR650"]
+    },
+    "image#motorDR650": {
+      "props": {
+        "blockClass": "motovlStrom3",
+        "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT3.jpg"
+        
+      }
+      
+    },
+    "rich-text#descripcionDeFoto3DR650":{
+      "props":{
+        "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "## EXCELENTE RENDIMIENTO, BAJO PESO Y GRAN POTENCIA\n",
+      "blockClass": "descripcionDeFoto"
+      }
+    },
  //==============================================================================================================================
  //*********************************************FIN DESCRIPCION DE LA MOTO EN FORMA DE REVISTA*******************************************//
  //==============================================================================================================================
@@ -4216,6 +5065,741 @@
       
     }
   },
+  //UR110
+  "condition-layout.product#conditionForTheSliderUR110":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2011740" // v - strom dl250 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "list-context.image-list#sliderUR110"
+     
+    }
+  },
+  "list-context.image-list#sliderUR110": {
+    "children": ["slider-layout#sliderUR110items"],
+    "props": {
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "",
+          "mobileImage": ""
+        },
+        {
+          "width" : "100%",
+         
+          "image": "",
+          "mobileImage":  ""
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#sliderUR110items": {
+    "props": {
+      "blockClass": "sliderVLSitems",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
+  //GD115 EVOLUTION
+  "condition-layout.product#conditionForTheSliderDGD115EVOLUTION":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2054549"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "list-context.image-list#sliderGD115EVOLUTION"
+     
+    }
+  },
+  "list-context.image-list#sliderGD115EVOLUTION": {
+    "children": ["slider-layout#sliderGD115EVOLUTIONitems"],
+    "props": {
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "",
+          "mobileImage": ""
+        },
+        {
+          "width" : "100%",
+         
+          "image": "",
+          "mobileImage":  ""
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#sliderGD115EVOLUTIONitems": {
+    "props": {
+      "blockClass": "sliderVLSitems",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
+  //GD115
+  "condition-layout.product#conditionForTheSliderGD115":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2011222"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "list-context.image-list#sliderGD115"
+     
+    }
+  },
+  "list-context.image-list#sliderGD115": {
+    "children": ["slider-layout#sliderGD115items"],
+    "props": {
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "",
+          "mobileImage": ""
+        },
+        {
+          "width" : "100%",
+         
+          "image": "",
+          "mobileImage":  ""
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#sliderGD115items": {
+    "props": {
+      "blockClass": "sliderVLSitems",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
+  //GN-125
+  "condition-layout.product#conditionForTheSliderGN-125" :
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2000139"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "list-context.image-list#sliderGN-125"
+     
+    }
+  },
+  "list-context.image-list#sliderGN-125": {
+    "children": ["slider-layout#sliderGN-125items"],
+    "props": {
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "",
+          "mobileImage": ""
+        },
+        {
+          "width" : "100%",
+         
+          "image": "",
+          "mobileImage":  ""
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#sliderGN-125items": {
+    "props": {
+      "blockClass": "sliderVLSitems",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
+
+  //UK110
+  "condition-layout.product#conditionForTheSliderUK110" : 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2054550"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "list-context.image-list#sliderUK110"
+     
+    }
+  },
+  "list-context.image-list#sliderUK110": {
+    "children": ["slider-layout#sliderUK110items"],
+    "props": {
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "",
+          "mobileImage": ""
+        },
+        {
+          "width" : "100%",
+         
+          "image": "",
+          "mobileImage":  ""
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#sliderUK110items": {
+    "props": {
+      "blockClass": "sliderVLSitems",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
+  //GSX125-C
+  "condition-layout.product#conditionForTheSliderGSX125-C" :
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049461"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "list-context.image-list#sliderGSZ125-C"
+     
+    }
+  },
+  "list-context.image-list#sliderGSZ125-C": {
+    "children": ["slider-layout#sliderUK110items"],
+    "props": {
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "",
+          "mobileImage": ""
+        },
+        {
+          "width" : "100%",
+         
+          "image": "",
+          "mobileImage":  ""
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#sliderGSX125-Citems": {
+    "props": {
+      "blockClass": "sliderVLSitems",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
+  //DR-Z50
+  "condition-layout.product#conditionForTheSliderDR-Z50" :
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049492"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "list-context.image-list#sliderDR-Z50"
+     
+    }
+  },
+  "list-context.image-list#sliderDR-Z50": {
+    "children": ["slider-layout#sliderDR-Z50items"],
+    "props": {
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "",
+          "mobileImage": ""
+        },
+        {
+          "width" : "100%",
+         
+          "image": "",
+          "mobileImage":  ""
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#sliderDR-Z50items": {
+    "props": {
+      "blockClass": "sliderVLSitems",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
+  //GSX-S750A
+  "condition-layout.product#conditionForTheSliderGSX-S750A" :
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049461"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "list-context.image-list#sliderGSX-S750A"
+     
+    }
+  },
+  "list-context.image-list#sliderGSX-S750A": {
+    "children": ["slider-layout#sliderGSX-S750Aitems"],
+    "props": {
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "",
+          "mobileImage": ""
+        },
+        {
+          "width" : "100%",
+         
+          "image": "",
+          "mobileImage":  ""
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#sliderGSX-S750Aitems": {
+    "props": {
+      "blockClass": "sliderVLSitems",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
+  //RM85
+  "condition-layout.product#conditionForTheSliderRM85" :
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049584"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "list-context.image-list#sliderRM85"
+     
+    }
+  },
+  "list-context.image-list#sliderRM85": {
+    "children": ["slider-layout#sliderRM85items"],
+    "props": {
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "",
+          "mobileImage": ""
+        },
+        {
+          "width" : "100%",
+         
+          "image": "",
+          "mobileImage":  ""
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#sliderRM85items": {
+    "props": {
+      "blockClass": "sliderVLSitems",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
+  //INTRUDER
+  "condition-layout.product#conditionForTheSliderINTRUDER":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049444"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "list-context.image-list#sliderINTRUDER"
+     
+    }
+  },
+  "list-context.image-list#sliderINTRUDER": {
+    "children": ["slider-layout#sliderINTRUDERitems"],
+    "props": {
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "",
+          "mobileImage": ""
+        },
+        {
+          "width" : "100%",
+         
+          "image": "",
+          "mobileImage":  ""
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#sliderINTRUDERitems": {
+    "props": {
+      "blockClass": "sliderVLSitems",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
+  //SLIDERFW110
+  "condition-layout.product#conditionForTheSliderFW110" :
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049186"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "list-context.image-list#sliderFW110"
+     
+    }
+  },
+  "list-context.image-list#sliderFW110": {
+    "children": ["slider-layout#sliderFW110items"],
+    "props": {
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "",
+          "mobileImage": ""
+        },
+        {
+          "width" : "100%",
+         
+          "image": "",
+          "mobileImage":  ""
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#sliderFW110items": {
+    "props": {
+      "blockClass": "sliderVLSitems",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
+  //VSTROM1050XT
+  "condition-layout.product#conditionForTheSliderVSTROM1050XT" :
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2054006"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "list-context.image-list#sliderVSTROM1050XT"
+     
+    }
+  },
+  "list-context.image-list#sliderVSTROM1050XT": {
+    "children": ["slider-layout#sliderVSTROM1050XTitems"],
+    "props": {
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "",
+          "mobileImage": ""
+        },
+        {
+          "width" : "100%",
+         
+          "image": "",
+          "mobileImage":  ""
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#sliderVSTROM1050XTitems": {
+    "props": {
+      "blockClass": "sliderVLSitems",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
+
+  //GSX250R
+  "condition-layout.product#conditionForTheSliderGSX250R" :
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2048797"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "list-context.image-list#sliderGSX250R"
+     
+    }
+  },
+  "list-context.image-list#sliderGSX250R": {
+    "children": ["slider-layout#sliderGSX250Ritems"],
+    "props": {
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "",
+          "mobileImage": ""
+        },
+        {
+          "width" : "100%",
+         
+          "image": "",
+          "mobileImage":  ""
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#sliderGSX250Ritems": {
+    "props": {
+      "blockClass": "sliderVLSitems",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
+  //DR650
+  "condition-layout.product#conditionForTheSliderDR650" :
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2000136"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "list-context.image-list#sliderDR650"
+     
+    }
+  },
+  "list-context.image-list#sliderDR650": {
+    "children": ["slider-layout#sliderDR650items"],
+    "props": {
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "",
+          "mobileImage": ""
+        },
+        {
+          "width" : "100%",
+         
+          "image": "",
+          "mobileImage":  ""
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#sliderDR650items": {
+    "props": {
+      "blockClass": "sliderVLSitems",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
+  
+
+  
+  /////////////////////////////////////////////////////////////////////////////////////
+  //"condition-layout.product#conditionForTheSliderUR110":
+  //"condition-layout.product#conditionForTheSliderDGD115EVOLUTION",
+ // "condition-layout.product#conditionForTheSliderGD115",
+ // "condition-layout.product#conditionForTheSliderGN-125",
+//  "condition-layout.product#conditionForTheSliderUK110",
+  //"condition-layout.product#conditionForTheSliderGSX125-C",
+ // "condition-layout.product#conditionForTheSliderDR-Z50",
+//  "condition-layout.product#conditionForTheSliderGSX-S750A",
+ // "condition-layout.product#conditionForTheSliderRM85",
+ // "condition-layout.product#conditionForTheSliderINTRUDER",
+ // "condition-layout.product#conditionForTheSliderFW110",
+ // "condition-layout.product#conditionForTheSliderVSTROM1050XT",
+//  "condition-layout.product#conditionForTheSliderGSX250R",
+ // "condition-layout.product#conditionForTheSliderDR650",
+  ////////////////////////////////////////////////////////////////////////////////////
  
  
   //==============================================================================================================================
@@ -4317,7 +5901,22 @@
     "condition-layout.product#conditionFirstTextVstrom1050FichaTecnicaMotor",
     "condition-layout.product#conditionFirstTextvstromFichaTecnicaMotor", 
     "condition-layout.product#conditionFirstTextKatanaFichaTecnicaMotor",
-    "condition-layout.product#conditionFirstTextVstrom650FichaTecnicaMotor"]
+    "condition-layout.product#conditionFirstTextVstrom650FichaTecnicaMotor",
+    
+    "condition-layout.product#conditionFirstTextUR110FichaTecnicaMotor", 
+    "condition-layout.product#conditionFirstTextGD115-EVOLUTIONFichaTecnicaMotor",
+    "condition-layout.product#conditionFirstTextGD115FichaTecnicaMotor",
+    "condition-layout.product#conditionFirstTextGN-125FichaTecnicaMotor", 
+    "condition-layout.product#conditionFirstTextUK110FichaTecnicaMotor",
+    "condition-layout.product#conditionFirstTextGSX125-CFichaTecnicaMotor",
+    "condition-layout.product#conditionFirstTextDR-Z50FichaTecnicaMotor", 
+    "condition-layout.product#conditionFirstTextGSX-S750AFichaTecnicaMotor",
+    "condition-layout.product#conditionFirstTextRM85FichaTecnicaMotor",
+    "condition-layout.product#conditionFirstTextINTRUDERFichaTecnicaMotor", 
+    "condition-layout.product#conditionFirstTextFW110FichaTecnicaMotor",
+    "condition-layout.product#conditionFirstTextGSX250RFichaTecnicaMotor",
+    "condition-layout.product#conditionFirstTextDR650FichaTecnicaMotor"
+  ]
 },
 "image#typeMotor": {
   "props": {
@@ -4327,7 +5926,328 @@
     "maxWidth" : 100
   } 
 },
+//AGREGADO
+//UR110
+"condition-layout.product#conditionFirstTextUR110FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011740" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextUR110FichaTecnicaMotor"
+  }
+},
+"rich-text#TextUR110FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
 
+//GD115-EVOLUTION
+"condition-layout.product#conditionFirstTextGD115-EVOLUTIONFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054549" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGD115-EVOLUTIONFichaTecnicaMotor"
+  }
+},
+"rich-text#TextGD115-EVOLUTIONFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GD115
+"condition-layout.product#conditionFirstTextGD115FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011222" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGD115FichaTecnicaMotor"
+  }
+},
+"rich-text#TextGD115FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GN-125
+"condition-layout.product#conditionFirstTextGN-125FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000139" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGN-125FichaTecnicaMotor"
+  }
+},
+"rich-text#TextGN-125FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//UK110
+"condition-layout.product#conditionFirstTextUK110FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054550"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextUK110FichaTecnicaMotor"
+  }
+},
+"rich-text#TextUK110FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GSX125-C
+"condition-layout.product#conditionFirstTextGSX125-CFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049461" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGSX125-CFichaTecnicaMotor"
+  }
+},
+"rich-text#TextGSX125-CFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//DR-Z50
+"condition-layout.product#conditionFirstTextDR-Z50FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049492"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextDR-Z50FichaTecnicaMotor"
+  }
+},
+"rich-text#TextDR-Z50FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX-S750A
+"condition-layout.product#conditionFirstTextGSX-S750AFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049300" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGSX-S750AFichaTecnicaMotor"
+  }
+},
+"rich-text#TextGSX-S750AFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//RM85
+"condition-layout.product#conditionFirstTextRM85FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049584"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextRM85FichaTecnicaMotor"
+  }
+},
+"rich-text#TextRM85FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//INTRUDER
+"condition-layout.product#conditionFirstTextINTRUDERFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049444"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextINTRUDERFichaTecnicaMotor"
+  }
+},
+"rich-text#TextINTRUDERFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//FW110
+"condition-layout.product#conditionFirstTextFW110FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049186" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextFW110FichaTecnicaMotor"
+  }
+},
+"rich-text#TextFW110FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX250R
+"condition-layout.product#conditionFirstTextGSX250RFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2048797"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGSX250RFichaTecnicaMotor"
+  }
+},
+"rich-text#TextGSX250RFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//DR650
+"condition-layout.product#conditionFirstTextDR650FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000136"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextDR650FichaTecnicaMotor"
+  }
+},
+"rich-text#TextDR650FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//FIN AGREGADO
 //V STROM DL 1050 XT
 "condition-layout.product#conditionFirstTextVstrom1050FichaTecnicaMotor": 
 {
@@ -4446,8 +6366,24 @@
   "children":["image#displacement", 
     "condition-layout.product#conditionSecondTextvstrom1050FichaTecnicaMotor",
     "condition-layout.product#conditionSecondTextvstromFichaTecnicaMotor", 
-    "condition-layout.product#conditionnSecondTextKatanaFichaTecnicaMotor",
-  "condition-layout.product#conditionnSecondTextVstrom650FichaTecnicaMotor"]
+    "condition-layout.product#conditionSecondTextKatanaFichaTecnicaMotor",
+  "condition-layout.product#conditionSecondTextVstrom650FichaTecnicaMotor",
+
+  "condition-layout.product#conditionSecondTextUR110FichaTecnicaMotor", 
+  "condition-layout.product#conditionSecondTextGD115-EVOLUTIONFichaTecnicaMotor",
+  "condition-layout.product#conditionSecondTextGD115FichaTecnicaMotor",
+  "condition-layout.product#conditionSecondTextGN-125FichaTecnicaMotor", 
+  "condition-layout.product#conditionSecondTextUK110FichaTecnicaMotor",
+  "condition-layout.product#conditionSecondTextGSX125-CFichaTecnicaMotor",
+  "condition-layout.product#conditionSecondTextDR-Z50FichaTecnicaMotor", 
+  "condition-layout.product#conditionSecondTextGSX-S750AFichaTecnicaMotor",
+  "condition-layout.product#conditionSecondTextRM85FichaTecnicaMotor",
+  "condition-layout.product#conditionSecondTextINTRUDERFichaTecnicaMotor", 
+  "condition-layout.product#conditionSecondTextFW110FichaTecnicaMotor",
+  "condition-layout.product#conditionSecondTextGSX250RFichaTecnicaMotor",
+  "condition-layout.product#conditionSecondTextDR650FichaTecnicaMotor"
+
+]
 },
 
 "image#displacement": {
@@ -4458,6 +6394,328 @@
     "maxWidth" : 100
   } 
 },
+
+//AGREGADO
+//UR110
+"condition-layout.product#conditionSecondTextUR110FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011740" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextUR110FichaTecnicaMotor"
+  }
+},
+"rich-text#SecondTextUR110FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GD115-EVOLUTION
+"condition-layout.product#conditionSecondTextGD115-EVOLUTIONFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054549" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGD115-EVOLUTIONFichaTecnicaMotor"
+  }
+},
+"rich-text#SecondTextGD115-EVOLUTIONFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GD115
+"condition-layout.product#conditionSecondTextGD115FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011222" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGD115FichaTecnicaMotor"
+  }
+},
+"rich-text#SecondTextGD115FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GN-125
+"condition-layout.product#conditionSecondTextGN-125FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000139" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGN-125FichaTecnicaMotor"
+  }
+},
+"rich-text#SecondTextGN-125FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//UK110
+"condition-layout.product#conditionSecondTextUK110FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054550"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextUK110FichaTecnicaMotor"
+  }
+},
+"rich-text#SecondTextUK110FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GSX125-C
+"condition-layout.product#conditionSecondTextGSX125-CFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049461" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGSX125-CFichaTecnicaMotor"
+  }
+},
+"rich-text#SecondTextGSX125-CFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//DR-Z50
+"condition-layout.product#conditionSecondTextDR-Z50FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049492"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDR-Z50FichaTecnicaMotor"
+  }
+},
+"rich-text#SecondTextDR-Z50FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX-S750A
+"condition-layout.product#conditionSecondTextGSX-S750AFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049300" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGSX-S750AFichaTecnicaMotor"
+  }
+},
+"rich-text#SecondTextGSX-S750AFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//RM85
+"condition-layout.product#conditionSecondTextRM85FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049584"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextRM85FichaTecnicaMotor"
+  }
+},
+"rich-text#SecondTextRM85FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//INTRUDER
+"condition-layout.product#conditionSecondTextINTRUDERFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049444"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextINTRUDERFichaTecnicaMotor"
+  }
+},
+"rich-text#SecondTextINTRUDERFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//FW110
+"condition-layout.product#conditionSecondTextFW110FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049186" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextFW110FichaTecnicaMotor"
+  }
+},
+"rich-text#SecondTextFW110FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX250R
+"condition-layout.product#conditionSecondTextGSX250RFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2048797"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGSX250RFichaTecnicaMotor"
+  }
+},
+"rich-text#SecondTextGSX250RFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//DR650
+"condition-layout.product#conditionSecondTextDR650FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000136"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDR650FichaTecnicaMotor"
+  }
+},
+"rich-text#SecondTextDR650FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//FIN DE AGREGADO
 //VSTROM 1050
 "condition-layout.product#conditionSecondTextvstrom1050FichaTecnicaMotor": 
 {
@@ -4508,7 +6766,7 @@
   }
 },
 //KATANA
-"condition-layout.product#conditionnSecondTextKatanaFichaTecnicaMotor": 
+"condition-layout.product#conditionSecondTextKatanaFichaTecnicaMotor": 
 {
   "props": {
     "conditions": [
@@ -4532,7 +6790,7 @@
   }
 },
 //V STROM 650
-"condition-layout.product#conditionnSecondTextVstrom650FichaTecnicaMotor": 
+"condition-layout.product#conditionSecondTextVstrom650FichaTecnicaMotor": 
 {
   "props": {
     "conditions": [
@@ -4576,7 +6834,24 @@
     "condition-layout.product#conditionThirdTextvstrom1050FichaTecnicaMotor",
     "condition-layout.product#conditionThirdTextvstromFichaTecnicaMotor", 
     "condition-layout.product#conditionnThirdTextKatanaFichaTecnicaMotor",
-    "condition-layout.product#conditionnThirdTextVstrom650FichaTecnicaMotor"]
+    "condition-layout.product#conditionnThirdTextVstrom650FichaTecnicaMotor",
+
+    "condition-layout.product#conditionThirdTextUR110FichaTecnicaMotor", 
+    "condition-layout.product#conditionThirdTextGD115-EVOLUTIONFichaTecnicaMotor",
+    "condition-layout.product#conditionThirdTextGD115FichaTecnicaMotor",
+    "condition-layout.product#conditionThirdTextGN-125FichaTecnicaMotor", 
+    "condition-layout.product#conditionThirdTextUK110FichaTecnicaMotor",
+    "condition-layout.product#conditionThirdTextGSX125-CFichaTecnicaMotor",
+    "condition-layout.product#conditionThirdTextDR-Z50FichaTecnicaMotor", 
+    "condition-layout.product#conditionThirdTextGSX-S750AFichaTecnicaMotor",
+    "condition-layout.product#conditionThirdTextRM85FichaTecnicaMotor",
+    "condition-layout.product#conditionThirdTextINTRUDERFichaTecnicaMotor", 
+    "condition-layout.product#conditionThirdTextFW110FichaTecnicaMotor",
+    "condition-layout.product#conditionThirdTextGSX250RFichaTecnicaMotor",
+    "condition-layout.product#conditionThirdTextDR650FichaTecnicaMotor"
+  
+  
+  ]
 },
 
 "image#startSystem": {
@@ -4588,7 +6863,329 @@
   } 
 },
 
+//AGREGADO
 
+//UR110
+"condition-layout.product#conditionThirdTextUR110FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011740" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextUR110FichaTecnicaMotor"
+  }
+},
+"rich-text#ThirdTextUR110FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GD115-EVOLUTION
+"condition-layout.product#conditionThirdTextGD115-EVOLUTIONFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054549" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGD115-EVOLUTIONFichaTecnicaMotor"
+  }
+},
+"rich-text#ThirdTextGD115-EVOLUTIONFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GD115
+"condition-layout.product#conditionThirdTextGD115FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011222" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGD115FichaTecnicaMotor"
+  }
+},
+"rich-text#ThirdTextGD115FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GN-125
+"condition-layout.product#conditionThirdTextGN-125FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000139" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGN-125FichaTecnicaMotor"
+  }
+},
+"rich-text#ThirdTextGN-125FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//UK110
+"condition-layout.product#conditionThirdTextUK110FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054550"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextUK110FichaTecnicaMotor"
+  }
+},
+"rich-text#ThirdTextUK110FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GSX125-C
+"condition-layout.product#conditionThirdTextGSX125-CFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049461" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGSX125-CFichaTecnicaMotor"
+  }
+},
+"rich-text#ThirdTextGSX125-CFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//DR-Z50
+"condition-layout.product#conditionThirdTextDR-Z50FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049492"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextDR-Z50FichaTecnicaMotor"
+  }
+},
+"rich-text#ThirdTextDR-Z50FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX-S750A
+"condition-layout.product#conditionThirdTextGSX-S750AFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049300" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGSX-S750AFichaTecnicaMotor"
+  }
+},
+"rich-text#ThirdTextGSX-S750AFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//RM85
+"condition-layout.product#conditionThirdTextRM85FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049584"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextRM85FichaTecnicaMotor"
+  }
+},
+"rich-text#ThirdTextRM85FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//INTRUDER
+"condition-layout.product#conditionThirdTextINTRUDERFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049444"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextINTRUDERFichaTecnicaMotor"
+  }
+},
+"rich-text#ThirdTextINTRUDERFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//FW110
+"condition-layout.product#conditionThirdTextFW110FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049186" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextFW110FichaTecnicaMotor"
+  }
+},
+"rich-text#ThirdTextFW110FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX250R
+"condition-layout.product#conditionThirdTextGSX250RFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2048797"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGSX250RFichaTecnicaMotor"
+  }
+},
+"rich-text#ThirdTextGSX250RFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//DR650
+"condition-layout.product#conditionThirdTextDR650FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000136"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextDR650FichaTecnicaMotor"
+  }
+},
+"rich-text#ThirdTextDR650FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//FIN AGREGADO
 //VSTROM 1050
 "condition-layout.product#conditionThirdTextvstrom1050FichaTecnicaMotor": 
 {
@@ -4764,7 +7361,23 @@
       "condition-layout.product#conditionFirstTextvstrom1050FichaTecnicaChasis",
       "condition-layout.product#conditionFirstTextvstromFichaTecnicaChasis",
        "condition-layout.product#conditionFirstTextKatanaFichaTecnicaChasis",
-       "condition-layout.product#conditionFirstTextVstrom650aFichaTecnicaChasis"]
+       "condition-layout.product#conditionFirstTextVstrom650aFichaTecnicaChasis",
+      
+       "condition-layout.product#conditionFirstTextUR110FichaTecnicaChasis", 
+       "condition-layout.product#conditionFirstTextGD115-EVOLUTIONFichaTecnicaChasis",
+       "condition-layout.product#conditionFirstTextGD115FichaTecnicaChasis",
+       "condition-layout.product#conditionFirstTextGN-125FichaTecnicaChasis", 
+       "condition-layout.product#conditionFirstTextUK110FichaTecnicaChasis",
+       "condition-layout.product#conditionFirstTextGSX125-CFichaTecnicaChasis",
+       "condition-layout.product#conditionFirstTextDR-Z50FichaTecnicaChasis", 
+       "condition-layout.product#conditionFirstTextGSX-S750AFichaTecnicaChasis",
+       "condition-layout.product#conditionFirstTextRM85FichaTecnicaChasis",
+       "condition-layout.product#conditionFirstTextINTRUDERFichaTecnicaChasis", 
+       "condition-layout.product#conditionFirstTextFW110FichaTecnicaChasis",
+       "condition-layout.product#conditionFirstTextGSX250RFichaTecnicaChasis",
+       "condition-layout.product#conditionFirstTextDR650FichaTecnicaChasis"
+
+      ]
   },
   "image#frontlight": {
     "props": {
@@ -4774,7 +7387,329 @@
       "maxWidth" : 100
     } 
   },
+//AGREGADO
 
+//UR110
+"condition-layout.product#conditionFirstTextUR110FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011740" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextUR110FichaTecnicaChasis"
+  }
+},
+"rich-text#TextUR110FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GD115-EVOLUTION
+"condition-layout.product#conditionFirstTextGD115-EVOLUTIONFichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054549" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGD115-EVOLUTIONFichaTecnicaChasis"
+  }
+},
+"rich-text#TextGD115-EVOLUTIONFichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GD115
+"condition-layout.product#conditionFirstTextGD115FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011222" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGD115FichaTecnicaChasis"
+  }
+},
+"rich-text#TextGD115FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GN-125
+"condition-layout.product#conditionFirstTextGN-125FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000139" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGN-125FichaTecnicaChasis"
+  }
+},
+"rich-text#TextGN-125FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//UK110
+"condition-layout.product#conditionFirstTextUK110FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054550"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextUK110FichaTecnicaChasis"
+  }
+},
+"rich-text#TextUK110FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GSX125-C
+"condition-layout.product#conditionFirstTextGSX125-CFichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049461" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGSX125-CFichaTecnicaChasis"
+  }
+},
+"rich-text#TextGSX125-CFichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//DR-Z50
+"condition-layout.product#conditionFirstTextDR-Z50FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049492"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextDR-Z50FichaTecnicaChasis"
+  }
+},
+"rich-text#TextDR-Z50FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX-S750A
+"condition-layout.product#conditionFirstTextGSX-S750AFichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049300" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGSX-S750AFichaTecnicaChasis"
+  }
+},
+"rich-text#TextGSX-S750AFichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//RM85
+"condition-layout.product#conditionFirstTextRM85FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049584"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextRM85FichaTecnicaChasis"
+  }
+},
+"rich-text#TextRM85FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//INTRUDER
+"condition-layout.product#conditionFirstTextINTRUDERFichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049444"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextINTRUDERFichaTecnicaChasis"
+  }
+},
+"rich-text#TextINTRUDERFichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//FW110
+"condition-layout.product#conditionFirstTextFW110FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049186" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextFW110FichaTecnicaChasis"
+  }
+},
+"rich-text#TextFW110FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX250R
+"condition-layout.product#conditionFirstTextGSX250RFichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2048797"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGSX250RFichaTecnicaChasis"
+  }
+},
+"rich-text#TextGSX250RFichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//DR650
+"condition-layout.product#conditionFirstTextDR650FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000136"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextDR650FichaTecnicaChasis"
+  }
+},
+"rich-text#TextDR650FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//FIN DE AGREGADO
     //VSTROM 1050
     "condition-layout.product#conditionFirstTextvstrom1050FichaTecnicaChasis": 
     {
@@ -4894,7 +7829,24 @@
       "condition-layout.product#conditionSecondTextvstrom1050FichaTecnicaChasis",
       "condition-layout.product#conditionSecondTextvstromFichaTecnicaChasis", 
       "condition-layout.product#conditionnSecondTextKatanaFichaTecnicaChasis",
-      "condition-layout.product#conditionnSecondTextVstrom650FichaTecnicaChasis"]
+      "condition-layout.product#conditionnSecondTextVstrom650FichaTecnicaChasis",
+
+      "condition-layout.product#conditionSecondTextUR110FichaTecnicaChasis", 
+      "condition-layout.product#conditionSecondTextGD115-EVOLUTIONFichaTecnicaChasis",
+      "condition-layout.product#conditionSecondTextGD115FichaTecnicaChasis",
+      "condition-layout.product#conditionSecondTextGN-125FichaTecnicaChasis", 
+      "condition-layout.product#conditionSecondTextUK110FichaTecnicaChasis",
+      "condition-layout.product#conditionSecondTextGSX125-CFichaTecnicaChasis",
+      "condition-layout.product#conditionSecondTextDR-Z50FichaTecnicaChasis", 
+      "condition-layout.product#conditionSecondTextGSX-S750AFichaTecnicaChasis",
+      "condition-layout.product#conditionSecondTextRM85FichaTecnicaChasis",
+      "condition-layout.product#conditionSecondTextINTRUDERFichaTecnicaChasis", 
+      "condition-layout.product#conditionSecondTextFW110FichaTecnicaChasis",
+      "condition-layout.product#conditionSecondTextGSX250RFichaTecnicaChasis",
+      "condition-layout.product#conditionSecondTextDR650FichaTecnicaChasis"
+    
+    
+    ]
   },
   
   "image#wheels": {
@@ -4905,7 +7857,332 @@
       "maxWidth" : 100
     } 
   },
- 
+ //AGREGADO
+//UR110
+"condition-layout.product#conditionSecondTextUR110FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011740" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextUR110FichaTecnicaChasis"
+  }
+},
+"rich-text#SecondTextUR110FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GD115-EVOLUTION
+"condition-layout.product#conditionSecondTextGD115-EVOLUTIONFichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054549" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGD115-EVOLUTIONFichaTecnicaChasis"
+  }
+},
+"rich-text#SecondTextGD115-EVOLUTIONFichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GD115
+"condition-layout.product#conditionSecondTextGD115FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011222" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGD115FichaTecnicaChasis"
+  }
+},
+"rich-text#SecondTextGD115FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GN-125
+"condition-layout.product#conditionSecondTextGN-125FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000139" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGN-125FichaTecnicaMotor"
+  }
+},
+"rich-text#SecondTextGN-125FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//UK110
+"condition-layout.product#conditionSecondTextUK110FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054550"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextUK110FichaTecnicaChasis"
+  }
+},
+"rich-text#SecondTextUK110FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GSX125-C
+"condition-layout.product#conditionSecondTextGSX125-CFichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049461" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGSX125-CFichaTecnicaChasis"
+  }
+},
+"rich-text#SecondTextGSX125-CFichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//DR-Z50
+"condition-layout.product#conditionSecondTextDR-Z50FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049492"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDR-Z50FichaTecnicaChasis"
+  }
+},
+"rich-text#SecondTextDR-Z50FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX-S750A
+"condition-layout.product#conditionSecondTextGSX-S750AFichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049300" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGSX-S750AFichaTecnicaChasis"
+  }
+},
+"rich-text#SecondTextGSX-S750AFichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//RM85
+"condition-layout.product#conditionSecondTextRM85FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049584"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextRM85FichaTecnicaChasis"
+  }
+},
+"rich-text#SecondTextRM85FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//INTRUDER
+"condition-layout.product#conditionSecondTextINTRUDERFichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049444"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextINTRUDERFichaTecnicaChasis"
+  }
+},
+"rich-text#SecondTextINTRUDERFichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//FW110
+"condition-layout.product#conditionSecondTextFW110FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049186" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextFW110FichaTecnicaChasis"
+  }
+},
+"rich-text#SecondTextFW110FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX250R
+"condition-layout.product#conditionSecondTextGSX250RFichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2048797"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGSX250RFichaTecnicaChasis"
+  }
+},
+"rich-text#SecondTextGSX250RFichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//DR650
+"condition-layout.product#conditionSecondTextDR650FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000136"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDR650FichaTecnicaChasis"
+  }
+},
+"rich-text#SecondTextDR650FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+
+
+ //FIN DE AGREGADO
+
+
     //V STROM 1050
     "condition-layout.product#conditionSecondTextvstrom1050FichaTecnicaChasis": 
     {
@@ -5026,7 +8303,23 @@
       "condition-layout.product#conditionThirdTextvstrom1050FichaTecnicaChasis",
        "condition-layout.product#conditionThirdTextvstromFichaTecnicaChasis", 
        "condition-layout.product#conditionnThirdTextKatanaFichaTecnicaChasis",
-       "condition-layout.product#conditionnThirdTextVstrom650FichaTecnicaChasis"]
+       "condition-layout.product#conditionnThirdTextVstrom650FichaTecnicaChasis",
+      
+      "condition-layout.product#conditionThirdTextUR110FichaTecnicaChasis", 
+      "condition-layout.product#conditionThirdTextGD115-EVOLUTIONFichaTecnicaChasis",
+      "condition-layout.product#conditionThirdTextGD115FichaTecnicaChasis",
+      "condition-layout.product#conditionThirdTextGN-125FichaTecnicaChasis", 
+      "condition-layout.product#conditionThirdTextUK110FichaTecnicaChasis",
+      "condition-layout.product#conditionThirdTextGSX125-CFichaTecnicaChasis",
+      "condition-layout.product#conditionThirdTextDR-Z50FichaTecnicaChasis", 
+      "condition-layout.product#conditionThirdTextGSX-S750AFichaTecnicaChasis",
+      "condition-layout.product#conditionThirdTextRM85FichaTecnicaChasis",
+      "condition-layout.product#conditionThirdTextINTRUDERFichaTecnicaChasis", 
+      "condition-layout.product#conditionThirdTextFW110FichaTecnicaChasis",
+      "condition-layout.product#conditionThirdTextGSX250RFichaTecnicaChasis",
+      "condition-layout.product#conditionThirdTextDR650FichaTecnicaChasis"
+      
+      ]
   },
  
   "image#frontSuspension": {
@@ -5037,6 +8330,329 @@
       "maxWidth" : 100
     } 
   },
+
+  //AGREGADO
+//UR110
+"condition-layout.product#conditionThirdTextUR110FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011740" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextUR110FichaTecnicaChasis"
+  }
+},
+"rich-text#ThirdTextUR110FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GD115-EVOLUTION
+"condition-layout.product#conditionThirdTextGD115-EVOLUTIONFichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054549" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGD115-EVOLUTIONFichaTecnicaChasis"
+  }
+},
+"rich-text#ThirdTextGD115-EVOLUTIONFichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GD115
+"condition-layout.product#conditionThirdTextGD115FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011222" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGD115FichaTecnicaChasis"
+  }
+},
+"rich-text#ThirdTextGD115FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GN-125
+"condition-layout.product#conditionThirdTextGN-125FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000139" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGN-125FichaTecnicaMotor"
+  }
+},
+"rich-text#ThirdTextGN-125FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//UK110
+"condition-layout.product#conditionThirdTextUK110FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054550"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextUK110FichaTecnicaChasis"
+  }
+},
+"rich-text#ThirdTextUK110FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GSX125-C
+"condition-layout.product#conditionThirdTextGSX125-CFichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049461" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGSX125-CFichaTecnicaChasis"
+  }
+},
+"rich-text#ThirdTextGSX125-CFichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//DR-Z50
+"condition-layout.product#conditionThirdTextDR-Z50FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049492"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextDR-Z50FichaTecnicaChasis"
+  }
+},
+"rich-text#ThirdTextDR-Z50FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX-S750A
+"condition-layout.product#conditionThirdTextGSX-S750AFichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049300" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGSX-S750AFichaTecnicaChasis"
+  }
+},
+"rich-text#ThirdTextGSX-S750AFichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//RM85
+"condition-layout.product#conditionThirdTextRM85FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049584"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextRM85FichaTecnicaChasis"
+  }
+},
+"rich-text#ThirdTextRM85FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//INTRUDER
+"condition-layout.product#conditionThirdTextINTRUDERFichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049444"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextINTRUDERFichaTecnicaChasis"
+  }
+},
+"rich-text#ThirdTextINTRUDERFichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//FW110
+"condition-layout.product#conditionThirdTextFW110FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049186" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextFW110FichaTecnicaChasis"
+  }
+},
+"rich-text#ThirdTextFW110FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX250R
+"condition-layout.product#conditionThirdTextGSX250RFichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2048797"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGSX250RFichaTecnicaChasis"
+  }
+},
+"rich-text#ThirdTextGSX250RFichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//DR650
+"condition-layout.product#conditionThirdTextDR650FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000136"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextDR650FichaTecnicaChasis"
+  }
+},
+"rich-text#ThirdTextDR650FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+  //FIN AGREGADO
    //V STROM 1050
    "condition-layout.product#conditionThirdTextvstrom1050FichaTecnicaChasis": 
    {
@@ -5201,7 +8817,26 @@
     "condition-layout.product#conditionFirstTextvstrom1050FichaTecnicaDP",
     "condition-layout.product#conditionFirstTextvstromFichaTecnicaDP", 
     "condition-layout.product#conditionFirstTextKatanaFichaTecnicaDP",
-    "condition-layout.product#conditionFirstTextVstrom650FichaTecnicaDP"]
+    "condition-layout.product#conditionFirstTextVstrom650FichaTecnicaDP",
+
+    "condition-layout.product#conditionFirstTextUR110FichaTecnicaDP", 
+    "condition-layout.product#conditionFirstTextGD115-EVOLUTIONFichaTecnicaDP",
+    "condition-layout.product#conditionFirstTextGD115FichaTecnicaDP",
+    "condition-layout.product#conditionFirstTextGN-125FichaTecnicaDP", 
+    "condition-layout.product#conditionFirstTextUK110FichaTecnicaDP",
+    "condition-layout.product#conditionFirstTextGSX125-CFichaTecnicaDP",
+    "condition-layout.product#conditionFirstTextDR-Z50FichaTecnicaDP", 
+    "condition-layout.product#conditionFirstTextGSX-S750AFichaTecnicaDP",
+    "condition-layout.product#conditionFirstTextRM85FichaTecnicaDP",
+    "condition-layout.product#conditionFirstTextINTRUDERFichaTecnicaDP", 
+    "condition-layout.product#conditionFirstTextFW110FichaTecnicaDP",
+    "condition-layout.product#conditionFirstTextGSX250RFichaTecnicaDP",
+    "condition-layout.product#conditionFirstTextDR650FichaTecnicaDP"
+
+    
+  
+  
+  ]
 },
 "image#Weight": {
   "props": {
@@ -5211,6 +8846,332 @@
     "maxWidth" : 100
   } 
 },
+
+//AGREGADO
+
+//UR110
+"condition-layout.product#conditionFirstTextUR110FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011740" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextUR110FichaTecnicaDP"
+  }
+},
+"rich-text#TextUR110FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GD115-EVOLUTION
+"condition-layout.product#conditionFirstTextGD115-EVOLUTIONFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054549" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGD115-EVOLUTIONFichaTecnicaDP"
+  }
+},
+"rich-text#TextGD115-EVOLUTIONFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GD115
+"condition-layout.product#conditionFirstTextGD115FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011222" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGD115FichaTecnicaDP"
+  }
+},
+"rich-text#TextGD115FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GN-125
+"condition-layout.product#conditionFirstTextGN-125FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000139" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGN-125FichaTecnicDP"
+  }
+},
+"rich-text#TextGN-125FichaTecnicDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//UK110
+"condition-layout.product#conditionFirstTextUK110FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054550"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextUK110FichaTecnicaDP"
+  }
+},
+"rich-text#TextUK110FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GSX125-C
+"condition-layout.product#conditionFirstTextGSX125-CFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049461" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGSX125-CFichaTecnicaDP"
+  }
+},
+"rich-text#TextGSX125-CFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//DR-Z50
+"condition-layout.product#conditionFirstTextDR-Z50FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049492"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextDR-Z50FichaTecnicaDP"
+  }
+},
+"rich-text#TextDR-Z50FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX-S750A
+"condition-layout.product#conditionFirstTextGSX-S750AFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049300" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGSX-S750AFichaTecnicaDP"
+  }
+},
+"rich-text#TextGSX-S750AFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//RM85
+"condition-layout.product#conditionFirstTextRM85FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049584"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextRM85FichaTecnicaDP"
+  }
+},
+"rich-text#TextRM85FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//INTRUDER
+"condition-layout.product#conditionFirstTextINTRUDERFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049444"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextINTRUDERFichaTecnicaDP"
+  }
+},
+"rich-text#TextINTRUDERFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//FW110
+"condition-layout.product#conditionFirstTextFW110FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049186" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextFW110FichaTecnicaChasis"
+  }
+},
+"rich-text#TextFW110FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX250R
+"condition-layout.product#conditionFirstTextGSX250RFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2048797"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGSX250RFichaTecnicaDP"
+  }
+},
+"rich-text#TextGSX250RFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//DR650
+"condition-layout.product#conditionFirstTextDR650FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000136"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextDR650FichaTecnicaDP"
+  }
+},
+"rich-text#TextDR650FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+
+//FIN AGREGADO
+
 //VL STROM 1050
 "condition-layout.product#conditionFirstTextvstrom1050FichaTecnicaDP": 
 {
@@ -5330,7 +9291,23 @@
     "condition-layout.product#conditionSecondTextvstrom1050FichaTecnicaDP",
     "condition-layout.product#conditionSecondTextvstromFichaTecnicaDP", 
     "condition-layout.product#conditionnSecondTextKatanaFichaTecnicaDP",
-    "condition-layout.product#conditionnSecondTextVstrom650FichaTecnicaDP"]
+    "condition-layout.product#conditionnSecondTextVstrom650FichaTecnicaDP",
+  
+    "condition-layout.product#conditionSecondTextUR110FichaTecnicaDP", 
+    "condition-layout.product#conditionSecondTextGD115-EVOLUTIONFichaTecnicaDP",
+    "condition-layout.product#conditionSecondTextGD115FichaTecnicaDP",
+    "condition-layout.product#conditionSecondTextGN-125FichaTecnicaDP", 
+    "condition-layout.product#conditionSecondTextUK110FichaTecnicaDP",
+    "condition-layout.product#conditionSecondTextGSX125-CFichaTecnicaDP",
+    "condition-layout.product#conditionSecondTextDR-Z50FichaTecnicaDP", 
+    "condition-layout.product#conditionSecondTextGSX-S750AFichaTecnicaDP",
+    "condition-layout.product#conditionSecondTextRM85FichaTecnicaDP",
+    "condition-layout.product#conditionSecondTextINTRUDERFichaTecnicaDP", 
+    "condition-layout.product#conditionSecondTextFW110FichaTecnicaDP",
+    "condition-layout.product#conditionSecondTextGSX250RFichaTecnicaDP",
+    "condition-layout.product#conditionSecondTextDR650FichaTecnicaDP"
+  
+  ]
 },
 
 "image#large": {
@@ -5341,7 +9318,329 @@
     "maxWidth" : 100
   } 
 },
+//AGREGADO
 
+//UR110
+"condition-layout.product#conditionSecondTextUR110FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011740" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextUR110FichaTecnicaDP"
+  }
+},
+"rich-text#SecondTextUR110FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GD115-EVOLUTION
+"condition-layout.product#conditionSecondTextGD115-EVOLUTIONFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054549" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGD115-EVOLUTIONFichaTecnicaDP"
+  }
+},
+"rich-text#SecondTextGD115-EVOLUTIONFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GD115
+"condition-layout.product#conditionSecondTextGD115FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011222" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGD115FichaTecnicaDP"
+  }
+},
+"rich-text#SecondTextGD115FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GN-125
+"condition-layout.product#conditionSecondTextGN-125FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000139" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGN-125FichaTecnicDP"
+  }
+},
+"rich-text#SecondTextGN-125FichaTecnicDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//UK110
+"condition-layout.product#conditionSecondTextUK110FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054550"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextUK110FichaTecnicaDP"
+  }
+},
+"rich-text#SecondTextUK110FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GSX125-C
+"condition-layout.product#conditionSecondTextGSX125-CFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049461" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGSX125-CFichaTecnicaDP"
+  }
+},
+"rich-text#SecondTextGSX125-CFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//DR-Z50
+"condition-layout.product#conditionSecondTextDR-Z50FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049492"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDR-Z50FichaTecnicaDP"
+  }
+},
+"rich-text#SecondTextDR-Z50FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX-S750A
+"condition-layout.product#conditionSecondTextGSX-S750AFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049300" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGSX-S750AFichaTecnicaDP"
+  }
+},
+"rich-text#SecondTextGSX-S750AFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//RM85
+"condition-layout.product#conditionSecondTextRM85FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049584"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextRM85FichaTecnicaDP"
+  }
+},
+"rich-text#SecondTextRM85FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//INTRUDER
+"condition-layout.product#conditionSecondTextINTRUDERFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049444"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextINTRUDERFichaTecnicaDP"
+  }
+},
+"rich-text#SecondTextINTRUDERFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//FW110
+"condition-layout.product#conditionSecondTextFW110FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049186" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextFW110FichaTecnicaChasis"
+  }
+},
+"rich-text#SecondTextFW110FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX250R
+"condition-layout.product#conditionSecondTextGSX250RFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2048797"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGSX250RFichaTecnicaDP"
+  }
+},
+"rich-text#SecondTextGSX250RFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//DR650
+"condition-layout.product#conditionSecondTextDR650FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000136"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDR650FichaTecnicaDP"
+  }
+},
+"rich-text#SecondTextDR650FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//FIN AGREGADO
 //VLSTROM 1050
 "condition-layout.product#conditionSecondTextvstrom1050FichaTecnicaDP": 
 {
@@ -5463,7 +9762,23 @@
     "condition-layout.product#conditionThirdTextvstrom1050FichaTecnicaDP",
      "condition-layout.product#conditionThirdTextvstromFichaTecnicaDP",
       "condition-layout.product#conditionnThirdTextKatanaFichaTecnicaDP",
-      "condition-layout.product#conditionnThirdTextVstrom650FichaTecnicaDP"]
+      "condition-layout.product#conditionnThirdTextVstrom650FichaTecnicaDP",
+  
+      "condition-layout.product#conditionThirdTextUR110FichaTecnicaDP", 
+      "condition-layout.product#conditionThirdTextGD115-EVOLUTIONFichaTecnicaDP",
+      "condition-layout.product#conditionThirdTextGD115FichaTecnicaDP",
+      "condition-layout.product#conditionThirdTextGN-125FichaTecnicaDP", 
+      "condition-layout.product#conditionThirdTextUK110FichaTecnicaDP",
+      "condition-layout.product#conditionThirdTextGSX125-CFichaTecnicaDP",
+      "condition-layout.product#conditionThirdTextDR-Z50FichaTecnicaDP", 
+      "condition-layout.product#conditionThirdTextGSX-S750AFichaTecnicaDP",
+      "condition-layout.product#conditionThirdTextRM85FichaTecnicaDP",
+      "condition-layout.product#conditionThirdTextINTRUDERFichaTecnicaDP", 
+      "condition-layout.product#conditionThirdTextFW110FichaTecnicaDP",
+      "condition-layout.product#conditionThirdTextGSX250RFichaTecnicaDP",
+      "condition-layout.product#conditionThirdTextDR650FichaTecnicaDP"
+    
+    ]
 },
 
 "image#tank": {
@@ -5474,7 +9789,329 @@
     "maxWidth" : 100
   } 
 },
+//AGREGADO
 
+//UR110
+"condition-layout.product#conditionThirdTextUR110FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011740" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextUR110FichaTecnicaDP"
+  }
+},
+"rich-text#ThirdTextUR110FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GD115-EVOLUTION
+"condition-layout.product#conditionThirdTextGD115-EVOLUTIONFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054549" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGD115-EVOLUTIONFichaTecnicaDP"
+  }
+},
+"rich-text#ThirdTextGD115-EVOLUTIONFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GD115
+"condition-layout.product#conditionThirdTextGD115FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011222" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGD115FichaTecnicaDP"
+  }
+},
+"rich-text#ThirdTextGD115FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GN-125
+"condition-layout.product#conditionThirdTextGN-125FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000139" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGN-125FichaTecnicDP"
+  }
+},
+"rich-text#ThirdTextGN-125FichaTecnicDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//UK110
+"condition-layout.product#conditionThirdTextUK110FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054550"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextUK110FichaTecnicaDP"
+  }
+},
+"rich-text#ThirdTextUK110FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GSX125-C
+"condition-layout.product#conditionThirdTextGSX125-CFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049461" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGSX125-CFichaTecnicaDP"
+  }
+},
+"rich-text#ThirdTextGSX125-CFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//DR-Z50
+"condition-layout.product#conditionThirdTextDR-Z50FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049492"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDR-Z50FichaTecnicaDP"
+  }
+},
+"rich-text#ThirdTextDR-Z50FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX-S750A
+"condition-layout.product#conditionThirdTextGSX-S750AFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049300" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGSX-S750AFichaTecnicaDP"
+  }
+},
+"rich-text#ThirdTextGSX-S750AFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//RM85
+"condition-layout.product#conditionThirdTextRM85FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049584"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextRM85FichaTecnicaDP"
+  }
+},
+"rich-text#ThirdTextRM85FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//INTRUDER
+"condition-layout.product#conditionThirdTextINTRUDERFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049444"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextINTRUDERFichaTecnicaDP"
+  }
+},
+"rich-text#ThirdTextINTRUDERFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//FW110
+"condition-layout.product#conditionThirdTextFW110FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049186" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextFW110FichaTecnicaChasis"
+  }
+},
+"rich-text#ThirdTextFW110FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX250R
+"condition-layout.product#conditionThirdTextGSX250RFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2048797"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGSX250RFichaTecnicaDP"
+  }
+},
+"rich-text#ThirdTextGSX250RFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//DR650
+"condition-layout.product#conditionThirdTextDR650FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000136"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextDR650FichaTecnicaDP"
+  }
+},
+"rich-text#ThirdTextDR650FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//FIN AGREGADO
 //VSTROM DL 1050
 "condition-layout.product#conditionThirdTextvstrom1050FichaTecnicaDP": 
 {
@@ -5773,31 +10410,548 @@
     "children" : ["iframe#galleryMoto"]
   },
  
+
+
+//INCIO DE VIDEOS MOTORES FUERA DE BORDA
+  //DF175ATX
+  "condition-layout.product#motorFueraBordaDF175ATX":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2067061" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#containMotorFueraBorda"
+     
+    }
+  },
+  //DF200ZX
+"condition-layout.product#motorFueraBordaDF200ZX":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2058125" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containMotorFueraBorda"
+   
+  }
+},
+//DF20AS
+"condition-layout.product#motorFueraBordaDF20AS":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052764" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containMotorFueraBorda"
+   
+  }
+},
+//DF150ZX
+"condition-layout.product#motorFueraBordaDF150ZX":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052763" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containMotorFueraBorda"
+   
+  }
+},
+  //DF150TX 
+  "condition-layout.product#motorFueraBordaDF150TX":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2052762" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#containMotorFueraBorda"
+     
+    }
+  },
+  //DF30S
+  "condition-layout.product#motorFueraBordaDF30AS":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2052760" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#containMotorFueraBorda"
+     
+    }
+  },
+  //DF30AL
+  "condition-layout.product#motorFueraBordaDF30AL":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2052759" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#containMotorFueraBorda"
+     
+    }
+  },
+  //AGREGADO
+  "condition-layout.product#motorFueraBordaDT15AL":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2052757" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#containMotorFueraBorda"
+     
+    }
+  },
+  "condition-layout.product#motorFueraBordaDF9.9AS":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2052756" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#containMotorFueraBorda"
+     
+    }
+  },
+  "condition-layout.product#motorFueraBordaDF6AS":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2052755" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#containMotorFueraBorda"
+     
+    }
+  },
+  "condition-layout.product#motorFueraBordaDT30L":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2052758" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#containMotorFueraBorda"
+     
+    }
+  },
+  "condition-layout.product#motorFueraBordaDF175AZX":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2054551" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#containMotorFueraBorda"
+     
+    }
+  },
+
+  //DT15AL
+     //DF9.9AS
+     //DF6AS
+     //DT30L
+    // DF175AZX
+
+  "flex-layout.row#containMotorFueraBorda":{
+    "props":{
+      "blockClass": "containMotorFueraBorda",
+      
+      "fullWidth" : true
+    },
+    "children":["video#VideoMotorFueraBorda"]
+  },
+  "video#VideoMotorFueraBorda": {
+   "props": {
+     "width": "100%",
+     "height": "540px",
+    
+     "loop": true,
+     "autoPlay": true,
+     "muted": false,
+     "type":"mp4",
+     "src": "https://site.comandato.com/video/motorborda.mp4",
+     "blockClass": "VideoMotorFueraBorda"
+   }
+ },
+
+
+//FIN INCIO DE VIDEOS MOTORES FUERA DE BORDA
+
+
+
+//IMAGEN LOGO MARINE
+//DF175ATX
+ "condition-layout.product#ImagemotorFueraBordaDF175ATX":
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2067061" 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#containImage"
+    
+   }
+ },
+ //DF200ZX
+ "condition-layout.product#ImagemotorFueraBordaDF200ZX":
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2058125" 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#containImage"
+    
+   }
+ },
+ //DF20AS
+ "condition-layout.product#ImagemotorFueraBordaDF20AS":
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2052764" 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#containImage"
+    
+   }
+ },
+ //DF150ZX 
+ "condition-layout.product#ImagemotorFueraBordaDF150ZX":
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2052763" 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#containImage"
+    
+   }
+ },
+ //DF150TX 
+ "condition-layout.product#ImagemotorFueraBordaDF150TX":
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2052762" 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#containImage"
+    
+   }
+ },
+ //DF30S 
+ "condition-layout.product#ImagemotorFueraBordaDF30AS":
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2052760" 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#containImage"
+    
+   }
+ },
+ //DF30AL
+ "condition-layout.product#ImagemotorFueraBordaDF30AL":
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2052759" 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#containImage"
+    
+   }
+ },
+  //DT15AL
+     //DF9.9AS
+     //DF6AS
+     //DT30L
+    // DF175AZX
+    "condition-layout.product#ImagemotorFueraBordaDT15AL":
+    {
+      "props": {
+        "conditions": [
+          {
+            "subject": "productId",
+            "arguments": {
+              "id": "2052757" 
+            }
+          }
+        ],
+        "toBe" : true,
+       "Then": "flex-layout.row#containImage"
+       
+      }
+    },
+    "condition-layout.product#ImagemotorFueraBordaDF9.9AS":
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2052756" 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#containImage"
+    
+   }
+ },
+ "condition-layout.product#ImagemotorFueraBordaDF6AS":
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2052755" 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#containImage"
+    
+   }
+ },
+ "condition-layout.product#ImagemotorFueraBordaDT30L":
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2052758" 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#containImage"
+    
+   }
+ },
+ "condition-layout.product#ImagemotorFueraBordaDF175AZX":
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2054551" 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#containImage"
+    
+   }
+ },
+ "flex-layout.row#containImage":
+ {
+  "props":{
+    "blockClass": "containImage",
+    
+    "fullWidth" : true
+  },
+  "children":["image#logoMotorFueraBorda"]
+ },
+ "image#logoMotorFueraBorda": {
+  "props": {
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/MARINE.jpg",
+   
+    "blockClass" : "logoMotorFueraBorda"
+    
+  }
+},
+
+//FN IMAGEN LOGO MARINE
   "store.product": {
     "children": [
 
      // "image#topBannerVL250strom",
      // "list-context.image-list#sliderVLS",
 
+     //motor fuera de borda VIDEOS
+     "condition-layout.product#motorFueraBordaDF20AS",
+     "condition-layout.product#motorFueraBordaDF150ZX",
+     "condition-layout.product#motorFueraBordaDF150TX",
+     "condition-layout.product#motorFueraBordaDF30AS",
+     "condition-layout.product#motorFueraBordaDF30AL",
+     //AGREGADO
+     "condition-layout.product#motorFueraBordaDT15AL",
+     "condition-layout.product#motorFueraBordaDF9.9AS",
+     "condition-layout.product#motorFueraBordaDF6AS",
+     "condition-layout.product#motorFueraBordaDT30L",
+     //FIN AGREGADO
+     //DT15AL
+     //DF9.9AS
+     //DF6AS
+     //DT30L
+     "condition-layout.product#motorFueraBordaDF175ATX",//ESTE ES EL VIDEO QUE CONTIENE PARA TODAS LOS MOTORES FUERA DE BORDA
+     "condition-layout.product#motorFueraBordaDF200ZX",
+     "condition-layout.product#motorFueraBordaDF175AZX",//AGREGADO
+     //DF175AZX
+     
+     
+     
+     
+     //LOGO DE MARINE
+     "condition-layout.product#ImagemotorFueraBordaDF175ATX",//LOGO DE MARINE
+     "condition-layout.product#ImagemotorFueraBordaDF200ZX",
+     "condition-layout.product#ImagemotorFueraBordaDF20AS",
+     "condition-layout.product#ImagemotorFueraBordaDF150ZX",
+     "condition-layout.product#ImagemotorFueraBordaDF150TX",
+     "condition-layout.product#ImagemotorFueraBordaDF30AS",
+     "condition-layout.product#ImagemotorFueraBordaDF30AL",
+
+     //AGREGADO
+     "condition-layout.product#ImagemotorFueraBordaDT15AL",
+     "condition-layout.product#ImagemotorFueraBordaDF9.9AS",
+     "condition-layout.product#ImagemotorFueraBordaDF6AS",
+     "condition-layout.product#ImagemotorFueraBordaDT30L",
+     "condition-layout.product#ImagemotorFueraBordaDF175AZX",
+
+     //FIN AGREGADO
+     
+
+
+     //fin de motor fuera de borda
+
+     
+
+     
+
      //CONDICIONES PARA LOS VIDEOS
+     "condition-layout.product#conditionForTheVideoCategoryDoublePurposeVSTROM250",
+     "condition-layout.product#conditionForTheVideoCategoryeUtilitariaDeportivaGSX125",
+     "condition-layout.product#conditionForTheVideoCategoryDR650",
      "condition-layout.product#conditionForTheVideoCategoryeCrossRM85",
      "condition-layout.product#conditionForTheVideoCategoryeUtilitariaGD115",
      "condition-layout.product#conditionForTheVideoCategorySportySV650XA",
-     "condition-layout.product#conditionForTheVideoCategoryCustom",
+     "condition-layout.product#conditionForTheVideoCategoryCustomIntruder",
      "condition-layout.product#conditionForTheVideoCategoryScooterUK110",
      "condition-layout.product#conditionForTheVideoCategorySportyGSXS750",
      "condition-layout.product#conditionForTheVideoCategorySportyGSX250R",
-     "condition-layout.product#conditionForTheVideoCategoryDoublePurposeVSTROM250",
-     "condition-layout.product#conditionForTheVideoCategorySporty",
+     "condition-layout.product#conditionForTheVideoCategorySportyKatana",
      "condition-layout.product#conditionForTheVideoCategoryDoublePurposeVSTROM650",
      "condition-layout.product#conditionForTheVideoCategoryDoublePurposeVSTROM1050",
-     "condition-layout.product#conditionForTheVideoCategoryeUtilitaria",
-     "condition-layout.product#conditionForTheVideoCategoryeCross",
+     "condition-layout.product#conditionForTheVideoCategoryeUtilitariaGD115EVOLUTION",
+     "condition-layout.product#conditionForTheVideoCategoryeCrossDR-Z50",
+     "condition-layout.product#conditionForTheVideoCategoryeUtilitariaGN125",
+     "condition-layout.product#conditionForTheVideoCategoryScooterUR110",
 
      //FIN DE CONDICIONES PARA LOS VIDEOS
 
     
      //CONDICIONES PARA LOS TITULOS
+     "condition-layout.product#conditionForSubittleMotoGSX125",
+     "condition-layout.product#conditionForSubittleMotoDR650",
      "condition-layout.product#conditionForSubittleRM85",
      "condition-layout.product#conditionForSubittleMotoGD115",
      "condition-layout.product#conditionForSubittleMotoSV650XA",
@@ -5811,6 +10965,9 @@
      "condition-layout.product#conditionForSubittleMotoVSTROM650",
      "condition-layout.product#conditionForSubittleMotoVSTROM1050",
      "condition-layout.product#conditionForSubittleMotoGD115Evolution",
+
+     "condition-layout.product#conditionForSubittleMotoGN125",
+     "condition-layout.product#conditionForSubittleMotoUR110",
    //  "wishlist-button",
    
     
@@ -5829,8 +10986,10 @@
      //"flex-layout.row#gsx725-2",
      // "flex-layout.row#containX"
    //  "flex-layout.row#product-main",
-   
-   "flex-layout.row#containImageDescription",
+   "condition-layout.product#conditionForTheImageDescriptionVStrom250",
+   "condition-layout.product#conditionForTheGaleryVstrom250",
+
+  // "flex-layout.row#containImageDescription",////tyjty
 //   "flex-layout.row#containGalleryMoto",
 //   "flex-layout.row#divParaimagenes",//Div que contiene las imagenes motor, velocidad, freno
   // "flex-layout.row#descripciondivimagenes",//Descripcion del motor velocidad, freno
@@ -5850,6 +11009,8 @@
 
 
   //REVISTAS PARA LAS MOTOS
+  "condition-layout.product#conditionRevistaGSX125",
+  "condition-layout.product#conditionRevistaDR650",
   "condition-layout.product#conditionRevistaRM85",
   "condition-layout.product#conditionRevistaGD115",
   "condition-layout.product#conditionRevistaSV650XA",
@@ -5876,6 +11037,24 @@
   "condition-layout.product#conditionForTheSliderVSTROMDL250",
   "condition-layout.product#conditionForTheSliderKATANA",
   "condition-layout.product#conditionForTheSliderVStrom650",
+
+  //AGREGANDO SLIDERS
+  "condition-layout.product#conditionForTheSliderUR110",
+  "condition-layout.product#conditionForTheSliderDGD115EVOLUTION",
+  "condition-layout.product#conditionForTheSliderGD115",
+  "condition-layout.product#conditionForTheSliderGN-125",
+  "condition-layout.product#conditionForTheSliderUK110",
+  "condition-layout.product#conditionForTheSliderGSX125-C",
+  "condition-layout.product#conditionForTheSliderDR-Z50",
+  "condition-layout.product#conditionForTheSliderGSX-S750A",
+  "condition-layout.product#conditionForTheSliderRM85",
+  "condition-layout.product#conditionForTheSliderINTRUDER",
+  "condition-layout.product#conditionForTheSliderFW110",
+  "condition-layout.product#conditionForTheSliderVSTROM1050XT",
+  "condition-layout.product#conditionForTheSliderGSX250R",
+  "condition-layout.product#conditionForTheSliderDR650",
+
+  //FIN AGREGANDO SLIDERS
   //FIN DE SLIDERS
 
 
@@ -5970,9 +11149,9 @@
     },
     "children":[
      
-      "flex-layout.row#buyNowButtons",
-      "flex-layout.row#buyNowButtonw",
-      "flex-layout.row#buyNowButtonw"
+      "flex-layout.row#buyNowButtons",//SE QUEDA COMO ESTA 
+      "flex-layout.row#buyNowButtonf",//REEMPLAZA PREGUNTA POR TUS REPUESTOS
+      "flex-layout.row#buyNowButtonw"//COTIZA POR WHATSAPP
     ]
   },
   
@@ -6412,7 +11591,7 @@
 //HIJO
   "add-to-cart-button#buyNoww": {
     "props": {
-      "text": "SOLICITAR POR WHATSAPP", 
+      "text": "COTIZA POR WHATSAPP", 
       "isOneClickBuy": true,
    //   "customOneClickBuyLink": "https://api.whatsapp.com/send?phone=593993227987&text=Hola!,%20Me%20gustar%C3%ADa%20adquirir%20un%20producto!&utm_source=wsweb&utm_social=whatsapp&utm_campaing=whatsapp",
       "onClickEventPropagation":  "enabled",
@@ -6433,7 +11612,7 @@
 
   "add-to-cart-button#buyNowf": {
     "props": {
-      "text": "VER FICHA TÉCNICA", 
+      "text": "PREGUNTA POR TUS REPUESTOS", 
       "isOneClickBuy": true,
       "onClickEventPropagation":  "enabled",
       "blockClass": "buyNowf"
@@ -6511,3 +11690,42 @@
   }
 }
  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

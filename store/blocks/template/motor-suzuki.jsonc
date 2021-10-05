@@ -1,0 +1,35 @@
+{
+  "store.custom#motor-suzuki": {
+    "blocks": [
+       "info-card",  "info-card#button-left"
+    ]
+  },
+  
+  "info-card": {
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "right",
+      "imageUrl": "https://suzukiecuador.vtexassets.com/arquivos/diferencias-mar-oceano-large.png",
+      "headline": "Motor",
+      "subhead": "Navega sin fin .",
+      "callToActionMode": "button",
+      "callToActionText": "cotiza ya",
+      "callToActionUrl": "#",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#button-left": {
+    "props": {
+    "isFullModeStyle": false,
+    "textPosition": "left",
+    "background-color": "lightskyblue",
+    "imageUrl": "https://suzukiecuador.vtexassets.com/arquivos/motor-1.jpg",
+    "headline": "Shining chrome",
+    "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
+    "callToActionMode": "link",
+    "callToActionText": "Go to collection",
+    "textAlignment": "center"
+    }
+  }
+ 
+}

@@ -311,7 +311,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   
 
  /*BLOQUE PARA CAMBIAR LAS LETRAS QUE VIENE POR DEFECTO A DL250VSTROM*/
- .flexRow--description :global(.vtex-store-components-3-x-productBrand)
+/* .flexRow--description :global(.vtex-store-components-3-x-productBrand)
  {
    
    visibility: hidden;
@@ -325,7 +325,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
    color:white;
    font-weight: normal;
    font-style: italic;
- }
+ }*/
  /* AQUI TERMINA BLOQUE PARA CAMBIAR LAS LETRAS QUE VIENE POR DEFECTO A DL250VSTROM*/
 
  
@@ -477,14 +477,14 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   /* height: 50%; */
   height: 15rem;
 }
-/*Controlamos el subtitulo Potencia en ti.....*/
+/*Controlamos el subtitulo Potencia en ti.....
 .flexRow--subtitulo :global(.vtex-store-components-3-x-productBrand)
 {
   visibility: hidden;
 
 }
 
-.flexRow--subtitulo :global(.vtex-store-components-3-x-productBrand)::before
+/*.flexRow--subtitulo :global(.vtex-store-components-3-x-productBrand)::before
  {
    content: "POTENCIA EN TI, POTENCIA ANTE TUS RIVALES";
    visibility: visible;
@@ -500,6 +500,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 
   
  }
+ */
  /*Hasta aca*/
 /*:global(.vtex-flex-layout-0-x-flexRow--subtitulo)
 {
@@ -517,12 +518,12 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 }*/
 
  /*Aqui hacemos el proceso de sencillez y armonia en una sola moto*/
- .flexRow--subtitulo2 :global(.vtex-store-components-3-x-productBrand)
+ /*.flexRow--subtitulo2 :global(.vtex-store-components-3-x-productBrand)
 {
   visibility: hidden;
 
 }
-/**/
+
 .flexRow--subtitulo2 :global(.vtex-store-components-3-x-productBrand)::before
  {
    content: "Sencillez y armonia en una sola moto";
@@ -535,7 +536,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   font-family: 'Poppins', sans-serif;
 
   
- }
+ }*/
  /*Hasta aca finaliza sencillez y armonia en un sola moto*/
 
 
@@ -691,9 +692,10 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 }
 .flexCol--BlockcolorSwatchBlock
 {
- /* position: relative;
-  left: 4rem;
-  top: 5rem;*/
+  
+  background-image: url("https://suzukiecuador.vteximg.com.br/arquivos/ImagenFondovStrom250.png");
+  background-size: cover;
+  background-position: 25%;
 }
 /*CSS QUE REPRESENTA DESDE 36 CUOTAS DE*/
 :global(.vtex-product-price-1-x-installments--text)
@@ -713,7 +715,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     color: rgb(0,48,69);
 }
  /*BLOQUE PARA CAMBIAR LAS LETRAS QUE VIENE POR DEFECTO A DL250VSTROM*/
- .flexRow--name :global(.vtex-store-components-3-x-productBrand)
+ /*.flexRow--name :global(.vtex-store-components-3-x-productBrand)
  {
    
    visibility: hidden;
@@ -723,13 +725,13 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   font-family: 'Poppins',sans-serif;
     content: "DL250 V-STROM - 6 VELOCIDADES";
     visibility: visible;
-    /* font-size: 4rem; */
+    /* font-size: 4rem; 
     color: black;
     /* font-style: italic; */
-    /* font-weight: bolder; */
+    /* font-weight: bolder; 
     font-weight: 800;
  }
-
+*/
  @media screen and (max-width:500px){
   
 }
@@ -903,7 +905,6 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 :global(.vtex-order-placed-2-x-orderSoldBy),
 :global(.vtex-order-placed-2-x-noticesList),
 :global(.vtex-order-placed-2-x-totalListItem),
-
 :global(.vtex-order-placed-2-x-confirmationTitle)
 
 {
@@ -922,8 +923,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     color: black;
     font-weight: 800;
  }
-
-:global(.vtex-order-placed-2-x-totalListItemValue)
+ :global(.vtex-order-placed-2-x-totalListItemValue)
 
 {
   font-size: 1.25rem;
@@ -1025,9 +1025,19 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 {
   padding-top: 5px;
 }
+}
+
+:global(.vtex-store-video-1-x-videoElement--VideoDoublePurpose)
+{
+  width: 100%;
+  height: auto;
+}
+/*poner en medio el las cuotas de la moto*/
+:global(.vtex-flex-layout-0-x-flexColChild--subContenedorRenglonesFichaTecnica)
+{
+  margin: 0 auto;
+}
 :global(.vtex-iframe-0-x-container--repuestos)
 {
   height: 100px;
 }
-}
-

@@ -41,6 +41,9 @@
   "store.custom#tiendas-suzuki": {
     "path": "/tiendas-suzuki"
   },
+  "store.custom#motor-suzuki": {
+    "path": "/motor-suzuki"
+  },
   "store.custom#talleres-suzuki": {
     "path": "/talleres-suzuki"
   } 
