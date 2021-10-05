@@ -11,7 +11,9 @@
 }
 
 :global(.vtex-minicart-2-x-cartIcon) {
-  color: #1b428b;
+  color: #d40000;
+  width: 24px;
+  height: 24px;
 }
 
 

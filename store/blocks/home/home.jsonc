@@ -16,7 +16,8 @@
      // "rich-text#engines-title", 
      // "flex-layout.row#motorfueradeborda",
       
-      "list-context.image-list#servicios",
+      //"list-context.image-list#servicios",
+      "flex-layout.row#repuestos",
       "iframe#pictureForm"
       //"list-context.image-list#suscribete"
       //"newsletter",    
@@ -179,10 +180,24 @@
       "blockClass": "shelf"
     }
   },
+  "flex-layout.row#repuestos":{
+    "props":{
+      "blockClass": "HayunaSuzuki"
+    },
+    "children":["rich-text#repuestos"]
+  },
+  "rich-text#repuestos":{
+    "props":{
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "## Pregunta por repuestos suzuki",
+    "blockClass": "descriptionHayunaSuzuki"
+    }
+  },
   "iframe#pictureForm": {
     "props": {
       "width": "100%",
-      "height":"481px",
+      "height":"520px",
       "scrolling":"no" ,
       "frameborder":"0",
       "overflow": "hidden",
