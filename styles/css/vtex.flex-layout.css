@@ -358,6 +358,12 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
  {
    margin-top: 2rem;
  }
+ :global(.vtex-store-components-3-x-productBrand--quickview)
+ {
+   
+   font-family: 'Poppins', sans-serif !important;
+   font-weight: 800;
+ }
  /*.flexRow--description :global(.vtex-store-components-3-x-productBrand)::after
  {
    color: white;
@@ -690,13 +696,14 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 {
   width: 40%;
 }
-.flexCol--BlockcolorSwatchBlock
+/*.flexCol--BlockcolorSwatchBlockVstrom250
 {
   
   background-image: url("https://suzukiecuador.vteximg.com.br/arquivos/ImagenFondovStrom250.png");
   background-size: cover;
   background-position: 25%;
-}
+}*/
+
 /*CSS QUE REPRESENTA DESDE 36 CUOTAS DE*/
 :global(.vtex-product-price-1-x-installments--text)
 {
@@ -799,13 +806,6 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
  
  
   
-}
-:global(.vtex-add-to-cart-button-0-x-buttonText--buyNows)
-{
- 
-  font-family: 'Poppins', sans-serif;
-  font-size: .9rem !important;
-
 }
 
 
@@ -1033,6 +1033,16 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 {
   height: 144px !important;
 }
+/*CODIGO*/
+:global(.vtex-store-link-0-x-link--cotizaPorWhatsapp)
+{
+  margin-right: 0rem  !important;
+  margin-left: 0rem !important;
+  
+  background-color: #00bb2d !important;
+  border: 2px solid #00bb2d !important;
+
+}
 }
 
 
@@ -1046,3 +1056,108 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 {
   margin: 0 auto;
 }
+
+
+/*BOTONES DE ENLACE*/
+:global(.vtex-store-link-0-x-link--solicitaCredito)
+{
+  position: relative;
+  top: -0.4rem;
+  background: red;
+  border: 2px solid red;
+  letter-spacing: 4px;
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+:global(.vtex-store-link-0-x-link--solicitaCredito):hover
+{
+  background: white;
+  border: 2px solid red;
+  letter-spacing: 4px;
+  color: black;
+}
+:global(.vtex-store-link-0-x-buttonLink--cotizaTuMoto)
+{
+  position: relative;
+  top: -0.2rem;
+  letter-spacing: 4px;
+  background-color: rgb(0,48,69);
+  border: 2px solid rgb(0,48,69) ;
+  color: white;
+  transition: 0.2s ease-in-out;
+  
+}
+:global(.vtex-store-link-0-x-buttonLink--cotizaTuMoto):hover
+{
+  
+  letter-spacing: 4px;
+  background-color: white;
+  border: 2px solid rgb(0,48,69);
+  
+  color: black;
+  
+}
+
+/*FICHA TECNICA*/
+:global(.vtex-flex-layout-0-x-flexRow--IMC1),
+:global(.vtex-flex-layout-0-x-flexRow--IMC2),
+:global(.vtex-flex-layout-0-x-flexRow--IMG1),
+:global(.vtex-flex-layout-0-x-flexRow--IMG2),
+:global(.vtex-flex-layout-0-x-flexRow--IMDP1),
+:global(.vtex-flex-layout-0-x-flexRow--IMDP2)
+{
+  border-right: 4px solid red;
+}
+
+:global(.vtex-rich-text-0-x-strong--TextFichaTecnicaMotor)
+{
+  font-weight: 900;
+}
+ :global(.vtex-rich-text-0-x-strong)/*PARA PONER EN NEGRITA TODOS LOS TITULO DE FICHA TECNICA*/
+{
+  font-weight: 900;
+}
+:global(.vtex-rich-text-0-x-heading--nameMotor),
+:global(.vtex-rich-text-0-x-heading--nameChasis),
+:global(.vtex-rich-text-0-x-heading--nameDi_Wei)
+{
+  color: rgb(0,48,69);
+  
+}
+
+:global(.vtex-product-price-1-x-installments)
+{
+  font-weight: 800;
+    font-size: 2.1rem;
+    font-style: italic;
+}
+
+.flexCol--buyNowButtons :global(.vtex-button)
+{
+  
+  background-color: rgb(0,48,69) !important;
+  border: 2px solid rgb(0,48,69);
+}
+:global(.vtex-store-link-0-x-link--cotizaPorWhatsapp)
+{
+  margin-right: 2rem;
+  margin-left: 2rem;
+  
+  background-color: #00bb2d !important;
+  border: 2px solid #00bb2d !important;
+
+}
+:global(.vtex-store-link-0-x-link--PreguntaPorTusRepuestos)
+{
+  background-color: rgb(0,48,69);
+  border: 2px solid rgb(0,48,69);
+
+}
+.flexRow--containsolicitarProducto :global(.vtex-button)
+{
+  background-color: rgb(0,48,69);
+  border: 2px solid rgb(0,48,69);
+}
+
+
+
