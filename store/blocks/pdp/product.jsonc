@@ -352,7 +352,7 @@
   },
   "children":["video#VideoUtilitariaDeportivaGSX125"]
 },
-"video#VideoUtilitariaDeportivaGSX125": {
+"video#VideoUtilitariaDeportivaGSX125": {//AVERIGUAR VIDEO
  "props": {
    "width": "100%",
    "height": "540px",
@@ -361,7 +361,7 @@
    "autoPlay": true,
    "muted": false,
    "type":"mp4",
-   "src": "https://site.comandato.com/video/",
+   "src": "https://site.comandato.com/video/Utilitaria.mp4",
    "blockClass": "VideoUtiliraria"
  }
 },
@@ -556,7 +556,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "2049461" 
+          "id": "2011740" 
         }
       }
     ],
@@ -586,7 +586,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "## UTILITARIA DEPORITVA",
+ "text": "## SCOOTER",
  "blockClass": "subtittleMoto"
  }
 },
@@ -594,7 +594,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "### CONFIABLE Y ÁGIL CON DISEÑO DEPORTIVO",
+ "text": "### Cómoda. Rendidora.",
  "blockClass": "subtittleMoto2"
  }
 },
@@ -1327,7 +1327,9 @@
  "blockClass": "subtittleMoto2"
  }
 },
+//AGREGADO 2 
 
+// FIN AGREGADO
 
 
 //GD 115 
@@ -1412,34 +1414,39 @@
     "flex-layout.row#product-name",//NOMBRE DEL PRODUCTO
     "rich-text#subtittleDescriptionMoto",
     "product-installments#text",//DESDE 36 CUOTAS 
-    "product-separator",
+    //"product-separator",
     "sku-selector",
-  //  "flex-layout.row#buyNowButtonCreditoDirecto",
-    "flex-layout.row#buyNowButtonCotizaTuMoto"
+    "link#solicitaCredito",
+    "link#cotizaTuMoto"
+   // "store-link#producto",
+   // "flex-layout.row#buyNowButtonCreditoDirecto",
+   // "flex-layout.row#buyNowButtonCotizaTuMoto"
    
   ]
 },
-/*
-"flex-layout.row#buyNowButtonCreditoDirecto": {
+"link#solicitaCredito": {
   "props": {
-    "blockClass": "buyNowButtonCreditoDirecto",
-    "marginTop": 4,
-    "marginBottom": 2
-  },
-  "children": [
-    "add-to-cart-button#buyNowCreditoDirecto"
-  ]
-},
+    "href": "https://creditodirecto.comandato.com/?moto=1",
+    "label": "SOLICITA TU CRÉDITO DIRECTO",
+    "target" : "https://creditodirecto.comandato.com/?moto=1",
+    "displayMode" : "button",
+    "blockClass" : "solicitaCredito"
 
-"add-to-cart-button#buyNowCreditoDirecto": {
-  "props": {
-    "text": "SOLICITA TU CREDITO DIRECTO", 
-    "isOneClickBuy": true,
-    "onClickEventPropagation":  "enabled",
-    "blockClass": "buyNowCreditoDirecto"
   }
 },
-*/
+"link#cotizaTuMoto": {
+  "props": {
+    "href": "https://api.whatsapp.com/send?phone=593993227987&text=Hola!,%20Me%20gustar%C3%ADa%20adquirir%20un%20producto!&utm_source=wsweb&utm_social=whatsapp&utm_campaing=whatsapp",
+    "label": "COTIZA TU MOTO",
+    "target" : "https://api.whatsapp.com/send?phone=593993227987&text=Hola!,%20Me%20gustar%C3%ADa%20adquirir%20un%20producto!&utm_source=wsweb&utm_social=whatsapp&utm_campaing=whatsapp",
+    "displayMode" : "button",
+    "blockClass" : "cotizaTuMoto"
+
+  }
+},
+
+
+
 
 
 "flex-layout.row#buyNowButtonCotizaTuMoto": {
@@ -1491,22 +1498,8 @@
  //==============================================================================================================================
  //*********************************************CARACTERISTICAS DE LA MOTO*******************************************//
  //==============================================================================================================================
- "condition-layout.product#conditionForTheImageDescriptionVStrom250":
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-           "id": "2048798" 
-         }
-       }
-     ],
-     "toBe" : true,
-    "Then": "flex-layout.row#containImageDescription"
-    
-   }
- },
+ 
+ 
 
  "flex-layout.row#containImageDescription":
  {
@@ -1537,6 +1530,9 @@
    "hasMoreThanOne" : true
    },
    "children":["image#motor",
+    "condition-layout.product#conditionFirstTextUk110",
+    "condition-layout.product#conditionFirstTextUR110",
+    "condition-layout.product#conditionFirstTextGN125",
     "condition-layout.product#conditionFirstTextGSX125",
     "condition-layout.product#conditionFirstTextDR650",
     "condition-layout.product#conditionFirstTextRM85",
@@ -1563,7 +1559,91 @@
   }
  
 },
+//PRIMERA CONDICION Uk110
+"condition-layout.product#conditionFirstTextUk110": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054550" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextUk110"
+   
+  }
+},
 
+"rich-text#firstTextUk110":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**113 CCC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+
+//PRIMERA CONDICION UR110
+"condition-layout.product#conditionFirstTextUR110": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011740" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextUR110"
+   
+  }
+},
+
+"rich-text#firstTextUR110":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**113 CCC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+//PRIMERA CONDICION GN125
+"condition-layout.product#conditionFirstTextGN125": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000139" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextGN125"
+   
+  }
+},
+
+"rich-text#firstTextGN125":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**125 CCC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
 //PRIMERA CONDICION GSX125
 "condition-layout.product#conditionFirstTextGSX125": 
 {
@@ -1988,6 +2068,9 @@
    "hasMoreThanOne" : true
    },
    "children":["image#rapido",
+    "condition-layout.product#conditionSecondtTextUK110",
+    "condition-layout.product#conditionSecondtTextGN125",
+    "condition-layout.product#conditionSecondtTextUR110",
     "condition-layout.product#conditionSecondtTextGSX125",
     "condition-layout.product#conditionSecondtTextDR650",
     "condition-layout.product#conditionSecondtTextRM85",
@@ -2011,7 +2094,88 @@
     
   }
 },
+//SEGUNDA  CONDICION TEXTO  UK110
+"condition-layout.product#conditionSecondtTextUK110": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054550" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextUK110"
+   
+  }
+},
+"rich-text#SecondTextUK110":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**5 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
 
+//SEGUNDA  CONDICION TEXTO  GN125
+"condition-layout.product#conditionSecondtTextGN125": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000139" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGN125"
+   
+  }
+},
+"rich-text#SecondTextGN125":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**5 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+//SEGUNDA  CONDICION TEXTO  UR110
+"condition-layout.product#conditionSecondtTextUR110": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011740" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextUR110"
+   
+  }
+},
+"rich-text#SecondTextUR110":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Automática**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
 //SEGUNDA  CONDICION TEXTO  GSX125
 "condition-layout.product#conditionSecondtTextGSX125": 
 {
@@ -2431,6 +2595,9 @@
    "hasMoreThanOne" : true
    },
    "children":["image#disco_freno",
+    "condition-layout.product#conditionThirdtTextUK110",
+    "condition-layout.product#conditionThirdtTextUR110",
+    "condition-layout.product#conditionThirdtTextGN125",
     "condition-layout.product#conditionThirdtTextGSX1250",
     "condition-layout.product#conditionThirdtTextDR650",
     "condition-layout.product#conditionThirdtTextRM85",
@@ -2456,7 +2623,88 @@
     "maxWidth" : 80
   }
 },
+//TERCERA CONDICION UK110
+"condition-layout.product#conditionThirdtTextUK110": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054550"  
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextUK110"
+   
+  }
+},
+"rich-text#ThirdTextUK110":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje3"
+  }
+},
 
+//TERCERA CONDICION UR110
+"condition-layout.product#conditionThirdtTextUR110": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011740"  
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextUR110"
+   
+  }
+},
+"rich-text#ThirdTextUR110":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje3"
+  }
+},
+//TERCERA CONDICION GN125
+"condition-layout.product#conditionThirdtTextGN125": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000139"  
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGN125"
+   
+  }
+},
+"rich-text#ThirdTextGN125":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje3"
+  }
+},
 //TERCERA CONDICION GSX1250
 "condition-layout.product#conditionThirdtTextGSX1250": 
 {
@@ -2895,6 +3143,7 @@
 },
 "image#fotoVstrom250-1": {
   "props": {
+    
     "src": "https://suzukiecuador.vteximg.com.br/arquivos/GaleriaVStrom250-1.jpg"
     
   }
@@ -3015,7 +3264,7 @@
 "image#motoGSX125": {
  "props": {
    "blockClass": "motovlStrom",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/motovlstrom250.jpg"
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/GSX125-1.png"
    
  }
 
@@ -3043,7 +3292,7 @@
 "image#moto2GSX125": {
  "props": {
    "blockClass": "motovlStrom2",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/arranqueVLSTROM-DL-250.jpg"
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/GSX125-2.jpg"
  }
 
 },
@@ -3070,7 +3319,7 @@
 "image#moto3GSX125": {
  "props": {
    "blockClass": "motovlStrom3",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/Suzuki%20MOTORDL%20250%202017-04.jpg"
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/GSX125-3.jpg"
   
  }
 
@@ -3142,7 +3391,7 @@
 "image#motoSV650XA": {
  "props": {
    "blockClass": "motovlStrom",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/motovlstrom250.jpg"
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/SV650XA-1.png"
    
  }
 
@@ -3170,7 +3419,7 @@
 "image#moto2SV650XA": {
  "props": {
    "blockClass": "motovlStrom2",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/arranqueVLSTROM-DL-250.jpg"
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/SV650XA-1.png"
  }
 
 },
@@ -3197,7 +3446,7 @@
 "image#moto3SV650XA": {
  "props": {
    "blockClass": "motovlStrom3",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/Suzuki%20MOTORDL%20250%202017-04.jpg"
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/SV650XA-3.png"
   
  }
 
@@ -3269,7 +3518,7 @@
 "image#motoIntruder": {
  "props": {
    "blockClass": "motovlStrom",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/motovlstrom250.jpg"
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/intruder1.png"
    
  }
 
@@ -3297,7 +3546,7 @@
 "image#moto2Intruder": {
  "props": {
    "blockClass": "motovlStrom2",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/arranqueVLSTROM-DL-250.jpg"
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/intruder2.jpg"
  }
 
 },
@@ -3324,7 +3573,7 @@
 "image#moto3Intruder": {
  "props": {
    "blockClass": "motovlStrom3",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/Suzuki%20MOTORDL%20250%202017-04.jpg"
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/intruder1.png"
   
  }
 
@@ -3398,7 +3647,7 @@
 "image#motoUK110": {
   "props": {
     "blockClass": "motovlStrom",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/motovlstrom250.jpg"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/UK110-1.jpg"
     
   }
  
@@ -3426,7 +3675,7 @@
 "image#moto2UK110": {
   "props": {
     "blockClass": "motovlStrom2",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/arranqueVLSTROM-DL-250.jpg"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/UK110-2.jpg"
   }
  
 },
@@ -3453,7 +3702,7 @@
 "image#moto3UK110": {
   "props": {
     "blockClass": "motovlStrom3",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/Suzuki%20MOTORDL%20250%202017-04.jpg"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/UK110-1.jpg"
    
   }
  
@@ -3779,7 +4028,7 @@
  "image#motoGSX250R": {
    "props": {
      "blockClass": "motovlStrom",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/KatanaDiagonal.jpg"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx250r-1.jpg"
      
    }
   
@@ -3807,7 +4056,7 @@
  "image#arranqueGSX250R": {
    "props": {
      "blockClass": "motovlStrom2",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/katanasuperior.jpg"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx250r-2jpg.jpg"
    }
   
  },
@@ -3834,7 +4083,7 @@
  "image#motorGSX250R": {
    "props": {
      "blockClass": "motovlStrom3",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/KatanaMotor.png"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx250r-3.png"
     
    }
   
@@ -3906,7 +4155,7 @@
  "image#motoGSXS750": {
    "props": {
      "blockClass": "motovlStrom",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/KatanaDiagonal.jpg"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx750a-1.jpg"
      
    }
   
@@ -3934,7 +4183,7 @@
  "image#arranqueGSXS750": {
    "props": {
      "blockClass": "motovlStrom2",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/katanasuperior.jpg"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx750a-2.jpg"
    }
   
  },
@@ -3961,7 +4210,7 @@
  "image#motorGSXS750": {
    "props": {
      "blockClass": "motovlStrom3",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/KatanaMotor.png"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx750a-3.jpg"
     
    }
   
@@ -4290,7 +4539,7 @@
   "image#motoGD115Evolution": {
     "props": {
       "blockClass": "motovlStrom",
-      "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT1.jpg"
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115evolution-1.jpg"
       
     }
     
@@ -4319,7 +4568,7 @@
   "image#arranqueGD115Evolution": {
     "props": {
       "blockClass": "motovlStrom2",
-      "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT2.jpg"
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115evolution-1.jpg"
     }
     
   },
@@ -4346,7 +4595,7 @@
   "image#motorGD115Evolution": {
     "props": {
       "blockClass": "motovlStrom3",
-      "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT3.jpg"
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115evolution-1.jpg"
       
     }
     
@@ -4417,7 +4666,7 @@
  "image#motoGD115": {
    "props": {
      "blockClass": "motovlStrom",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT1.jpg"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115-1.jpg"
      
    }
    
@@ -4446,7 +4695,7 @@
  "image#arranqueGD115": {
    "props": {
      "blockClass": "motovlStrom2",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT2.jpg"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115-1.jpg"
    }
    
  },
@@ -4473,7 +4722,7 @@
  "image#motorGD115": {
    "props": {
      "blockClass": "motovlStrom3",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT3.jpg"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115-2.jpg"
      
    }
    
@@ -4486,7 +4735,260 @@
    "blockClass": "descripcionDeFoto"
    }
  },
+//AGREGADO
+//UR110
+"condition-layout.product#conditionRevistaUR110": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011740" 
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then":  "flex-layout.row#contenedorDivParaImagenRevistaUR110" 
+    
+  }
+},
+"flex-layout.row#contenedorDivParaImagenRevistaUR110" : {
+  "props": {
+    "blockClass": "contenedorDivParaImagenRevista",
+    "fullWidth":true,
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaUR110"]
+},
 
+
+"flex-layout.col#contenedorColumnaDivParaImagenRevistaUR110" : {
+  "props": {
+    "blockClass": "contenedorColumnaDivParaImagenRevista",
+    "preventVerticalStretch": true,
+    "rowGap": 0,
+    "hasMoreThanOne" : true
+  },
+  "children":["flex-layout.row#divParaImagenRevistaUR110","flex-layout.row#divParaImagenRevista2UR110","flex-layout.row#divParaImagenRevista3UR110"]
+},
+
+"flex-layout.row#divParaImagenRevistaUR110":{
+  "props": {
+    "blockClass": "divParaImagenRevista",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["image#motoUR110","rich-text#descripcionDeFoto1UR110"]
+},
+"image#motoUR110": {
+  "props": {
+    "blockClass": "motovlStrom",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/UR110-1.jpg"
+    
+  }
+  
+},
+"rich-text#descripcionDeFoto1UR110":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## LET’S ES SOLO PARA TI\nEl bloqueo impide que alguien quiera meter una llave o cualquier otro objeto en la cerradura de tu Let’s, ya que se mantiene bloqueada con una cubierta magnética tipo obturador que solo abre con tu llave",
+  "blockClass": "descripcionDeFoto"
+  }
+  
+},
+"flex-layout.row#divParaImagenRevista2UR110":{
+  "props": {
+    "blockClass": "divParaImagenRevista2",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["rich-text#descripcionDeFoto2UR110","image#arranqueUR110"]
+},
+"image#arranqueUR110": {
+  "props": {
+    "blockClass": "motovlStrom2",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/letsUR110-2.jpg"
+  }
+  
+},
+"rich-text#descripcionDeFoto2UR110":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## PENSADA PARA EL CONFORT EN CADA DETALLE\nLleva tu Let's a todos lados sin preocuparte por dónde colgar las bolsas. Su gancho frontal te permitirá colgarlas y llevarlas cómodamente entre tus piernas sin comprometer tu seguridad ni maniobrabilidad",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+"flex-layout.row#divParaImagenRevista3UR110":{
+  "props": {
+    "blockClass": "divParaImagenRevista3",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["image#motorUR110","rich-text#descripcionDeFoto3UR110"]
+},
+"image#motorUR110": {
+  "props": {
+    "blockClass": "motovlStrom3",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/UR110-3.jpg"
+    
+  }
+  
+},
+"rich-text#descripcionDeFoto3UR110":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "##  PRÁCTICA Y DIVERTIDA POR DONDE LA VEAS\nLet’s es perfecta para tomar las calles sin preocuparte, y está lista para que disfrutes cada viaje",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+//GN125
+"condition-layout.product#conditionRevistaGN125": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2000139" 
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then":  "flex-layout.row#contenedorDivParaImagenRevistaGN125" 
+    
+  }
+},
+"flex-layout.row#contenedorDivParaImagenRevistaGN125" : {
+  "props": {
+    "blockClass": "contenedorDivParaImagenRevista",
+    "fullWidth":true,
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaGN125"]
+},
+
+
+"flex-layout.col#contenedorColumnaDivParaImagenRevistaGN125" : {
+  "props": {
+    "blockClass": "contenedorColumnaDivParaImagenRevista",
+    "preventVerticalStretch": true,
+    "rowGap": 0,
+    "hasMoreThanOne" : true
+  },
+  "children":["flex-layout.row#divParaImagenRevistaGN125","flex-layout.row#divParaImagenRevista2GN125","flex-layout.row#divParaImagenRevista3GN125"]
+},
+
+"flex-layout.row#divParaImagenRevistaGN125":{
+  "props": {
+    "blockClass": "divParaImagenRevista",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["image#motoGN125","rich-text#descripcionDeFoto1GN125"]
+},
+"image#motoGN125": {
+  "props": {
+    "blockClass": "motovlStrom",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/GN125-1.png"
+    
+  }
+  
+},
+"rich-text#descripcionDeFoto1GN125":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## CONTROLAS EL ASFALTO, DOMINAS LA CIUDAD\nConoce rápidamente el estado de la GN125F. Con el panel más completo del mercado en su categoría, sabrás inmediatamente el nivel de gasolina, revoluciones, velocidad, kilómetros, marcha neutral, entre otros.",
+  "blockClass": "descripcionDeFoto"
+  }
+  
+},
+"flex-layout.row#divParaImagenRevista2GN125":{
+  "props": {
+    "blockClass": "divParaImagenRevista2",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["rich-text#descripcionDeFoto2GN125","image#arranqueGN125"]
+},
+"image#arranqueGN125": {
+  "props": {
+    "blockClass": "motovlStrom2",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/GN125-1.png"
+  }
+  
+},
+"rich-text#descripcionDeFoto2GN125":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## LA PRACTICIDAD Y COMODIDAD CABEN EN UN BOTÓN\nRelájate y preocúpate solo por disfrutar tus trayectos. No importa si estás en medio del tráfico o rodando por gusto, GN125F te brinda una posición de manejo cómoda y relajada que te permitirá estar más tiempo arriba de tu moto volviendo el manejo menos cansado",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+"flex-layout.row#divParaImagenRevista3GN125":{
+  "props": {
+    "blockClass": "divParaImagenRevista3",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["image#motorGN125","rich-text#descripcionDeFoto3GN125"]
+},
+"image#motorGN125": {
+  "props": {
+    "blockClass": "motovlStrom3",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/GN125-3.jpg"
+    
+  }
+  
+},
+"rich-text#descripcionDeFoto3GN125":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "##  INFORMACIÓN ES PODER. Y TRANQUILIDAD\nTu primera moto tiene que hacer que te encante rodar, pero sin dejar de lado la seguridad. GN125F es perfecta para que disfrutes cada traslado en la ciudad con total confianza",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+//FIN DE AGREGADO
 
 
 
@@ -4547,7 +5049,7 @@
    "image#motoDRZ50": {
      "props": {
        "blockClass": "motovlStrom",
-       "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT1.jpg"
+       "src": "https://suzukiecuador.vteximg.com.br/arquivos/DR-Z50-1.jpg"
        
      }
      
@@ -4576,7 +5078,7 @@
    "image#arranqueDRZ50": {
      "props": {
        "blockClass": "motovlStrom2",
-       "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT2.jpg"
+       "src": "https://suzukiecuador.vteximg.com.br/arquivos/DR-Z50-3.jpg"
      }
      
    },
@@ -4603,7 +5105,7 @@
    "image#motorDRZ50": {
      "props": {
        "blockClass": "motovlStrom3",
-       "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT3.jpg"
+       "src": "https://suzukiecuador.vteximg.com.br/arquivos/DR-Z50-4.jpg"
        
      }
      
@@ -4674,7 +5176,7 @@
    "image#motoRM85": {
      "props": {
        "blockClass": "motovlStrom",
-       "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT1.jpg"
+       "src": "https://suzukiecuador.vteximg.com.br/arquivos/RM85-1.png"
        
      }
      
@@ -4703,7 +5205,7 @@
    "image#arranqueRM85": {
      "props": {
        "blockClass": "motovlStrom2",
-       "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT2.jpg"
+       "src": "https://suzukiecuador.vteximg.com.br/arquivos/rm85-2.jpg"
      }
      
    },
@@ -4730,7 +5232,7 @@
    "image#motorRM85": {
      "props": {
        "blockClass": "motovlStrom3",
-       "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT3.jpg"
+       "src": "https://suzukiecuador.vteximg.com.br/arquivos/RM85-1.png"
        
      }
      
@@ -4802,7 +5304,7 @@
     "image#motoDR650": {
       "props": {
         "blockClass": "motovlStrom",
-        "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT1.jpg"
+        "src": "https://suzukiecuador.vteximg.com.br/arquivos/Suzuki-DR6501.jpg"
         
       }
       
@@ -4831,7 +5333,7 @@
     "image#arranqueDR650": {
       "props": {
         "blockClass": "motovlStrom2",
-        "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT2.jpg"
+        "src": "https://suzukiecuador.vteximg.com.br/arquivos/Suzuki-DR6501.jpg"
       }
       
     },
@@ -4908,7 +5410,241 @@
   //==============================================================================================================================
  //*********************************************SLIDER PARA MOTO*******************************************//
  //==============================================================================================================================
+//SLIDER PARA MOTORES FUERA DE BORDA
+"condition-layout.product#conditionForTheSliderFueraBordaDF20AS":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052764" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "list-context.image-list#sliderMotoresFueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionForTheSliderFueraBordaDF150ZX":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052763" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "list-context.image-list#sliderMotoresFueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionForTheSliderFueraBordaDF150TX":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052762" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "list-context.image-list#sliderMotoresFueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionForTheSliderFueraBordaDF30AS":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052760" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "list-context.image-list#sliderMotoresFueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionForTheSliderFueraBordaDF30AL":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052759" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "list-context.image-list#sliderMotoresFueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionForTheSliderFueraBordaDT15AL":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052757" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "list-context.image-list#sliderMotoresFueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionForTheSliderFueraBordaDF9.9AS":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052756" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "list-context.image-list#sliderMotoresFueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionForTheSliderFueraBordaDF6AS":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052755" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "list-context.image-list#sliderMotoresFueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionForTheSliderFueraBordaDT30L":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052758" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "list-context.image-list#sliderMotoresFueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionForTheSliderFueraBordaDF175ATX":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2067061" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "list-context.image-list#sliderMotoresFueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionForTheSliderFueraBordaDF200ZX":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2058125" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "list-context.image-list#sliderMotoresFueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionForTheSliderFueraBordaDF175AZX":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054551" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "list-context.image-list#sliderMotoresFueraBorda"
+   
+  }
+},//
+//
+"list-context.image-list#sliderMotoresFueraBorda": {
+  "children": ["slider-layout#MotoresFueraBordaitems"],
+  "props": {
 
+    "height":"100%",
+    "images": [
+      {
+        "width" : "100%",
+        "image": "https://suzukiecuador.vteximg.com.br/arquivos/caracteristica1.png",
+        "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/caracteristica1.png"
+      },
+      {
+        "width" : "100%",
+       
+        "image": "https://suzukiecuador.vteximg.com.br/arquivos/caracteristica2.png",
+        "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/caracteristica2.png"
+      },
+      {
+        "width" : "100%",
+       
+        "image": "https://suzukiecuador.vteximg.com.br/arquivos/caracteristica3.png",
+        "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/caracteristica3.png"
+      }
+      
+    ]
+  }
+},
+"slider-layout#MotoresFueraBordaitems": {
+  "props": {
+    "blockClass": "sliderVLSitems",
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "infinite": true,
+    "showNavigationArrows": "desktopOnly"
+    
+  }
+},
+//FIN DE SLIDER PARA MOTORES FUERA DE BORDA
 //VSTROM DL250
  "condition-layout.product#conditionForTheSliderVSTROMDL250": 
   {
@@ -4926,7 +5662,6 @@
      
     }
   },
-  
   
   "list-context.image-list#sliderVLS": {
     "children": ["slider-layout#sliderVLSitems"],
@@ -5073,7 +5808,7 @@
         {
           "subject": "productId",
           "arguments": {
-            "id": "2011740" // v - strom dl250 
+            "id": "2011740" 
           }
         }
       ],
@@ -5090,14 +5825,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "",
-          "mobileImage": ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/BANNERur110.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/BANNERur110.png"
         },
         {
           "width" : "100%",
          
-          "image": "",
-          "mobileImage":  ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/BANNERur110.png",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/BANNERur110.png"
         }
         
       ]
@@ -5141,14 +5876,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "",
-          "mobileImage": ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/BANNERGD115EVOLUTION.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/BANNERGD115EVOLUTION.png"
         },
         {
           "width" : "100%",
          
-          "image": "",
-          "mobileImage":  ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/BANNERGD115EVOLUTION.png",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/BANNERGD115EVOLUTION.png"
         }
         
       ]
@@ -5192,14 +5927,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "",
-          "mobileImage": ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/gd115banner.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/gd115banner.png"
         },
         {
           "width" : "100%",
          
-          "image": "",
-          "mobileImage":  ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/gd115banner.png",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/gd115banner.png"
         }
         
       ]
@@ -5243,14 +5978,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "",
-          "mobileImage": ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-banner-horizontal-gn125.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-banner-horizontal-gn125.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "",
-          "mobileImage":  ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-banner-horizontal-gn125.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-banner-horizontal-gn125.jpg"
         }
         
       ]
@@ -5295,14 +6030,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "",
-          "mobileImage": ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/uk110banner.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/uk110banner.png"
         },
         {
           "width" : "100%",
          
-          "image": "",
-          "mobileImage":  ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/uk110banner.png",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/uk110banner.png"
         }
         
       ]
@@ -5346,14 +6081,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "",
-          "mobileImage": ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/bannergsx125c.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/bannergsx125c.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "",
-          "mobileImage":  ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/bannergsx125c.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/bannergsx125c.jpg"
         }
         
       ]
@@ -5397,14 +6132,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "",
-          "mobileImage": ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/drz50banner.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/drz50banner.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "",
-          "mobileImage":  ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/drz50banner.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/drz50banner.jpg"
         }
         
       ]
@@ -5431,7 +6166,7 @@
         {
           "subject": "productId",
           "arguments": {
-            "id": "2049461"
+            "id": "2049300"
           }
         }
       ],
@@ -5448,14 +6183,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "",
-          "mobileImage": ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/gsx750aBanner.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/gsx750aBanner.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "",
-          "mobileImage":  ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/gsx750aBanner.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/gsx750aBanner.jpg"
         }
         
       ]
@@ -5499,14 +6234,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "",
-          "mobileImage": ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/rm85banner.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/rm85banner.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "",
-          "mobileImage":  ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/rm85banner.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/rm85banner.jpg"
         }
         
       ]
@@ -5550,14 +6285,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "",
-          "mobileImage": ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/intruderBanner.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/intruderBanner.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "",
-          "mobileImage":  ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/intruderBanner.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/intruderBanner.jpg"
         }
         
       ]
@@ -5576,45 +6311,45 @@
       
     }
   },
-  //SLIDERFW110
-  "condition-layout.product#conditionForTheSliderFW110" :
+  //SLIDERSV650XA
+  "condition-layout.product#conditionForTheSliderSV650XA" :
   {
     "props": {
       "conditions": [
         {
           "subject": "productId",
           "arguments": {
-            "id": "2049186"
+            "id": "2054376"
           }
         }
       ],
       "toBe" : true,
-     "Then": "list-context.image-list#sliderFW110"
+     "Then": "list-context.image-list#sliderSV650XA"
      
     }
   },
-  "list-context.image-list#sliderFW110": {
-    "children": ["slider-layout#sliderFW110items"],
+  "list-context.image-list#sliderSV650XA": {
+    "children": ["slider-layout#sliderSV650XAitems"],
     "props": {
   
       "height":"100%",
       "images": [
         {
           "width" : "100%",
-          "image": "",
-          "mobileImage": ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/sv650xaBanner.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/sv650xaBanner.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "",
-          "mobileImage":  ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/sv650xaBanner.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/sv650xaBanner.jpg"
         }
         
       ]
     }
   },
-  "slider-layout#sliderFW110items": {
+  "slider-layout#sliderSV650XAitems": {
     "props": {
       "blockClass": "sliderVLSitems",
       "itemsPerPage": {
@@ -5652,14 +6387,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "",
-          "mobileImage": ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/vstrom1050xt.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/vstrom1050xt.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "",
-          "mobileImage":  ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/vstrom1050xt.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/vstrom1050xt.jpg"
         }
         
       ]
@@ -5704,14 +6439,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "",
-          "mobileImage": ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/Banner-Suzuki'gsx250r.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/Banner-Suzuki'gsx250r.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "",
-          "mobileImage":  ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/Banner-Suzuki'gsx250r.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/Banner-Suzuki'gsx250r.jpg"
         }
         
       ]
@@ -5755,14 +6490,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "",
-          "mobileImage": ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/bannerdr650r.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/bannerdr650r.png"
         },
         {
           "width" : "100%",
          
-          "image": "",
-          "mobileImage":  ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/bannerdr650r.png",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/bannerdr650r.png"
         }
         
       ]
@@ -5947,7 +6682,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**TIPO DE MOTOR** \n4 tiempo enfriado por aire OHC",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -5972,7 +6707,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**TIPO DE MOTOR** \n4 tiempo enfriado por aire OHC",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -5997,7 +6732,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**TIPO DE MOTOR** \n4 tiempo enfriado por aire OHC",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6021,7 +6756,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**TIPO DE MOTOR** \n4 tiempo enfriado por aire OHC",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6046,7 +6781,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, refrigerado por aire, SOHC",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6071,7 +6806,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**TIPO DE MOTOR** \n4 tiempo enfriado por aire",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6096,7 +6831,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, refrigerado por aire, SOHC",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6120,7 +6855,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**TIPO DE MOTOR** \n4 tiempos 4 cilindros, refrigerado por liquido DOHC",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6144,7 +6879,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**TIPO DE MOTOR** \n2 tiempos, 1 cilindro enfriado en líquida",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6169,7 +6904,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**TIPO DE MOTOR** \n4 tiempos 1 cilindro, refrigerado por aire, SOHC, 2 valvulas",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6194,7 +6929,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, monocilíndrico, refrigerado por aire, SOHC",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6218,7 +6953,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeracion por liquido SOHC",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6242,7 +6977,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración por sistemas SACS,OHC",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6416,7 +7151,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**DESPLAZAMIENTO** \n112.8 cm3",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6441,7 +7176,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**DESPLAZAMIENTO** \n113 cm3",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6466,7 +7201,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**DESPLAZAMIENTO** \n113 cm3",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6490,7 +7225,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**DESPLAZAMIENTO** \n124 cm3",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6515,7 +7250,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**DESPLAZAMIENTO** \n112.8 cm3",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6540,7 +7275,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**DESPLAZAMIENTO** \n125 cm3",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6565,7 +7300,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**DESPLAZAMIENTO** \n49 cm3",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6589,7 +7324,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**DESPLAZAMIENTO** \n749 cm3",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6613,7 +7348,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**DESPLAZAMIENTO** \n199 cm3",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6638,7 +7373,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**DESPLAZAMIENTO** \n154.9 cm3",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6663,7 +7398,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**DESPLAZAMIENTO** \n112.8 cm3",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6687,7 +7422,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**DESPLAZAMIENTO** \n248 cm3",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6711,7 +7446,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**DESPLAZAMIENTO** \n644 cm3",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6762,7 +7497,7 @@
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "**DESPLAZAMIENTO** \n248 cm3",
-  "blockClass": "SecondTextVstromFichaTecnicaMotor"
+  "blockClass": "TextFichaTecnicaMotorx"
   }
 },
 //KATANA
@@ -6885,7 +7620,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**SISTEMA DE ARRANQUE** \nEléctrico y pedal",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6910,7 +7645,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**SISTEMA DE ARRANQUE** \nEléctrico y pedal",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6935,7 +7670,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**SISTEMA DE ARRANQUE** \nPedal",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6959,7 +7694,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**SISTEMA DE ARRANQUE** \nEléctrico",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -6984,7 +7719,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**SISTEMA DE ARRANQUE** \nEléctrico y pedal",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7009,7 +7744,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**SISTEMA DE ARRANQUE** \nPedal",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7034,7 +7769,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**SISTEMA DE ARRANQUE** \nEléctrico",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7058,7 +7793,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**SISTEMA DE ARRANQUE** \nEléctrico",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7082,7 +7817,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**SISTEMA DE ARRANQUE** \nEléctrico ",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7107,7 +7842,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**SISTEMA DE ARRANQUE** \nEléctrico",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7132,7 +7867,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**SISTEMA DE ARRANQUE** \nEléctrico y pedal",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7156,7 +7891,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**SISTEMA DE ARRANQUE** \nEléctrico",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7180,7 +7915,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**SISTEMA DE ARRANQUE** \nEléctrico",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7409,7 +8144,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**FARO DELANTERO** \nElectrónico (CDI) luz convencional, luces auxiliares de halógeno",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7434,7 +8169,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**FARO DELANTERO** \nLuz halógena para más visibilidad",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7459,7 +8194,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**FARO DELANTERO** \nTipo linterna, luz diurna",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7483,7 +8218,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**FARO DELANTERO** \nTipo linterna, luz diurna",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7508,7 +8243,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**FARO DELANTERO** \nElectrónico (CDI) luz convencional, luces auxiliares de halógeno",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7533,7 +8268,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**FARO DELANTERO** \nLuces LED apiladas verticalmente",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7558,7 +8293,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**FARO DELANTERO** \nLuces LED apiladas verticalmente",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7582,7 +8317,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**FARO DELANTERO** \nLuces LED apiladas verticalmente",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7606,7 +8341,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**FARO DELANTERO** \nLED Vision, tapa de lente de cristal cubierta de hierro",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7631,7 +8366,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**FARO DELANTERO** \nLED - DRL",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7656,7 +8391,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**FARO DELANTERO** \n AHD circulación diurna",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7680,7 +8415,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**FARO DELANTERO** \nLED Vision, tapa de lente de cristal cubierta de hierro",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7704,7 +8439,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**FARO DELANTERO** \nLuz halógena de 60/55 W",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7878,7 +8613,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**RINES** \nAcero inoxidable",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7903,7 +8638,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**RINES** \nAleación de aluminio",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7928,7 +8663,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**RINES** \nRayos de acero inoxidable",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7952,7 +8687,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**RINES** \nAleación de aluminio",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -7977,7 +8712,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**RINES** \nAspas de acero",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8002,7 +8737,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**RINES** \nAleación de aluminio",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8027,7 +8762,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**RINES** \nRayos de acero inoxidable",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8051,7 +8786,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**RINES** \nAleación de aluminio",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8075,7 +8810,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**RINES** \nRayos de acero inoxidable",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8100,7 +8835,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**RINES** \nAleación de 17",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8125,7 +8860,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**RINES** \nRayos de acero inoxidable",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8149,7 +8884,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**RINES** \nAcero inoxidable",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8173,7 +8908,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**RINES** \nRayos de acero inoxidable",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8352,7 +9087,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**SUSPENSIÓN DELANTERA** \nTelescópica hidráulica con resorte",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8377,7 +9112,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**SUSPENSIÓN DELANTERA** \nTelescópica hidráulica con resorte",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8402,7 +9137,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**SUSPENSIÓN DELANTERA** \nTelescópica hidráulica con resorte",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8426,7 +9161,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**SUSPENSIÓN DELANTERA** \nTelescópica hidráulica con resorte",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8451,7 +9186,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**SUSPENSIÓN DELANTERA** \nTelescópico, muelle helicoidal, amortiguado con aceite",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8476,7 +9211,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**SUSPENSIÓN DELANTERA** \nTelescópica hidráulica con resorte",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8501,7 +9236,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**SUSPENSIÓN DELANTERA** \nTelescópica invertida",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8525,7 +9260,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**SUSPENSIÓN DELANTERA** \nTelescópica Invertida con resorte y aceite",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8549,7 +9284,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**SUSPENSIÓN DELANTERA** \nTelescópica hidráulica con resorte",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8574,7 +9309,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**SUSPENSIÓN DELANTERA** \nTelescópicas",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8599,7 +9334,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**SUSPENSIÓN DELANTERA** \nTelescópica, resorte en espiral, amortiguado por aceite",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8623,7 +9358,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**SUSPENSIÓN DELANTERA** \nTelescópica hidráulica con aceite",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8647,7 +9382,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**SUSPENSIÓN DELANTERA** \nTelescópica con resorte y aceite",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8869,7 +9604,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**PESO** \n98 Kg",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8894,7 +9629,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**PESO** \n108 Kg",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8919,7 +9654,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**PESO** \n108 Kg",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8943,7 +9678,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**PESO** \n113 Kg",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8968,7 +9703,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**PESO** \n112 Kg",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -8993,7 +9728,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**PESO** \n122 Kg",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9018,7 +9753,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**PESO** \n54 Kg",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9042,7 +9777,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**PESO** \n213 Kg",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9066,7 +9801,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**PESO** \n73 Kg",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9091,7 +9826,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**PESO** \n148 Kg",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9116,7 +9851,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**PESO** \n101 Kg",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9140,7 +9875,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**PESO** \n178 Kg",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9164,7 +9899,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**PESO** \n166 Kg",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9340,7 +10075,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**LARGO TOTAL** \n1805 mm",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9365,7 +10100,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**LARGO TOTAL** \n1900 mm",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9390,7 +10125,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**LARGO TOTAL** \n1900 mm",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9414,7 +10149,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**LARGO TOTAL** \n1945 mm",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9439,7 +10174,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**LARGO TOTAL** \n1845 mm",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9464,7 +10199,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**LARGO TOTAL** \n1945 mm",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9489,7 +10224,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**LARGO TOTAL** \n1.320 mm",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9513,7 +10248,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**LARGO TOTAL** \n2125 mm",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9537,7 +10272,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**LARGO TOTAL** \n1805 mm",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9562,7 +10297,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**LARGO TOTAL** \n2.130 mm",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9587,7 +10322,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**LARGO TOTAL** \n1930 mm",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9611,7 +10346,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**LARGO TOTAL** \n2085 mm",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9635,7 +10370,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**LARGO TOTAL** \n2.255 mm",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9811,7 +10546,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**TANQUE DE COMBUSTIBLE** \n5.2 Lts (Incluída reserva)",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9836,7 +10571,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**TANQUE DE COMBUSTIBLE** \n9.2 Lts (Incluída reserva)",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9861,7 +10596,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**TANQUE DE COMBUSTIBLE** \n9.2 Lts (Incluída reserva)",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9885,7 +10620,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**TANQUE DE COMBUSTIBLE** \n10.3 Lts (Incluída reserva)",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9910,7 +10645,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**TANQUE DE COMBUSTIBLE** \n1.62 Lts",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9935,7 +10670,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**TANQUE DE COMBUSTIBLE** \n14.2 Lts",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9960,7 +10695,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**TANQUE DE COMBUSTIBLE** \n3 Lts",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -9984,7 +10719,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**TANQUE DE COMBUSTIBLE** \n17.5 Lts (Incluída reserva)",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -10008,7 +10743,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos, 2 cilindros en V a 900, refrigeración líquida",
+  "text": "**TANQUE DE COMBUSTIBLE** \n5 Lts",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -10033,7 +10768,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**TANQUE DE COMBUSTIBLE** \n11 Lts",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -10058,7 +10793,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**TANQUE DE COMBUSTIBLE** \n4.3 Lts",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -10082,7 +10817,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**TANQUE DE COMBUSTIBLE** \n15 Lts (Incluída reserva)",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -10106,7 +10841,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**TANQUE DE COMBUSTIBLE** \n13 Lts (Incluída reserva)",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -10228,7 +10963,7 @@
       
     }
   },
- 
+ /*
  "flex-layout.row#containDescriptionForTheVideo" :
   {
     
@@ -10288,7 +11023,7 @@
   },
   
  
-
+*/
   "rich-text#Category":
   {
     "props":{
@@ -10883,45 +11618,36 @@
      "condition-layout.product#motorFueraBordaDF150TX",
      "condition-layout.product#motorFueraBordaDF30AS",
      "condition-layout.product#motorFueraBordaDF30AL",
-     //AGREGADO
      "condition-layout.product#motorFueraBordaDT15AL",
      "condition-layout.product#motorFueraBordaDF9.9AS",
      "condition-layout.product#motorFueraBordaDF6AS",
      "condition-layout.product#motorFueraBordaDT30L",
-     //FIN AGREGADO
-     //DT15AL
-     //DF9.9AS
-     //DF6AS
-     //DT30L
-     "condition-layout.product#motorFueraBordaDF175ATX",//ESTE ES EL VIDEO QUE CONTIENE PARA TODAS LOS MOTORES FUERA DE BORDA
+     "condition-layout.product#motorFueraBordaDF175ATX",
      "condition-layout.product#motorFueraBordaDF200ZX",
-     "condition-layout.product#motorFueraBordaDF175AZX",//AGREGADO
-     //DF175AZX
+     "condition-layout.product#motorFueraBordaDF175AZX",
+     
      
      
      
      
      //LOGO DE MARINE
-     "condition-layout.product#ImagemotorFueraBordaDF175ATX",//LOGO DE MARINE
+     "condition-layout.product#ImagemotorFueraBordaDF175ATX",
      "condition-layout.product#ImagemotorFueraBordaDF200ZX",
      "condition-layout.product#ImagemotorFueraBordaDF20AS",
      "condition-layout.product#ImagemotorFueraBordaDF150ZX",
      "condition-layout.product#ImagemotorFueraBordaDF150TX",
      "condition-layout.product#ImagemotorFueraBordaDF30AS",
      "condition-layout.product#ImagemotorFueraBordaDF30AL",
-
-     //AGREGADO
      "condition-layout.product#ImagemotorFueraBordaDT15AL",
      "condition-layout.product#ImagemotorFueraBordaDF9.9AS",
      "condition-layout.product#ImagemotorFueraBordaDF6AS",
      "condition-layout.product#ImagemotorFueraBordaDT30L",
      "condition-layout.product#ImagemotorFueraBordaDF175AZX",
-
      //FIN AGREGADO
      
 
 
-     //fin de motor fuera de borda
+     
 
      
 
@@ -10945,7 +11671,6 @@
      "condition-layout.product#conditionForTheVideoCategoryeCrossDR-Z50",
      "condition-layout.product#conditionForTheVideoCategoryeUtilitariaGN125",
      "condition-layout.product#conditionForTheVideoCategoryScooterUR110",
-
      //FIN DE CONDICIONES PARA LOS VIDEOS
 
     
@@ -10965,7 +11690,6 @@
      "condition-layout.product#conditionForSubittleMotoVSTROM650",
      "condition-layout.product#conditionForSubittleMotoVSTROM1050",
      "condition-layout.product#conditionForSubittleMotoGD115Evolution",
-
      "condition-layout.product#conditionForSubittleMotoGN125",
      "condition-layout.product#conditionForSubittleMotoUR110",
    //  "wishlist-button",
@@ -10986,8 +11710,8 @@
      //"flex-layout.row#gsx725-2",
      // "flex-layout.row#containX"
    //  "flex-layout.row#product-main",
-   "condition-layout.product#conditionForTheImageDescriptionVStrom250",
-   "condition-layout.product#conditionForTheGaleryVstrom250",
+   "flex-layout.row#containImageDescription",
+   //"condition-layout.product#conditionForTheGaleryVstrom250",
 
   // "flex-layout.row#containImageDescription",////tyjty
 //   "flex-layout.row#containGalleryMoto",
@@ -11009,6 +11733,10 @@
 
 
   //REVISTAS PARA LAS MOTOS
+  //MOTORES FUERA DE BORDA
+
+
+  //FIN DE MOROTES FUERA DE BORDA
   "condition-layout.product#conditionRevistaGSX125",
   "condition-layout.product#conditionRevistaDR650",
   "condition-layout.product#conditionRevistaRM85",
@@ -11025,6 +11753,9 @@
  "condition-layout.product#conditionRevistaGD115Evolution",
  "condition-layout.product#conditionRevistaDRZ50",
 
+ "condition-layout.product#conditionRevistaUR110",
+ "condition-layout.product#conditionRevistaGN125",
+
   //FIN REVISTAS PARA LAS MOTOS
 
 
@@ -11034,11 +11765,25 @@
 
 
   //SLIDERS
+
+  //MOTORES FUERA DE BORDA
+  "condition-layout.product#conditionForTheSliderFueraBordaDF20AS",
+  "condition-layout.product#conditionForTheSliderFueraBordaDF150ZX",
+  "condition-layout.product#conditionForTheSliderFueraBordaDF150TX",
+  "condition-layout.product#conditionForTheSliderFueraBordaDF30AS",
+  "condition-layout.product#conditionForTheSliderFueraBordaDF30AL",
+  "condition-layout.product#conditionForTheSliderFueraBordaDT15AL",
+  "condition-layout.product#conditionForTheSliderFueraBordaDF9.9AS",
+  "condition-layout.product#conditionForTheSliderFueraBordaDF6AS",
+  "condition-layout.product#conditionForTheSliderFueraBordaDT30L",
+  "condition-layout.product#conditionForTheSliderFueraBordaDF175ATX",
+  "condition-layout.product#conditionForTheSliderFueraBordaDF200ZX",
+  "condition-layout.product#conditionForTheSliderFueraBordaDF175AZX",
+
+  //FIN DE MOTORES FUERA DE BORDA
   "condition-layout.product#conditionForTheSliderVSTROMDL250",
   "condition-layout.product#conditionForTheSliderKATANA",
   "condition-layout.product#conditionForTheSliderVStrom650",
-
-  //AGREGANDO SLIDERS
   "condition-layout.product#conditionForTheSliderUR110",
   "condition-layout.product#conditionForTheSliderDGD115EVOLUTION",
   "condition-layout.product#conditionForTheSliderGD115",
@@ -11049,7 +11794,7 @@
   "condition-layout.product#conditionForTheSliderGSX-S750A",
   "condition-layout.product#conditionForTheSliderRM85",
   "condition-layout.product#conditionForTheSliderINTRUDER",
-  "condition-layout.product#conditionForTheSliderFW110",
+  "condition-layout.product#conditionForTheSliderSV650XA",
   "condition-layout.product#conditionForTheSliderVSTROM1050XT",
   "condition-layout.product#conditionForTheSliderGSX250R",
   "condition-layout.product#conditionForTheSliderDR650",
@@ -11097,9 +11842,9 @@
       "blockClass": "contenedor_final",
       "colGap": 0,
       "rowGap": 0,
-      "marginTop": 0,
+      "marginTop": 5,
       "marginBottom": 0,
-      "paddingTop": 0,
+      "paddingTop": 5,
       "paddingBottom": 0,
       "fullWidth" : true
 
@@ -11114,13 +11859,13 @@
       "rowGap": 0,
       "hasMoreThanOne" : true
     },
-    "children" :["rich-text#PoderyDeno","rich-text#NameMoto", "product-installments#text","rich-text#cotizala","flex-layout.row#botones"]
+    "children" :["rich-text#PoderyDeno","rich-text#NameMoto", "product-installments#text","rich-text#cotizala","flex-layout.row#rowbotones"]
   },
   "rich-text#PoderyDeno":{
     "props":{
       "textAlignment": "CENTER",
     "textPosition": "CENTER",
-    "text": "## Poder y dominación en una",
+    "text": "## ***Poder y dominación en una***",
     "blockClass": "PoderyDeno"
     }
   },
@@ -11128,7 +11873,7 @@
     "props":{
       "textAlignment": "CENTER",
     "textPosition": "CENTER",
-    "text": "## V-STROM DL250",
+    "text": "## ***MOTO***",
     "blockClass": "NameMoto"
     }
   },
@@ -11136,10 +11881,93 @@
     "props":{
       "textAlignment": "CENTER",
     "textPosition": "CENTER",
-    "text": "## ¡ Cotizala ya !",
+    "text": "## ***¡ Cotizala ya !***",
     "blockClass": "cotizala"
     }
   },
+  "flex-layout.row#rowbotones" :
+  {
+    "props":
+    {
+      "blockClass": "botones",
+      "fullWidth" : true
+    },
+    "children" :[
+     // "flex-layout.col#buyNowButtons"//SE QUEDA COMO ESTA 
+     "flex-layout.row#containsolicitarProducto",
+     "flex-layout.row#containcotizaPorWhatsapp",
+      "flex-layout.row#containPreguntaPorTusRepuestos"
+     
+
+    ]
+  },
+  "flex-layout.row#containsolicitarProducto" : 
+  {
+    "props":{
+      "blockClass": "containsolicitarProducto",
+      "colGap": 2,
+      "rowGap":2,
+      "marginTop": 2,
+      "marginBottom": 2,
+      "paddingTop": 2,
+      "paddingBottom": 2,
+      "fullWidth" : true
+
+    },
+    "children":[ "add-to-cart-button#buyNowsolicitarProducto"]
+  },
+  "flex-layout.row#containcotizaPorWhatsapp" : 
+  {
+    "props":{
+      "blockClass": "containcotizaPorWhatsapp",
+      "colGap": 2,
+      "rowGap":2,
+      "marginTop": 2,
+      "marginBottom": 2,
+      "paddingTop": 2,
+      "paddingBottom": 2,
+      "fullWidth" : true
+
+    },
+    "children":["link#cotizaPorWhatsapp"]
+  },
+
+  "link#cotizaPorWhatsapp": {
+    "props": {
+      "href": "https://api.whatsapp.com/send?phone=593993227987&text=Hola!,%20Me%20gustar%C3%ADa%20adquirir%20un%20producto!&utm_source=wsweb&utm_social=whatsapp&utm_campaing=whatsapp",
+      "label": "COTIZA TU MOTO POR WHATSAPP",
+      "target" : "https://api.whatsapp.com/send?phone=593993227987&text=Hola!,%20Me%20gustar%C3%ADa%20adquirir%20un%20producto!&utm_source=wsweb&utm_social=whatsapp&utm_campaing=whatsapp",
+      "displayMode" : "button",
+      "blockClass" : "cotizaPorWhatsapp"
+  
+    }
+  },
+  "flex-layout.row#containPreguntaPorTusRepuestos":
+  {
+    "props":{
+      "blockClass": "containPreguntaPorTusRepuestos",
+      "colGap": 2,
+      "rowGap":2,
+      "marginTop": 2,
+      "marginBottom": 2,
+      "paddingTop": 2,
+      "paddingBottom": 2,
+      "fullWidth" : true
+
+    },
+    "children":["link#PreguntaPorTusRepuestos"]
+  },
+  "link#PreguntaPorTusRepuestos": {
+    "props": {
+      "href": "https://www.suzukiec.com/repuestos-suzuki",
+      "label": "PREGUNTA POR TUS REPUESTOS",
+      "target" : "https://www.suzukiec.com/repuestos-suzuki",
+      "displayMode" : "button",
+      "blockClass" : "PreguntaPorTusRepuestos"
+  
+    }
+  },
+  /*
   "flex-layout.row#botones":
   {
     "props":
@@ -11153,7 +11981,7 @@
       "flex-layout.row#buyNowButtonf",//REEMPLAZA PREGUNTA POR TUS REPUESTOS
       "flex-layout.row#buyNowButtonw"//COTIZA POR WHATSAPP
     ]
-  },
+  },*/
   
  
   
@@ -11514,7 +12342,7 @@
     "props": {
      "blockClass": "text",
      // "installmenerwfenterés} false { }}"
-     "message" : "DESDE {installmentsNumber} CUOTAS DE {installmentValue}{hasInterest, select, true {, {interestRate} de interés} false { }}"
+     "message" : "{installmentsNumber} CUOTAS DE {installmentValue}{hasInterest, select, true {, {interestRate} de interés} false { }}"
 
     }
   },
@@ -11522,7 +12350,7 @@
   //NOMBRE DEL PRODUCTO
   "flex-layout.row#product-name": {
     "props": {
-      "blockClass": "name",
+      "blockClass": "product-name",
       "marginBottom": 3
     },
     "children": ["vtex.store-components:product-name"]
@@ -11558,23 +12386,14 @@
 //botones
 //boton solicitud
 //PADRE
-  "flex-layout.row#buyNowButtons": {
-    "props": {
-      "blockClass": "buyNowButtons",
-      "marginTop": 4,
-      "marginBottom": 2
-    },
-    "children": [
-      "add-to-cart-button#buyNows"
-    ]
-  },
+  
 //HIJO 
-  "add-to-cart-button#buyNows": {
+  "add-to-cart-button#buyNowsolicitarProducto": {
     "props": {
       "text": "SOLICITAR PRODUCTO", 
       "isOneClickBuy": true,
       "onClickEventPropagation":  "enabled",
-      "blockClass": "buyNows"
+      "blockClass": "buyNowsolicitarProducto"
     }
   },
 //PADRE
