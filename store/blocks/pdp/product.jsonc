@@ -5602,7 +5602,7 @@
    "Then":  "list-context.image-list#sliderMotoresFueraBorda"
    
   }
-},
+},//
 
 "list-context.image-list#sliderMotoresFueraBorda": {
   "children": ["slider-layout#MotoresFueraBordaitems"],
