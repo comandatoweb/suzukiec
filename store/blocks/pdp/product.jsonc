@@ -1546,7 +1546,21 @@
     "condition-layout.product#conditionFirstTextvstrom",
     "condition-layout.product#conditionFirstTextKatana",
     "condition-layout.product#conditionFirstTextVstrom650",
-    "condition-layout.product#conditionFirstTextVstrom1050"]
+    "condition-layout.product#conditionFirstTextVstrom1050",
+    //MOTORES FUERA DE BORDA
+     "condition-layout.product#conditionFirstFueraBordaDF175ATX",
+     "condition-layout.product#conditionFirstFueraBordaDF200ZX",
+     "condition-layout.product#conditionFirstFueraBordaDF20AS",
+     "condition-layout.product#conditionFirstFueraBordaDF150ZX",
+     "condition-layout.product#conditionFirstFueraBordaDF150TX",
+     "condition-layout.product#conditionFirstFueraBordaDF30AS",
+     "condition-layout.product#conditionFirstFueraBordaDF30AL",
+     "condition-layout.product#conditionFirstFueraBordaDT15AL",
+     "condition-layout.product#conditionFirstFueraBordaDF9.9AS",
+     "condition-layout.product#conditionFirstFueraBordaDF6AS",
+     "condition-layout.product#conditionFirstFueraBordaDT30L",
+     "condition-layout.product#conditionFirstFueraBordaDF175AZX"
+  ]
 
   
  },
@@ -1559,6 +1573,349 @@
   }
  
 },
+////////////////////////////////////////////////////////MOTORES FUERA DE BORDA////////////////////////////////////////
+//DF175ATX
+"condition-layout.product#conditionFirstFueraBordaDF175ATX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054550" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextDF175ATX"
+   
+  }
+},
+
+"rich-text#firstTextDF175ATX":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Motor 4 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+//DF200ZX
+"condition-layout.product#conditionFirstFueraBordaDF200ZX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2058125" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextDF200ZX"
+   
+  }
+},
+
+"rich-text#firstTextDF200ZX":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Motor DOHC 24-Valvulas 4 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+//DF20AS
+"condition-layout.product#conditionFirstFueraBordaDF20AS": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052764" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextDF20AS"
+   
+  }
+},
+
+"rich-text#firstTextDF20AS":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Motor 4 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+//DF150ZX
+"condition-layout.product#conditionFirstFueraBordaDF150ZX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052763" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextDF150ZX"
+   
+  }
+},
+
+"rich-text#firstTextDF150ZX":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Motor  DOHC 16-Valvulas**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+//DF150TX
+"condition-layout.product#conditionFirstFueraBordaDF150TX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052762" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextDF150TX"
+   
+  }
+},
+
+"rich-text#firstTextDF150TX":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Motor  DOHC 16-Valvulas 4 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+//DF30AS
+"condition-layout.product#conditionFirstFueraBordaDF30AS": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052760" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextDF30AS"
+   
+  }
+},
+
+"rich-text#firstTextDF30AS":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Motor 4 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+
+//DF30AL
+"condition-layout.product#conditionFirstFueraBordaDF30AL": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052759" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextDF30AL"
+   
+  }
+},
+
+"rich-text#firstTextDF30AL":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Motor 4 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+//DT15AL
+"condition-layout.product#conditionFirstFueraBordaDT15AL": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052757" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextDT15AL"
+   
+  }
+},
+
+"rich-text#firstTextDT15AL":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Motor  2 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+//DF9.9AS
+"condition-layout.product#conditionFirstFueraBordaDF9.9AS": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052756" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextDF9.9AS"
+   
+  }
+},
+
+"rich-text#firstTextDF9.9AS":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Motor 4 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+//DF6AS
+"condition-layout.product#conditionFirstFueraBordaDF6AS": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052755" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextDF6AS"
+   
+  }
+},
+
+"rich-text#firstTextDF6AS":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Motor  OHV 4 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+
+//DT30L
+"condition-layout.product#conditionFirstFueraBordaDT30L": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052758" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextDT30L"
+   
+  }
+},
+
+"rich-text#firstTextDT30L":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Motor  2 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+//DF175AZX
+"condition-layout.product#conditionFirstFueraBordaDF175AZX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054551" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextDF175AZX"
+   
+  }
+},
+
+"rich-text#firstTextDF175AZX":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Motor DOHC  16-Valvulas**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+
+
+
+///////////////////////////////////////MOTOS/////////////////////////////////////////
 //PRIMERA CONDICION Uk110
 "condition-layout.product#conditionFirstTextUk110": 
 {
@@ -2067,7 +2424,41 @@
    "rowGap": 0,
    "hasMoreThanOne" : true
    },
-   "children":["image#rapido",
+   "children":[
+    
+
+    "condition-layout.product#conditionImagePotenciaDF175ATX",
+    "condition-layout.product#conditionImagePotenciaDF200ZX",
+    "condition-layout.product#conditionImagePotenciaDF20AS",
+    "condition-layout.product#conditionImagePotenciaDF150ZX",
+    "condition-layout.product#conditionImagePotenciaDF150TX",
+    "condition-layout.product#conditionImagePotenciaDF30AS",
+    "condition-layout.product#conditionImagePotenciaDF30AL",
+    "condition-layout.product#conditionImagePotenciaDT15AL",
+    "condition-layout.product#conditionImagePotenciaDF9.9AS",
+    "condition-layout.product#conditionImagePotenciaDF6AS",
+    "condition-layout.product#conditionImagePotenciaDT30L",
+    "condition-layout.product#conditionImagePotenciaDF175AZX",
+
+    "condition-layout.product#conditionImageRapidoUK110",
+    "condition-layout.product#conditionImageRapidoGN125",
+    "condition-layout.product#conditionImageRapidoUR110",
+    "condition-layout.product#conditionImageRapidoGSX125",
+    "condition-layout.product#conditionImageRapidoDR650",
+    "condition-layout.product#conditionImageRapidoRM85",
+    "condition-layout.product#conditionImageRapidoGD115",
+    "condition-layout.product#conditionImageRapidoSV650XA",
+    "condition-layout.product#conditionImageRapidoINTRUDER",
+    "condition-layout.product#conditionImageRapidoGSXS750",
+    "condition-layout.product#conditionImageRapidoGSX250R",
+    "condition-layout.product#conditionImageRapidoDRZ50",
+    "condition-layout.product#conditionImageRapidoGD115EVOLUTION",
+    "condition-layout.product#conditionImageRapidoVSTROM250",
+    "condition-layout.product#conditionImageRapidoKATANA",
+    "condition-layout.product#conditionImageRapidoVSTROM650",
+    "condition-layout.product#conditionImageRapidoVSTROM1050",
+
+
     "condition-layout.product#conditionSecondtTextUK110",
     "condition-layout.product#conditionSecondtTextGN125",
     "condition-layout.product#conditionSecondtTextUR110",
@@ -2084,8 +2475,503 @@
     "condition-layout.product#conditionSecondtTextvstrom",
     "condition-layout.product#conditionSecondTextKatana",
     "condition-layout.product#conditionSecondTextVstrom650",
-    "condition-layout.product#conditionSecondTextVstrom1050"]
+    "condition-layout.product#conditionSecondTextVstrom1050",
+
+    "condition-layout.product#conditionSecondTextDF175ATX",
+    "condition-layout.product#conditionSecondTextDF200ZX",
+    "condition-layout.product#conditionSecondTextDF20AS",
+    "condition-layout.product#conditionSecondTextDF150ZX",
+    "condition-layout.product#conditionSecondTextDF150TX",
+    "condition-layout.product#conditionSecondTextDF30AS",
+    "condition-layout.product#conditionSecondTextDF30AL",
+    "condition-layout.product#conditionSecondTextDT15AL",
+    "condition-layout.product#conditionSecondTextDF9.9AS",
+    "condition-layout.product#conditionSecondTextDF6AS",
+    "condition-layout.product#conditionSecondTextDT30L",
+    "condition-layout.product#conditionSecondTextDF175AZX"
+
+
+
+
+  
+  ]
  },
+
+
+ //Condiciones para la imagen potencia que son para los motores fuera de borda
+
+ "condition-layout.product#conditionImagePotenciaDF175ATX": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2067061"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#potencia"
+    
+   }
+ },
+"condition-layout.product#conditionImagePotenciaDF200ZX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2058125"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "image#potencia"
+   
+  }
+},
+"condition-layout.product#conditionImagePotenciaDF20AS": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052764"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#potencia"
+    
+  }
+},
+"condition-layout.product#conditionImagePotenciaDF150ZX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052763"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#potencia"
+    
+  }
+},
+"condition-layout.product#conditionImagePotenciaDF150TX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052762"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#potencia"
+    
+  }
+},
+"condition-layout.product#conditionImagePotenciaDF30AS": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052760"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#potencia"
+    
+  }
+},
+"condition-layout.product#conditionImagePotenciaDF30AL": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052759"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#potencia"
+    
+  }
+},
+"condition-layout.product#conditionImagePotenciaDT15AL": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052757"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#potencia"
+    
+  }
+},
+"condition-layout.product#conditionImagePotenciaDF9.9AS": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052756"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#potencia"
+    
+  }
+},
+"condition-layout.product#conditionImagePotenciaDF6AS": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052755"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#potencia"
+    
+  }
+},
+"condition-layout.product#conditionImagePotenciaDT30L": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052758"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#potencia"
+    
+  }
+},
+"condition-layout.product#conditionImagePotenciaDF175AZX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054551"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#potencia"
+    
+  }
+},
+
+
+ //Condiciones para la imagen rapido que son para las motos
+
+ "condition-layout.product#conditionImageRapidoUK110": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2054550"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#rapido"
+    
+   }
+ },
+ "condition-layout.product#conditionImageRapidoGN125": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2000139"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#rapido"
+    
+   }
+ },
+ "condition-layout.product#conditionImageRapidoUR110": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2011740"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#rapido"
+    
+   }
+ },
+ "condition-layout.product#conditionImageRapidoGSX125": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049461"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#rapido"
+    
+   }
+ },
+ "condition-layout.product#conditionImageRapidoDR650": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2000136"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#rapido"
+    
+   }
+ },
+ "condition-layout.product#conditionImageRapidoRM85": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049584"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#rapido"
+    
+   }
+ },
+ "condition-layout.product#conditionImageRapidoGD115": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2011222"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#rapido"
+    
+   }
+ },
+ "condition-layout.product#conditionImageRapidoSV650XA": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2054376"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#rapido"
+    
+   }
+ },
+ "condition-layout.product#conditionImageRapidoINTRUDER": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049444"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#rapido"
+    
+   }
+ },
+ "condition-layout.product#conditionImageRapidoGSXS750": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049300"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#rapido"
+    
+   }
+ },
+ "condition-layout.product#conditionImageRapidoGSX250R": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2048797"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#rapido"
+    
+   }
+ },
+ "condition-layout.product#conditionImageRapidoDRZ50": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049492"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#rapido"
+    
+   }
+ },
+ "condition-layout.product#conditionImageRapidoGD115EVOLUTION": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2054549"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#rapido"
+    
+   }
+ },
+ "condition-layout.product#conditionImageRapidoVSTROM250": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2048798"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#rapido"
+    
+   }
+ },
+ "condition-layout.product#conditionImageRapidoKATANA": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049621"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#rapido"
+    
+   }
+ },
+ "condition-layout.product#conditionImageRapidoVSTROM650": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049038"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#rapido"
+    
+   }
+ },
+ "condition-layout.product#conditionImageRapidoVSTROM1050": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2054006"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#rapido"
+    
+   }
+ },
+
+
+
+ //IMAGEN PARA LA MOTO
  "image#rapido": {
   "props": {
     "src": "https://suzukiecuador.vteximg.com.br/arquivos/rapido.png",
@@ -2094,6 +2980,18 @@
     
   }
 },
+
+//IMAGEN PARA EL MOTOR FUERA DE BORDA
+"image#potencia": {
+  "props": {
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/potencia.png",
+    "maxHeight": 80,
+    "maxWidth" : 80
+    
+  }
+},
+
+
 //SEGUNDA  CONDICION TEXTO  UK110
 "condition-layout.product#conditionSecondtTextUK110": 
 {
@@ -2573,6 +3471,316 @@
  }
 },
 
+//MOTORES FUERA DE BORDA
+"condition-layout.product#conditionSecondTextDF175ATX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2067061"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDF175ATX"
+   
+  }
+},
+"rich-text#SecondTextDF175ATX":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Potencia 175 HP**\nCon un poder para recorrer todas las aguas que quieras",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionSecondTextDF200ZX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2058125"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDF200ZX"
+   
+  }
+},
+"rich-text#SecondTextDF200ZX":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Potencia 200 HP**\nCon un poder para recorrer todas las aguas que quieras",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionSecondTextDF20AS": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052764"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDF20AS"
+   
+  }
+},
+"rich-text#SecondTextDF20AS":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Potencia 20 HP**\nCon un poder para recorrer todas las aguas que quieras",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionSecondTextDF150ZX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052763"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDF150ZX"
+   
+  }
+},
+"rich-text#SecondTextDF150ZX":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Potencia 150 HP**\nCon un poder para recorrer todas las aguas que quieras",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionSecondTextDF150TX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052762"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDF150TX"
+   
+  }
+},
+"rich-text#SecondTextDF150TX":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Potencia 150HP**\nCon un poder para recorrer todas las aguas que quieras",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+
+
+"condition-layout.product#conditionSecondTextDF30AS":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052760"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDF30AS"
+   
+  }
+},
+"rich-text#SecondTextDF30AS":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Potencia 30HP**\nCon un poder para recorrer todas las aguas que quieras",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+
+"condition-layout.product#conditionSecondTextDF30AL":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052759"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDF30AL"
+   
+  }
+},
+"rich-text#SecondTextDF30AL":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Potencia 30 HP**\nCon un poder para recorrer todas las aguas que quieras",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionSecondTextDT15AL":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052757"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDT15AL"
+   
+  }
+},
+"rich-text#SecondTextDT15AL":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Potencia 15HP**\nCon un poder para recorrer todas las aguas que quieras",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionSecondTextDF9.9AS":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052756"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDF9.9AS"
+   
+  }
+},
+"rich-text#SecondTextDF9.9AS":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Potencia 9,9 HP**\nCon un poder para recorrer todas las aguas que quieras",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+
+"condition-layout.product#conditionSecondTextDF6AS":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052755"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDF6AS"
+   
+  }
+},
+"rich-text#SecondTextDF6AS":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Potencia  6HP**\nCon un poder para recorrer todas las aguas que quieras",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionSecondTextDT30L":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052758"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDT30L"
+   
+  }
+},
+"rich-text#SecondTextDT30L":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Potencia  30HP**\nCon un poder para recorrer todas las aguas que quieras",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionSecondTextDF175AZX":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054551"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDF175AZX"
+   
+  }
+},
+"rich-text#SecondTextDF175AZX":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Potencia 175HP**\nCon un poder para recorrer todas las aguas que quieras",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
 
 
 
@@ -2594,7 +3802,39 @@
    "rowGap": 0,
    "hasMoreThanOne" : true
    },
-   "children":["image#disco_freno",
+   "children":[
+
+    "condition-layout.product#conditionImageCombustibleDF175ATX",
+    "condition-layout.product#conditionImageCombustibleDF200ZX",
+    "condition-layout.product#conditionImageCombustibleDF20AS",
+    "condition-layout.product#conditionImageCombustibleDF150ZX",
+    "condition-layout.product#conditionImageCombustibleDF150TX",
+    "condition-layout.product#conditionImageCombustibleDF30AS",
+    "condition-layout.product#conditionImageCombustibleDF30AL",
+    "condition-layout.product#conditionImageCombustibleDT15AL",
+    "condition-layout.product#conditionImageCombustibleDF9.9AS",
+    "condition-layout.product#conditionImageCombustibleDF6AS",
+    "condition-layout.product#conditionImageCombustibleDT30L",
+    "condition-layout.product#conditionImageCombustibleDF175AZX",
+
+    "condition-layout.product#conditionImageDiscoFrenoUK110",
+    "condition-layout.product#conditionImageDiscoFrenoGN125",
+    "condition-layout.product#conditionImageDiscoFrenoUR110",
+    "condition-layout.product#conditionImageDiscoFrenoGSX125",
+    "condition-layout.product#conditionImageDiscoFrenoDR650",
+    "condition-layout.product#conditionImageDiscoFrenoRM85",
+    "condition-layout.product#conditionImageDiscoFrenoGD115",
+    "condition-layout.product#conditionImageDiscoFrenoSV650XA",
+    "condition-layout.product#conditionImageDiscoFrenoINTRUDER",
+    "condition-layout.product#conditionImageDiscoFrenoGSXS750",
+    "condition-layout.product#conditionImageDiscoFrenoGSX250R",
+    "condition-layout.product#conditionImageDiscoFrenoDRZ50",
+    "condition-layout.product#conditionImageDiscoFrenoGD115EVOLUTION",
+    "condition-layout.product#conditionImageDiscoFrenoVSTROM250",
+    "condition-layout.product#conditionImageDiscoFrenoKATANA",
+    "condition-layout.product#conditionImageDiscoFrenoVSTROM650",
+    "condition-layout.product#conditionImageDiscoFrenoVSTROM1050",
+
     "condition-layout.product#conditionThirdtTextUK110",
     "condition-layout.product#conditionThirdtTextUR110",
     "condition-layout.product#conditionThirdtTextGN125",
@@ -2611,14 +3851,506 @@
     "condition-layout.product#conditionThirdtTextvstrom",
     "condition-layout.product#conditionThirdTextKatana",
     "condition-layout.product#conditionThirdTextVstrom650",
-    "condition-layout.product#conditionThirdTextVstrom1050"
+    "condition-layout.product#conditionThirdTextVstrom1050",
+
+    "condition-layout.product#conditionThirdTextDF175ATX",
+    "condition-layout.product#conditionThirdTextDF200ZX",
+    "condition-layout.product#conditionThirdTextDF20AS",
+    "condition-layout.product#conditionThirdTextDF150ZX",
+    "condition-layout.product#conditionThirdTextDF150TX",
+    "condition-layout.product#conditionThirdTextDF30AS",
+    "condition-layout.product#conditionThirdTextDF30AL",
+    "condition-layout.product#conditionThirdTextDT15AL",
+    "condition-layout.product#conditionThirdTextDF9.9AS",
+    "condition-layout.product#conditionThirdTextDF6AS",
+    "condition-layout.product#conditionThirdTextDT30L",
+    "condition-layout.product#conditionThirdTextDF175AZX"
   ]
  },
+ //Condiciones para la imagen potencia que son para los motores fuera de borda
+
+ "condition-layout.product#conditionImageCombustibleDF175ATX": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2067061"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#Combustible"
+    
+   }
+ },
+"condition-layout.product#conditionImageCombustibleDF200ZX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2058125"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "image#Combustible"
+   
+  }
+},
+"condition-layout.product#conditionImageCombustibleDF20AS": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052764"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#Combustible"
+    
+  }
+},
+"condition-layout.product#conditionImageCombustibleDF150ZX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052763"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#Combustible"
+    
+  }
+},
+"condition-layout.product#conditionImageCombustibleDF150TX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052762"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#Combustible"
+    
+  }
+},
+"condition-layout.product#conditionImageCombustibleDF30AS": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052760"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#Combustible"
+    
+  }
+},
+"condition-layout.product#conditionImageCombustibleDF30AL": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052759"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#Combustible"
+    
+  }
+},
+"condition-layout.product#conditionImageCombustibleDT15AL": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052757"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#Combustible"
+    
+  }
+},
+"condition-layout.product#conditionImageCombustibleDF9.9AS": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052756"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#Combustible"
+    
+  }
+},
+"condition-layout.product#conditionImageCombustibleDF6AS": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052755"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#Combustible"
+    
+  }
+},
+"condition-layout.product#conditionImageCombustibleDT30L": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052758"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#Combustible"
+    
+  }
+},
+"condition-layout.product#conditionImageCombustibleDF175AZX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054551"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#Combustible"
+    
+  }
+},
+
+
+ //Condiciones para la imagen rapido que son para las motos
+
+ "condition-layout.product#conditionImageDiscoFrenoUK110": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2054550"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#DiscoFreno"
+    
+   }
+ },
+ "condition-layout.product#conditionImageDiscoFrenoGN125": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2000139"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#DiscoFreno"
+    
+   }
+ },
+ "condition-layout.product#conditionImageDiscoFrenoUR110": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2011740"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#DiscoFreno"
+    
+   }
+ },
+ "condition-layout.product#conditionImageDiscoFrenoGSX125": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049461"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#DiscoFreno"
+    
+   }
+ },
+ "condition-layout.product#conditionImageDiscoFrenoDR650": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2000136"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#DiscoFreno"
+    
+   }
+ },
+ "condition-layout.product#conditionImageDiscoFrenoRM85": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049584"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#DiscoFreno"
+    
+   }
+ },
+ "condition-layout.product#conditionImageDiscoFrenoGD115": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2011222"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#DiscoFreno"
+    
+   }
+ },
+ "condition-layout.product#conditionImageDiscoFrenoSV650XA": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2054376"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#DiscoFreno"
+    
+   }
+ },
+ "condition-layout.product#conditionImageDiscoFrenoINTRUDER": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049444"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#DiscoFreno"
+    
+   }
+ },
+ "condition-layout.product#conditionImageDiscoFrenoGSXS750": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049300"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#DiscoFreno"
+    
+   }
+ },
+ "condition-layout.product#conditionImageDiscoFrenoGSX250R": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2048797"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#DiscoFreno"
+    
+   }
+ },
+ "condition-layout.product#conditionImageDiscoFrenoDRZ50": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049492"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#DiscoFreno"
+    
+   }
+ },
+ "condition-layout.product#conditionImageDiscoFrenoGD115EVOLUTION": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2054549"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#DiscoFreno"
+    
+   }
+ },
+ "condition-layout.product#conditionImageDiscoFrenoVSTROM250": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2048798"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#DiscoFreno"
+    
+   }
+ },
+ "condition-layout.product#conditionImageDiscoFrenoKATANA": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049621"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#DiscoFreno"
+    
+   }
+ },
+ "condition-layout.product#conditionImageDiscoFrenoVSTROM650": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049038"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#DiscoFreno"
+    
+   }
+ },
+ "condition-layout.product#conditionImageDiscoFrenoVSTROM1050": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2054006"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#DiscoFreno"
+    
+   }
+ },
+
+
 
  
-"image#disco_freno": {
+"image#DiscoFreno": {
   "props": {
     "src": "https://suzukiecuador.vteximg.com.br/arquivos/disco-del-freno.png",
+    "maxHeight": 80,
+    "maxWidth" : 80
+  }
+},
+"image#Combustible": {
+  "props": {
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/combustible.png",
     "maxHeight": 80,
     "maxWidth" : 80
   }
@@ -3100,6 +4832,317 @@
   }
 },
 
+//MOTORES FUERA DE BORDA
+"condition-layout.product#conditionThirdTextDF175ATX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2067061"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextDF175ATX"
+   
+  }
+},
+"rich-text#ThirdTextDF175ATX":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Combustible Inyección Electrónica Secuencial**\nCon una larga duración para que nunca se apague tu motor",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionThirdTextDF200ZX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2058125"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextDF200ZX"
+   
+  }
+},
+"rich-text#ThirdTextDF200ZX":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Combustible Inyección Electrónica Secuencial Multipunto**\nCon una larga duración para que nunca se apague tu motor",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionThirdTextDF20AS": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052764"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDF20AS"
+   
+  }
+},
+"rich-text#ThirdTextDF20AS":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Combustible Inyección**\nCon una larga duración para que nunca se apague tu motor",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionThirdTextDF150ZX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052763"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDF150ZX"
+   
+  }
+},
+"rich-text#ThirdTextDF150ZX":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Combustible Inyección electrónica secuencial multipunto**\nCon una larga duración para que nunca se apague tu motor",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionThirdTextDF150TX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052762"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextDF150TX"
+   
+  }
+},
+"rich-text#ThirdTextDF150TX":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Combustible Inyección electrónica secuencial multipunto**\nCon una larga duración para que nunca se apague tu motor",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+
+
+"condition-layout.product#conditionThirdTextDF30AS":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052760"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextDF30AS"
+   
+  }
+},
+"rich-text#ThirdTextDF30AS":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Combustible Inyección**\nCon una larga duración para que nunca se apague tu motor",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+
+"condition-layout.product#conditionThirdTextDF30AL":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052759"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextDF30AL"
+   
+  }
+},
+"rich-text#ThirdTextDF30AL":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Combustible  Inyección**\nCon una larga duración para que nunca se apague tu motor",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionThirdTextDT15AL":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052757"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextDT15AL"
+   
+  }
+},
+"rich-text#ThirdTextDT15AL":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Combustible  Carburador**\nCon una larga duración para que nunca se apague tu motor",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionThirdTextDF9.9AS":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052756"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextDF9.9AS"
+   
+  }
+},
+"rich-text#ThirdTextDF9.9AS":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Combustible Carburador**\nCon una larga duración para que nunca se apague tu motor",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+
+"condition-layout.product#conditionThirdTextDF6AS":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052755"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextDF6AS"
+   
+  }
+},
+"rich-text#ThirdTextDF6AS":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Combustible Carburador**\nCon una larga duración para que nunca se apague tu motor",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionThirdTextDT30L":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052758"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextDT30L"
+   
+  }
+},
+"rich-text#ThirdTextDT30L":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Combustible  Carburador**\nCon una larga duración para que nunca se apague tu motor",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionThirdTextDF175AZX":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054551"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextDF175AZX"
+   
+  }
+},
+"rich-text#ThirdTextDF175AZX":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Combustible Inyección Electrónica Secuencial Multipunto**\nCon una larga duración para que nunca se apague tu motor",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+
  //==============================================================================================================================
  //********************************************* FIN CARACTERISTICAS DE LA MOTO*******************************************//
  //==============================================================================================================================
@@ -3207,7 +5250,251 @@
  //==============================================================================================================================
  //*********************************************DESCRIPCION DE LA MOTO EN FORMA DE REVISTA*******************************************//
  //==============================================================================================================================
-//GSX125
+
+//CARACTERISITCA PARA LOS MOTORES FUERA DE BORDA
+"condition-layout.product#conditionRevistaDF175ATX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2067061"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionRevistaDF200ZX": 
+{
+ "props": {
+   "conditions": [
+     {
+       "subject": "productId",
+       "arguments": {
+         "id": "2058125"
+       }
+     }
+   ],
+   "toBe" : true,
+  "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
+  
+ }
+},
+"condition-layout.product#conditionRevistaDF20AS": 
+{
+ "props": {
+   "conditions": [
+     {
+       "subject": "productId",
+       "arguments": {
+         "id": "2052764"
+       }
+     }
+   ],
+   "toBe" : true,
+   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
+   
+ }
+},
+"condition-layout.product#conditionRevistaDF150ZX": 
+{
+ "props": {
+   "conditions": [
+     {
+       "subject": "productId",
+       "arguments": {
+         "id": "2052763"
+       }
+     }
+   ],
+   "toBe" : true,
+   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
+   
+ }
+},
+"condition-layout.product#conditionRevistaDF150TX": 
+{
+ "props": {
+   "conditions": [
+     {
+       "subject": "productId",
+       "arguments": {
+         "id": "2052762"
+       }
+     }
+   ],
+   "toBe" : true,
+   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
+   
+ }
+},
+"condition-layout.product#conditionRevistaDF30AS": 
+{
+ "props": {
+   "conditions": [
+     {
+       "subject": "productId",
+       "arguments": {
+         "id": "2052760"
+       }
+     }
+   ],
+   "toBe" : true,
+   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
+   
+ }
+},
+"condition-layout.product#conditionRevistaDF30AL": 
+{
+ "props": {
+   "conditions": [
+     {
+       "subject": "productId",
+       "arguments": {
+         "id": "2052759"
+       }
+     }
+   ],
+   "toBe" : true,
+   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
+   
+ }
+},
+"condition-layout.product#conditionRevistaDT15AL": 
+{
+ "props": {
+   "conditions": [
+     {
+       "subject": "productId",
+       "arguments": {
+         "id": "2052757"
+       }
+     }
+   ],
+   "toBe" : true,
+   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
+   
+ }
+},
+"condition-layout.product#conditionRevistaDF9.9AS": 
+{
+ "props": {
+   "conditions": [
+     {
+       "subject": "productId",
+       "arguments": {
+         "id": "2052756"
+       }
+     }
+   ],
+   "toBe" : true,
+   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
+   
+ }
+},
+"condition-layout.product#conditionRevistaDF6AS": 
+{
+ "props": {
+   "conditions": [
+     {
+       "subject": "productId",
+       "arguments": {
+         "id": "2052755"
+       }
+     }
+   ],
+   "toBe" : true,
+   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
+   
+ }
+},
+"condition-layout.product#conditionRevistaDT30L": 
+{
+ "props": {
+   "conditions": [
+     {
+       "subject": "productId",
+       "arguments": {
+         "id": "2052758"
+       }
+     }
+   ],
+   "toBe" : true,
+   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
+   
+ }
+},
+"condition-layout.product#conditionRevistaDF175AZX": 
+{
+ "props": {
+   "conditions": [
+     {
+       "subject": "productId",
+       "arguments": {
+         "id": "2054551"
+       }
+     }
+   ],
+   "toBe" : true,
+   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
+   
+ }
+},
+//
+  "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda": {
+    "children": ["slider-layout#MotoresFueraBordaCaracteristica"],
+    "props": {
+      "width" : "100%",
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/DF1.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/DF1.png"
+        },
+        {
+          "width" : "100%",
+          
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/DF2.png",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/DF2.png"
+        },
+        {
+          "width" : "100%",
+         
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/DF3.png",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/DF3.png"
+        },
+        {
+          "width" : "100%",
+         
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/DF4.png",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/DF4.png"
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#MotoresFueraBordaCaracteristica": {
+    "props": {
+      "blockClass": "sliderVLSitems",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
+//FIN DE CARACTERISTICA PARA LOS MOTORES FUERA DE BORDA
+
+
+ //GSX125
 "condition-layout.product#conditionRevistaGSX125": 
 {
   "props": {
@@ -4849,7 +7136,7 @@
 "image#motorUR110": {
   "props": {
     "blockClass": "motovlStrom3",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/UR110-3.jpg"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/UR110lets-3.jpg"
     
   }
   
@@ -5603,29 +7890,29 @@
    
   }
 },//
-
+//
 "list-context.image-list#sliderMotoresFueraBorda": {
   "children": ["slider-layout#MotoresFueraBordaitems"],
   "props": {
-
+    "width" : "100%",
     "height":"100%",
     "images": [
       {
         "width" : "100%",
-        "image": "https://suzukiecuador.vteximg.com.br/arquivos/caracteristica1.png",
-        "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/caracteristica1.png"
+        "image": "https://suzukiecuador.vteximg.com.br/arquivos/motor-DT30-BANNERS.jpg",
+        "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/motor-DT30-BANNERS.jpg"
+      },
+      {
+        "width" : "100%",
+        
+        "image": "https://suzukiecuador.vteximg.com.br/arquivos/motor-DF300AP-BANNERS.jpg",
+        "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/motor-DF300AP-BANNERS.jpg"
       },
       {
         "width" : "100%",
        
-        "image": "https://suzukiecuador.vteximg.com.br/arquivos/caracteristica2.png",
-        "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/caracteristica2.png"
-      },
-      {
-        "width" : "100%",
-       
-        "image": "https://suzukiecuador.vteximg.com.br/arquivos/caracteristica3.png",
-        "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/caracteristica3.png"
+        "image": "https://suzukiecuador.vteximg.com.br/arquivos/motor-DF175-BANNERS.jpg",
+        "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/motor-DF175-BANNERS.jpg"
       }
       
     ]
@@ -5825,14 +8112,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/BANNERur110.png",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/BANNERur110.png"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/letsUR110BANNER.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/letsUR110BANNER.png"
         },
         {
           "width" : "100%",
          
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/BANNERur110.png",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/BANNERur110.png"
+          "image": "",
+          "mobileImage":  ""
         }
         
       ]
@@ -11372,7 +13659,7 @@
      "autoPlay": true,
      "muted": false,
      "type":"mp4",
-     "src": "https://site.comandato.com/video/motorborda.mp4",
+     "src": "https://site.comandato.com/video/motorFueraBorda.mp4",
      "blockClass": "VideoMotorFueraBorda"
    }
  },
@@ -11502,11 +13789,6 @@
     
    }
  },
-  //DT15AL
-     //DF9.9AS
-     //DF6AS
-     //DT30L
-    // DF175AZX
     "condition-layout.product#ImagemotorFueraBordaDT15AL":
     {
       "props": {
@@ -11587,6 +13869,8 @@
     
    }
  },
+
+
  "flex-layout.row#containImage":
  {
   "props":{
@@ -11596,6 +13880,8 @@
   },
   "children":["image#logoMotorFueraBorda"]
  },
+
+
  "image#logoMotorFueraBorda": {
   "props": {
     "src": "https://suzukiecuador.vteximg.com.br/arquivos/MARINE.jpg",
@@ -11734,9 +14020,21 @@
 
   //REVISTAS PARA LAS MOTOS
   //MOTORES FUERA DE BORDA
-
-
+  "condition-layout.product#conditionRevistaDF175ATX",//https://www.amatooutdoor.com/catalogo/nautica/motores-fuera-de-borda/motores-4-tiempos/motores-4-tiempos-de-51-a-200-hp/motor-fuera-de-borda-suzuki-175-hp-4t-df175atx/
+  "condition-layout.product#conditionRevistaDF200ZX", //COMANDATO LISTO
+  "condition-layout.product#conditionRevistaDF20AS", //https://motoresmarinos.suzuki.com.mx/df20a
+  "condition-layout.product#conditionRevistaDF150ZX",//COMANDATO LISTO
+  "condition-layout.product#conditionRevistaDF150TX",//COMANDATO  LISTO
+  "condition-layout.product#conditionRevistaDF30AS",//COMANDATO LISTO
+  "condition-layout.product#conditionRevistaDF30AL",//COMANDATO LISTO
+  "condition-layout.product#conditionRevistaDT15AL",//COMANDATO LISTO
+  "condition-layout.product#conditionRevistaDF9.9AS",//COMANDATO LISTO
+  "condition-layout.product#conditionRevistaDF6AS",//COMANDATO LISTO
+  "condition-layout.product#conditionRevistaDT30L",//COMANDATO LISTO
+  "condition-layout.product#conditionRevistaDF175AZX",//LISTO
   //FIN DE MOROTES FUERA DE BORDA
+
+
   "condition-layout.product#conditionRevistaGSX125",
   "condition-layout.product#conditionRevistaDR650",
   "condition-layout.product#conditionRevistaRM85",
@@ -11821,6 +14119,28 @@
  "flex-layout.row#contenedorDyP",
 
  //FIN DE FICHA TECNICA
+ 
+
+"condition-layout.product#conditionIframeFichaTecnicaDF175ATX",
+"condition-layout.product#conditionIframeFichaTecnicaDF200ZX", 
+"condition-layout.product#conditionIframeFichaTecnicaDF20AS",
+"condition-layout.product#conditionIframeFichaTecnicaDF150ZX",
+"condition-layout.product#conditionIframeFichaTecnicaDF150TX",
+"condition-layout.product#conditionIframeFichaTecnicaDF30AS",
+"condition-layout.product#conditionIframeFichaTecnicaDF30AL",
+"condition-layout.product#conditionIframeFichaTecnicaDT15AL",
+"condition-layout.product#conditionIframeFichaTecnicaDF9.9AS",
+"condition-layout.product#conditionIframeFichaTecnicaDF6AS",
+"condition-layout.product#conditionIframeFichaTecnicaDT30L",
+"condition-layout.product#conditionIframeFichaTecnicaDF175AZX",
+ 
+
+ //FICHA TECNICA MOTORES FUERA DE BORDA
+
+
+ //FIN DE FICHA TECNICA MOTORES FUERA DE BORDA
+
+
 
 
 
@@ -11836,6 +14156,377 @@
      "product-questions-and-answers"
     ]
   },
+
+
+  "condition-layout.product#conditionIframeFichaTecnicaDF175ATX":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2067061" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "iframe#FichaTecnicaDF175ATX"
+     
+    }
+  },
+  "iframe#FichaTecnicaDF175ATX": {
+    "props": {
+      "width": "100%",
+      "height" : "600px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "fichatecnicamotorfueraborda",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/FichaTecnicaMotoresFueraBorda/DF150TX.html"
+     
+    }
+  },
+  //DF200ZX
+  "condition-layout.product#conditionIframeFichaTecnicaDF200ZX":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2058125" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "iframe#FichaTecnicaDF200ZX"
+     
+    }
+  },
+  "iframe#FichaTecnicaDF200ZX": {
+    "props": {
+      "width": "100%",
+      "height" : "600px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "fichatecnicamotorfueraborda",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/FichaTecnicaMotoresFueraBorda/DF200ZX.html"
+     
+    }
+  },
+  //DF20AS
+  "condition-layout.product#conditionIframeFichaTecnicaDF20AS":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2052764" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "iframe#FichaTecnicaDF20AS"
+     
+    }
+  },
+  "iframe#FichaTecnicaDF20AS": {
+    "props": {
+      "width": "100%",
+      "height" : "600px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "fichatecnicamotorfueraborda",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/FichaTecnicaMotoresFueraBorda/DF20AS.html"
+     
+    }
+  },
+  //DF150ZX 
+  "condition-layout.product#conditionIframeFichaTecnicaDF150ZX":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2052763" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "iframe#FichaTecnicaDF150ZX"
+     
+    }
+  },
+  "iframe#FichaTecnicaDF150ZX": {
+    "props": {
+      "width": "100%",
+      "height" : "600px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "fichatecnicamotorfueraborda",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/FichaTecnicaMotoresFueraBorda/DF150ZX.html"
+     
+    }
+  },
+  //DF150TX 
+  "condition-layout.product#conditionIframeFichaTecnicaDF150TX":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2052762" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "iframe#FichaTecnicaDF150TX"
+     
+    }
+  },
+  "iframe#FichaTecnicaDF150TX": {
+    "props": {
+      "width": "100%",
+      "height" : "600px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "fichatecnicamotorfueraborda",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/FichaTecnicaMotoresFueraBorda/DF150TX.html"
+     
+    }
+  },
+  //DF30S 
+  "condition-layout.product#conditionIframeFichaTecnicaDF30AS":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2052760" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "iframe#FichaTecnicaDF30AS"
+     
+    }
+  },
+  "iframe#FichaTecnicaDF30AS": {
+    "props": {
+      "width": "100%",
+      "height" : "600px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "fichatecnicamotorfueraborda",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/FichaTecnicaMotoresFueraBorda/DF30AS.html"
+     
+    }
+  },
+  //DF30AL
+  "condition-layout.product#conditionIframeFichaTecnicaDF30AL":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2052759" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "iframe#FichaTecnicaDF30AL"
+     
+    }
+  },
+  "iframe#FichaTecnicaDF30AL": {
+    "props": {
+      "width": "100%",
+      "height" : "600px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "fichatecnicamotorfueraborda",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/FichaTecnicaMotoresFueraBorda/DF30AL.html"
+     
+    }
+  },
+  "condition-layout.product#conditionIframeFichaTecnicaDT15AL":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2052757" 
+          }
+        }
+      ],
+      "toBe" : true,
+    "Then": "iframe#FichaTecnicaDT15AL"
+    
+    }
+  },
+  "iframe#FichaTecnicaDT15AL": {
+    "props": {
+      "width": "100%",
+      "height" : "600px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "fichatecnicamotorfueraborda",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/FichaTecnicaMotoresFueraBorda/DT15AL.html"
+     
+    }
+  },
+     "condition-layout.product#conditionIframeFichaTecnicaDF9.9AS":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2052756" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "iframe#FichaTecnicaDF9.9AS"
+     
+    }
+  },
+  "iframe#FichaTecnicaDF9.9AS": {
+    "props": {
+      "width": "100%",
+      "height" : "600px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "fichatecnicamotorfueraborda",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/FichaTecnicaMotoresFueraBorda/DF9.9AS.html"
+     
+    }
+  },
+  "condition-layout.product#conditionIframeFichaTecnicaDF6AS":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2052755" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "iframe#FichaTecnicaDF6AS"
+     
+    }
+  },
+  "iframe#FichaTecnicaDF6AS": {
+    "props": {
+      "width": "100%",
+      "height" : "600px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "fichatecnicamotorfueraborda",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/FichaTecnicaMotoresFueraBorda/DF6AS.html"
+     
+    }
+  },
+  "condition-layout.product#conditionIframeFichaTecnicaDT30L":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2052758" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "iframe#FichaTecnicaDT30L"
+     
+    }
+  },
+  "iframe#FichaTecnicaDT30L": {
+    "props": {
+      "width": "100%",
+      "height" : "600px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "fichatecnicamotorfueraborda",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/FichaTecnicaMotoresFueraBorda/DT30L.html"
+     
+    }
+  },
+  "condition-layout.product#conditionIframeFichaTecnicaDF175AZX":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2054551" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "iframe#FichaTecnicaDF175AZX"
+     
+    }
+  },
+  "iframe#FichaTecnicaDF175AZX": {
+    "props": {
+      "width": "100%",
+      "height" : "600px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "fichatecnicamotorfueraborda",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/FichaTecnicaMotoresFueraBorda/DF175AZX.html"
+     
+    }
+  },
+
+
+
   "flex-layout.row#contenedor_final":
   {
     "props":{
