@@ -2,7 +2,44 @@
   //==============================================================================================================================
   //*********************************************PARTE DEL VIDEO********************************************************************//
   //==============================================================================================================================
-
+  //VIVA R COOL
+  "condition-layout.product#conditionForTheVideoCategoryScooterFW110":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049186" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#containforTheVideoFW110"
+     
+    }
+  },
+  "flex-layout.row#containforTheVideoFW110":{
+    "props":{
+      "blockClass": "containforTheVideoFW110",
+      
+      "fullWidth" : true
+    },
+    "children":["video#VideoFW110"]
+  },
+  "video#VideoFW110": {
+   "props": {
+     "width": "100%",
+     "height": "540px",
+    
+     "loop": true,
+     "autoPlay": true,
+     "muted": false,
+     "type":"mp4",
+     "src": "https://site.comandato.com/video/VivaCool.mp4",
+     "blockClass": "VideoFW110"
+   }
+ },
   //CATEGORIA CUSTOM  
   //Intruder
   "condition-layout.product#conditionForTheVideoCategoryCustomIntruder":
@@ -638,6 +675,56 @@
  }
 },
 
+//FW110
+"condition-layout.product#conditionForSubittleMotoFW110": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049186" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#subTitleForTheMotoFW110"
+   
+  }
+},
+"flex-layout.row#subTitleForTheMotoFW110":{
+ "props":{
+   "blockClass": "subTitleForTheMoto",
+   
+   "fullWidth" : true
+ },
+ "children":["flex-layout.col#columnForTheSubTitleMotoFW110"]
+},
+"flex-layout.col#columnForTheSubTitleMotoFW110":{
+ "props":{
+   "blockClass": "columnForTheSubTitleMoto"
+  
+ },
+ "children":["rich-text#subtittleMotoFW110","rich-text#subtittleMoto2FW110"]
+ //"children" :["condition-layout.product#conditionForTheSubtittleCategory","condition-layout.product#conditionForTheDescriptionCategory"]
+
+},
+"rich-text#subtittleMotoFW110":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "## SCOOTER",
+ "blockClass": "subtittleMoto"
+ }
+},
+"rich-text#subtittleMoto2FW110":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "### La Scooter semiautomatica más confiable del mercado",
+ "blockClass": "subtittleMoto2"
+ }
+},
 
 //LTZ50
 
@@ -1624,6 +1711,7 @@
    "children":["image#motor",
     "condition-layout.product#conditionFirstTextLTZ50",
     "condition-layout.product#conditionFirstTextUk110",
+    "condition-layout.product#conditionFirstTextFW110",
     "condition-layout.product#conditionFirstTextUR110",
     "condition-layout.product#conditionFirstTextGN125",
     "condition-layout.product#conditionFirstTextGSX125",
@@ -1701,7 +1789,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "2054550" 
+          "id": "2067061" 
         }
       }
     ],
@@ -2054,6 +2142,34 @@
 },
 
 "rich-text#firstTextUk110":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**113 CCC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+//FW110
+"condition-layout.product#conditionFirstTextFW110": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049186" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextFW110"
+   
+  }
+},
+
+"rich-text#firstTextFW110":{
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
@@ -2560,6 +2676,7 @@
     "condition-layout.product#conditionImagePotenciaDF175AZX",
 
     "condition-layout.product#conditionImageRapidoUK110",
+    "condition-layout.product#conditionImageRapidoFW110",
     "condition-layout.product#conditionImageRapidoGN125",
     "condition-layout.product#conditionImageRapidoUR110",
     "condition-layout.product#conditionImageRapidoGSX125",
@@ -2580,6 +2697,7 @@
 
 
     "condition-layout.product#conditionSecondtTextUK110",
+    "condition-layout.product#conditionSecondtTextFW110",
     "condition-layout.product#conditionSecondtTextGN125",
     "condition-layout.product#conditionSecondtTextUR110",
     "condition-layout.product#conditionSecondtTextGSX125",
@@ -2840,6 +2958,22 @@
          "subject": "productId",
          "arguments": {
            "id": "2054550"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#rapido"
+    
+   }
+ },
+ "condition-layout.product#conditionImageRapidoFW110": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049186"
          }
        }
      ],
@@ -3150,6 +3284,34 @@
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
  "text": "**5 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+//FW110
+//SEGUNDA  CONDICION TEXTO  UK110
+"condition-layout.product#conditionSecondtTextFW110": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049186" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextFW110"
+   
+  }
+},
+"rich-text#SecondTextFW110":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**4 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
  "textColor": "c-on-emphasis",
  "font": "t-heading-5",
  "blockClass": "mensaje2"
@@ -3982,6 +4144,7 @@
     "condition-layout.product#conditionImageCombustibleDF175AZX",
 
     "condition-layout.product#conditionImageDiscoFrenoUK110",
+    "condition-layout.product#conditionImageDiscoFrenoFW110",
     "condition-layout.product#conditionImageDiscoFrenoGN125",
     "condition-layout.product#conditionImageDiscoFrenoUR110",
     "condition-layout.product#conditionImageDiscoFrenoGSX125",
@@ -4001,6 +4164,7 @@
     "condition-layout.product#conditionImageDiscoFrenoLTZ50",
 
     "condition-layout.product#conditionThirdtTextUK110",
+    "condition-layout.product#conditionThirdtTextFW110",
     "condition-layout.product#conditionThirdtTextUR110",
     "condition-layout.product#conditionThirdtTextGN125",
     "condition-layout.product#conditionThirdtTextGSX1250",
@@ -4240,6 +4404,23 @@
          "subject": "productId",
          "arguments": {
            "id": "2054550"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#DiscoFreno"
+    
+   }
+ },
+ 
+ "condition-layout.product#conditionImageDiscoFrenoFW110": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049186"
          }
        }
      ],
@@ -4555,6 +4736,33 @@
   }
 },
 "rich-text#ThirdTextUK110":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje3"
+  }
+},
+//FW110
+"condition-layout.product#conditionThirdtTextFW110": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049186"  
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextFW110"
+   
+  }
+},
+"rich-text#ThirdTextFW110":{
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
@@ -4966,7 +5174,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "2049621" // v - strom dl250 
+          "id": "2049038" // v - strom dl250 
         }
       }
     ],
@@ -5804,7 +6012,7 @@
 "image#moto2GSX125": {
  "props": {
    "blockClass": "motovlStrom2",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/GSX125-2.jpg"
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx125OFICIAL-2.jpg"
  }
 
 },
@@ -5831,7 +6039,8 @@
 "image#moto3GSX125": {
  "props": {
    "blockClass": "motovlStrom3",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/GSX125-3.jpg"
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/GSX125_3.jpg"
+
   
  }
 
@@ -5840,7 +6049,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "## DISFRUTA DE UNA MOTO DEPORTIVA GRACIAS A SU FARO DELANTERO NAKED, ALETAS LATERALES QUE ROBUSTECEN Y AYUDAN A TENER UNA MEJOR VENTILACIÓN DE MOTOR FRENO DELANTERO DE DISCO PARA MAYOR SEGURIDAD AL FRENAR\n",
+ "text": " DISFRUTA DE UNA MOTO DEPORTIVA GRACIAS A SU FARO DELANTERO NAKED, ALETAS LATERALES QUE ROBUSTECEN Y AYUDAN A TENER UNA MEJOR VENTILACIÓN DE MOTOR FRENO DELANTERO DE DISCO PARA MAYOR SEGURIDAD AL FRENAR\n",
  "blockClass": "descripcionDeFoto"
  }
 },
@@ -5931,7 +6140,7 @@
 "image#moto2SV650XA": {
  "props": {
    "blockClass": "motovlStrom2",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/SV650XA-1.png"
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/SV650AX-2.jpg"
  }
 
 },
@@ -6058,7 +6267,7 @@
 "image#moto2Intruder": {
  "props": {
    "blockClass": "motovlStrom2",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/intruder2.jpg"
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/INTRUDEROFICIAL-2.jpg"
  }
 
 },
@@ -6085,7 +6294,7 @@
 "image#moto3Intruder": {
  "props": {
    "blockClass": "motovlStrom3",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/intruder1.png"
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/INTRUDEROFICIAL-3.jpg"
   
  }
 
@@ -6214,7 +6423,7 @@
 "image#moto3UK110": {
   "props": {
     "blockClass": "motovlStrom3",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/UK110-1.jpg"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/UK110-3.jpg"
    
   }
  
@@ -6224,6 +6433,132 @@
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "## SISTEMA F1 INYECCIÓN\nSistema innovador de admisión de combustible, lo que nos permite ahorrar mas y contaminar menos , se rige a normativas euro 4.",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+
+ //FW110
+ "condition-layout.product#conditionRevistaFW110": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049186" 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then":  "flex-layout.row#contenedorDivParaImagenRevistaFW110"
+    
+   }
+ },
+ 
+ "flex-layout.row#contenedorDivParaImagenRevistaFW110" : {
+  "props": {
+    "blockClass": "contenedorDivParaImagenRevista",
+    "fullWidth":true,
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaFW110"]
+},
+
+"flex-layout.col#contenedorColumnaDivParaImagenRevistaFW110" : {
+  "props": {
+    "blockClass": "contenedorColumnaDivParaImagenRevista",
+    "preventVerticalStretch": true,
+    "rowGap": 0,
+    "hasMoreThanOne" : true
+  },
+  "children":["flex-layout.row#divParaImagenRevistaFW110","flex-layout.row#divParaImagenRevista2FW110","flex-layout.row#divParaImagenRevista3FW110"]
+},
+
+"flex-layout.row#divParaImagenRevistaFW110":{
+  "props": {
+    "blockClass": "divParaImagenRevista",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["image#motoFW110","rich-text#descripcionDeFoto1FW110"]
+},
+"image#motoFW110": {
+  "props": {
+    "blockClass": "motovlStrom",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/VIVARCOOL1.jpg"
+    
+  }
+ 
+},
+"rich-text#descripcionDeFoto1FW110":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## FW110\nMotoneta comoda y segura ofrece varios detalles  de calidad",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+"flex-layout.row#divParaImagenRevista2FW110":{
+  "props": {
+    "blockClass": "divParaImagenRevista2",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["rich-text#descripcionDeFoto2FW110","image#moto2FW110"]
+},
+"image#moto2FW110": {
+  "props": {
+    "blockClass": "motovlStrom2",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/VIVARCOOL2.jpg"
+  }
+ 
+},
+"rich-text#descripcionDeFoto2FW110":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## DISFRUTA SIN PROBLEMAS GRACIAS A SU ENCENDIDO ELECTRÓNICO Y MECÁNICO\n",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+"flex-layout.row#divParaImagenRevista3FW110":{
+  "props": {
+    "blockClass": "divParaImagenRevista3",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["image#moto3FW110","rich-text#descripcionDeFoto3FW110"]
+},
+"image#moto3FW110": {
+  "props": {
+    "blockClass": "motovlStrom3",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/VIVARCOOL3.jpg"
+   
+  }
+ 
+},
+"rich-text#descripcionDeFoto3FW110":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## ESTILO AUDAZ, BAJO CONSUMO DE COMBUSTIBLE, UN MANEJO CONFORTABLE GRACIAS A SU SUSPENSIÓN Y SUAVIDAD ENTRE CAMBIOS DE MARCHA\n",
   "blockClass": "descripcionDeFoto"
   }
 },
@@ -6568,7 +6903,7 @@
  "image#arranqueGSX250R": {
    "props": {
      "blockClass": "motovlStrom2",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx250r-2jpg.jpg"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx250r2.jpg"
    }
   
  },
@@ -6695,7 +7030,8 @@
  "image#arranqueGSXS750": {
    "props": {
      "blockClass": "motovlStrom2",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx750a-2.jpg"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx750a-3.jpg"
+    
    }
   
  },
@@ -6722,7 +7058,8 @@
  "image#motorGSXS750": {
    "props": {
      "blockClass": "motovlStrom3",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx750a-3.jpg"
+    
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/GSX750A-2-OFICIAIL.jpg"
     
    }
   
@@ -7080,7 +7417,7 @@
   "image#arranqueGD115Evolution": {
     "props": {
       "blockClass": "motovlStrom2",
-      "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115evolution-1.jpg"
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/GD115EVOLUTION2.jpg"
     }
     
   },
@@ -7107,7 +7444,7 @@
   "image#motorGD115Evolution": {
     "props": {
       "blockClass": "motovlStrom3",
-      "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115evolution-1.jpg"
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/GD115EVOLITION3.jpg"
       
     }
     
@@ -7178,7 +7515,7 @@
  "image#motoGD115": {
    "props": {
      "blockClass": "motovlStrom",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115-1.jpg"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/GD115EVOLITION3.jpg"
      
    }
    
@@ -7207,7 +7544,7 @@
  "image#arranqueGD115": {
    "props": {
      "blockClass": "motovlStrom2",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115-1.jpg"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/GD115-OFICIAL2.jpg"
    }
    
  },
@@ -7234,7 +7571,7 @@
  "image#motorGD115": {
    "props": {
      "blockClass": "motovlStrom3",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115-2.jpg"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115-OFICIAL3.jpg"
      
    }
    
@@ -7460,7 +7797,7 @@
 "image#arranqueGN125": {
   "props": {
     "blockClass": "motovlStrom2",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/GN125-1.png"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/GN125-3.jpg"
   }
   
 },
@@ -7487,7 +7824,7 @@
 "image#motorGN125": {
   "props": {
     "blockClass": "motovlStrom3",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/GN125-3.jpg"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/gn125oficial2.jpg"
     
   }
   
@@ -7696,7 +8033,7 @@
      "props":{
        "textAlignment": "CENTER",
      "textPosition": "CENTER",
-     "text": "## DR-Z250\nAcelera, curva y frena de la mejor manera en las pistas",
+     "text": "## DR-Z50\nAcelera, curva y frena de la mejor manera en las pistas",
      "blockClass": "descripcionDeFoto"
      }
      
@@ -7716,7 +8053,7 @@
    "image#arranqueDRZ50": {
      "props": {
        "blockClass": "motovlStrom2",
-       "src": "https://suzukiecuador.vteximg.com.br/arquivos/DR-Z50-3.jpg"
+       "src": "https://suzukiecuador.vteximg.com.br/arquivos/drz50-2.jpg"
      }
      
    },
@@ -7743,7 +8080,8 @@
    "image#motorDRZ50": {
      "props": {
        "blockClass": "motovlStrom3",
-       "src": "https://suzukiecuador.vteximg.com.br/arquivos/DR-Z50-4.jpg"
+       "src": "https://suzukiecuador.vteximg.com.br/arquivos/DR-Z50-3.jpg"
+       
        
      }
      
@@ -7870,7 +8208,7 @@
    "image#motorRM85": {
      "props": {
        "blockClass": "motovlStrom3",
-       "src": "https://suzukiecuador.vteximg.com.br/arquivos/RM85-1.png"
+       "src": "https://suzukiecuador.vteximg.com.br/arquivos/RM85-3.jpg"
        
      }
      
@@ -7971,7 +8309,8 @@
     "image#arranqueDR650": {
       "props": {
         "blockClass": "motovlStrom2",
-        "src": "https://suzukiecuador.vteximg.com.br/arquivos/Suzuki-DR6501.jpg"
+        "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT3.jpg"
+       
       }
       
     },
@@ -7998,7 +8337,8 @@
     "image#motorDR650": {
       "props": {
         "blockClass": "motovlStrom3",
-        "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT3.jpg"
+        "src": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-DR6503.png"
+       
         
       }
       
@@ -8361,14 +8701,16 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-katana-collage.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-katana.collage.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/banner_katanaOFICIAL.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/banner_katanaOFICIAL.jpg"
+         
         },
         {
           "width" : "100%",
          
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/KatanaFoto3.jpg",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/KatanaFoto3.jpg"
+          
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-katana-collage.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-katana.collage.jpg"
         }
         
       ]
@@ -8413,14 +8755,13 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-dl650-collage.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-dl650-collage.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/banneroficialvstrom650.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/banneroficialvstrom650.jpg"
         },
         {
           "width" : "100%",
-         
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/PRUEBASUZUKI.png",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/PRUEBASUZUKI.png"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-dl650-collage.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-dl650-collage.jpg"
         }
         
       ]
@@ -8464,14 +8805,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/letsUR110BANNER.png",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/letsUR110BANNER.png"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/UR110BANNER.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/UR110BANNER.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "",
-          "mobileImage":  ""
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/UR110BANNER2.png",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/UR110BANNER2.png"
         }
         
       ]
@@ -8515,14 +8856,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/BANNERGD115EVOLUTION.png",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/BANNERGD115EVOLUTION.png"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/GD115EVOLUTIONBANNEROFICIAL.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/GD115EVOLUTIONBANNEROFICIAL.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/BANNERGD115EVOLUTION.png",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/BANNERGD115EVOLUTION.png"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/GD115EVOLUTIONBANNEROFICIAL.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/GD115EVOLUTIONBANNEROFICIAL.jpg"
         }
         
       ]
@@ -8566,14 +8907,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/gd115bannerOficial.png",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/gd115bannerOficial.png"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/GD115BANNEROFICIAL.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/GD115BANNEROFICIAL.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/gd115bannerOficial.png",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/gd115bannerOficial.png"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/GD115BANNEROFICIAL.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/GD115BANNEROFICIAL.jpg"
         }
         
       ]
@@ -8617,14 +8958,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-banner-horizontal-gn125.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-banner-horizontal-gn125.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/banner_gn125OFICIAL.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/banner_gn125OFICIAL.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-banner-horizontal-gn125.jpg",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-banner-horizontal-gn125.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/banner_gn125OFICIAL.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/banner_gn125OFICIAL.jpg"
         }
         
       ]
@@ -8669,20 +9010,73 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/uk110banner.png",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/uk110banner.png"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/OFICIALbanner_uk110.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/OFICIALbanner_uk110.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/uk110banner.png",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/uk110banner.png"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/OFICIALbanner_uk110.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/OFICIALbanner_uk110.jpg"
         }
         
       ]
     }
   },
   "slider-layout#sliderUK110items": {
+    "props": {
+      "blockClass": "sliderVLSitems",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
+
+  //FW110
+  "condition-layout.product#conditionForTheSliderFW110" : 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049186"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "list-context.image-list#sliderFW110"
+     
+    }
+  },
+  "list-context.image-list#sliderFW110": {
+    "children": ["slider-layout#sliderFW110items"],
+    "props": {
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/FW110BANNEROFICIAL2.png",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/FW110BANNEROFICIAL2.png"
+        
+        },
+        {
+          "width" : "100%",
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/FW110BANNEROFICIAL1.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/FW110BANNEROFICIAL1.png"
+          
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#sliderFW110items": {
     "props": {
       "blockClass": "sliderVLSitems",
       "itemsPerPage": {
@@ -8720,14 +9114,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/bannergsx125c.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/bannergsx125c.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki-gsx125-banner.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki-gsx125-banner.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/bannergsx125c.jpg",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/bannergsx125c.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki-gsx125-banner.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki-gsx125-banner.jpg"
         }
         
       ]
@@ -8822,14 +9216,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/gsx750aBanner.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/gsx750aBanner.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/gsx750aBannerOficial.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/gsx750aBannerOficial.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/gsx750aBanner.jpg",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/gsx750aBanner.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/gsx750aBannerOficial.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/gsx750aBannerOficial.jpg"
         }
         
       ]
@@ -8873,14 +9267,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/rm85banner.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/rm85banner.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki--RM85-banner.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki--RM85-banner.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/rm85banner.jpg",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/rm85banner.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki--RM85-banner.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki--RM85-banner.jpg"
         }
         
       ]
@@ -8924,14 +9318,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/intruderBanner.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/intruderBanner.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/BANNERINTRUDEROFICIAL.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/BANNERINTRUDEROFICIAL.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/intruderBanner.jpg",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/intruderBanner.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/BANNERINTRUDEROFICIAL.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/BANNERINTRUDEROFICIAL.jpg"
         }
         
       ]
@@ -8975,14 +9369,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/sv650xaBanner.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/sv650xaBanner.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki--SV650XA-banner.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki--SV650XA-banner.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/sv650xaBanner.jpg",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/sv650xaBanner.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki--SV650XA-banner.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki--SV650XA-banner.jpg"
         }
         
       ]
@@ -9339,9 +9733,11 @@
     "condition-layout.product#conditionFirstTextGSX-S750AFichaTecnicaMotor",
     "condition-layout.product#conditionFirstTextRM85FichaTecnicaMotor",
     "condition-layout.product#conditionFirstTextINTRUDERFichaTecnicaMotor", 
+    "condition-layout.product#conditionFirstTextSV650XAFichaTecnicaMotor",
     "condition-layout.product#conditionFirstTextFW110FichaTecnicaMotor",
     "condition-layout.product#conditionFirstTextGSX250RFichaTecnicaMotor",
     "condition-layout.product#conditionFirstTextDR650FichaTecnicaMotor",
+
     "condition-layout.product#conditionFirstTextLTZ50FichaTecnicaMotor"
   ]
 },
@@ -9353,6 +9749,32 @@
     "maxWidth" : 100
   } 
 },
+
+//SV650XA
+"condition-layout.product#conditionFirstTextSV650XAFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054376" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextSV650XAFichaTecnicaMotor"
+  }
+},
+"rich-text#TextSV650XAFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
 //LTZ50
 "condition-layout.product#conditionFirstTextLTZ50FichaTecnicaMotor": 
 {
@@ -9830,6 +10252,7 @@
   "condition-layout.product#conditionSecondTextGSX-S750AFichaTecnicaMotor",
   "condition-layout.product#conditionSecondTextRM85FichaTecnicaMotor",
   "condition-layout.product#conditionSecondTextINTRUDERFichaTecnicaMotor", 
+  "condition-layout.product#conditionSecondTextSV650XAFichaTecnicaMotor",
   "condition-layout.product#conditionSecondTextFW110FichaTecnicaMotor",
   "condition-layout.product#conditionSecondTextGSX250RFichaTecnicaMotor",
   "condition-layout.product#conditionSecondTextDR650FichaTecnicaMotor",
@@ -9845,6 +10268,31 @@
     "maxHeight":100,
     "maxWidth" : 100
   } 
+},
+
+//SV650XA
+"condition-layout.product#conditionSecondTextSV650XAFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054376" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextSV650XAFichaTecnicaMotor"
+  }
+},
+"rich-text#SecondTextSV650XAFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**DESPLAZAMIENTO** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
 },
 
 //AGREGADO
@@ -10322,7 +10770,8 @@
     "condition-layout.product#conditionThirdTextDR-Z50FichaTecnicaMotor", 
     "condition-layout.product#conditionThirdTextGSX-S750AFichaTecnicaMotor",
     "condition-layout.product#conditionThirdTextRM85FichaTecnicaMotor",
-    "condition-layout.product#conditionThirdTextINTRUDERFichaTecnicaMotor", 
+    "condition-layout.product#conditionThirdTextSV650XAFichaTecnicaMotor",
+    "condition-layout.product#conditionThirdTextINTRUDERFichaTecnicaMotor",  
     "condition-layout.product#conditionThirdTextFW110FichaTecnicaMotor",
     "condition-layout.product#conditionThirdTextGSX250RFichaTecnicaMotor",
     "condition-layout.product#conditionThirdTextDR650FichaTecnicaMotor",
@@ -10340,7 +10789,30 @@
     "maxWidth" : 100
   } 
 },
-
+//SV650XA
+"condition-layout.product#conditionThirdTextSV650XAFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054376" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextSV650XAFichaTecnicaMotor"
+  }
+},
+"rich-text#ThirdTextSV650XAFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**SISTEMA DE ARRANQUE** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
 //AGREGADO
 //LTZ50
 "condition-layout.product#conditionThirdTextLTZ50FichaTecnicaMotor": 
@@ -10875,6 +11347,7 @@
        "condition-layout.product#conditionFirstTextGSX-S750AFichaTecnicaChasis",
        "condition-layout.product#conditionFirstTextRM85FichaTecnicaChasis",
        "condition-layout.product#conditionFirstTextINTRUDERFichaTecnicaChasis", 
+       "condition-layout.product#conditionFirstTextSV650XAFichaTecnicaChasis",
        "condition-layout.product#conditionFirstTextFW110FichaTecnicaChasis",
        "condition-layout.product#conditionFirstTextGSX250RFichaTecnicaChasis",
        "condition-layout.product#conditionFirstTextDR650FichaTecnicaChasis",
@@ -10891,6 +11364,32 @@
     } 
   },
 //AGREGADO
+
+//SV650XA
+"condition-layout.product#conditionFirstTextSV650XAFichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054376" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextSV650XAFichaTecnicaChasis"
+  }
+},
+"rich-text#TextSV650XAFichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**FARO DELANTERO** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
 //LTZ50
 "condition-layout.product#conditionFirstTextLTZ50FichaTecnicaChasis": 
 {
@@ -11368,6 +11867,7 @@
       "condition-layout.product#conditionSecondTextGSX-S750AFichaTecnicaChasis",
       "condition-layout.product#conditionSecondTextRM85FichaTecnicaChasis",
       "condition-layout.product#conditionSecondTextINTRUDERFichaTecnicaChasis", 
+      "condition-layout.product#conditionSecondTextSV650XAFichaTecnicaChasis", 
       "condition-layout.product#conditionSecondTextFW110FichaTecnicaChasis",
       "condition-layout.product#conditionSecondTextGSX250RFichaTecnicaChasis",
       "condition-layout.product#conditionSecondTextDR650FichaTecnicaChasis",
@@ -11385,6 +11885,32 @@
       "maxWidth" : 100
     } 
   },
+
+ //SV650XA
+ "condition-layout.product#conditionSecondTextSV650XAFichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054376" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextSV650XAFichaTecnicaChasis"
+  }
+},
+"rich-text#SecondTextSV650XAFichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**RINES** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
  //AGREGADO
  //LTZ50
  "condition-layout.product#conditionSecondTextLTZ50FichaTecnicaChasis": 
@@ -11866,7 +12392,8 @@
       "condition-layout.product#conditionThirdTextDR-Z50FichaTecnicaChasis", 
       "condition-layout.product#conditionThirdTextGSX-S750AFichaTecnicaChasis",
       "condition-layout.product#conditionThirdTextRM85FichaTecnicaChasis",
-      "condition-layout.product#conditionThirdTextINTRUDERFichaTecnicaChasis", 
+      "condition-layout.product#conditionThirdTextINTRUDERFichaTecnicaChasis",
+      "condition-layout.product#conditionThirdTextSV650XAFichaTecnicaChasis", 
       "condition-layout.product#conditionThirdTextFW110FichaTecnicaChasis",
       "condition-layout.product#conditionThirdTextGSX250RFichaTecnicaChasis",
       "condition-layout.product#conditionThirdTextDR650FichaTecnicaChasis",
@@ -11883,7 +12410,31 @@
       "maxWidth" : 100
     } 
   },
+//SV650XA
 
+"condition-layout.product#conditionThirdTextSV650XAFichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054376" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextSV650XAFichaTecnicaChasis"
+  }
+},
+"rich-text#ThirdTextSV650XAFichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**SUSPENSIÓN DELANTERA** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
   //AGREGADO
   //LTZ50
   "condition-layout.product#conditionThirdTextLTZ50FichaTecnicaChasis": 
@@ -12408,6 +12959,7 @@
     "condition-layout.product#conditionFirstTextGSX-S750AFichaTecnicaDP",
     "condition-layout.product#conditionFirstTextRM85FichaTecnicaDP",
     "condition-layout.product#conditionFirstTextINTRUDERFichaTecnicaDP", 
+    "condition-layout.product#conditionFirstTextSV650XAFichaTecnicaDP", 
     "condition-layout.product#conditionFirstTextFW110FichaTecnicaDP",
     "condition-layout.product#conditionFirstTextGSX250RFichaTecnicaDP",
     "condition-layout.product#conditionFirstTextDR650FichaTecnicaDP",
@@ -12426,6 +12978,32 @@
     "maxWidth" : 100
   } 
 },
+
+//SV650XA
+"condition-layout.product#conditionFirstTextSV650XAFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054376" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextSV650XAFichaTecnicaDP"
+  }
+},
+"rich-text#TextSV650XAFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**PESO** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
 
 //AGREGADO
 "condition-layout.product#conditionFirstTextLTZ50FichaTecnicaDP": 
@@ -12447,7 +13025,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**PESO** \n79 KG",
+  "text": "**PESO** \n",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -12712,7 +13290,7 @@
       }
     ],
     "toBe" : true,
-   "Then":  "rich-text#TextFW110FichaTecnicaChasis"
+   "Then":  "rich-text#TextFW110FichaTecnicaDP"
   }
 },
 "rich-text#TextFW110FichaTecnicaDP":{
@@ -12906,6 +13484,7 @@
     "condition-layout.product#conditionSecondTextGSX-S750AFichaTecnicaDP",
     "condition-layout.product#conditionSecondTextRM85FichaTecnicaDP",
     "condition-layout.product#conditionSecondTextINTRUDERFichaTecnicaDP", 
+    "condition-layout.product#conditionSecondTextSV650XAFichaTecnicaDP",
     "condition-layout.product#conditionSecondTextFW110FichaTecnicaDP",
     "condition-layout.product#conditionSecondTextGSX250RFichaTecnicaDP",
     "condition-layout.product#conditionSecondTextDR650FichaTecnicaDP",
@@ -12921,6 +13500,31 @@
     "maxHeight":100,
     "maxWidth" : 100
   } 
+},
+
+//SV650XA
+"condition-layout.product#conditionSecondTextSV650XAFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054376" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextSV650XAFichaTecnicaDP"
+  }
+},
+"rich-text#SecondTextSV650XAFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**LARGO TOTAL** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
 },
 //AGREGADO
 //LTZ50
@@ -13207,7 +13811,7 @@
       }
     ],
     "toBe" : true,
-   "Then":  "rich-text#SecondTextFW110FichaTecnicaChasis"
+   "Then":  "rich-text#SecondTextFW110FichaTecnicaDP"
   }
 },
 "rich-text#SecondTextFW110FichaTecnicaDP":{
@@ -13401,6 +14005,7 @@
       "condition-layout.product#conditionThirdTextGSX-S750AFichaTecnicaDP",
       "condition-layout.product#conditionThirdTextRM85FichaTecnicaDP",
       "condition-layout.product#conditionThirdTextINTRUDERFichaTecnicaDP", 
+      "condition-layout.product#conditionThirdTextSV650XAFichaTecnicaDP",
       "condition-layout.product#conditionThirdTextFW110FichaTecnicaDP",
       "condition-layout.product#conditionThirdTextGSX250RFichaTecnicaDP",
       "condition-layout.product#conditionThirdTextDR650FichaTecnicaDP",
@@ -13416,6 +14021,30 @@
     "maxHeight":100,
     "maxWidth" : 100
   } 
+},
+//SV650XA
+"condition-layout.product#conditionThirdTextSV650XAFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054376" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextSV650XAFichaTecnicaDP"
+  }
+},
+"rich-text#ThirdTextSV650XAFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TANQUE DE COMBUSTIBLE** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
 },
 //AGREGADO
 //LTZ50
@@ -13702,7 +14331,7 @@
       }
     ],
     "toBe" : true,
-   "Then":  "rich-text#ThirdTextFW110FichaTecnicaChasis"
+   "Then":  "rich-text#ThirdTextFW110FichaTecnicaDP"
   }
 },
 "rich-text#ThirdTextFW110FichaTecnicaDP":{
@@ -14586,6 +15215,7 @@
      "condition-layout.product#conditionForTheVideoCategoryeCrossDR-Z50",
      "condition-layout.product#conditionForTheVideoCategoryeUtilitariaGN125",
      "condition-layout.product#conditionForTheVideoCategoryScooterUR110",
+     "condition-layout.product#conditionForTheVideoCategoryScooterFW110",
 
      "condition-layout.product#conditionForTheVideoCategoryUTVltz50",
      //FIN DE CONDICIONES PARA LOS VIDEOS
@@ -14609,6 +15239,7 @@
      "condition-layout.product#conditionForSubittleMotoGD115Evolution",
      "condition-layout.product#conditionForSubittleMotoGN125",
      "condition-layout.product#conditionForSubittleMotoUR110",
+     "condition-layout.product#conditionForSubittleMotoFW110",
 
      "condition-layout.product#conditionForSubittleUTVLTZ50",
    //  "wishlist-button",
@@ -14630,8 +15261,8 @@
      // "flex-layout.row#containX"
    //  "flex-layout.row#product-main",
    "flex-layout.row#containImageDescription",
-   "flex-layout.row#conoceMasTuMotoText",
-   "condition-layout.product#conditionForTheGaleryVstrom250",
+  // "flex-layout.row#conoceMasTuMotoText",
+  // "condition-layout.product#conditionForTheGaleryVstrom250",
 
   // "flex-layout.row#containImageDescription",////tyjty
 //   "flex-layout.row#containGalleryMoto",
@@ -14676,6 +15307,7 @@
   "condition-layout.product#conditionRevistaSV650XA",
   "condition-layout.product#conditionRevistaIntruder",
   "condition-layout.product#conditionRevistaUK110",
+  "condition-layout.product#conditionRevistaFW110",
   "condition-layout.product#conditionRevistaGSXS750",
   "condition-layout.product#conditionRevistaGSX250R",
  "condition-layout.product#conditionRevistavstrom",
@@ -14721,6 +15353,7 @@
   "condition-layout.product#conditionForTheSliderGD115",
   "condition-layout.product#conditionForTheSliderGN-125",
   "condition-layout.product#conditionForTheSliderUK110",
+  "condition-layout.product#conditionForTheSliderFW110",
   "condition-layout.product#conditionForTheSliderGSX125-C",
   "condition-layout.product#conditionForTheSliderDR-Z50",
   "condition-layout.product#conditionForTheSliderGSX-S750A",
@@ -14752,6 +15385,7 @@
 "condition-layout.product#conditionContainFichaTecnicaGD115",
 "condition-layout.product#conditionContainFichaTecnicaGN-125",
 "condition-layout.product#conditionContainFichaTecnicaUK110",
+"condition-layout.product#conditionContainFichaTecnicaFW110",
 "condition-layout.product#conditionContainFichaTecnicaGSX125-C",
 "condition-layout.product#conditionContainFichaTecnicaDR-Z50",
 "condition-layout.product#conditionContainFichaTecnicaGSX-S750A",
@@ -14772,6 +15406,7 @@
 "condition-layout.product#conditionContainNameMotorFichaTecnicaGD115",
 "condition-layout.product#conditionContainNameMotorFichaTecnicaGN-125",
 "condition-layout.product#conditionContainNameMotorFichaTecnicaUK110",
+"condition-layout.product#conditionContainNameMotorFichaTecnicaFW110",
 "condition-layout.product#conditionContainNameMotorFichaTecnicaGSX125-C",
 "condition-layout.product#conditionContainNameMotorFichaTecnicaDR-Z50",
 "condition-layout.product#conditionContainNameMotorFichaTecnicaGSX-S750A",
@@ -14793,6 +15428,7 @@
 "condition-layout.product#conditionContainContenedorMotorFichaTecnicaGD115",
 "condition-layout.product#conditionContainContenedorMotorFichaTecnicaGN-125",
 "condition-layout.product#conditionContainContenedorMotorFichaTecnicaUK110",
+"condition-layout.product#conditionContainContenedorMotorFichaTecnicaFW110",
 "condition-layout.product#conditionContainContenedorMotorFichaTecnicaGSX125-C",
 "condition-layout.product#conditionContainContenedorMotorFichaTecnicaDR-Z50",
 "condition-layout.product#conditionContainContenedorMotorFichaTecnicaGSX-S750A",
@@ -14814,6 +15450,7 @@
 "condition-layout.product#conditionContainNameChasisFichaTecnicaGD115",
 "condition-layout.product#conditionContainNameChasisFichaTecnicaGN-125",
 "condition-layout.product#conditionContainNameChasisFichaTecnicaUK110",
+"condition-layout.product#conditionContainNameChasisFichaTecnicaFW110",
 "condition-layout.product#conditionContainNameChasisFichaTecnicaGSX125-C",
 "condition-layout.product#conditionContainNameChasisFichaTecnicaDR-Z50",
 "condition-layout.product#conditionContainNameChasisFichaTecnicaGSX-S750A",
@@ -14835,6 +15472,7 @@
 "condition-layout.product#conditionContainContenedorChasisFichaTecnicaGD115",
 "condition-layout.product#conditionContainContenedorChasisFichaTecnicaGN-125",
 "condition-layout.product#conditionContainContenedorChasisFichaTecnicaUK110",
+"condition-layout.product#conditionContainContenedorChasisFichaTecnicaFW110",
 "condition-layout.product#conditionContainContenedorChasisFichaTecnicaGSX125-C",
 "condition-layout.product#conditionContainContenedorChasisFichaTecnicaDR-Z50",
 "condition-layout.product#conditionContainContenedorChasisFichaTecnicaGSX-S750A",
@@ -14857,6 +15495,7 @@
 "condition-layout.product#conditionContainNameDi_WeiFichaTecnicaGD115",
 "condition-layout.product#conditionContainNameDi_WeiFichaTecnicaGN-125",
 "condition-layout.product#conditionContainNameDi_WeiFichaTecnicaUK110",
+"condition-layout.product#conditionContainNameDi_WeiFichaTecnicaFW110",
 "condition-layout.product#conditionContainNameDi_WeiFichaTecnicaGSX125-C",
 "condition-layout.product#conditionContainNameDi_WeiFichaTecnicaDR-Z50",
 "condition-layout.product#conditionContainNameDi_WeiFichaTecnicaGSX-S750A",
@@ -14878,6 +15517,7 @@
  "condition-layout.product#conditionContainContenedorDyPFichaTecnicaGD115",
  "condition-layout.product#conditionContainContenedorDyPFichaTecnicaGN-125",
  "condition-layout.product#conditionContainContenedorDyPFichaTecnicaUK110",
+ "condition-layout.product#conditionContainContenedorDyPFichaTecnicaFW110",
  "condition-layout.product#conditionContainContenedorDyPFichaTecnicaGSX125-C",
  "condition-layout.product#conditionContainContenedorDyPFichaTecnicaDR-Z50",
  "condition-layout.product#conditionContainContenedorDyPFichaTecnicaGSX-S750A",
@@ -15019,7 +15659,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "2054549"
+          "id": "2011222"
         }
       }
     ],
@@ -15052,6 +15692,22 @@
         "subject": "productId",
         "arguments": {
           "id": "2054550"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containFichcaTecnica"
+   
+  }
+},
+"condition-layout.product#conditionContainFichaTecnicaFW110": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049186"
         }
       }
     ],
@@ -15308,7 +15964,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "2054549"
+          "id": "2011222"
         }
       }
     ],
@@ -15341,6 +15997,22 @@
         "subject": "productId",
         "arguments": {
           "id": "2054550"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containNameMotor"
+   
+  }
+},
+"condition-layout.product#conditionContainNameMotorFichaTecnicaFW110": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049186"
         }
       }
     ],
@@ -15597,7 +16269,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "2054549"
+          "id": "2011222"
         }
       }
     ],
@@ -15630,6 +16302,22 @@
         "subject": "productId",
         "arguments": {
           "id": "2054550"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedorMotor"
+   
+  }
+},
+"condition-layout.product#conditionContainContenedorMotorFichaTecnicaFW110": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049186"
         }
       }
     ],
@@ -15887,7 +16575,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "2054549"
+          "id": "2011222"
         }
       }
     ],
@@ -15920,6 +16608,22 @@
         "subject": "productId",
         "arguments": {
           "id": "2054550"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containNameChasis"
+   
+  }
+},
+"condition-layout.product#conditionContainNameChasisFichaTecnicaFW110": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049186"
         }
       }
     ],
@@ -16176,7 +16880,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "2054549"
+          "id": "2011222"
         }
       }
     ],
@@ -16209,6 +16913,22 @@
         "subject": "productId",
         "arguments": {
           "id": "2054550"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":"flex-layout.row#contenedorChasis"
+   
+  }
+},
+"condition-layout.product#conditionContainContenedorChasisFichaTecnicaFW110": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049186"
         }
       }
     ],
@@ -16465,7 +17185,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "2054549"
+          "id": "2011222"
         }
       }
     ],
@@ -16498,6 +17218,22 @@
         "subject": "productId",
         "arguments": {
           "id": "2054550"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containNameDi_Wei"
+   
+  }
+},
+"condition-layout.product#conditionContainNameDi_WeiFichaTecnicaFW110": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049186"
         }
       }
     ],
@@ -16755,7 +17491,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "2054549"
+          "id": "2011222"
         }
       }
     ],
@@ -16788,6 +17524,22 @@
         "subject": "productId",
         "arguments": {
           "id": "2054550"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":"flex-layout.row#contenedorDyP"
+   
+  }
+},
+"condition-layout.product#conditionContainContenedorDyPFichaTecnicaFW110": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049186"
         }
       }
     ],
