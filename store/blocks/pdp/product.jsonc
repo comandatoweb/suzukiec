@@ -1662,18 +1662,12 @@
     "blockClass": "motor",
     "src": "https://suzukiecuador.vteximg.com.br/arquivos/motornegro.png",
     "maxHeight": 80,
-    "maxWidth" : 79
+    "maxWidth" : 80
   }
-  
+ 
 },
 ////////////////////////////////////////////////////////MOTORES FUERA DE BORDA////////////////////////////////////////
-<<<<<<< HEAD
 "condition-layout.product#conditionFirstTextLTZ50":{
-=======
-//DF175ATX
-"condition-layout.product#conditionFirstFueraBordaDF175ATX": 
-{
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "props": {
     "conditions": [
       {
@@ -1684,393 +1678,209 @@
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#firstTextLTZ50"
-=======
-   "Then":  "rich-text#firstTextDF175ATX"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
    
   }
 },
 
-<<<<<<< HEAD
 "rich-text#firstTextLTZ50":{
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "**Motor 50 CC**\nCon una gran fuerza en motor para que nunca te detengas",
-=======
-"rich-text#firstTextDF175ATX":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**Motor 4 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje1"
   }
 },
-<<<<<<< HEAD
 //DF175ATX
 "condition-layout.product#conditionFirstFueraBordaDF175ATX": 
-=======
-//DF200ZX
-"condition-layout.product#conditionFirstFueraBordaDF200ZX": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2054550" 
-=======
-          "id": "2058125" 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#firstTextDF175ATX"
-=======
-   "Then":  "rich-text#firstTextDF200ZX"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
    
   }
 },
 
-<<<<<<< HEAD
 "rich-text#firstTextDF175ATX":{
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "**Motor 4 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
-=======
-"rich-text#firstTextDF200ZX":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**Motor DOHC 24-Valvulas 4 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje1"
   }
 },
-<<<<<<< HEAD
 //DF200ZX
 "condition-layout.product#conditionFirstFueraBordaDF200ZX": 
-=======
-//DF20AS
-"condition-layout.product#conditionFirstFueraBordaDF20AS": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2058125" 
-=======
-          "id": "2052764" 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#firstTextDF200ZX"
-=======
-   "Then":  "rich-text#firstTextDF20AS"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
    
   }
 },
 
-<<<<<<< HEAD
 "rich-text#firstTextDF200ZX":{
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "**Motor DOHC 24-Valvulas 4 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
-=======
-"rich-text#firstTextDF20AS":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**Motor 4 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje1"
   }
 },
-<<<<<<< HEAD
 //DF20AS
 "condition-layout.product#conditionFirstFueraBordaDF20AS": 
-=======
-//DF150ZX
-"condition-layout.product#conditionFirstFueraBordaDF150ZX": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2052764" 
-=======
-          "id": "2052763" 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#firstTextDF20AS"
-=======
-   "Then":  "rich-text#firstTextDF150ZX"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
    
   }
 },
 
-<<<<<<< HEAD
 "rich-text#firstTextDF20AS":{
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "**Motor 4 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
-=======
-"rich-text#firstTextDF150ZX":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**Motor  DOHC 16-Valvulas**\nCon una gran fuerza en motor para que nunca te detengas",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje1"
   }
 },
-<<<<<<< HEAD
 //DF150ZX
 "condition-layout.product#conditionFirstFueraBordaDF150ZX": 
-=======
-//DF150TX
-"condition-layout.product#conditionFirstFueraBordaDF150TX": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2052763" 
-=======
-          "id": "2052762" 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#firstTextDF150ZX"
-=======
-   "Then":  "rich-text#firstTextDF150TX"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
    
   }
 },
 
-<<<<<<< HEAD
 "rich-text#firstTextDF150ZX":{
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "**Motor  DOHC 16-Valvulas**\nCon una gran fuerza en motor para que nunca te detengas",
-=======
-"rich-text#firstTextDF150TX":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**Motor  DOHC 16-Valvulas 4 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje1"
   }
 },
-<<<<<<< HEAD
 //DF150TX
 "condition-layout.product#conditionFirstFueraBordaDF150TX": 
-=======
-//DF30AS
-"condition-layout.product#conditionFirstFueraBordaDF30AS": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2052762" 
-=======
-          "id": "2052760" 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#firstTextDF150TX"
-=======
-   "Then":  "rich-text#firstTextDF30AS"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
    
   }
 },
 
-<<<<<<< HEAD
 "rich-text#firstTextDF150TX":{
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "**Motor  DOHC 16-Valvulas 4 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
-=======
-"rich-text#firstTextDF30AS":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**Motor 4 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje1"
   }
 },
-<<<<<<< HEAD
 //DF30AS
 "condition-layout.product#conditionFirstFueraBordaDF30AS": 
-=======
-
-//DF30AL
-"condition-layout.product#conditionFirstFueraBordaDF30AL": 
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-          "id": "2052759" 
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#firstTextDF30AL"
-   
-  }
-},
-
-"rich-text#firstTextDF30AL":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**Motor 4 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
-  "textColor": "c-on-emphasis",
-  "font": "t-heading-5",
-  "blockClass": "mensaje1"
-  }
-},
-//DT15AL
-"condition-layout.product#conditionFirstFueraBordaDT15AL": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-<<<<<<< HEAD
           "id": "2052760" 
-=======
-          "id": "2052757" 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#firstTextDF30AS"
-=======
-   "Then":  "rich-text#firstTextDT15AL"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
    
   }
 },
 
-<<<<<<< HEAD
 "rich-text#firstTextDF30AS":{
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "**Motor 4 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
-=======
-"rich-text#firstTextDT15AL":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**Motor  2 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje1"
   }
 },
-<<<<<<< HEAD
 
 //DF30AL
 "condition-layout.product#conditionFirstFueraBordaDF30AL": 
-=======
-//DF9.9AS
-"condition-layout.product#conditionFirstFueraBordaDF9.9AS": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2052759" 
-=======
-          "id": "2052756" 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#firstTextDF30AL"
-=======
-   "Then":  "rich-text#firstTextDF9.9AS"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
    
   }
 },
 
-<<<<<<< HEAD
 "rich-text#firstTextDF30AL":{
-=======
-"rich-text#firstTextDF9.9AS":{
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
@@ -2080,280 +1890,164 @@
   "blockClass": "mensaje1"
   }
 },
-<<<<<<< HEAD
 //DT15AL
 "condition-layout.product#conditionFirstFueraBordaDT15AL": 
-=======
-//DF6AS
-"condition-layout.product#conditionFirstFueraBordaDF6AS": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2052757" 
-=======
-          "id": "2052755" 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#firstTextDT15AL"
-=======
-   "Then":  "rich-text#firstTextDF6AS"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
    
   }
 },
 
-<<<<<<< HEAD
 "rich-text#firstTextDT15AL":{
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "**Motor  2 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
-=======
-"rich-text#firstTextDF6AS":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**Motor  OHV 4 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje1"
   }
 },
-<<<<<<< HEAD
 //DF9.9AS
 "condition-layout.product#conditionFirstFueraBordaDF9.9AS": 
-=======
-
-//DT30L
-"condition-layout.product#conditionFirstFueraBordaDT30L": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2052756" 
-=======
-          "id": "2052758" 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#firstTextDF9.9AS"
-=======
-   "Then":  "rich-text#firstTextDT30L"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
    
   }
 },
 
-<<<<<<< HEAD
 "rich-text#firstTextDF9.9AS":{
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "**Motor 4 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
-=======
-"rich-text#firstTextDT30L":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**Motor  2 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje1"
   }
 },
-<<<<<<< HEAD
 //DF6AS
 "condition-layout.product#conditionFirstFueraBordaDF6AS": 
-=======
-//DF175AZX
-"condition-layout.product#conditionFirstFueraBordaDF175AZX": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2052755" 
-=======
-          "id": "2054551" 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#firstTextDF6AS"
-=======
-   "Then":  "rich-text#firstTextDF175AZX"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
    
   }
 },
 
-<<<<<<< HEAD
 "rich-text#firstTextDF6AS":{
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "**Motor  OHV 4 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
-=======
-"rich-text#firstTextDF175AZX":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**Motor DOHC  16-Valvulas**\nCon una gran fuerza en motor para que nunca te detengas",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje1"
   }
 },
 
-<<<<<<< HEAD
 //DT30L
 "condition-layout.product#conditionFirstFueraBordaDT30L": 
-=======
-
-
-///////////////////////////////////////MOTOS/////////////////////////////////////////
-//PRIMERA CONDICION Uk110
-"condition-layout.product#conditionFirstTextUk110": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2052758" 
-=======
-          "id": "2054550" 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#firstTextDT30L"
-=======
-   "Then":  "rich-text#firstTextUk110"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
    
   }
 },
 
-<<<<<<< HEAD
 "rich-text#firstTextDT30L":{
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "**Motor  2 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
-=======
-"rich-text#firstTextUk110":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**113 CCC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje1"
   }
 },
-<<<<<<< HEAD
 //DF175AZX
 "condition-layout.product#conditionFirstFueraBordaDF175AZX": 
-=======
-
-//PRIMERA CONDICION UR110
-"condition-layout.product#conditionFirstTextUR110": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2054551" 
-=======
-          "id": "2011740" 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#firstTextDF175AZX"
-=======
-   "Then":  "rich-text#firstTextUR110"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
    
   }
 },
 
-<<<<<<< HEAD
 "rich-text#firstTextDF175AZX":{
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "**Motor DOHC  16-Valvulas**\nCon una gran fuerza en motor para que nunca te detengas",
-=======
-"rich-text#firstTextUR110":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**113 CCC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje1"
   }
 },
-<<<<<<< HEAD
 
 
 
 ///////////////////////////////////////MOTOS/////////////////////////////////////////
 //PRIMERA CONDICION Uk110
 "condition-layout.product#conditionFirstTextUk110": 
-=======
-//PRIMERA CONDICION GN125
-"condition-layout.product#conditionFirstTextGN125": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-          "id": "2000139" 
+          "id": "2054550" 
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#firstTextUk110"
    
   }
@@ -2372,226 +2066,107 @@
 
 //PRIMERA CONDICION UR110
 "condition-layout.product#conditionFirstTextUR110": 
-=======
-   "Then":  "rich-text#firstTextGN125"
-   
-  }
-},
-
-"rich-text#firstTextGN125":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**125 CCC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
-  "textColor": "c-on-emphasis",
-  "font": "t-heading-5",
-  "blockClass": "mensaje1"
-  }
-},
-//PRIMERA CONDICION GSX125
-"condition-layout.product#conditionFirstTextGSX125": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2011740" 
-=======
-          "id": "2049461" 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#firstTextUR110"
-=======
-   "Then":  "rich-text#firstTextGSX125"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
    
   }
 },
 
-<<<<<<< HEAD
 "rich-text#firstTextUR110":{
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "**113 CCC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
-=======
-"rich-text#firstTextGSX125":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**125 CC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje1"
   }
 },
-<<<<<<< HEAD
 //PRIMERA CONDICION GN125
 "condition-layout.product#conditionFirstTextGN125": 
-=======
-//PRIMERA CONDICION DR650
-"condition-layout.product#conditionFirstTextDR650": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2000139" 
-=======
-          "id": "2000136" 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#firstTextGN125"
-=======
-   "Then":  "rich-text#firstTextDR650"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
    
   }
 },
 
-<<<<<<< HEAD
 "rich-text#firstTextGN125":{
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "**125 CCC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
-=======
-"rich-text#firstTextDR650":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**650 CC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje1"
   }
 },
-<<<<<<< HEAD
 //PRIMERA CONDICION GSX125
 "condition-layout.product#conditionFirstTextGSX125": 
-=======
-
-//PRIMERA CONDICION RM85
-"condition-layout.product#conditionFirstTextRM85": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-          "id": "2049584" 
+          "id": "2049461" 
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#firstTextGSX125"
-=======
-   "Then":  "rich-text#firstTextRM85"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
    
   }
 },
 
-<<<<<<< HEAD
 "rich-text#firstTextGSX125":{
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "**125 CC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
-=======
-"rich-text#firstTextRM85":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**85 CC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje1"
   }
 },
-<<<<<<< HEAD
 //PRIMERA CONDICION DR650
 "condition-layout.product#conditionFirstTextDR650": 
-=======
-
-
-  //PRIMERA CONDICION TEXTO GD 115 
-  "condition-layout.product#conditionFirstTextGD115": 
-  {
-    "props": {
-      "conditions": [
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2011222" // v - sgd 115 evolution
-          }
-        }
-      ],
-      "toBe" : true,
-     "Then":  "rich-text#firstTextGD115Evolution"
-     
-    }
-  },
- 
-  "rich-text#firstTextGD115":{
-   "props":{
-     "textAlignment": "CENTER",
-   "textPosition": "CENTER",
-   "text": "**113 CC - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
-   "textColor": "c-on-emphasis",
-   "font": "t-heading-5",
-   "blockClass": "mensaje1"
-   }
- },
-
-
-//PRIMERA CONDICION SV650XA
-"condition-layout.product#conditionFirstTextSV650XA": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-          "id": "2054376" 
+          "id": "2000136" 
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#firstTextDR650"
    
   }
 },
 
 "rich-text#firstTextDR650":{
-=======
-   "Then":  "rich-text#firstTextSV650XA"
-   
-  }
-},
-"rich-text#firstTextSV650XA":{
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
@@ -2599,7 +2174,6 @@
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje1"
-<<<<<<< HEAD
   }
 },
 
@@ -2690,10 +2264,6 @@
   "blockClass": "mensaje1"
   }
 },
-=======
-  }
-},
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 
 //PRIMERA CONDICION INTRUDER
 "condition-layout.product#conditionFirstTextIntruder": 
@@ -2893,13 +2463,8 @@
    "blockClass": "mensaje1"
    }
  },
-<<<<<<< HEAD
 
 
-=======
-
-
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
  //PRIMERA CONDICION TEXTO  V STROM 650
  "condition-layout.product#conditionFirstTextVstrom650": 
  {
@@ -2965,7 +2530,6 @@
  {
    "props":{
      "blockClass": "IMD2"
-<<<<<<< HEAD
     
    },
    "children": ["flex-layout.col#IMD2col"]
@@ -3138,157 +2702,13 @@
   }
 },
 "condition-layout.product#conditionImagePotenciaDF30AS": 
-=======
-    
-   },
-   "children": ["flex-layout.col#IMD2col"]
-
- },
- "flex-layout.col#IMD2col":
- {
-   "props": {
-   "blockClass": "IMD2col",
-   "preventVerticalStretch": true,
-   "rowGap": 0,
-   "hasMoreThanOne" : true
-   },
-   "children":[
-    
-
-    "condition-layout.product#conditionImagePotenciaDF175ATX",
-    "condition-layout.product#conditionImagePotenciaDF200ZX",
-    "condition-layout.product#conditionImagePotenciaDF20AS",
-    "condition-layout.product#conditionImagePotenciaDF150ZX",
-    "condition-layout.product#conditionImagePotenciaDF150TX",
-    "condition-layout.product#conditionImagePotenciaDF30AS",
-    "condition-layout.product#conditionImagePotenciaDF30AL",
-    "condition-layout.product#conditionImagePotenciaDT15AL",
-    "condition-layout.product#conditionImagePotenciaDF9.9AS",
-    "condition-layout.product#conditionImagePotenciaDF6AS",
-    "condition-layout.product#conditionImagePotenciaDT30L",
-    "condition-layout.product#conditionImagePotenciaDF175AZX",
-
-    "condition-layout.product#conditionImageRapidoUK110",
-    "condition-layout.product#conditionImageRapidoGN125",
-    "condition-layout.product#conditionImageRapidoUR110",
-    "condition-layout.product#conditionImageRapidoGSX125",
-    "condition-layout.product#conditionImageRapidoDR650",
-    "condition-layout.product#conditionImageRapidoRM85",
-    "condition-layout.product#conditionImageRapidoGD115",
-    "condition-layout.product#conditionImageRapidoSV650XA",
-    "condition-layout.product#conditionImageRapidoINTRUDER",
-    "condition-layout.product#conditionImageRapidoGSXS750",
-    "condition-layout.product#conditionImageRapidoGSX250R",
-    "condition-layout.product#conditionImageRapidoDRZ50",
-    "condition-layout.product#conditionImageRapidoGD115EVOLUTION",
-    "condition-layout.product#conditionImageRapidoVSTROM250",
-    "condition-layout.product#conditionImageRapidoKATANA",
-    "condition-layout.product#conditionImageRapidoVSTROM650",
-    "condition-layout.product#conditionImageRapidoVSTROM1050",
-
-
-    "condition-layout.product#conditionSecondtTextUK110",
-    "condition-layout.product#conditionSecondtTextGN125",
-    "condition-layout.product#conditionSecondtTextUR110",
-    "condition-layout.product#conditionSecondtTextGSX125",
-    "condition-layout.product#conditionSecondtTextDR650",
-    "condition-layout.product#conditionSecondtTextRM85",
-    "condition-layout.product#conditionSecondtTextGD115",
-    "condition-layout.product#conditionSecondtTextSV650XA",
-    "condition-layout.product#conditionSecondtTextIntruder",
-    "condition-layout.product#conditionSecondtTextGSXS750",
-    "condition-layout.product#conditionSecondtTextGSX250R",
-    "condition-layout.product#conditionSecondtTextDR-Z50",
-    "condition-layout.product#conditionSecondtTextGD115Evolution",
-    "condition-layout.product#conditionSecondtTextvstrom",
-    "condition-layout.product#conditionSecondTextKatana",
-    "condition-layout.product#conditionSecondTextVstrom650",
-    "condition-layout.product#conditionSecondTextVstrom1050",
-
-    "condition-layout.product#conditionSecondTextDF175ATX",
-    "condition-layout.product#conditionSecondTextDF200ZX",
-    "condition-layout.product#conditionSecondTextDF20AS",
-    "condition-layout.product#conditionSecondTextDF150ZX",
-    "condition-layout.product#conditionSecondTextDF150TX",
-    "condition-layout.product#conditionSecondTextDF30AS",
-    "condition-layout.product#conditionSecondTextDF30AL",
-    "condition-layout.product#conditionSecondTextDT15AL",
-    "condition-layout.product#conditionSecondTextDF9.9AS",
-    "condition-layout.product#conditionSecondTextDF6AS",
-    "condition-layout.product#conditionSecondTextDT30L",
-    "condition-layout.product#conditionSecondTextDF175AZX"
-
-
-
-
-  
-  ]
- },
-
-
- //Condiciones para la imagen potencia que son para los motores fuera de borda
-
- "condition-layout.product#conditionImagePotenciaDF175ATX": 
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-           "id": "2067061"
-         }
-       }
-     ],
-     "toBe" : true,
-    "Then": "image#potencia"
-    
-   }
- },
-"condition-layout.product#conditionImagePotenciaDF200ZX": 
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-          "id": "2058125"
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then": "image#potencia"
-   
-  }
-},
-"condition-layout.product#conditionImagePotenciaDF20AS": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2052764"
-        }
-      }
-    ],
-    "toBe" : true,
-    "Then": "image#potencia"
-    
-  }
-},
-"condition-layout.product#conditionImagePotenciaDF150ZX": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-<<<<<<< HEAD
           "id": "2052760"
-=======
-          "id": "2052763"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
@@ -3297,22 +2717,14 @@
     
   }
 },
-<<<<<<< HEAD
 "condition-layout.product#conditionImagePotenciaDF30AL": 
-=======
-"condition-layout.product#conditionImagePotenciaDF150TX": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2052759"
-=======
-          "id": "2052762"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
@@ -3321,22 +2733,14 @@
     
   }
 },
-<<<<<<< HEAD
 "condition-layout.product#conditionImagePotenciaDT15AL": 
-=======
-"condition-layout.product#conditionImagePotenciaDF30AS": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2052757"
-=======
-          "id": "2052760"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
@@ -3345,22 +2749,14 @@
     
   }
 },
-<<<<<<< HEAD
 "condition-layout.product#conditionImagePotenciaDF9.9AS": 
-=======
-"condition-layout.product#conditionImagePotenciaDF30AL": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2052756"
-=======
-          "id": "2052759"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
@@ -3369,22 +2765,14 @@
     
   }
 },
-<<<<<<< HEAD
 "condition-layout.product#conditionImagePotenciaDF6AS": 
-=======
-"condition-layout.product#conditionImagePotenciaDT15AL": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2052755"
-=======
-          "id": "2052757"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
@@ -3393,22 +2781,14 @@
     
   }
 },
-<<<<<<< HEAD
 "condition-layout.product#conditionImagePotenciaDT30L": 
-=======
-"condition-layout.product#conditionImagePotenciaDF9.9AS": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2052758"
-=======
-          "id": "2052756"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
@@ -3417,22 +2797,14 @@
     
   }
 },
-<<<<<<< HEAD
 "condition-layout.product#conditionImagePotenciaDF175AZX": 
-=======
-"condition-layout.product#conditionImagePotenciaDF6AS": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2054551"
-=======
-          "id": "2052755"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
@@ -3441,7 +2813,6 @@
     
   }
 },
-<<<<<<< HEAD
 
 
  //Condiciones para la imagen rapido que son para las motos
@@ -3461,44 +2832,6 @@
     
    }
  },
-=======
-"condition-layout.product#conditionImagePotenciaDT30L": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2052758"
-        }
-      }
-    ],
-    "toBe" : true,
-    "Then": "image#potencia"
-    
-  }
-},
-"condition-layout.product#conditionImagePotenciaDF175AZX": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2054551"
-        }
-      }
-    ],
-    "toBe" : true,
-    "Then": "image#potencia"
-    
-  }
-},
-
-
- //Condiciones para la imagen rapido que son para las motos
-
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
  "condition-layout.product#conditionImageRapidoUK110": 
  {
    "props": {
@@ -3781,24 +3114,6 @@
     "maxHeight": 80,
     "maxWidth" : 80
     
-<<<<<<< HEAD
-  }
-},
-
-//IMAGEN PARA EL MOTOR FUERA DE BORDA
-"image#potencia": {
-  "props": {
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/potencia.png",
-    "maxHeight": 80,
-    "maxWidth" : 80
-    
-  }
-},
-
-
-//SEGUNDA  CONDICION TEXTO  UK110
-"condition-layout.product#conditionSecondtTextUK110": 
-=======
   }
 },
 
@@ -3951,33 +3266,17 @@
 },
 //SEGUNDA  CONDICION TEXTO  RM85
 "condition-layout.product#conditionSecondtTextRM85": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
-          "id": "2054550" 
-=======
           "id": "2049584" 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
-   "Then":  "rich-text#SecondTextUK110"
-   
-  }
-},
-"rich-text#SecondTextUK110":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**5 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
-=======
    "Then":  "rich-text#SecondTextRM85"
    
   }
@@ -3987,17 +3286,12 @@
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
  "text": "**6 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
  "textColor": "c-on-emphasis",
  "font": "t-heading-5",
  "blockClass": "mensaje2"
  }
 },
 
-<<<<<<< HEAD
-//SEGUNDA  CONDICION TEXTO  GN125
-"condition-layout.product#conditionSecondtTextGN125": 
-=======
 //SEGUNDA  CONDICION TEXTO  GD 115 
 "condition-layout.product#conditionSecondtTextGD115": 
 {
@@ -4028,228 +3322,17 @@
 
 //SEGUNDA  CONDICION TEXTO  SV650XA
 "condition-layout.product#conditionSecondtTextSV650XA": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
-          "id": "2000139" 
-=======
           "id": "2054376" 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
-   "Then":  "rich-text#SecondTextGN125"
-   
-  }
-},
-"rich-text#SecondTextGN125":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**5 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
-=======
-   "Then":  "rich-text#SecondTexSV650XA"
-   
-  }
-},
-"rich-text#SecondTexSV650XA":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**6 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-<<<<<<< HEAD
-//SEGUNDA  CONDICION TEXTO  UR110
-"condition-layout.product#conditionSecondtTextUR110": 
-=======
-
-
-//SEGUNDA  CONDICION TEXTO  Intruder
-"condition-layout.product#conditionSecondtTextIntruder": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-<<<<<<< HEAD
-          "id": "2011740" 
-=======
-          "id": "2049444" 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
-        }
-      }
-    ],
-    "toBe" : true,
-<<<<<<< HEAD
-   "Then":  "rich-text#SecondTextUR110"
-   
-  }
-},
-"rich-text#SecondTextUR110":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Automática**\nCon un sistema que te permite llevar a diferentes velocidades",
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-//SEGUNDA  CONDICION TEXTO  GSX125
-"condition-layout.product#conditionSecondtTextGSX125": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2049461" 
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#SecondTextGSX125"
-   
-  }
-},
-"rich-text#SecondTextGSX125":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**5 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-//SEGUNDA  CONDICION TEXTO  DR650
-"condition-layout.product#conditionSecondtTextDR650": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2000136" 
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#SecondTextDR650"
-   
-  }
-},
-"rich-text#SecondTextDR650":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**5 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-//SEGUNDA  CONDICION TEXTO  RM85
-"condition-layout.product#conditionSecondtTextRM85": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2049584" 
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#SecondTextRM85"
-   
-  }
-},
-"rich-text#SecondTextRM85":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**6 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-
-//SEGUNDA  CONDICION TEXTO  GD 115 
-"condition-layout.product#conditionSecondtTextGD115": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2011222" // v - strom dl250 
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#SecondTextGD115"
-   
-  }
-},
-"rich-text#SecondTextGD115":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**4 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
-=======
-   "Then":  "rich-text#SecondTexIntruder"
-   
-  }
-},
-"rich-text#SecondTexIntruder":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**5 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-
-<<<<<<< HEAD
-//SEGUNDA  CONDICION TEXTO  SV650XA
-"condition-layout.product#conditionSecondtTextSV650XA": 
-=======
-
-//SEGUNDA  CONDICION TEXTO  GSX250R
-"condition-layout.product#conditionSecondtTextGSXS750": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2049300" 
-        }
-      }
-    ],
-    "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#SecondTexSV650XA"
    
   }
@@ -4288,24 +3371,12 @@
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
  "text": "**5 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
-=======
-   "Then":  "rich-text#SecondTextGSXS750"
-   
-  }
-},
-"rich-text#SecondTextGSXS750":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**6 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
  "textColor": "c-on-emphasis",
  "font": "t-heading-5",
  "blockClass": "mensaje2"
  }
 },
 
-<<<<<<< HEAD
 
 //SEGUNDA  CONDICION TEXTO  GSX250R
 "condition-layout.product#conditionSecondtTextGSXS750": 
@@ -4336,9 +3407,6 @@
 },
 
 
-=======
-
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 //SEGUNDA  CONDICION TEXTO  GSX250R
 "condition-layout.product#conditionSecondtTextGSX250R": 
 {
@@ -4480,13 +3548,6 @@
   "font": "t-heading-5",
   "blockClass": "mensaje2"
   }
-<<<<<<< HEAD
-},
-
-
-//SEGUNDA  CONDICION TEXTO  V STROM 650
-"condition-layout.product#conditionSecondTextVstrom650": 
-=======
 },
 
 
@@ -4545,174 +3606,20 @@
  "blockClass": "mensaje2"
  }
 },
-
-//MOTORES FUERA DE BORDA
-"condition-layout.product#conditionSecondTextDF175ATX": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2067061"
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#SecondTextDF175ATX"
-   
-  }
-},
-"rich-text#SecondTextDF175ATX":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Potencia 175 HP**\nCon un poder para recorrer todas las aguas que quieras",
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-"condition-layout.product#conditionSecondTextDF200ZX": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-<<<<<<< HEAD
-          "id": "2049038" // v - strom dl250 
-=======
-          "id": "2058125"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
-        }
-      }
-    ],
-    "toBe" : true,
-<<<<<<< HEAD
-   "Then":  "rich-text#SecondTextVstrom650"
-   
-  }
-},
-"rich-text#SecondTextVstrom650":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**6 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
-=======
-   "Then":  "rich-text#SecondTextDF200ZX"
-   
-  }
-},
-"rich-text#SecondTextDF200ZX":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Potencia 200 HP**\nCon un poder para recorrer todas las aguas que quieras",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-<<<<<<< HEAD
-
-//SEGUNDA  CONDICION TEXTO  V STROM 1050
-"condition-layout.product#conditionSecondTextVstrom1050": 
-=======
-"condition-layout.product#conditionSecondTextDF20AS": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2052764"
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#SecondTextDF20AS"
-   
-  }
-},
-"rich-text#SecondTextDF20AS":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Potencia 20 HP**\nCon un poder para recorrer todas las aguas que quieras",
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-"condition-layout.product#conditionSecondTextDF150ZX": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-<<<<<<< HEAD
-          "id": "2054006" // v - strom 1050
-=======
-          "id": "2052763"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
-        }
-      }
-    ],
-    "toBe" : true,
-<<<<<<< HEAD
-   "Then":  "rich-text#SecondTextVstrom1050"
-   
-  }
-},
-"rich-text#SecondTextVstrom1050":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**6 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
-=======
-   "Then":  "rich-text#SecondTextDF150ZX"
-   
-  }
-},
-"rich-text#SecondTextDF150ZX":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Potencia 150 HP**\nCon un poder para recorrer todas las aguas que quieras",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-<<<<<<< HEAD
 
 //LTZ50
 "condition-layout.product#conditionSecondTextLTZ50": 
-=======
-"condition-layout.product#conditionSecondTextDF150TX": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 {
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2067063"
-=======
-          "id": "2052762"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#SecondTextLTZ50"
    
   }
@@ -4722,46 +3629,25 @@
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
  "text": "**Automática**\nCon un sistema que te permite llevar a diferentes velocidades",
-=======
-   "Then":  "rich-text#SecondTextDF150TX"
-   
-  }
-},
-"rich-text#SecondTextDF150TX":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Potencia 150HP**\nCon un poder para recorrer todas las aguas que quieras",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
  "textColor": "c-on-emphasis",
  "font": "t-heading-5",
  "blockClass": "mensaje2"
  }
 },
 
-<<<<<<< HEAD
 //MOTORES FUERA DE BORDA
 "condition-layout.product#conditionSecondTextDF175ATX": 
 {
-=======
-
-"condition-layout.product#conditionSecondTextDF30AS":{
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2067061"
-=======
-          "id": "2052760"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#SecondTextDF175ATX"
    
   }
@@ -4778,64 +3664,16 @@
 },
 "condition-layout.product#conditionSecondTextDF200ZX": 
 {
-=======
-   "Then":  "rich-text#SecondTextDF30AS"
-   
-  }
-},
-"rich-text#SecondTextDF30AS":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Potencia 30HP**\nCon un poder para recorrer todas las aguas que quieras",
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-
-"condition-layout.product#conditionSecondTextDF30AL":{
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-          "id": "2052759"
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#SecondTextDF30AL"
-   
-  }
-},
-"rich-text#SecondTextDF30AL":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Potencia 30 HP**\nCon un poder para recorrer todas las aguas que quieras",
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-"condition-layout.product#conditionSecondTextDT15AL":{
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-<<<<<<< HEAD
           "id": "2058125"
-=======
-          "id": "2052757"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#SecondTextDF200ZX"
    
   }
@@ -4845,43 +3683,23 @@
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
  "text": "**Potencia 200 HP**\nCon un poder para recorrer todas las aguas que quieras",
-=======
-   "Then":  "rich-text#SecondTextDT15AL"
-   
-  }
-},
-"rich-text#SecondTextDT15AL":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Potencia 15HP**\nCon un poder para recorrer todas las aguas que quieras",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
  "textColor": "c-on-emphasis",
  "font": "t-heading-5",
  "blockClass": "mensaje2"
  }
 },
-<<<<<<< HEAD
 "condition-layout.product#conditionSecondTextDF20AS": 
 {
-=======
-"condition-layout.product#conditionSecondTextDF9.9AS":{
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2052764"
-=======
-          "id": "2052756"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#SecondTextDF20AS"
    
   }
@@ -4891,44 +3709,23 @@
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
  "text": "**Potencia 20 HP**\nCon un poder para recorrer todas las aguas que quieras",
-=======
-   "Then":  "rich-text#SecondTextDF9.9AS"
-   
-  }
-},
-"rich-text#SecondTextDF9.9AS":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Potencia 9,9 HP**\nCon un poder para recorrer todas las aguas que quieras",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
  "textColor": "c-on-emphasis",
  "font": "t-heading-5",
  "blockClass": "mensaje2"
  }
 },
-<<<<<<< HEAD
 "condition-layout.product#conditionSecondTextDF150ZX": 
 {
-=======
-
-"condition-layout.product#conditionSecondTextDF6AS":{
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2052763"
-=======
-          "id": "2052755"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#SecondTextDF150ZX"
    
   }
@@ -4938,43 +3735,23 @@
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
  "text": "**Potencia 150 HP**\nCon un poder para recorrer todas las aguas que quieras",
-=======
-   "Then":  "rich-text#SecondTextDF6AS"
-   
-  }
-},
-"rich-text#SecondTextDF6AS":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Potencia  6HP**\nCon un poder para recorrer todas las aguas que quieras",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
  "textColor": "c-on-emphasis",
  "font": "t-heading-5",
  "blockClass": "mensaje2"
  }
 },
-<<<<<<< HEAD
 "condition-layout.product#conditionSecondTextDF150TX": 
 {
-=======
-"condition-layout.product#conditionSecondTextDT30L":{
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2052762"
-=======
-          "id": "2052758"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#SecondTextDF150TX"
    
   }
@@ -4984,44 +3761,24 @@
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
  "text": "**Potencia 150HP**\nCon un poder para recorrer todas las aguas que quieras",
-=======
-   "Then":  "rich-text#SecondTextDT30L"
-   
-  }
-},
-"rich-text#SecondTextDT30L":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Potencia  30HP**\nCon un poder para recorrer todas las aguas que quieras",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
  "textColor": "c-on-emphasis",
  "font": "t-heading-5",
  "blockClass": "mensaje2"
  }
 },
-<<<<<<< HEAD
 
 
 "condition-layout.product#conditionSecondTextDF30AS":{
-=======
-"condition-layout.product#conditionSecondTextDF175AZX":{
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "props": {
     "conditions": [
       {
         "subject": "productId",
         "arguments": {
-<<<<<<< HEAD
           "id": "2052760"
-=======
-          "id": "2054551"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
     "toBe" : true,
-<<<<<<< HEAD
    "Then":  "rich-text#SecondTextDF30AS"
    
   }
@@ -5031,24 +3788,12 @@
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
  "text": "**Potencia 30HP**\nCon un poder para recorrer todas las aguas que quieras",
-=======
-   "Then":  "rich-text#SecondTextDF175AZX"
-   
-  }
-},
-"rich-text#SecondTextDF175AZX":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Potencia 175HP**\nCon un poder para recorrer todas las aguas que quieras",
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
  "textColor": "c-on-emphasis",
  "font": "t-heading-5",
  "blockClass": "mensaje2"
  }
 },
 
-<<<<<<< HEAD
 "condition-layout.product#conditionSecondTextDF30AL":{
   "props": {
     "conditions": [
@@ -5201,8 +3946,6 @@
  }
 },
 
-=======
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 
 
 //TERCERA CONDICION DE LA IMAGEN CON SU TEXTO
@@ -5210,7 +3953,6 @@
  {
    "props":{
      "blockClass": "IMD3"
-<<<<<<< HEAD
     
    },
    "children": ["flex-layout.col#IMD3col"]
@@ -5295,88 +4037,6 @@
  //Condiciones para la imagen potencia que son para los motores fuera de borda
 
  "condition-layout.product#conditionImageCombustibleDF175ATX": 
-=======
-    
-   },
-   "children": ["flex-layout.col#IMD3col"]
-
- },
- "flex-layout.col#IMD3col":
- {
-   "props": {
-   "blockClass": "IMD3col",
-   "preventVerticalStretch": true,
-   "rowGap": 0,
-   "hasMoreThanOne" : true
-   },
-   "children":[
-
-    "condition-layout.product#conditionImageCombustibleDF175ATX",
-    "condition-layout.product#conditionImageCombustibleDF200ZX",
-    "condition-layout.product#conditionImageCombustibleDF20AS",
-    "condition-layout.product#conditionImageCombustibleDF150ZX",
-    "condition-layout.product#conditionImageCombustibleDF150TX",
-    "condition-layout.product#conditionImageCombustibleDF30AS",
-    "condition-layout.product#conditionImageCombustibleDF30AL",
-    "condition-layout.product#conditionImageCombustibleDT15AL",
-    "condition-layout.product#conditionImageCombustibleDF9.9AS",
-    "condition-layout.product#conditionImageCombustibleDF6AS",
-    "condition-layout.product#conditionImageCombustibleDT30L",
-    "condition-layout.product#conditionImageCombustibleDF175AZX",
-
-    "condition-layout.product#conditionImageDiscoFrenoUK110",
-    "condition-layout.product#conditionImageDiscoFrenoGN125",
-    "condition-layout.product#conditionImageDiscoFrenoUR110",
-    "condition-layout.product#conditionImageDiscoFrenoGSX125",
-    "condition-layout.product#conditionImageDiscoFrenoDR650",
-    "condition-layout.product#conditionImageDiscoFrenoRM85",
-    "condition-layout.product#conditionImageDiscoFrenoGD115",
-    "condition-layout.product#conditionImageDiscoFrenoSV650XA",
-    "condition-layout.product#conditionImageDiscoFrenoINTRUDER",
-    "condition-layout.product#conditionImageDiscoFrenoGSXS750",
-    "condition-layout.product#conditionImageDiscoFrenoGSX250R",
-    "condition-layout.product#conditionImageDiscoFrenoDRZ50",
-    "condition-layout.product#conditionImageDiscoFrenoGD115EVOLUTION",
-    "condition-layout.product#conditionImageDiscoFrenoVSTROM250",
-    "condition-layout.product#conditionImageDiscoFrenoKATANA",
-    "condition-layout.product#conditionImageDiscoFrenoVSTROM650",
-    "condition-layout.product#conditionImageDiscoFrenoVSTROM1050",
-
-    "condition-layout.product#conditionThirdtTextUK110",
-    "condition-layout.product#conditionThirdtTextUR110",
-    "condition-layout.product#conditionThirdtTextGN125",
-    "condition-layout.product#conditionThirdtTextGSX1250",
-    "condition-layout.product#conditionThirdtTextDR650",
-    "condition-layout.product#conditionThirdtTextRM85",
-    "condition-layout.product#conditionThirdtTextGD115",
-    "condition-layout.product#conditionThirdtTextSV650XA",
-    "condition-layout.product#conditionThirdtTextIntruder",
-    "condition-layout.product#conditionThirdtTextGSXS750",
-    "condition-layout.product#conditionThirdtTextGSX25OR",
-    "condition-layout.product#conditionThirdtTextDRZ50",
-    "condition-layout.product#conditionThirdtTextGD115Evolution",
-    "condition-layout.product#conditionThirdtTextvstrom",
-    "condition-layout.product#conditionThirdTextKatana",
-    "condition-layout.product#conditionThirdTextVstrom650",
-    "condition-layout.product#conditionThirdTextVstrom1050",
-
-    "condition-layout.product#conditionThirdTextDF175ATX",
-    "condition-layout.product#conditionThirdTextDF200ZX",
-    "condition-layout.product#conditionThirdTextDF20AS",
-    "condition-layout.product#conditionThirdTextDF150ZX",
-    "condition-layout.product#conditionThirdTextDF150TX",
-    "condition-layout.product#conditionThirdTextDF30AS",
-    "condition-layout.product#conditionThirdTextDF30AL",
-    "condition-layout.product#conditionThirdTextDT15AL",
-    "condition-layout.product#conditionThirdTextDF9.9AS",
-    "condition-layout.product#conditionThirdTextDF6AS",
-    "condition-layout.product#conditionThirdTextDT30L",
-    "condition-layout.product#conditionThirdTextDF175AZX"
-  ]
- },
- //Condiciones para la imagen potencia que son para los motores fuera de borda
-
- "condition-layout.product#conditionImageCombustibleDF175ATX": 
  {
    "props": {
      "conditions": [
@@ -5573,209 +4233,17 @@
  //Condiciones para la imagen rapido que son para las motos
 
  "condition-layout.product#conditionImageDiscoFrenoUK110": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
  {
    "props": {
      "conditions": [
        {
          "subject": "productId",
          "arguments": {
-<<<<<<< HEAD
-           "id": "2067061"
-=======
            "id": "2054550"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
          }
        }
      ],
      "toBe" : true,
-<<<<<<< HEAD
-    "Then": "image#Combustible"
-    
-   }
- },
-"condition-layout.product#conditionImageCombustibleDF200ZX": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2058125"
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then": "image#Combustible"
-   
-  }
-},
-"condition-layout.product#conditionImageCombustibleDF20AS": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2052764"
-        }
-      }
-    ],
-    "toBe" : true,
-    "Then": "image#Combustible"
-    
-  }
-},
-"condition-layout.product#conditionImageCombustibleDF150ZX": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2052763"
-        }
-      }
-    ],
-    "toBe" : true,
-    "Then": "image#Combustible"
-    
-  }
-},
-"condition-layout.product#conditionImageCombustibleDF150TX": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2052762"
-        }
-      }
-    ],
-    "toBe" : true,
-    "Then": "image#Combustible"
-    
-  }
-},
-"condition-layout.product#conditionImageCombustibleDF30AS": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2052760"
-        }
-      }
-    ],
-    "toBe" : true,
-    "Then": "image#Combustible"
-    
-  }
-},
-"condition-layout.product#conditionImageCombustibleDF30AL": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2052759"
-        }
-      }
-    ],
-    "toBe" : true,
-    "Then": "image#Combustible"
-    
-  }
-},
-"condition-layout.product#conditionImageCombustibleDT15AL": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2052757"
-        }
-      }
-    ],
-    "toBe" : true,
-    "Then": "image#Combustible"
-    
-  }
-},
-"condition-layout.product#conditionImageCombustibleDF9.9AS": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2052756"
-        }
-      }
-    ],
-    "toBe" : true,
-    "Then": "image#Combustible"
-    
-  }
-},
-"condition-layout.product#conditionImageCombustibleDF6AS": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2052755"
-        }
-      }
-    ],
-    "toBe" : true,
-    "Then": "image#Combustible"
-    
-  }
-},
-"condition-layout.product#conditionImageCombustibleDT30L": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2052758"
-        }
-      }
-    ],
-    "toBe" : true,
-    "Then": "image#Combustible"
-    
-  }
-},
-"condition-layout.product#conditionImageCombustibleDF175AZX": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2054551"
-        }
-      }
-    ],
-    "toBe" : true,
-    "Then": "image#Combustible"
-    
-  }
-},
-
-
- //Condiciones para la imagen rapido que son para las motos
-
- "condition-layout.product#conditionImageDiscoFrenoUK110": 
-=======
     "Then": "image#DiscoFreno"
     
    }
@@ -5845,18 +4313,13 @@
    }
  },
  "condition-layout.product#conditionImageDiscoFrenoRM85": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
  {
    "props": {
      "conditions": [
        {
          "subject": "productId",
          "arguments": {
-<<<<<<< HEAD
-           "id": "2054550"
-=======
            "id": "2049584"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
          }
        }
      ],
@@ -5865,70 +4328,14 @@
     
    }
  },
-<<<<<<< HEAD
- "condition-layout.product#conditionImageDiscoFrenoGN125": 
-=======
  "condition-layout.product#conditionImageDiscoFrenoGD115": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
  {
    "props": {
      "conditions": [
        {
          "subject": "productId",
          "arguments": {
-<<<<<<< HEAD
-           "id": "2000139"
-         }
-       }
-     ],
-     "toBe" : true,
-    "Then": "image#DiscoFreno"
-    
-   }
- },
- "condition-layout.product#conditionImageDiscoFrenoUR110": 
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-           "id": "2011740"
-         }
-       }
-     ],
-     "toBe" : true,
-    "Then": "image#DiscoFreno"
-    
-   }
- },
- "condition-layout.product#conditionImageDiscoFrenoGSX125": 
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-           "id": "2049461"
-         }
-       }
-     ],
-     "toBe" : true,
-    "Then": "image#DiscoFreno"
-    
-   }
- },
- "condition-layout.product#conditionImageDiscoFrenoDR650": 
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-           "id": "2000136"
-=======
            "id": "2011222"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
          }
        }
      ],
@@ -5937,22 +4344,14 @@
     
    }
  },
-<<<<<<< HEAD
- "condition-layout.product#conditionImageDiscoFrenoRM85": 
-=======
  "condition-layout.product#conditionImageDiscoFrenoSV650XA": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
  {
    "props": {
      "conditions": [
        {
          "subject": "productId",
          "arguments": {
-<<<<<<< HEAD
-           "id": "2049584"
-=======
            "id": "2054376"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
          }
        }
      ],
@@ -5961,9 +4360,6 @@
     
    }
  },
-<<<<<<< HEAD
- "condition-layout.product#conditionImageDiscoFrenoGD115": 
-=======
  "condition-layout.product#conditionImageDiscoFrenoINTRUDER": 
  {
    "props": {
@@ -5981,18 +4377,13 @@
    }
  },
  "condition-layout.product#conditionImageDiscoFrenoGSXS750": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
  {
    "props": {
      "conditions": [
        {
          "subject": "productId",
          "arguments": {
-<<<<<<< HEAD
-           "id": "2011222"
-=======
            "id": "2049300"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
          }
        }
      ],
@@ -6000,10 +4391,6 @@
     "Then": "image#DiscoFreno"
     
    }
-<<<<<<< HEAD
- },
- "condition-layout.product#conditionImageDiscoFrenoSV650XA": 
-=======
  },
  "condition-layout.product#conditionImageDiscoFrenoGSX250R": 
  {
@@ -6022,18 +4409,13 @@
    }
  },
  "condition-layout.product#conditionImageDiscoFrenoDRZ50": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
  {
    "props": {
      "conditions": [
        {
          "subject": "productId",
          "arguments": {
-<<<<<<< HEAD
-           "id": "2054376"
-=======
            "id": "2049492"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
          }
        }
      ],
@@ -6042,22 +4424,14 @@
     
    }
  },
-<<<<<<< HEAD
- "condition-layout.product#conditionImageDiscoFrenoINTRUDER": 
-=======
  "condition-layout.product#conditionImageDiscoFrenoGD115EVOLUTION": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
  {
    "props": {
      "conditions": [
        {
          "subject": "productId",
          "arguments": {
-<<<<<<< HEAD
-           "id": "2049444"
-=======
            "id": "2054549"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
          }
        }
      ],
@@ -6066,22 +4440,14 @@
     
    }
  },
-<<<<<<< HEAD
- "condition-layout.product#conditionImageDiscoFrenoGSXS750": 
-=======
  "condition-layout.product#conditionImageDiscoFrenoVSTROM250": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
  {
    "props": {
      "conditions": [
        {
          "subject": "productId",
          "arguments": {
-<<<<<<< HEAD
-           "id": "2049300"
-=======
            "id": "2048798"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
          }
        }
      ],
@@ -6089,2350 +4455,6 @@
     "Then": "image#DiscoFreno"
     
    }
- },
-<<<<<<< HEAD
- "condition-layout.product#conditionImageDiscoFrenoGSX250R": 
-=======
- "condition-layout.product#conditionImageDiscoFrenoKATANA": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-<<<<<<< HEAD
-           "id": "2048797"
-=======
-           "id": "2049621"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
-         }
-       }
-     ],
-     "toBe" : true,
-    "Then": "image#DiscoFreno"
-    
-   }
- },
-<<<<<<< HEAD
- "condition-layout.product#conditionImageDiscoFrenoDRZ50": 
-=======
- "condition-layout.product#conditionImageDiscoFrenoVSTROM650": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-<<<<<<< HEAD
-           "id": "2049492"
-=======
-           "id": "2049038"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
-         }
-       }
-     ],
-     "toBe" : true,
-    "Then": "image#DiscoFreno"
-    
-   }
- },
-<<<<<<< HEAD
- "condition-layout.product#conditionImageDiscoFrenoGD115EVOLUTION": 
-=======
- "condition-layout.product#conditionImageDiscoFrenoVSTROM1050": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-<<<<<<< HEAD
-           "id": "2054549"
-=======
-           "id": "2054006"
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
-         }
-       }
-     ],
-     "toBe" : true,
-    "Then": "image#DiscoFreno"
-    
-   }
- },
-<<<<<<< HEAD
- "condition-layout.product#conditionImageDiscoFrenoVSTROM250": 
-=======
-
-
-
- 
-"image#DiscoFreno": {
-  "props": {
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/disco-del-freno.png",
-    "maxHeight": 80,
-    "maxWidth" : 80
-  }
-},
-"image#Combustible": {
-  "props": {
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/combustible.png",
-    "maxHeight": 80,
-    "maxWidth" : 80
-  }
-},
-//TERCERA CONDICION UK110
-"condition-layout.product#conditionThirdtTextUK110": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2054550"  
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextUK110"
-   
-  }
-},
-"rich-text#ThirdTextUK110":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
-  "textColor": "c-on-emphasis",
-  "font": "t-heading-5",
-  "blockClass": "mensaje3"
-  }
-},
-
-//TERCERA CONDICION UR110
-"condition-layout.product#conditionThirdtTextUR110": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2011740"  
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextUR110"
-   
-  }
-},
-"rich-text#ThirdTextUR110":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
-  "textColor": "c-on-emphasis",
-  "font": "t-heading-5",
-  "blockClass": "mensaje3"
-  }
-},
-//TERCERA CONDICION GN125
-"condition-layout.product#conditionThirdtTextGN125": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2000139"  
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextGN125"
-   
-  }
-},
-"rich-text#ThirdTextGN125":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
-  "textColor": "c-on-emphasis",
-  "font": "t-heading-5",
-  "blockClass": "mensaje3"
-  }
-},
-//TERCERA CONDICION GSX1250
-"condition-layout.product#conditionThirdtTextGSX1250": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2049461"  
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextGSX1250"
-   
-  }
-},
-"rich-text#ThirdTextGSX1250":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
-  "textColor": "c-on-emphasis",
-  "font": "t-heading-5",
-  "blockClass": "mensaje3"
-  }
-},
-//TERCERA CONDICION DR650
-"condition-layout.product#conditionThirdtTextDR650": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2000136"  
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextDR650"
-   
-  }
-},
-"rich-text#ThirdTextDR650":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
-  "textColor": "c-on-emphasis",
-  "font": "t-heading-5",
-  "blockClass": "mensaje3"
-  }
-},
-
-
-//TERCERA CONDICION TEXTO RM85
-"condition-layout.product#conditionThirdtTextRM85": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2049584"  
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextRM85"
-   
-  }
-},
-"rich-text#ThirdTextRM85":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
-  "textColor": "c-on-emphasis",
-  "font": "t-heading-5",
-  "blockClass": "mensaje3"
-  }
-},
-
-
-//TERCERA CONDICION TEXTO GD 115 
-"condition-layout.product#conditionThirdtTextGD115": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2011222"  
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextGD115"
-   
-  }
-},
-"rich-text#ThirdTextGD115":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**tambor / Tambor  - Frenos (Delantero / Trasero)**\nFrenos de confianza \nrodada en cualquier sitio",
-  "textColor": "c-on-emphasis",
-  "font": "t-heading-5",
-  "blockClass": "mensaje3"
-  }
-},
-
-//TERCERA CONDICION TEXTO SV650XA
-"condition-layout.product#conditionThirdtTextSV650XA": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2054376"  
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextSV650XA"
-   
-  }
-},
-"rich-text#ThirdTextSV650XA":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**ABS/ ABS**\nFrenos de confianza \nrodada en cualquier sitio",
-  "textColor": "c-on-emphasis",
-  "font": "t-heading-5",
-  "blockClass": "mensaje3"
-  }
-},
-
-
-//TERCERA CONDICION TEXTO GSXS750
-"condition-layout.product#conditionThirdtTextIntruder": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2049444"  
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextIntruder"
-   
-  }
-},
-"rich-text#ThirdTextIntruder":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
-  "textColor": "c-on-emphasis",
-  "font": "t-heading-5",
-  "blockClass": "mensaje3"
-  }
-},
-
-
-//TERCERA CONDICION TEXTO GSXS750
-"condition-layout.product#conditionThirdtTextGSXS750": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2049300"  
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextGSXS750"
-   
-  }
-},
-"rich-text#ThirdTextGSXS750":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
-  "textColor": "c-on-emphasis",
-  "font": "t-heading-5",
-  "blockClass": "mensaje3"
-  }
-},
-
-//TERCERA CONDICION TEXTO GSX250R
-"condition-layout.product#conditionThirdtTextGSX25OR": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2048797"  
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextGSX25OR"
-   
-  }
-},
-"rich-text#ThirdTextGSX25OR":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
-  "textColor": "c-on-emphasis",
-  "font": "t-heading-5",
-  "blockClass": "mensaje3"
-  }
-},
-
-//TERCERA CONDICION TEXTO DRZ50
-"condition-layout.product#conditionThirdtTextDRZ50": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2049492"  
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextDRZ50"
-   
-  }
-},
-"rich-text#ThirdTextDRZ50":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
-  "textColor": "c-on-emphasis",
-  "font": "t-heading-5",
-  "blockClass": "mensaje3"
-  }
-},
-
-//TERCERA CONDICION TEXTO GD 115 EVOLUTION
-"condition-layout.product#conditionThirdtTextGD115Evolution": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2054549"  
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextGD115Evolution"
-   
-  }
-},
-"rich-text#ThirdTextGD115Evolution":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**tambor / Tambor  - Frenos (Delantero / Trasero)**\nFrenos de confianza \nrodada en cualquier sitio",
-  "textColor": "c-on-emphasis",
-  "font": "t-heading-5",
-  "blockClass": "mensaje3"
-  }
-},
-
-//TERCERA CONDICION TEXTO V STROM 250
-"condition-layout.product#conditionThirdtTextvstrom": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2048798" // v - strom dl250 
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextVstrom"
-   
-  }
-},
-"rich-text#ThirdTextVstrom":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**Disco / Disco  - Frenos (Delantero / Trasero)**\nFrenos de confianza \nrodada en cualquier sitio",
-  "textColor": "c-on-emphasis",
-  "font": "t-heading-5",
-  "blockClass": "mensaje3"
-  }
-},
-//TERCERA CONDICION TEXTO KATANA
-"condition-layout.product#conditionThirdTextKatana": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2049621" // v - strom dl250 
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextKatana"
-   
-  }
-},
-"rich-text#ThirdTextKatana":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**ABS / ABS  - Frenos (Delantero / Trasero)**\nFrenos de confianza \nrodada en cualquier sitio",
-  "textColor": "c-on-emphasis",
-  "font": "t-heading-5",
-  "blockClass": "mensaje3"
-  }
-},
-
-
-//TERCERA CONDICION TEXTO V STROM 650
-"condition-layout.product#conditionThirdTextVstrom650": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2049621" // v - strom dl250 
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextVstrom650"
-   
-  }
-},
-"rich-text#ThirdTextVstrom650":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**ABS / ABS  - Frenos (Delantero / Trasero)**\nFrenos de confianza \nrodada en cualquier sitio",
-  "textColor": "c-on-emphasis",
-  "font": "t-heading-5",
-  "blockClass": "mensaje3"
-  }
-},
-
-//TERCERA CONDICION TEXTO V STROM 1050
-"condition-layout.product#conditionThirdTextVstrom1050": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2054006" // v - strom 1050
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextVstrom1050"
-   
-  }
-},
-"rich-text#ThirdTextVstrom1050":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "**ABS / ABS  - Frenos (Delantero / Trasero)**\nFrenos de confianza \nrodada en cualquier sitio",
-  "textColor": "c-on-emphasis",
-  "font": "t-heading-5",
-  "blockClass": "mensaje3"
-  }
-},
-
-//MOTORES FUERA DE BORDA
-"condition-layout.product#conditionThirdTextDF175ATX": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2067061"
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextDF175ATX"
-   
-  }
-},
-"rich-text#ThirdTextDF175ATX":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Combustible Inyección Electrónica Secuencial**\nCon una larga duración para que nunca se apague tu motor",
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-"condition-layout.product#conditionThirdTextDF200ZX": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2058125"
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextDF200ZX"
-   
-  }
-},
-"rich-text#ThirdTextDF200ZX":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Combustible Inyección Electrónica Secuencial Multipunto**\nCon una larga duración para que nunca se apague tu motor",
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-"condition-layout.product#conditionThirdTextDF20AS": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2052764"
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#SecondTextDF20AS"
-   
-  }
-},
-"rich-text#ThirdTextDF20AS":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Combustible Inyección**\nCon una larga duración para que nunca se apague tu motor",
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-"condition-layout.product#conditionThirdTextDF150ZX": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2052763"
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#SecondTextDF150ZX"
-   
-  }
-},
-"rich-text#ThirdTextDF150ZX":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Combustible Inyección electrónica secuencial multipunto**\nCon una larga duración para que nunca se apague tu motor",
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-"condition-layout.product#conditionThirdTextDF150TX": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2052762"
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextDF150TX"
-   
-  }
-},
-"rich-text#ThirdTextDF150TX":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Combustible Inyección electrónica secuencial multipunto**\nCon una larga duración para que nunca se apague tu motor",
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-
-
-"condition-layout.product#conditionThirdTextDF30AS":{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2052760"
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextDF30AS"
-   
-  }
-},
-"rich-text#ThirdTextDF30AS":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Combustible Inyección**\nCon una larga duración para que nunca se apague tu motor",
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-
-"condition-layout.product#conditionThirdTextDF30AL":{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2052759"
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextDF30AL"
-   
-  }
-},
-"rich-text#ThirdTextDF30AL":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Combustible  Inyección**\nCon una larga duración para que nunca se apague tu motor",
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-"condition-layout.product#conditionThirdTextDT15AL":{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2052757"
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextDT15AL"
-   
-  }
-},
-"rich-text#ThirdTextDT15AL":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Combustible  Carburador**\nCon una larga duración para que nunca se apague tu motor",
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-"condition-layout.product#conditionThirdTextDF9.9AS":{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2052756"
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextDF9.9AS"
-   
-  }
-},
-"rich-text#ThirdTextDF9.9AS":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Combustible Carburador**\nCon una larga duración para que nunca se apague tu motor",
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-
-"condition-layout.product#conditionThirdTextDF6AS":{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2052755"
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextDF6AS"
-   
-  }
-},
-"rich-text#ThirdTextDF6AS":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Combustible Carburador**\nCon una larga duración para que nunca se apague tu motor",
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-"condition-layout.product#conditionThirdTextDT30L":{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2052758"
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextDT30L"
-   
-  }
-},
-"rich-text#ThirdTextDT30L":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Combustible  Carburador**\nCon una larga duración para que nunca se apague tu motor",
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-"condition-layout.product#conditionThirdTextDF175AZX":{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2054551"
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "rich-text#ThirdTextDF175AZX"
-   
-  }
-},
-"rich-text#ThirdTextDF175AZX":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "**Combustible Inyección Electrónica Secuencial Multipunto**\nCon una larga duración para que nunca se apague tu motor",
- "textColor": "c-on-emphasis",
- "font": "t-heading-5",
- "blockClass": "mensaje2"
- }
-},
-
- //==============================================================================================================================
- //********************************************* FIN CARACTERISTICAS DE LA MOTO*******************************************//
- //==============================================================================================================================
-
-
-
-
-
-  //==============================================================================================================================
- //*********************************************PARTES DE LA MOTO EN FOTO *******************************************//
- //==============================================================================================================================
-
- "condition-layout.product#conditionForTheGaleryVstrom250":
- {
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2048798" 
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then": "flex-layout.row#containforTheGalleryVstrom250"
-   
-  }
-},
-"flex-layout.row#containforTheGalleryVstrom250":{
-  "props":{
-    "blockClass": "containforTheVideoCustom",
-    
-    "fullWidth" : true
-  },
-  "children":[
-    "image#fotoVstrom250-1",
-    "image#fotoVstrom250-2",
-    "image#fotoVstrom250-3",
-    "image#fotoVstrom250-4"
-  ]
-},
-"image#fotoVstrom250-1": {
-  "props": {
-    
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/GaleriaVStrom250-1.jpg"
-    
-  }
-},
-"image#fotoVstrom250-2": {
-  "props": {
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/GaleriaVStrom250-2.jpg"
-  
-  }
-},
-"image#fotoVstrom250-3": {
-  "props": {
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/GaleriaVStrom250-3.jpg"
-    
-  }
-},
-"image#fotoVstrom250-4": {
-  "props": {
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/GaleriaVStrom250-4.png"
-   
-  }
-},
-
-
-
-
-
-
-   //==============================================================================================================================
- //*********************************************FIN PARTES DE LA MOTO EN FOTO *******************************************//
- //==============================================================================================================================
-
-
-
-
-
-   //==============================================================================================================================
- //*********************************************TEXTO CARACTERISTTICA ESPECIALES*******************************************//
- //==============================================================================================================================
-
- "flex-layout.row#caracteristicasEspecialesText" : {
-  "props": {
-    "blockClass": "caracteristicasEspecialesText",
-    "fullWidth" : true
-  },
-    "children" :["rich-text#textoCaracterisitcasEspeciales"]
-  },
-  "rich-text#textoCaracterisitcasEspeciales":{
-    "props":{
-      "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-    "text": "**CARACTERÍSTICAS ESPECIALES**",
-    "blockClass": "textoCaracterisitcasEspeciales"
-    }
-  },
-   //==============================================================================================================================
- //*********************************************FIN DE TEXTO CARACTERISTTICA ESPECIALES*******************************************//
- //==============================================================================================================================
-
-  
- //==============================================================================================================================
- //*********************************************DESCRIPCION DE LA MOTO EN FORMA DE REVISTA*******************************************//
- //==============================================================================================================================
-
-//CARACTERISITCA PARA LOS MOTORES FUERA DE BORDA
-"condition-layout.product#conditionRevistaDF175ATX": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2067061"
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
-   
-  }
-},
-"condition-layout.product#conditionRevistaDF200ZX": 
-{
- "props": {
-   "conditions": [
-     {
-       "subject": "productId",
-       "arguments": {
-         "id": "2058125"
-       }
-     }
-   ],
-   "toBe" : true,
-  "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
-  
- }
-},
-"condition-layout.product#conditionRevistaDF20AS": 
-{
- "props": {
-   "conditions": [
-     {
-       "subject": "productId",
-       "arguments": {
-         "id": "2052764"
-       }
-     }
-   ],
-   "toBe" : true,
-   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
-   
- }
-},
-"condition-layout.product#conditionRevistaDF150ZX": 
-{
- "props": {
-   "conditions": [
-     {
-       "subject": "productId",
-       "arguments": {
-         "id": "2052763"
-       }
-     }
-   ],
-   "toBe" : true,
-   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
-   
- }
-},
-"condition-layout.product#conditionRevistaDF150TX": 
-{
- "props": {
-   "conditions": [
-     {
-       "subject": "productId",
-       "arguments": {
-         "id": "2052762"
-       }
-     }
-   ],
-   "toBe" : true,
-   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
-   
- }
-},
-"condition-layout.product#conditionRevistaDF30AS": 
-{
- "props": {
-   "conditions": [
-     {
-       "subject": "productId",
-       "arguments": {
-         "id": "2052760"
-       }
-     }
-   ],
-   "toBe" : true,
-   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
-   
- }
-},
-"condition-layout.product#conditionRevistaDF30AL": 
-{
- "props": {
-   "conditions": [
-     {
-       "subject": "productId",
-       "arguments": {
-         "id": "2052759"
-       }
-     }
-   ],
-   "toBe" : true,
-   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
-   
- }
-},
-"condition-layout.product#conditionRevistaDT15AL": 
-{
- "props": {
-   "conditions": [
-     {
-       "subject": "productId",
-       "arguments": {
-         "id": "2052757"
-       }
-     }
-   ],
-   "toBe" : true,
-   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
-   
- }
-},
-"condition-layout.product#conditionRevistaDF9.9AS": 
-{
- "props": {
-   "conditions": [
-     {
-       "subject": "productId",
-       "arguments": {
-         "id": "2052756"
-       }
-     }
-   ],
-   "toBe" : true,
-   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
-   
- }
-},
-"condition-layout.product#conditionRevistaDF6AS": 
-{
- "props": {
-   "conditions": [
-     {
-       "subject": "productId",
-       "arguments": {
-         "id": "2052755"
-       }
-     }
-   ],
-   "toBe" : true,
-   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
-   
- }
-},
-"condition-layout.product#conditionRevistaDT30L": 
-{
- "props": {
-   "conditions": [
-     {
-       "subject": "productId",
-       "arguments": {
-         "id": "2052758"
-       }
-     }
-   ],
-   "toBe" : true,
-   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
-   
- }
-},
-"condition-layout.product#conditionRevistaDF175AZX": 
-{
- "props": {
-   "conditions": [
-     {
-       "subject": "productId",
-       "arguments": {
-         "id": "2054551"
-       }
-     }
-   ],
-   "toBe" : true,
-   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
-   
- }
-},
-//
-  "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda": {
-    "children": ["slider-layout#MotoresFueraBordaCaracteristica"],
-    "props": {
-      "width" : "100%",
-      "height":"100%",
-      "images": [
-        {
-          "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/DF1.png",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/DF1.png"
-        },
-        {
-          "width" : "100%",
-          
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/DF2.png",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/DF2.png"
-        },
-        {
-          "width" : "100%",
-         
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/DF3.png",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/DF3.png"
-        },
-        {
-          "width" : "100%",
-         
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/DF4.png",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/DF4.png"
-        }
-        
-      ]
-    }
-  },
-  "slider-layout#MotoresFueraBordaCaracteristica": {
-    "props": {
-      "blockClass": "sliderVLSitems",
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly"
-      
-    }
-  },
-//FIN DE CARACTERISTICA PARA LOS MOTORES FUERA DE BORDA
-
-
- //GSX125
-"condition-layout.product#conditionRevistaGSX125": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2049461" 
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "flex-layout.row#contenedorDivParaImagenRevistaGSX125"
-   
-  }
-},
-
-"flex-layout.row#contenedorDivParaImagenRevistaGSX125" : {
- "props": {
-   "blockClass": "contenedorDivParaImagenRevista",
-   "fullWidth":true,
-   "colGap": 0,
-   "rowGap": 0,
-   "marginTop": 0,
-   "marginBottom": 0,
-   "paddingTop": 0,
-   "paddingBottom": 0
- },
- "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaGSX125"]
-},
-
-"flex-layout.col#contenedorColumnaDivParaImagenRevistaGSX125" : {
- "props": {
-   "blockClass": "contenedorColumnaDivParaImagenRevista",
-   "preventVerticalStretch": true,
-   "rowGap": 0,
-   "hasMoreThanOne" : true
- },
- "children":["flex-layout.row#divParaImagenRevistaGSX125","flex-layout.row#divParaImagenRevista2GSX125","flex-layout.row#divParaImagenRevista3GSX125"]
-},
-
-"flex-layout.row#divParaImagenRevistaGSX125":{
- "props": {
-   "blockClass": "divParaImagenRevista",
-   "colGap": 0,
-   "rowGap": 0,
-   "marginTop": 0,
-   "marginBottom": 0,
-   "paddingTop": 0,
-   "paddingBottom": 0
- },
- "children":["image#motoGSX125","rich-text#descripcionDeFoto1GSX125"]
-},
-"image#motoGSX125": {
- "props": {
-   "blockClass": "motovlStrom",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/GSX125-1.png"
-   
- }
-
-},
-"rich-text#descripcionDeFoto1GSX125":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "## GSX125\nDiseño deportivo que no pasara desapercibido en las calles.",
- "blockClass": "descripcionDeFoto"
- }
-},
-"flex-layout.row#divParaImagenRevista2GSX125":{
- "props": {
-   "blockClass": "divParaImagenRevista2",
-   "colGap": 0,
-   "rowGap": 0,
-   "marginTop": 0,
-   "marginBottom": 0,
-   "paddingTop": 0,
-   "paddingBottom": 0
- },
- "children":["rich-text#descripcionDeFoto2GSX125","image#moto2GSX125"]
-},
-"image#moto2GSX125": {
- "props": {
-   "blockClass": "motovlStrom2",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/GSX125-2.jpg"
- }
-
-},
-"rich-text#descripcionDeFoto2GSX125":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "## UNA MOTOCICLETA DISEÑADA PARA LA DIVERSIÓN Y EMOCIÓN\nRespuesta acescente y lineal del propulsor de 155cc, muy bajo en vibraciones.",
- "blockClass": "descripcionDeFoto"
- }
-},
-"flex-layout.row#divParaImagenRevista3GSX125":{
- "props": {
-   "blockClass": "divParaImagenRevista3",
-   "colGap": 0,
-   "rowGap": 0,
-   "marginTop": 0,
-   "marginBottom": 0,
-   "paddingTop": 0,
-   "paddingBottom": 0
- },
- "children":["image#moto3GSX125","rich-text#descripcionDeFoto3GSX125"]
-},
-"image#moto3GSX125": {
- "props": {
-   "blockClass": "motovlStrom3",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/GSX125-3.jpg"
-  
- }
-
-},
-"rich-text#descripcionDeFoto3GSX125":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "## DISFRUTA DE UNA MOTO DEPORTIVA GRACIAS A SU FARO DELANTERO NAKED, ALETAS LATERALES QUE ROBUSTECEN Y AYUDAN A TENER UNA MEJOR VENTILACIÓN DE MOTOR FRENO DELANTERO DE DISCO PARA MAYOR SEGURIDAD AL FRENAR\n",
- "blockClass": "descripcionDeFoto"
- }
-},
-
-
- //SV650XA
-"condition-layout.product#conditionRevistaSV650XA": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2054376" 
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "flex-layout.row#contenedorDivParaImagenRevistaSV650XA"
-   
-  }
-},
-
-"flex-layout.row#contenedorDivParaImagenRevistaSV650XA" : {
- "props": {
-   "blockClass": "contenedorDivParaImagenRevista",
-   "fullWidth":true,
-   "colGap": 0,
-   "rowGap": 0,
-   "marginTop": 0,
-   "marginBottom": 0,
-   "paddingTop": 0,
-   "paddingBottom": 0
- },
- "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaSV650XA"]
-},
-
-"flex-layout.col#contenedorColumnaDivParaImagenRevistaSV650XA" : {
- "props": {
-   "blockClass": "contenedorColumnaDivParaImagenRevista",
-   "preventVerticalStretch": true,
-   "rowGap": 0,
-   "hasMoreThanOne" : true
- },
- "children":["flex-layout.row#divParaImagenRevistaSV650XA","flex-layout.row#divParaImagenRevista2SV650XA","flex-layout.row#divParaImagenRevista3SV650XA"]
-},
-
-"flex-layout.row#divParaImagenRevistaSV650XA":{
- "props": {
-   "blockClass": "divParaImagenRevista",
-   "colGap": 0,
-   "rowGap": 0,
-   "marginTop": 0,
-   "marginBottom": 0,
-   "paddingTop": 0,
-   "paddingBottom": 0
- },
- "children":["image#motoSV650XA","rich-text#descripcionDeFoto1SV650XA"]
-},
-"image#motoSV650XA": {
- "props": {
-   "blockClass": "motovlStrom",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/SV650XA-1.png"
-   
- }
-
-},
-"rich-text#descripcionDeFoto1SV650XA":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "## GL150\nTiene el aspecto del cruiser con un sillín más bajo, así mismo la horquilla cuenta con mayor diámetro en la barra y visualmente la inclinación hacia adelante genera más avance.",
- "blockClass": "descripcionDeFoto"
- }
-},
-"flex-layout.row#divParaImagenRevista2SV650XA":{
- "props": {
-   "blockClass": "divParaImagenRevista2",
-   "colGap": 0,
-   "rowGap": 0,
-   "marginTop": 0,
-   "marginBottom": 0,
-   "paddingTop": 0,
-   "paddingBottom": 0
- },
- "children":["rich-text#descripcionDeFoto2SV650XA","image#moto2SV650XA"]
-},
-"image#moto2SV650XA": {
- "props": {
-   "blockClass": "motovlStrom2",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/SV650XA-1.png"
- }
-
-},
-"rich-text#descripcionDeFoto2SV650XA":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "## ABS ADELANTE Y SISTEMA DE INYECCIÓN ELECTRÓNICA\nRespuesta acescente y lineal del propulsor de 155cc, muy bajo en vibraciones.",
- "blockClass": "descripcionDeFoto"
- }
-},
-"flex-layout.row#divParaImagenRevista3SV650XA":{
- "props": {
-   "blockClass": "divParaImagenRevista3",
-   "colGap": 0,
-   "rowGap": 0,
-   "marginTop": 0,
-   "marginBottom": 0,
-   "paddingTop": 0,
-   "paddingBottom": 0
- },
- "children":["image#moto3SV650XA","rich-text#descripcionDeFoto3SV650XA"]
-},
-"image#moto3SV650XA": {
- "props": {
-   "blockClass": "motovlStrom3",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/SV650XA-3.png"
-  
- }
-
-},
-"rich-text#descripcionDeFoto3SV650XA":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "## SUAVE EN CONDUCCIÓN Y EN PASO POR CURVA\nDiseño robusto e impactante, que le da apariencia de ser de mayor cubicaje.",
- "blockClass": "descripcionDeFoto"
- }
-},
-
-
-//INTRUDER
-"condition-layout.product#conditionRevistaIntruder": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2049444" 
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "flex-layout.row#contenedorDivParaImagenRevistaIntruder"
-   
-  }
-},
-
-"flex-layout.row#contenedorDivParaImagenRevistaIntruder" : {
- "props": {
-   "blockClass": "contenedorDivParaImagenRevista",
-   "fullWidth":true,
-   "colGap": 0,
-   "rowGap": 0,
-   "marginTop": 0,
-   "marginBottom": 0,
-   "paddingTop": 0,
-   "paddingBottom": 0
- },
- "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaIntruder"]
-},
-
-"flex-layout.col#contenedorColumnaDivParaImagenRevistaIntruder" : {
- "props": {
-   "blockClass": "contenedorColumnaDivParaImagenRevista",
-   "preventVerticalStretch": true,
-   "rowGap": 0,
-   "hasMoreThanOne" : true
- },
- "children":["flex-layout.row#divParaImagenRevistaIntruder","flex-layout.row#divParaImagenRevista2Intruder","flex-layout.row#divParaImagenRevista3Intruder"]
-},
-
-"flex-layout.row#divParaImagenRevistaIntruder":{
- "props": {
-   "blockClass": "divParaImagenRevista",
-   "colGap": 0,
-   "rowGap": 0,
-   "marginTop": 0,
-   "marginBottom": 0,
-   "paddingTop": 0,
-   "paddingBottom": 0
- },
- "children":["image#motoIntruder","rich-text#descripcionDeFoto1Intruder"]
-},
-"image#motoIntruder": {
- "props": {
-   "blockClass": "motovlStrom",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/intruder1.png"
-   
- }
-
-},
-"rich-text#descripcionDeFoto1Intruder":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "## GL150\nTiene el aspecto del cruiser con un sillín más bajo, así mismo la horquilla cuenta con mayor diámetro en la barra y visualmente la inclinación hacia adelante genera más avance.",
- "blockClass": "descripcionDeFoto"
- }
-},
-"flex-layout.row#divParaImagenRevista2Intruder":{
- "props": {
-   "blockClass": "divParaImagenRevista2",
-   "colGap": 0,
-   "rowGap": 0,
-   "marginTop": 0,
-   "marginBottom": 0,
-   "paddingTop": 0,
-   "paddingBottom": 0
- },
- "children":["rich-text#descripcionDeFoto2Intruder","image#moto2Intruder"]
-},
-"image#moto2Intruder": {
- "props": {
-   "blockClass": "motovlStrom2",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/intruder2.jpg"
- }
-
-},
-"rich-text#descripcionDeFoto2Intruder":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "## ABS ADELANTE Y SISTEMA DE INYECCIÓN ELECTRÓNICA\nRespuesta acescente y lineal del propulsor de 155cc, muy bajo en vibraciones.",
- "blockClass": "descripcionDeFoto"
- }
-},
-"flex-layout.row#divParaImagenRevista3Intruder":{
- "props": {
-   "blockClass": "divParaImagenRevista3",
-   "colGap": 0,
-   "rowGap": 0,
-   "marginTop": 0,
-   "marginBottom": 0,
-   "paddingTop": 0,
-   "paddingBottom": 0
- },
- "children":["image#moto3Intruder","rich-text#descripcionDeFoto3Intruder"]
-},
-"image#moto3Intruder": {
- "props": {
-   "blockClass": "motovlStrom3",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/intruder1.png"
-  
- }
-
-},
-"rich-text#descripcionDeFoto3Intruder":{
- "props":{
-   "textAlignment": "CENTER",
- "textPosition": "CENTER",
- "text": "## SUAVE EN CONDUCCIÓN Y EN PASO POR CURVA\nDiseño robusto e impactante, que le da apariencia de ser de mayor cubicaje.",
- "blockClass": "descripcionDeFoto"
- }
-},
-
-
-
-
- //UK110
- "condition-layout.product#conditionRevistaUK110": 
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-           "id": "2054550" 
-         }
-       }
-     ],
-     "toBe" : true,
-    "Then":  "flex-layout.row#contenedorDivParaImagenRevistaUK110"
-    
-   }
- },
- 
- "flex-layout.row#contenedorDivParaImagenRevistaUK110" : {
-  "props": {
-    "blockClass": "contenedorDivParaImagenRevista",
-    "fullWidth":true,
-    "colGap": 0,
-    "rowGap": 0,
-    "marginTop": 0,
-    "marginBottom": 0,
-    "paddingTop": 0,
-    "paddingBottom": 0
-  },
-  "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaUK110"]
-},
-
-"flex-layout.col#contenedorColumnaDivParaImagenRevistaUK110" : {
-  "props": {
-    "blockClass": "contenedorColumnaDivParaImagenRevista",
-    "preventVerticalStretch": true,
-    "rowGap": 0,
-    "hasMoreThanOne" : true
-  },
-  "children":["flex-layout.row#divParaImagenRevistaUK110","flex-layout.row#divParaImagenRevista2UK110","flex-layout.row#divParaImagenRevista3UK110"]
-},
-
-"flex-layout.row#divParaImagenRevistaUK110":{
-  "props": {
-    "blockClass": "divParaImagenRevista",
-    "colGap": 0,
-    "rowGap": 0,
-    "marginTop": 0,
-    "marginBottom": 0,
-    "paddingTop": 0,
-    "paddingBottom": 0
-  },
-  "children":["image#motoUK110","rich-text#descripcionDeFoto1UK110"]
-},
-"image#motoUK110": {
-  "props": {
-    "blockClass": "motovlStrom",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/UK110-1.jpg"
-    
-  }
- 
-},
-"rich-text#descripcionDeFoto1UK110":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "## UK110\nConquista la ciudad  con agilidad.",
-  "blockClass": "descripcionDeFoto"
-  }
-},
-"flex-layout.row#divParaImagenRevista2UK110":{
-  "props": {
-    "blockClass": "divParaImagenRevista2",
-    "colGap": 0,
-    "rowGap": 0,
-    "marginTop": 0,
-    "marginBottom": 0,
-    "paddingTop": 0,
-    "paddingBottom": 0
-  },
-  "children":["rich-text#descripcionDeFoto2UK110","image#moto2UK110"]
-},
-"image#moto2UK110": {
-  "props": {
-    "blockClass": "motovlStrom2",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/UK110-2.jpg"
-  }
- 
-},
-"rich-text#descripcionDeFoto2UK110":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "## COMPACTA Y ATRACTIVA\nSu diseño innovador  permite una apariencia atractiva  y funcional, espacio amplio para guardar  tu casco y otros elementos bajo el asiento.",
-  "blockClass": "descripcionDeFoto"
-  }
-},
-"flex-layout.row#divParaImagenRevista3UK110":{
-  "props": {
-    "blockClass": "divParaImagenRevista3",
-    "colGap": 0,
-    "rowGap": 0,
-    "marginTop": 0,
-    "marginBottom": 0,
-    "paddingTop": 0,
-    "paddingBottom": 0
-  },
-  "children":["image#moto3UK110","rich-text#descripcionDeFoto3UK110"]
-},
-"image#moto3UK110": {
-  "props": {
-    "blockClass": "motovlStrom3",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/UK110-1.jpg"
-   
-  }
- 
-},
-"rich-text#descripcionDeFoto3UK110":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "## SISTEMA F1 INYECCIÓN\nSistema innovador de admisión de combustible, lo que nos permite ahorrar mas y contaminar menos , se rige a normativas euro 4.",
-  "blockClass": "descripcionDeFoto"
-  }
-},
-
-
-
- //VSTROM DL250
- "condition-layout.product#conditionRevistavstrom": 
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-           "id": "2048798" // v - strom dl250 
-         }
-       }
-     ],
-     "toBe" : true,
-    "Then":  "flex-layout.row#contenedorDivParaImagenRevistaVSTROMDL250"
-    
-   }
- },
- 
- "flex-layout.row#contenedorDivParaImagenRevistaVSTROMDL250" : {
-  "props": {
-    "blockClass": "contenedorDivParaImagenRevista",
-    "fullWidth":true,
-    "colGap": 0,
-    "rowGap": 0,
-    "marginTop": 0,
-    "marginBottom": 0,
-    "paddingTop": 0,
-    "paddingBottom": 0
-  },
-  "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaVSTROM"]
-},
-
-"flex-layout.col#contenedorColumnaDivParaImagenRevistaVSTROM" : {
-  "props": {
-    "blockClass": "contenedorColumnaDivParaImagenRevista",
-    "preventVerticalStretch": true,
-    "rowGap": 0,
-    "hasMoreThanOne" : true
-  },
-  "children":["flex-layout.row#divParaImagenRevistaVSTROMDL250","flex-layout.row#divParaImagenRevista2VSTROMDL250","flex-layout.row#divParaImagenRevista3VSTROMDL250"]
-},
-
-"flex-layout.row#divParaImagenRevistaVSTROMDL250":{
-  "props": {
-    "blockClass": "divParaImagenRevista",
-    "colGap": 0,
-    "rowGap": 0,
-    "marginTop": 0,
-    "marginBottom": 0,
-    "paddingTop": 0,
-    "paddingBottom": 0
-  },
-  "children":["image#motovlStrom","rich-text#descripcionDeFoto1VSTROMDL250"]
-},
-"image#motovlStrom": {
-  "props": {
-    "blockClass": "motovlStrom",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/motovlstrom250.jpg"
-    
-  }
- 
-},
-"rich-text#descripcionDeFoto1VSTROMDL250":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "## DISEÑADA PARA DARTE POTENCIA Y AVENTURA\nLa máquina perfecta para el motociclismo de turismo, ahora con sistema de frenos ABS para mayor seguridad. V-Strom 250 ABS entrega un desempeño impecable gracias a su tecnología japonesa que hará que tengas mayor potencia con menor consumo de combustible.",
-  "blockClass": "descripcionDeFoto"
-  }
-},
-"flex-layout.row#divParaImagenRevista2VSTROMDL250":{
-  "props": {
-    "blockClass": "divParaImagenRevista2",
-    "colGap": 0,
-    "rowGap": 0,
-    "marginTop": 0,
-    "marginBottom": 0,
-    "paddingTop": 0,
-    "paddingBottom": 0
-  },
-  "children":["rich-text#descripcionDeFoto2VSTROMDL250","image#motovlStrom2"]
-},
-"image#motovlStrom2": {
-  "props": {
-    "blockClass": "motovlStrom2",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/arranqueVLSTROM-DL-250.jpg"
-  }
- 
-},
-"rich-text#descripcionDeFoto2VSTROMDL250":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "## LLEGAR MÁS LEJOS ES PODER DETENERTE EN EL MOMENTO PRECISO\nRodar en una V-Strom 250 ABS es contar con la confianza de tener lo necesario para tu seguridad. Con frenos de disco de pétalo no solo le das un toque elegante y moderno al conjunto de llantas, sobre todo incrementas la seguridad, pues te proporcionan mayor poder de frenado y disipación de calor más veloz, lo que mantiene las pastillas en las condiciones óptimas.",
-  "blockClass": "descripcionDeFoto"
-  }
-},
-"flex-layout.row#divParaImagenRevista3VSTROMDL250":{
-  "props": {
-    "blockClass": "divParaImagenRevista3",
-    "colGap": 0,
-    "rowGap": 0,
-    "marginTop": 0,
-    "marginBottom": 0,
-    "paddingTop": 0,
-    "paddingBottom": 0
-  },
-  "children":["image#motovlStrom3","rich-text#descripcionDeFoto3VSTROMDL250"]
-},
-"image#motovlStrom3": {
-  "props": {
-    "blockClass": "motovlStrom3",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/Suzuki%20MOTORDL%20250%202017-04.jpg"
-   
-  }
- 
-},
-"rich-text#descripcionDeFoto3VSTROMDL250":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "## EL LÍMITIE EN CADA RODADA LO PONES TÚ, NO EL CALOR\nSi el motor de tu moto se calienta, deja de funcionar bien y hasta se apaga. Por eso, equipamos la V-Strom 250 ABS con el Sistema de Enfriamiento por Líquido –más eficiente que enfriarla con aire–, para asegurarte de que la temperatura va a estar bajo control y tú sigas viviendo la mejor experiencia de tu vida todos los días.",
-  "blockClass": "descripcionDeFoto"
-  }
-},
-
- //KATANA
-"condition-layout.product#conditionRevistaKatana": 
-{
-  "props": {
-    "conditions": [
-      {
-        "subject": "productId",
-        "arguments": {
-          "id": "2049621" // v KATANA
-        }
-      }
-    ],
-    "toBe" : true,
-   "Then":  "flex-layout.row#contenedorDivParaImagenRevistaKatana" 
-   
-  }
-},
-"flex-layout.row#contenedorDivParaImagenRevistaKatana" : {
-  "props": {
-    "blockClass": "contenedorDivParaImagenRevista",
-    "fullWidth":true,
-    "colGap": 0,
-    "rowGap": 0,
-    "marginTop": 0,
-    "marginBottom": 0,
-    "paddingTop": 0,
-    "paddingBottom": 0
-  },
-  "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaKatana"]
-},
-
-
-"flex-layout.col#contenedorColumnaDivParaImagenRevistaKatana" : {
-  "props": {
-    "blockClass": "contenedorColumnaDivParaImagenRevista",
-    "preventVerticalStretch": true,
-    "rowGap": 0,
-    "hasMoreThanOne" : true
-  },
-  "children":["flex-layout.row#divParaImagenRevistaKatana","flex-layout.row#divParaImagenRevista2Katana","flex-layout.row#divParaImagenRevista3Katana"]
-},
-
-"flex-layout.row#divParaImagenRevistaKatana":{
-  "props": {
-    "blockClass": "divParaImagenRevista",
-    "colGap": 0,
-    "rowGap": 0,
-    "marginTop": 0,
-    "marginBottom": 0,
-    "paddingTop": 0,
-    "paddingBottom": 0
-  },
-  "children":["image#motoKatana","rich-text#descripcionDeFoto1Katana"]
-},
-"image#motoKatana": {
-  "props": {
-    "blockClass": "motovlStrom",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/KatanaDiagonal.jpg"
-    
-  }
- 
-},
-"rich-text#descripcionDeFoto1Katana":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "## DISEÑADA PARA DARTE POTENCIA Y AVENTURA\nLa máquina perfecta para el motociclismo de turismo, ahora con sistema de frenos ABS para mayor seguridad. V-Strom 250 ABS entrega un desempeño impecable gracias a su tecnología japonesa que hará que tengas mayor potencia con menor consumo de combustible.",
-  "blockClass": "descripcionDeFoto"
-  }
-},
-"flex-layout.row#divParaImagenRevista2Katana":{
-  "props": {
-    "blockClass": "divParaImagenRevista2",
-    "colGap": 0,
-    "rowGap": 0,
-    "marginTop": 0,
-    "marginBottom": 0,
-    "paddingTop": 0,
-    "paddingBottom": 0
-  },
-  "children":["rich-text#descripcionDeFoto2Katana","image#arranqueKatana"]
-},
-"image#arranqueKatana": {
-  "props": {
-    "blockClass": "motovlStrom2",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/katanasuperior.jpg"
-  }
- 
-},
-"rich-text#descripcionDeFoto2Katana":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "## LLEGAR MÁS LEJOS ES PODER DETENERTE EN EL MOMENTO PRECISO\nRodar en una V-Strom 250 ABS es contar con la confianza de tener lo necesario para tu seguridad. Con frenos de disco de pétalo no solo le das un toque elegante y moderno al conjunto de llantas, sobre todo incrementas la seguridad, pues te proporcionan mayor poder de frenado y disipación de calor más veloz, lo que mantiene las pastillas en las condiciones óptimas.",
-  "blockClass": "descripcionDeFoto"
-  }
-},
-"flex-layout.row#divParaImagenRevista3Katana":{
-  "props": {
-    "blockClass": "divParaImagenRevista3",
-    "colGap": 0,
-    "rowGap": 0,
-    "marginTop": 0,
-    "marginBottom": 0,
-    "paddingTop": 0,
-    "paddingBottom": 0
-  },
-  "children":["image#motorKatana","rich-text#descripcionDeFoto3Katana"]
-},
-"image#motorKatana": {
-  "props": {
-    "blockClass": "motovlStrom3",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/KatanaMotor.png"
-   
-  }
- 
-},
-"rich-text#descripcionDeFoto3Katana":{
-  "props":{
-    "textAlignment": "CENTER",
-  "textPosition": "CENTER",
-  "text": "## EL LÍMITIE EN CADA RODADA LO PONES TÚ, NO EL CALOR\nSi el motor de tu moto se calienta, deja de funcionar bien y hasta se apaga. Por eso, equipamos la V-Strom 250 ABS con el Sistema de Enfriamiento por Líquido –más eficiente que enfriarla con aire–, para asegurarte de que la temperatura va a estar bajo control y tú sigas viviendo la mejor experiencia de tu vida todos los días.",
-  "blockClass": "descripcionDeFoto"
-  }
-},
-
-
- //GSX250R
- "condition-layout.product#conditionRevistaGSX250R": 
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-           "id": "2048797" // 
-         }
-       }
-     ],
-     "toBe" : true,
-    "Then":  "flex-layout.row#contenedorDivParaImagenRevistaGSX250R" 
-    
-   }
- },
- "flex-layout.row#contenedorDivParaImagenRevistaGSX250R" : {
-   "props": {
-     "blockClass": "contenedorDivParaImagenRevista",
-     "fullWidth":true,
-     "colGap": 0,
-     "rowGap": 0,
-     "marginTop": 0,
-     "marginBottom": 0,
-     "paddingTop": 0,
-     "paddingBottom": 0
-   },
-   "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaGSX250R"]
- },
- 
- 
- "flex-layout.col#contenedorColumnaDivParaImagenRevistaGSX250R" : {
-   "props": {
-     "blockClass": "contenedorColumnaDivParaImagenRevista",
-     "preventVerticalStretch": true,
-     "rowGap": 0,
-     "hasMoreThanOne" : true
-   },
-   "children":["flex-layout.row#divParaImagenRevistaGSX250R","flex-layout.row#divParaImagenRevista2GSX250R","flex-layout.row#divParaImagenRevista3GSX250R"]
- },
- 
- "flex-layout.row#divParaImagenRevistaGSX250R":{
-   "props": {
-     "blockClass": "divParaImagenRevista",
-     "colGap": 0,
-     "rowGap": 0,
-     "marginTop": 0,
-     "marginBottom": 0,
-     "paddingTop": 0,
-     "paddingBottom": 0
-   },
-   "children":["image#motoGSX250R","rich-text#descripcionDeFoto1GSX250R"]
- },
- "image#motoGSX250R": {
-   "props": {
-     "blockClass": "motovlStrom",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx250r-1.jpg"
-     
-   }
-  
- },
- "rich-text#descripcionDeFoto1GSX250R":{
-   "props":{
-     "textAlignment": "CENTER",
-   "textPosition": "CENTER",
-   "text": "## GSX-250R\nRecorre la cuidad con un estilo deportivo.",
-   "blockClass": "descripcionDeFoto"
-   }
- },
- "flex-layout.row#divParaImagenRevista2GSX250R":{
-   "props": {
-     "blockClass": "divParaImagenRevista2",
-     "colGap": 0,
-     "rowGap": 0,
-     "marginTop": 0,
-     "marginBottom": 0,
-     "paddingTop": 0,
-     "paddingBottom": 0
-   },
-   "children":["rich-text#descripcionDeFoto2GSX250R","image#arranqueGSX250R"]
- },
- "image#arranqueGSX250R": {
-   "props": {
-     "blockClass": "motovlStrom2",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx250r-2jpg.jpg"
-   }
-  
- },
- "rich-text#descripcionDeFoto2GSX250R":{
-   "props":{
-     "textAlignment": "CENTER",
-   "textPosition": "CENTER",
-   "text": "## POTENTE MOTOR  Y ESTILO DEPORTIVO\nLa Gsx250r tiene un potente motor cilíndrico de 25 hp , disfruta de las calles y autopistas al máximo.",
-   "blockClass": "descripcionDeFoto"
-   }
- },
- "flex-layout.row#divParaImagenRevista3GSX250R":{
-   "props": {
-     "blockClass": "divParaImagenRevista3",
-     "colGap": 0,
-     "rowGap": 0,
-     "marginTop": 0,
-     "marginBottom": 0,
-     "paddingTop": 0,
-     "paddingBottom": 0
-   },
-   "children":["image#motorGSX250R","rich-text#descripcionDeFoto3GSX250R"]
- },
- "image#motorGSX250R": {
-   "props": {
-     "blockClass": "motovlStrom3",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx250r-3.png"
-    
-   }
-  
- },
- "rich-text#descripcionDeFoto3GSX250R":{
-   "props":{
-     "textAlignment": "CENTER",
-   "textPosition": "CENTER",
-   "text": "## SISTEMA DE LUCES DIURNAS\nLa seguridad en primordial al momento de manejar tu Suzuki, este sistema de luces permite que seas visible en el día  con su tecnología led",
-   "blockClass": "descripcionDeFoto"
-   }
- },
-
-
- //GSXS750
- "condition-layout.product#conditionRevistaGSXS750": 
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-           "id": "2049300" // 
-         }
-       }
-     ],
-     "toBe" : true,
-    "Then":  "flex-layout.row#contenedorDivParaImagenRevistaGSXS750" 
-    
-   }
- },
- "flex-layout.row#contenedorDivParaImagenRevistaGSXS750" : {
-   "props": {
-     "blockClass": "contenedorDivParaImagenRevista",
-     "fullWidth":true,
-     "colGap": 0,
-     "rowGap": 0,
-     "marginTop": 0,
-     "marginBottom": 0,
-     "paddingTop": 0,
-     "paddingBottom": 0
-   },
-   "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaGSXS750"]
- },
- 
- 
- "flex-layout.col#contenedorColumnaDivParaImagenRevistaGSXS750" : {
-   "props": {
-     "blockClass": "contenedorColumnaDivParaImagenRevista",
-     "preventVerticalStretch": true,
-     "rowGap": 0,
-     "hasMoreThanOne" : true
-   },
-   "children":["flex-layout.row#divParaImagenRevistaGSXS750","flex-layout.row#divParaImagenRevista2GSXS750","flex-layout.row#divParaImagenRevista3GSXS750"]
- },
- 
- "flex-layout.row#divParaImagenRevistaGSXS750":{
-   "props": {
-     "blockClass": "divParaImagenRevista",
-     "colGap": 0,
-     "rowGap": 0,
-     "marginTop": 0,
-     "marginBottom": 0,
-     "paddingTop": 0,
-     "paddingBottom": 0
-   },
-   "children":["image#motoGSXS750","rich-text#descripcionDeFoto1GSXS750"]
- },
- "image#motoGSXS750": {
-   "props": {
-     "blockClass": "motovlStrom",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx750a-1.jpg"
-     
-   }
-  
- },
- "rich-text#descripcionDeFoto1GSXS750":{
-   "props":{
-     "textAlignment": "CENTER",
-   "textPosition": "CENTER",
-   "text": "## GSXS-750\nLa moto perfecta para ir a velocidad",
-   "blockClass": "descripcionDeFoto"
-   }
- },
- "flex-layout.row#divParaImagenRevista2GSXS750":{
-   "props": {
-     "blockClass": "divParaImagenRevista2",
-     "colGap": 0,
-     "rowGap": 0,
-     "marginTop": 0,
-     "marginBottom": 0,
-     "paddingTop": 0,
-     "paddingBottom": 0
-   },
-   "children":["rich-text#descripcionDeFoto2GSXS750","image#arranqueGSXS750"]
- },
- "image#arranqueGSXS750": {
-   "props": {
-     "blockClass": "motovlStrom2",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx750a-2.jpg"
-   }
-  
- },
- "rich-text#descripcionDeFoto2GSXS750":{
-   "props":{
-     "textAlignment": "CENTER",
-   "textPosition": "CENTER",
-   "text": "## POCA VIBRACIÓN A GRANDES VELOCIDADES \nsiéntete seguro y cómodo en cualquier condicion de asfalto,  estabilidad y suavidad al máximo",
-   "blockClass": "descripcionDeFoto"
-   }
- },
- "flex-layout.row#divParaImagenRevista3GSXS750":{
-   "props": {
-     "blockClass": "divParaImagenRevista3",
-     "colGap": 0,
-     "rowGap": 0,
-     "marginTop": 0,
-     "marginBottom": 0,
-     "paddingTop": 0,
-     "paddingBottom": 0
-   },
-   "children":["image#motorGSXS750","rich-text#descripcionDeFoto3GSXS750"]
- },
- "image#motorGSXS750": {
-   "props": {
-     "blockClass": "motovlStrom3",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx750a-3.jpg"
-    
-   }
-  
- },
- "rich-text#descripcionDeFoto3GSXS750":{
-   "props":{
-     "textAlignment": "CENTER",
-   "textPosition": "CENTER",
-   "text": "## POTENTE MOTOR Y SISTEMA DE FRENOS\nLa tecnología de la gsx750r permite aprovechar al máximo sus 150 hp y además un frenado seguro y preciso con sus discos de freno de gran diámetro",
-   "blockClass": "descripcionDeFoto"
-   }
- },
-
-
-
- //vstrom 650
- "condition-layout.product#conditionRevistaVstrom650": 
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-<<<<<<< HEAD
-           "id": "2048798"
-=======
-           "id": "2049038" // v - strom 650
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
-         }
-       }
-     ],
-     "toBe" : true,
-<<<<<<< HEAD
-    "Then": "image#DiscoFreno"
-    
-   }
-=======
-    "Then":  "flex-layout.row#contenedorDivParaImagenRevistaVstrom650" 
-    
-   }
- },
- "flex-layout.row#contenedorDivParaImagenRevistaVstrom650" : {
-   "props": {
-     "blockClass": "contenedorDivParaImagenRevista",
-     "fullWidth":true,
-     "colGap": 0,
-     "rowGap": 0,
-     "marginTop": 0,
-     "marginBottom": 0,
-     "paddingTop": 0,
-     "paddingBottom": 0
-   },
-   "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaVstrom650"]
- },
- 
- 
- "flex-layout.col#contenedorColumnaDivParaImagenRevistaVstrom650" : {
-   "props": {
-     "blockClass": "contenedorColumnaDivParaImagenRevista",
-     "preventVerticalStretch": true,
-     "rowGap": 0,
-     "hasMoreThanOne" : true
-   },
-   "children":["flex-layout.row#divParaImagenRevistaVstrom650","flex-layout.row#divParaImagenRevista2Vstrom650","flex-layout.row#divParaImagenRevista3Vstrom650"]
- },
- 
- "flex-layout.row#divParaImagenRevistaVstrom650":{
-   "props": {
-     "blockClass": "divParaImagenRevista",
-     "colGap": 0,
-     "rowGap": 0,
-     "marginTop": 0,
-     "marginBottom": 0,
-     "paddingTop": 0,
-     "paddingBottom": 0
-   },
-   "children":["image#motoVstrom650","rich-text#descripcionDeFoto1Vstrom650"]
- },
- "image#motoVstrom650": {
-   "props": {
-     "blockClass": "motovlStrom",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/VLSTROM6501.jpg"
-     
-   }
-  
- },
- "rich-text#descripcionDeFoto1Vstrom650":{
-   "props":{
-     "textAlignment": "CENTER",
-   "textPosition": "CENTER",
-   "text": "## XTREMA EL CONTROL. EN CUALQUIER TERRENO\nNo habrá camino que no puedas dominar con V-Strom 650XT, ya que puedes elegir entre 2 modos de conducción o apagarlo para así conseguir un manejo más personalizado. Desde condiciones de camino ideales hasta condiciones de humedad o poca adherencia.",
-   "blockClass": "descripcionDeFoto"
-   }
- },
- "flex-layout.row#divParaImagenRevista2Vstrom650":{
-   "props": {
-     "blockClass": "divParaImagenRevista2",
-     "colGap": 0,
-     "rowGap": 0,
-     "marginTop": 0,
-     "marginBottom": 0,
-     "paddingTop": 0,
-     "paddingBottom": 0
-   },
-   "children":["rich-text#descripcionDeFoto2Vstrom650","image#arranqueVstrom650"]
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
  },
  "condition-layout.product#conditionImageDiscoFrenoKATANA": 
  {
@@ -8828,7 +4850,6 @@
 "condition-layout.product#conditionThirdtTextDRZ50": 
 {
   "props": {
-<<<<<<< HEAD
     "conditions": [
       {
         "subject": "productId",
@@ -8840,11 +4861,6 @@
     "toBe" : true,
    "Then":  "rich-text#ThirdTextDRZ50"
    
-=======
-    "blockClass": "motovlStrom3",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/UR110lets-3.jpg"
-    
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   }
 },
 "rich-text#ThirdTextDRZ50":{
@@ -9636,52 +5652,7 @@
    "toBe" : true,
    "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
    
-<<<<<<< HEAD
  }
-=======
-  }
-},//
-//
-"list-context.image-list#sliderMotoresFueraBorda": {
-  "children": ["slider-layout#MotoresFueraBordaitems"],
-  "props": {
-    "width" : "100%",
-    "height":"100%",
-    "images": [
-      {
-        "width" : "100%",
-        "image": "https://suzukiecuador.vteximg.com.br/arquivos/motor-DT30-BANNERS.jpg",
-        "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/motor-DT30-BANNERS.jpg"
-      },
-      {
-        "width" : "100%",
-        
-        "image": "https://suzukiecuador.vteximg.com.br/arquivos/motor-DF300AP-BANNERS.jpg",
-        "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/motor-DF300AP-BANNERS.jpg"
-      },
-      {
-        "width" : "100%",
-       
-        "image": "https://suzukiecuador.vteximg.com.br/arquivos/motor-DF175-BANNERS.jpg",
-        "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/motor-DF175-BANNERS.jpg"
-      }
-      
-    ]
-  }
-},
-"slider-layout#MotoresFueraBordaitems": {
-  "props": {
-    "blockClass": "sliderVLSitems",
-    "itemsPerPage": {
-      "desktop": 1,
-      "tablet": 1,
-      "phone": 1
-    },
-    "infinite": true,
-    "showNavigationArrows": "desktopOnly"
-    
-  }
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 },
 //
   "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda": {
@@ -9730,7 +5701,6 @@
       
     }
   },
-<<<<<<< HEAD
 //FIN DE CARACTERISTICA PARA LOS MOTORES FUERA DE BORDA
 
 
@@ -9743,69 +5713,6 @@
         "subject": "productId",
         "arguments": {
           "id": "2049461" 
-=======
-  //UR110
-  "condition-layout.product#conditionForTheSliderUR110":
-  {
-    "props": {
-      "conditions": [
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2011740" 
-          }
-        }
-      ],
-      "toBe" : true,
-     "Then": "list-context.image-list#sliderUR110"
-     
-    }
-  },
-  "list-context.image-list#sliderUR110": {
-    "children": ["slider-layout#sliderUR110items"],
-    "props": {
-  
-      "height":"100%",
-      "images": [
-        {
-          "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/letsUR110BANNER.png",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/letsUR110BANNER.png"
-        },
-        {
-          "width" : "100%",
-         
-          "image": "",
-          "mobileImage":  ""
-        }
-        
-      ]
-    }
-  },
-  "slider-layout#sliderUR110items": {
-    "props": {
-      "blockClass": "sliderVLSitems",
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly"
-      
-    }
-  },
-  //GD115 EVOLUTION
-  "condition-layout.product#conditionForTheSliderDGD115EVOLUTION":
-  {
-    "props": {
-      "conditions": [
-        {
-          "subject": "productId",
-          "arguments": {
-            "id": "2054549"
-          }
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
         }
       }
     ],
@@ -12644,14 +8551,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/gd115banner.png",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/gd115banner.png"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/gd115bannerOficial.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/gd115bannerOficial.png"
         },
         {
           "width" : "100%",
          
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/gd115banner.png",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/gd115banner.png"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/gd115bannerOficial.png",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/gd115bannerOficial.png"
         }
         
       ]
@@ -20818,7 +16725,6 @@
         "arguments": {
           "id": "2054549"
         }
-<<<<<<< HEAD
       }
     ],
     "toBe" : true,
@@ -20828,262 +16734,6 @@
 },
 "condition-layout.product#conditionContainContenedorDyPFichaTecnicaGD115": 
 {
-=======
-      ],
-      "toBe" : true,
-     "Then": "flex-layout.row#containMotorFueraBorda"
-     
-    }
-  },
-
-  //DT15AL
-     //DF9.9AS
-     //DF6AS
-     //DT30L
-    // DF175AZX
-
-  "flex-layout.row#containMotorFueraBorda":{
-    "props":{
-      "blockClass": "containMotorFueraBorda",
-      
-      "fullWidth" : true
-    },
-    "children":["video#VideoMotorFueraBorda"]
-  },
-  "video#VideoMotorFueraBorda": {
-   "props": {
-     "width": "100%",
-     "height": "540px",
-    
-     "loop": true,
-     "autoPlay": true,
-     "muted": false,
-     "type":"mp4",
-     "src": "https://site.comandato.com/video/motorFueraBorda.mp4",
-     "blockClass": "VideoMotorFueraBorda"
-   }
- },
-
-
-//FIN INCIO DE VIDEOS MOTORES FUERA DE BORDA
-
-
-
-//IMAGEN LOGO MARINE
-//DF175ATX
- "condition-layout.product#ImagemotorFueraBordaDF175ATX":
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-           "id": "2067061" 
-         }
-       }
-     ],
-     "toBe" : true,
-    "Then": "flex-layout.row#containImage"
-    
-   }
- },
- //DF200ZX
- "condition-layout.product#ImagemotorFueraBordaDF200ZX":
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-           "id": "2058125" 
-         }
-       }
-     ],
-     "toBe" : true,
-    "Then": "flex-layout.row#containImage"
-    
-   }
- },
- //DF20AS
- "condition-layout.product#ImagemotorFueraBordaDF20AS":
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-           "id": "2052764" 
-         }
-       }
-     ],
-     "toBe" : true,
-    "Then": "flex-layout.row#containImage"
-    
-   }
- },
- //DF150ZX 
- "condition-layout.product#ImagemotorFueraBordaDF150ZX":
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-           "id": "2052763" 
-         }
-       }
-     ],
-     "toBe" : true,
-    "Then": "flex-layout.row#containImage"
-    
-   }
- },
- //DF150TX 
- "condition-layout.product#ImagemotorFueraBordaDF150TX":
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-           "id": "2052762" 
-         }
-       }
-     ],
-     "toBe" : true,
-    "Then": "flex-layout.row#containImage"
-    
-   }
- },
- //DF30S 
- "condition-layout.product#ImagemotorFueraBordaDF30AS":
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-           "id": "2052760" 
-         }
-       }
-     ],
-     "toBe" : true,
-    "Then": "flex-layout.row#containImage"
-    
-   }
- },
- //DF30AL
- "condition-layout.product#ImagemotorFueraBordaDF30AL":
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-           "id": "2052759" 
-         }
-       }
-     ],
-     "toBe" : true,
-    "Then": "flex-layout.row#containImage"
-    
-   }
- },
-    "condition-layout.product#ImagemotorFueraBordaDT15AL":
-    {
-      "props": {
-        "conditions": [
-          {
-            "subject": "productId",
-            "arguments": {
-              "id": "2052757" 
-            }
-          }
-        ],
-        "toBe" : true,
-       "Then": "flex-layout.row#containImage"
-       
-      }
-    },
-    "condition-layout.product#ImagemotorFueraBordaDF9.9AS":
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-           "id": "2052756" 
-         }
-       }
-     ],
-     "toBe" : true,
-    "Then": "flex-layout.row#containImage"
-    
-   }
- },
- "condition-layout.product#ImagemotorFueraBordaDF6AS":
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-           "id": "2052755" 
-         }
-       }
-     ],
-     "toBe" : true,
-    "Then": "flex-layout.row#containImage"
-    
-   }
- },
- "condition-layout.product#ImagemotorFueraBordaDT30L":
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-           "id": "2052758" 
-         }
-       }
-     ],
-     "toBe" : true,
-    "Then": "flex-layout.row#containImage"
-    
-   }
- },
- "condition-layout.product#ImagemotorFueraBordaDF175AZX":
- {
-   "props": {
-     "conditions": [
-       {
-         "subject": "productId",
-         "arguments": {
-           "id": "2054551" 
-         }
-       }
-     ],
-     "toBe" : true,
-    "Then": "flex-layout.row#containImage"
-    
-   }
- },
-
-
- "flex-layout.row#containImage":
- {
-  "props":{
-    "blockClass": "containImage",
-    
-    "fullWidth" : true
-  },
-  "children":["image#logoMotorFueraBorda"]
- },
-
-
- "image#logoMotorFueraBorda": {
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "props": {
     "conditions": [
       {
@@ -21292,264 +16942,12 @@
 },
 //fin de condiciones para la ficha tecnica
 
-<<<<<<< HEAD
-
-=======
-//FN IMAGEN LOGO MARINE
-  "store.product": {
-    "children": [
-
-     // "image#topBannerVL250strom",
-     // "list-context.image-list#sliderVLS",
-
-     //motor fuera de borda VIDEOS
-     "condition-layout.product#motorFueraBordaDF20AS",
-     "condition-layout.product#motorFueraBordaDF150ZX",
-     "condition-layout.product#motorFueraBordaDF150TX",
-     "condition-layout.product#motorFueraBordaDF30AS",
-     "condition-layout.product#motorFueraBordaDF30AL",
-     "condition-layout.product#motorFueraBordaDT15AL",
-     "condition-layout.product#motorFueraBordaDF9.9AS",
-     "condition-layout.product#motorFueraBordaDF6AS",
-     "condition-layout.product#motorFueraBordaDT30L",
-     "condition-layout.product#motorFueraBordaDF175ATX",
-     "condition-layout.product#motorFueraBordaDF200ZX",
-     "condition-layout.product#motorFueraBordaDF175AZX",
-     
-     
-     
-     
-     
-     //LOGO DE MARINE
-     "condition-layout.product#ImagemotorFueraBordaDF175ATX",
-     "condition-layout.product#ImagemotorFueraBordaDF200ZX",
-     "condition-layout.product#ImagemotorFueraBordaDF20AS",
-     "condition-layout.product#ImagemotorFueraBordaDF150ZX",
-     "condition-layout.product#ImagemotorFueraBordaDF150TX",
-     "condition-layout.product#ImagemotorFueraBordaDF30AS",
-     "condition-layout.product#ImagemotorFueraBordaDF30AL",
-     "condition-layout.product#ImagemotorFueraBordaDT15AL",
-     "condition-layout.product#ImagemotorFueraBordaDF9.9AS",
-     "condition-layout.product#ImagemotorFueraBordaDF6AS",
-     "condition-layout.product#ImagemotorFueraBordaDT30L",
-     "condition-layout.product#ImagemotorFueraBordaDF175AZX",
-     //FIN AGREGADO
-     
-
-
-     
-
-     
-
-     
-
-     //CONDICIONES PARA LOS VIDEOS
-     "condition-layout.product#conditionForTheVideoCategoryDoublePurposeVSTROM250",
-     "condition-layout.product#conditionForTheVideoCategoryeUtilitariaDeportivaGSX125",
-     "condition-layout.product#conditionForTheVideoCategoryDR650",
-     "condition-layout.product#conditionForTheVideoCategoryeCrossRM85",
-     "condition-layout.product#conditionForTheVideoCategoryeUtilitariaGD115",
-     "condition-layout.product#conditionForTheVideoCategorySportySV650XA",
-     "condition-layout.product#conditionForTheVideoCategoryCustomIntruder",
-     "condition-layout.product#conditionForTheVideoCategoryScooterUK110",
-     "condition-layout.product#conditionForTheVideoCategorySportyGSXS750",
-     "condition-layout.product#conditionForTheVideoCategorySportyGSX250R",
-     "condition-layout.product#conditionForTheVideoCategorySportyKatana",
-     "condition-layout.product#conditionForTheVideoCategoryDoublePurposeVSTROM650",
-     "condition-layout.product#conditionForTheVideoCategoryDoublePurposeVSTROM1050",
-     "condition-layout.product#conditionForTheVideoCategoryeUtilitariaGD115EVOLUTION",
-     "condition-layout.product#conditionForTheVideoCategoryeCrossDR-Z50",
-     "condition-layout.product#conditionForTheVideoCategoryeUtilitariaGN125",
-     "condition-layout.product#conditionForTheVideoCategoryScooterUR110",
-     //FIN DE CONDICIONES PARA LOS VIDEOS
-
-    
-     //CONDICIONES PARA LOS TITULOS
-     "condition-layout.product#conditionForSubittleMotoGSX125",
-     "condition-layout.product#conditionForSubittleMotoDR650",
-     "condition-layout.product#conditionForSubittleRM85",
-     "condition-layout.product#conditionForSubittleMotoGD115",
-     "condition-layout.product#conditionForSubittleMotoSV650XA",
-     "condition-layout.product#conditionForSubittleMotoIntruder",
-     "condition-layout.product#conditionForSubittleMotoMUK110",
-     "condition-layout.product#conditionForSubittleGSXS750",
-     "condition-layout.product#conditionForSubittleGSX250R",
-     "condition-layout.product#conditionForSubittleMotoDR-Z50",
-     "condition-layout.product#conditionForSubittleMotoVSTROMDL250",
-     "condition-layout.product#conditionForSubittleKATANA",
-     "condition-layout.product#conditionForSubittleMotoVSTROM650",
-     "condition-layout.product#conditionForSubittleMotoVSTROM1050",
-     "condition-layout.product#conditionForSubittleMotoGD115Evolution",
-     "condition-layout.product#conditionForSubittleMotoGN125",
-     "condition-layout.product#conditionForSubittleMotoUR110",
-   //  "wishlist-button",
-   
-    
-     //FIN DE CONDICIONES PARA LOS TITULOS 
-    
-     //   "flex-layout.row#product-breadcrumb",//indica donde estas ubicado
-     // "list-context.image-list#topbaner",//BANNER
-   //  "flex-layout.row#containDescriptionForTheVideo",//Esto es como un div
-  //   "flex-layout.row#subTitleForTheMoto",
-     //"flex-layout.row#divsegundo",//ESTE ES EL DIV QUE MUESTRA POTENCIA EN TI Y EL RESTO....
-
-     "flex-layout.row#colorSwatchBlock",//Esto es la division entre la imagen y la especificacion
-
-
-     //"flex-layout.row#subTitleForTheMoto2",
-     //"flex-layout.row#gsx725-2",
-     // "flex-layout.row#containX"
-   //  "flex-layout.row#product-main",
-   "flex-layout.row#containImageDescription",
-   //"condition-layout.product#conditionForTheGaleryVstrom250",
-
-  // "flex-layout.row#containImageDescription",////tyjty
-//   "flex-layout.row#containGalleryMoto",
-//   "flex-layout.row#divParaimagenes",//Div que contiene las imagenes motor, velocidad, freno
-  // "flex-layout.row#descripciondivimagenes",//Descripcion del motor velocidad, freno
-//PARTE DEL CREDITO DIRECTO
-//FIN DE PARTE DEL CREDITO DIRECTO
-
-
-//IFRAME
-//"iframe#galleryMoto",
-//"flex-layout.row#solicitaCreditoDirecto",
-
-//FIN DE IFRAME
-  // "video#videoGif",
-  "flex-layout.row#caracteristicasEspecialesText",
-
-
-
-
-  //REVISTAS PARA LAS MOTOS
-  //MOTORES FUERA DE BORDA
-  "condition-layout.product#conditionRevistaDF175ATX",//https://www.amatooutdoor.com/catalogo/nautica/motores-fuera-de-borda/motores-4-tiempos/motores-4-tiempos-de-51-a-200-hp/motor-fuera-de-borda-suzuki-175-hp-4t-df175atx/
-  "condition-layout.product#conditionRevistaDF200ZX", //COMANDATO LISTO
-  "condition-layout.product#conditionRevistaDF20AS", //https://motoresmarinos.suzuki.com.mx/df20a
-  "condition-layout.product#conditionRevistaDF150ZX",//COMANDATO LISTO
-  "condition-layout.product#conditionRevistaDF150TX",//COMANDATO  LISTO
-  "condition-layout.product#conditionRevistaDF30AS",//COMANDATO LISTO
-  "condition-layout.product#conditionRevistaDF30AL",//COMANDATO LISTO
-  "condition-layout.product#conditionRevistaDT15AL",//COMANDATO LISTO
-  "condition-layout.product#conditionRevistaDF9.9AS",//COMANDATO LISTO
-  "condition-layout.product#conditionRevistaDF6AS",//COMANDATO LISTO
-  "condition-layout.product#conditionRevistaDT30L",//COMANDATO LISTO
-  "condition-layout.product#conditionRevistaDF175AZX",//LISTO
-  //FIN DE MOROTES FUERA DE BORDA
-
-
-  "condition-layout.product#conditionRevistaGSX125",
-  "condition-layout.product#conditionRevistaDR650",
-  "condition-layout.product#conditionRevistaRM85",
-  "condition-layout.product#conditionRevistaGD115",
-  "condition-layout.product#conditionRevistaSV650XA",
-  "condition-layout.product#conditionRevistaIntruder",
-  "condition-layout.product#conditionRevistaUK110",
-  "condition-layout.product#conditionRevistaGSXS750",
-  "condition-layout.product#conditionRevistaGSX250R",
- "condition-layout.product#conditionRevistavstrom",
- "condition-layout.product#conditionRevistaKatana",
- "condition-layout.product#conditionRevistaVstrom650",
- "condition-layout.product#conditionRevistaVstrom1050",
- "condition-layout.product#conditionRevistaGD115Evolution",
- "condition-layout.product#conditionRevistaDRZ50",
-
- "condition-layout.product#conditionRevistaUR110",
- "condition-layout.product#conditionRevistaGN125",
-
-  //FIN REVISTAS PARA LAS MOTOS
-
-
-
-
-  "flex-layout.row#listaparatuaventuraText",
-
-
-  //SLIDERS
-
-  //MOTORES FUERA DE BORDA
-  "condition-layout.product#conditionForTheSliderFueraBordaDF20AS",
-  "condition-layout.product#conditionForTheSliderFueraBordaDF150ZX",
-  "condition-layout.product#conditionForTheSliderFueraBordaDF150TX",
-  "condition-layout.product#conditionForTheSliderFueraBordaDF30AS",
-  "condition-layout.product#conditionForTheSliderFueraBordaDF30AL",
-  "condition-layout.product#conditionForTheSliderFueraBordaDT15AL",
-  "condition-layout.product#conditionForTheSliderFueraBordaDF9.9AS",
-  "condition-layout.product#conditionForTheSliderFueraBordaDF6AS",
-  "condition-layout.product#conditionForTheSliderFueraBordaDT30L",
-  "condition-layout.product#conditionForTheSliderFueraBordaDF175ATX",
-  "condition-layout.product#conditionForTheSliderFueraBordaDF200ZX",
-  "condition-layout.product#conditionForTheSliderFueraBordaDF175AZX",
-
-  //FIN DE MOTORES FUERA DE BORDA
-  "condition-layout.product#conditionForTheSliderVSTROMDL250",
-  "condition-layout.product#conditionForTheSliderKATANA",
-  "condition-layout.product#conditionForTheSliderVStrom650",
-  "condition-layout.product#conditionForTheSliderUR110",
-  "condition-layout.product#conditionForTheSliderDGD115EVOLUTION",
-  "condition-layout.product#conditionForTheSliderGD115",
-  "condition-layout.product#conditionForTheSliderGN-125",
-  "condition-layout.product#conditionForTheSliderUK110",
-  "condition-layout.product#conditionForTheSliderGSX125-C",
-  "condition-layout.product#conditionForTheSliderDR-Z50",
-  "condition-layout.product#conditionForTheSliderGSX-S750A",
-  "condition-layout.product#conditionForTheSliderRM85",
-  "condition-layout.product#conditionForTheSliderINTRUDER",
-  "condition-layout.product#conditionForTheSliderSV650XA",
-  "condition-layout.product#conditionForTheSliderVSTROM1050XT",
-  "condition-layout.product#conditionForTheSliderGSX250R",
-  "condition-layout.product#conditionForTheSliderDR650",
-
-  //FIN AGREGANDO SLIDERS
-  //FIN DE SLIDERS
-
-
-
- //   "image#collageVlStrom250",
-   //   "flex-layout.row#divParaImagenRevista",//Div parecido a revista
-     
- //  "flex-layout.row#divParaBanneryDescripcion",//Banner con su descripcion
-
- //FICHA TECNICA
-
-
- "flex-layout.row#containFichcaTecnica",
- "flex-layout.row#containNameMotor",
- "flex-layout.row#contenedorMotor",
- "flex-layout.row#containNameChasis",
- "flex-layout.row#contenedorChasis",
- "flex-layout.row#containNameDi_Wei",
- "flex-layout.row#contenedorDyP",
-
- //FIN DE FICHA TECNICA
- 
-
-"condition-layout.product#conditionIframeFichaTecnicaDF175ATX",
-"condition-layout.product#conditionIframeFichaTecnicaDF200ZX", 
-"condition-layout.product#conditionIframeFichaTecnicaDF20AS",
-"condition-layout.product#conditionIframeFichaTecnicaDF150ZX",
-"condition-layout.product#conditionIframeFichaTecnicaDF150TX",
-"condition-layout.product#conditionIframeFichaTecnicaDF30AS",
-"condition-layout.product#conditionIframeFichaTecnicaDF30AL",
-"condition-layout.product#conditionIframeFichaTecnicaDT15AL",
-"condition-layout.product#conditionIframeFichaTecnicaDF9.9AS",
-"condition-layout.product#conditionIframeFichaTecnicaDF6AS",
-"condition-layout.product#conditionIframeFichaTecnicaDT30L",
-"condition-layout.product#conditionIframeFichaTecnicaDF175AZX",
- 
-
- //FICHA TECNICA MOTORES FUERA DE BORDA
-
-
- //FIN DE FICHA TECNICA MOTORES FUERA DE BORDA
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
 
 
 
 
 
-<<<<<<< HEAD
+
 
 
 
@@ -21564,22 +16962,6 @@
 
 
 //fin de condiciones para la ficha tecnica
-=======
- //"flex-layout.row#contenedorFichaTecnia",
- //"flex-layout.row#contenedorImagen",
- /*FIN FICHA TECNICA*/
- //"flex-layout.row#containercompraEnLineaVlStrom250",
- "flex-layout.row#contenedor_final",
-
-    // "product-specification-group#table",
-     // "shelf.relatedProducts",
-     //"list-context.image-list#productbaner",
-     "product-questions-and-answers"
-    ]
-  },
-
-
->>>>>>> ee4156bfe98b1f7350f4b554a97ac97e6b9aa5d3
   "condition-layout.product#conditionIframeFichaTecnicaDF175ATX":
   {
     "props": {

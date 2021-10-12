@@ -7,6 +7,7 @@
       "menu-item#category-apparel",
       "menu-item#category-fueradeborda",
       "menu-item#category-repuestos",
+      "menu-item#repuestos-originales",
       "menu-item#category-tiendasuzuki",
 	    "menu-item#solicita-credito"
       
@@ -136,6 +137,21 @@
         "noFollow": false,
         "tagTitle": "TALLERES AUTORIZADOS",
         "text": "TALLERES AUTORIZADOS"
+      }
+    }
+  },
+  "menu-item#repuestos-originales": {
+    "props": {
+      "id": "menu-item-category-repuestos-originales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/repuestos-originales",
+        "noFollow": false,
+        "tagTitle": "REPUESTOS",
+        "text": "REPUESTOS"
       }
     }
   },

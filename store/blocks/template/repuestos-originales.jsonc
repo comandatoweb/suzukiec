@@ -1,0 +1,20 @@
+{
+  "store.custom#repuestos-originales": {
+    "blocks": [
+      "iframe#repuestos-originales"  
+    ]
+  },
+ 
+  "iframe#repuestos-originales": {
+    "props": {
+      "width": "100%",
+      "height": "600",
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "repuestos-originales",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/talleres-suzuki/repuestos.html"
+    }
+  } 
+}
