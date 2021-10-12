@@ -5383,7 +5383,7 @@
 },
 "flex-layout.row#containforTheGalleryVstrom250":{
   "props":{
-    "blockClass": "containforTheVideoCustom",
+    "blockClass": "containGallery",
     
     "fullWidth" : true
   },
@@ -17370,13 +17370,13 @@
       "rowGap": 0,
       "hasMoreThanOne" : true
     },
-    "children" :["rich-text#PoderyDeno", "product-installments#text","rich-text#cotizala","flex-layout.row#rowbotones"]
+    "children" :["rich-text#PoderyDeno", "product-installments#TEXTOFINAL","rich-text#cotizala","flex-layout.row#rowbotones"]
   },
   "rich-text#PoderyDeno":{
     "props":{
       "textAlignment": "CENTER",
     "textPosition": "CENTER",
-    "text": "## ***Poder y dominación en ti***",
+    "text": "## ***Poder y dominación en***\n## ***ti***",
     "blockClass": "PoderyDeno"
     }
   },
@@ -17852,6 +17852,14 @@
   "product-installments#text": {
     "props": {
      "blockClass": "text",
+     // "installmenerwfenterés} false { }}"
+     "message" : "DESDE {installmentsNumber} CUOTAS DE {installmentValue}{hasInterest, select, true {, {interestRate} de interés} false { }}"
+
+    }
+  },
+  "product-installments#TEXTOFINAL": {
+    "props": {
+     "blockClass": "TEXTOFINAL",
      // "installmenerwfenterés} false { }}"
      "message" : "DESDE {installmentsNumber} CUOTAS DE {installmentValue}{hasInterest, select, true {, {interestRate} de interés} false { }}"
 
