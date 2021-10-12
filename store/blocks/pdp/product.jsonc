@@ -5452,6 +5452,21 @@
     "blockClass": "textoCaracterisitcasEspeciales"
     }
   },
+  "flex-layout.row#conoceMasTuMotoText" : {
+    "props": {
+      "blockClass": "caracteristicasEspecialesText",
+      "fullWidth" : true
+    },
+      "children" :["rich-text#textoConoceMastuMoto"]
+    },
+    "rich-text#textoConoceMastuMoto":{
+      "props":{
+        "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**CONOCE MÁS TU MOTO**",
+      "blockClass": "textoCaracterisitcasEspeciales"
+      }
+    },
    //==============================================================================================================================
  //*********************************************FIN DE TEXTO CARACTERISTTICA ESPECIALES*******************************************//
  //==============================================================================================================================
@@ -14615,7 +14630,8 @@
      // "flex-layout.row#containX"
    //  "flex-layout.row#product-main",
    "flex-layout.row#containImageDescription",
-   //"condition-layout.product#conditionForTheGaleryVstrom250",
+   "flex-layout.row#conoceMasTuMotoText",
+   "condition-layout.product#conditionForTheGaleryVstrom250",
 
   // "flex-layout.row#containImageDescription",////tyjty
 //   "flex-layout.row#containGalleryMoto",
@@ -17837,7 +17853,7 @@
     "props": {
      "blockClass": "text",
      // "installmenerwfenterés} false { }}"
-     "message" : "{installmentsNumber} CUOTAS DE {installmentValue}{hasInterest, select, true {, {interestRate} de interés} false { }}"
+     "message" : "DESDE {installmentsNumber} CUOTAS DE {installmentValue}{hasInterest, select, true {, {interestRate} de interés} false { }}"
 
     }
   },

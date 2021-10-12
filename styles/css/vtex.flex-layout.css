@@ -551,7 +551,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 {
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;
-  font-weight: 200;
+  
 }
 :global(.vtex-store-components-3-x-skuSelectorNameSeparator)
 {
@@ -1000,6 +1000,57 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
      transition: 0.2s ease-in-out;
      border: none; 
 }
+
+@media screen and (max-width: 600px)
+{
+  :global(.vtex-rich-text-0-x-heading--subtittleMoto)
+  {
+    font-size: 1.25rem !important; 
+  }
+  :global(.vtex-rich-text-0-x-heading--subtittleMoto2)
+  {
+    font-size: 1rem !important;
+  }
+  :global(.vtex-store-components-3-x-productBrand),
+  :global(.vtex-rich-text-0-x-heading--subtittleDescriptionMoto)
+  {
+    font-size: 1.4rem !important;
+  }
+  :global(.vtex-product-price-1-x-installments--text)
+  {
+    font-size: 1.4rem !important; 
+  }
+  :global(.vtex-flex-layout-0-x-flexColChild--BlockcolorSwatchBlock)
+  {
+    margin: 0 auto !important;
+  }
+  :global(.vtex-rich-text-0-x-container--subtittleMoto2)
+  {
+    background-color: white !important;
+  }
+ 
+  :global(.vtex-rich-text-0-x-heading--subtittleMoto2)
+  {
+    border: 3px solid rgb(0,48,69) !important;
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    font-weight: 500 !important;
+  }
+}
+:global(.vtex-rich-text-0-x-heading--subtittleDescriptionMoto)
+{
+  color: black;
+}
+:global(.vtex-product-price-1-x-installments--text)
+{
+  color: black !important;
+  font-weight: normal;
+}
+
+
+
 :global(.vtex-flex-layout-0-x-flexRow--menu-row),
 :global(.vtex-flex-layout-0-x-flexColChild--payment-methods)
 { 
@@ -1117,6 +1168,15 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 {
   font-weight: 900;
 }
+:global(.vtex-rich-text-0-x-strong--textoCaracterisitcasEspeciales)
+{
+  font-weight: normal;
+}
+:global(.vtex-rich-text-0-x-strong--textolistaparatuaventuraText)
+{
+  font-weight: normal;
+}
+
 :global(.vtex-rich-text-0-x-heading--nameMotor),
 :global(.vtex-rich-text-0-x-heading--nameChasis),
 :global(.vtex-rich-text-0-x-heading--nameDi_Wei)
