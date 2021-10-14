@@ -993,6 +993,12 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 }
 
 @media screen and (max-width: 900px){
+  :global(.vtex-store-components-3-x-logoContainer)
+{
+  position: relative !important;
+  right: 0.7rem !important;
+}
+
   .flexRow--buyNowButtonw  :global(.vtex-button)
 {
     
@@ -1321,5 +1327,24 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
      background-attachment: fixed;
 }
 
+:global(.vtex-store-components-3-x-logoContainer)
+{
+  position: relative !important;
+  right: 1.7rem ;
+}
 
 
+@media screen and (max-device-width: 1400px) {
+
+  :global(.vtex-menu-2-x-styledLinkContainer)
+  {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header)
+   {
+    font-size: 13px;
+    font-weight: bold;
+    font-family: poppins;
+  }
+  }
