@@ -134,10 +134,31 @@
         }
       ],
       "toBe" : true,
-     "Then": "flex-layout.row#containforTheVideoScooter"
+     "Then": "flex-layout.row#containforTheVideoScooterUK110"
      
     }
   },
+  "flex-layout.row#containforTheVideoScooterUK110":{
+    "props":{
+      "blockClass": "containforTheVideoScooterUK110",
+      
+      "fullWidth" : true
+    },
+    "children":["video#VideoScooterUK110"]
+  },
+  "video#VideoScooterUK110": {
+   "props": {
+     "width": "100%",
+     "height": "540px",
+    
+     "loop": true,
+     "autoPlay": true,
+     "muted": false,
+     "type":"mp4",
+     "src": "https://site.comandato.com/video/UK110VIDEO.mp4",
+     "blockClass": "VideoScooterUK110"
+   }
+ },
   "condition-layout.product#conditionForTheVideoCategoryScooterUR110":
   {
     "props": {
@@ -150,19 +171,19 @@
         }
       ],
       "toBe" : true,
-     "Then": "flex-layout.row#containforTheVideoScooter"
+     "Then": "flex-layout.row#containforTheVideoScooterUR110"
      
     }
   },
-  "flex-layout.row#containforTheVideoScooter":{
+  "flex-layout.row#containforTheVideoScooterUR110":{
     "props":{
-      "blockClass": "containforTheVideoScooterUK110",
+      "blockClass": "containforTheVideoScooterUR110",
       
       "fullWidth" : true
     },
-    "children":["video#VideoScooter"]
+    "children":["video#VideoScooterUR110"]
   },
-  "video#VideoScooter": {
+  "video#VideoScooterUR110": {
    "props": {
      "width": "100%",
      "height": "540px",
@@ -229,7 +250,7 @@
      "autoPlay": true,
      "muted": false,
      "type":"mp4",
-     "src": "https://site.comandato.com/video/Cross.mp4",
+     "src": "https://site.comandato.com/video/RM85-OFICIALVIDEO.mp4",
      "blockClass": "VideoCross"
    }
  },
@@ -250,10 +271,33 @@
         }
       ],
       "toBe" : true,
-     "Then": "flex-layout.row#containforTheVideoDoublePurpose"
+     "Then": "flex-layout.row#containforTheVideoDoublePurposeVSTROM250"
      
     }
   },
+
+  "flex-layout.row#containforTheVideoDoublePurposeVSTROM250":{
+    "props":{
+      "blockClass": "containforTheVideoDoublePurposeVSTROM250",
+      
+      "fullWidth" : true
+    },
+    "children":["video#VideoDoublePurposeVSTROM250"]
+  },
+  "video#VideoDoublePurposeVSTROM250": {
+   "props": {
+     "width": "100%",
+     "height": "540px",
+    
+     "loop": true,
+     "autoPlay": true,
+     "muted": false,
+     "type":"mp4",
+     "src": "https://site.comandato.com/video/vstrom250-videoOficial.mp4",
+     "blockClass": "VideoDoublePurpose"
+   }
+ },
+
   "condition-layout.product#conditionForTheVideoCategoryDoublePurposeVSTROM650": 
   {
     "props": {
@@ -266,10 +310,32 @@
         }
       ],
       "toBe" : true,
-     "Then": "flex-layout.row#containforTheVideoDoublePurpose"
+     "Then": "flex-layout.row#containforTheVideoDoublePurposeVSTROM650"
      
     }
   },
+  "flex-layout.row#containforTheVideoDoublePurposeVSTROM650":{
+    "props":{
+      "blockClass": "containforTheVideoDoublePurposeVSTROM650",
+      
+      "fullWidth" : true
+    },
+    "children":["video#VideoDoublePurposeVSTROM650"]
+  },
+  "video#VideoDoublePurposeVSTROM650": {
+   "props": {
+     "width": "100%",
+     "height": "540px",
+    
+     "loop": true,
+     "autoPlay": true,
+     "muted": false,
+     "type":"mp4",
+     "src": "https://site.comandato.com/video/vstrom650oficial.mp4",
+     "blockClass": "VideoDoublePurpose"
+   }
+ },
+ //VSTROM1050
   "condition-layout.product#conditionForTheVideoCategoryDoublePurposeVSTROM1050": 
   {
     "props": {
@@ -282,10 +348,31 @@
         }
       ],
       "toBe" : true,
-     "Then": "flex-layout.row#containforTheVideoDoublePurpose"
+     "Then": "flex-layout.row#containforTheVideoDoublePurposeVSTROM1050"
      
     }
   },
+  "flex-layout.row#containforTheVideoDoublePurposeVSTROM1050":{
+    "props":{
+      "blockClass": "containforTheVideoDoublePurposeVSTROM1050",
+      
+      "fullWidth" : true
+    },
+    "children":["video#VideoDoublePurposeVSTROM1050"]
+  },
+  "video#VideoDoublePurposeVSTROM1050": {
+   "props": {
+     "width": "100%",
+     "height": "540px",
+    
+     "loop": true,
+     "autoPlay": true,
+     "muted": false,
+     "type":"mp4",
+     "src": "https://site.comandato.com/video/vstrom.mp4",
+     "blockClass": "VideoDoublePurpose"
+   }
+ },
    //DR650 
  "condition-layout.product#conditionForTheVideoCategoryDR650":
  {
@@ -299,20 +386,20 @@
        }
      ],
      "toBe" : true,
-    "Then":  "flex-layout.row#containforTheVideoDoublePurpose"
+    "Then":  "flex-layout.row#containforTheVideoDoublePurposeDR650"
     
    }
  },
 
-  "flex-layout.row#containforTheVideoDoublePurpose":{
+  "flex-layout.row#containforTheVideoDoublePurposeDR650":{
     "props":{
-      "blockClass": "containforTheVideoDoublePurpose",
+      "blockClass": "containforTheVideoDoublePurposeDR650",
       
       "fullWidth" : true
     },
-    "children":["video#VideoDoublePurpose"]
+    "children":["video#VideoDoublePurposeDR650"]
   },
-  "video#VideoDoublePurpose": {
+  "video#VideoDoublePurposeDR650": {
    "props": {
      "width": "100%",
      "height": "540px",
@@ -321,7 +408,7 @@
      "autoPlay": true,
      "muted": false,
      "type":"mp4",
-     "src": "https://site.comandato.com/video/vstrom.mp4",
+     "src": "https://site.comandato.com/video/DR650-OFICIALVIDEO.mp4",
      "blockClass": "VideoDoublePurpose"
    }
  },
@@ -373,12 +460,34 @@
       }
     ],
     "toBe" : true,
-   "Then": "flex-layout.row#containforTheVideoUtilitaria"
+   "Then": "flex-layout.row#containforTheVideoUtilitariaGN125"
    
   }
 },
+"flex-layout.row#containforTheVideoUtilitariaGN125":{
+  "props":{
+    "blockClass": "containforTheVideoUtilitaria",
+    
+    "fullWidth" : true
+  },
+  "children":["video#VideoUtilitariaGN125"]
+},
+"video#VideoUtilitariaGN125": {
+ "props": {
+   "width": "100%",
+   "height": "540px",
+  
+   "loop": true,
+   "autoPlay": true,
+   "muted": false,
+   "type":"mp4",
+   "src": "https://site.comandato.com/video/GN125VIDEO.mp4",
+   "blockClass": "VideoUtilitariaGN125"
+ }
+},
 
 
+//FIN GN 125
 
 "flex-layout.row#containforTheVideoUtilitaria":{
   "props":{
@@ -487,15 +596,30 @@
     
    }
  },
+
  "flex-layout.row#containforTheVideoSportyGSX250R":{
    "props":{
-     "blockClass": "containforTheVideoSporty",
+     "blockClass": "containforTheVideoSportyGSX250R",
      
      "fullWidth" : true
    },
-   "children":["video#VideoSporty"]
+   "children":["video#VideoSportyGSX250R"]
  },
+ "video#VideoSportyGSX250R": {
+  "props": {
+    "width": "100%",
+    "height": "540px",
+   
+    "loop": true,
+    "autoPlay": true,
+    "muted": false,
+    "type":"mp4",
+    "src": "https://site.comandato.com/video/GSX250R.mp4",
+    "blockClass": "VideoSportyGSX250R"
+  }
+},
 
+//
  //GSXS750
 "condition-layout.product#conditionForTheVideoCategorySportyGSXS750": 
 {
@@ -515,12 +639,26 @@
 },
 "flex-layout.row#containforTheVideoSportyGSXS750":{
   "props":{
-    "blockClass": "containforTheVideoSporty",
+    "blockClass": "containforTheVideoSportyGSXS750",
     
     "fullWidth" : true
   },
-  "children":["video#VideoSporty"]
+  "children":["video#VideoSportyGSXS750"]
 },
+"video#VideoSportyGSXS750": {
+  "props": {
+    "width": "100%",
+    "height": "540px",
+   
+    "loop": true,
+    "autoPlay": true,
+    "muted": false,
+    "type":"mp4",
+    "src": "https://site.comandato.com/video/GSX750AVIDEO.mp4",
+    "blockClass": "VideoSporty"
+  }
+},
+
 
  //SV650XA
  "condition-layout.product#conditionForTheVideoCategorySportySV650XA": 
@@ -541,12 +679,25 @@
  },
  "flex-layout.row#containforTheVideoSportySV650XA":{
    "props":{
-     "blockClass": "containforTheVideoSporty",
+     "blockClass": "containforTheVideoSportySV650XA",
      
      "fullWidth" : true
    },
-   "children":["video#VideoSporty"]
+   "children":["video#VideoSportySV650XA"]
  },
+ "video#VideoSportySV650XA": {
+  "props": {
+    "width": "100%",
+    "height": "540px",
+   
+    "loop": true,
+    "autoPlay": true,
+    "muted": false,
+    "type":"mp4",
+    "src": "https://site.comandato.com/video/SV650XA-OFICIALVIDEO.mp4",
+    "blockClass": "VideoSporty"
+  }
+},
 
 
  "video#VideoSporty": {
@@ -970,7 +1121,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## CUSTOM",
+  "text": "## CRUSIER",
   "blockClass": "subtittleMoto"
   }
 },
@@ -6121,7 +6272,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "## GL150\nTiene el aspecto del cruiser con un sillín más bajo, así mismo la horquilla cuenta con mayor diámetro en la barra y visualmente la inclinación hacia adelante genera más avance.",
+ "text": "## SV650X-A\nuno de los modelos más emblemáticos de Suzuki atendiendo a sus siglas de denominación. La marca japonesa se apunta al pujante carro de las tendencias retro que en su vertiente cafe racer cada vez tiene más adeptos",
  "blockClass": "descripcionDeFoto"
  }
 },
@@ -6148,7 +6299,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "## ABS ADELANTE Y SISTEMA DE INYECCIÓN ELECTRÓNICA\nRespuesta acescente y lineal del propulsor de 155cc, muy bajo en vibraciones.",
+ "text": "## ESTÉTICA\nLo primordial ha sido montar unos semimanillares para que el piloto adopte una postura deportiva. Además, se ha recurrido a una cúpula de forma redondeada con una banda central negra, perfectamente integrada en su óptica circular.",
  "blockClass": "descripcionDeFoto"
  }
 },
@@ -6176,7 +6327,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "## SUAVE EN CONDUCCIÓN Y EN PASO POR CURVA\nDiseño robusto e impactante, que le da apariencia de ser de mayor cubicaje.",
+ "text": "## ASIENTO\nEl asiento situado a unos accesible 790 mm, es otro ingrediente esencial en su lograda estética, gracias a un acolchado de apariencia vintage que además ofrece mayor comodidad a los ocupantes.",
  "blockClass": "descripcionDeFoto"
  }
 },
@@ -7417,7 +7568,7 @@
   "image#arranqueGD115Evolution": {
     "props": {
       "blockClass": "motovlStrom2",
-      "src": "https://suzukiecuador.vteximg.com.br/arquivos/GD115EVOLUTION2.jpg"
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115evolution-2oficiail.jpg"
     }
     
   },
@@ -7515,7 +7666,8 @@
  "image#motoGD115": {
    "props": {
      "blockClass": "motovlStrom",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/GD115EVOLITION3.jpg"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/GD115-OFICIAL2.jpg"
+     
      
    }
    
@@ -7544,7 +7696,8 @@
  "image#arranqueGD115": {
    "props": {
      "blockClass": "motovlStrom2",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/GD115-OFICIAL2.jpg"
+     
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/GD115EVOLUTION2.jpg"
    }
    
  },
@@ -7571,6 +7724,8 @@
  "image#motorGD115": {
    "props": {
      "blockClass": "motovlStrom3",
+    
+     
      "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115-OFICIAL3.jpg"
      
    }
@@ -9472,14 +9627,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/Banner-Suzuki'gsx250r.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/Banner-Suzuki'gsx250r.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki-gsx250r-2.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki-gsx250r-2.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/Banner-Suzuki'gsx250r.jpg",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/Banner-Suzuki'gsx250r.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-gsx250r.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-gsx250r.jpg"
         }
         
       ]
@@ -9770,7 +9925,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, refrigeración líquida, DOHC",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -10290,7 +10445,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**DESPLAZAMIENTO** \n",
+  "text": "**DESPLAZAMIENTO** \n645 cm3",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -10809,7 +10964,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**SISTEMA DE ARRANQUE** \n",
+  "text": "**SISTEMA DE ARRANQUE** \nEléctrico",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -11385,7 +11540,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**FARO DELANTERO** \n",
+  "text": "**FARO DELANTERO** \nTipo linterna, antiniebla LED",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -11906,7 +12061,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**RINES** \n",
+  "text": "**RINES** \nMagnesio inoxidable",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -12431,7 +12586,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**SUSPENSIÓN DELANTERA** \n",
+  "text": "**SUSPENSIÓN DELANTERA** \nTelescopica con resorte y aceite",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -13025,7 +13180,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**PESO** \n",
+  "text": "**PESO** \n198 Kg",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -13522,7 +13677,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**LARGO TOTAL** \n",
+  "text": "**LARGO TOTAL** \n2140 mm",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -14042,7 +14197,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TANQUE DE COMBUSTIBLE** \n",
+  "text": "**TANQUE DE COMBUSTIBLE** \n20 Lts (Incluida reserva)",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
