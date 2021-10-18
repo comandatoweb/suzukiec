@@ -972,9 +972,9 @@
 },
 "rich-text#subtittleMoto2GSX125":{
  "props":{
-   "textAlignment": "CENTER",
+   "textAlignment": "CENTER", 
  "textPosition": "CENTER",
- "text": "### CONFIABLE Y ÁGIL CON DISEÑO DEPORTIVO",
+ "text": "### CONFIABLE Y ÁGIL CON DISEÑO DEPORTIVO PARA TI",
  "blockClass": "subtittleMoto2"
  }
 },
