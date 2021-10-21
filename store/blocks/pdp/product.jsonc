@@ -192,7 +192,7 @@
      "autoPlay": true,
      "muted": false,
      "type":"mp4",
-     "src": "https://site.comandato.com/video/LEST.mp4",
+     "src": "https://site.comandato.com/video/UR110VIDEO.mp4",
      "blockClass": "VideoScooter"
    }
  },
@@ -212,8 +212,22 @@
         }
       ],
       "toBe" : true,
-     "Then": "flex-layout.row#containforTheVideoCross"
+     "Then": "flex-layout.row#containforTheImageCross"
      
+    }
+  },
+  "flex-layout.row#containforTheImageCross":{
+    "props":{
+      "blockClass": "containforTheImageCross",
+      
+      "fullWidth" : true
+    },
+    "children":["image#ImageCrossDRZ50"]
+  },
+  "image#ImageCrossDRZ50": {
+    "props": {
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/drz50banner.jpg"
+      
     }
   },
   //RM85
@@ -254,6 +268,82 @@
      "blockClass": "VideoCross"
    }
  },
+ //RMZ250
+ "condition-layout.product#conditionForTheVideoCategoryCrossRMZ250":
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "" 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#containforTheVideoCrossRMZ250"
+    
+   }
+ },
+ "flex-layout.row#containforTheVideoCrossRMZ250":{
+   "props":{
+     "blockClass": "containforTheVideoCrossRMZ250",
+     
+     "fullWidth" : true
+   },
+   "children":["video#VideoCrossRMZ250"]
+ },
+ "video#VideoCrossRMZ250": {
+  "props": {
+    "width": "100%",
+    "height": "540px",
+   
+    "loop": true,
+    "autoPlay": true,
+    "muted": false,
+    "type":"mp4",
+    "src": "https://site.comandato.com/video/",
+    "blockClass": "VideoCross"
+  }
+},
+//RMZ450
+"condition-layout.product#conditionForTheVideoCategoryCrossRMZ450":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containforTheVideoCrossRMZ450"
+   
+  }
+},
+"flex-layout.row#containforTheVideoCrossRMZ450":{
+  "props":{
+    "blockClass": "containforTheVideoCrossRMZ450",
+    
+    "fullWidth" : true
+  },
+  "children":["video#VideoCrossRMZ450"]
+},
+"video#VideoCrossRMZ450": {
+ "props": {
+   "width": "100%",
+   "height": "540px",
+  
+   "loop": true,
+   "autoPlay": true,
+   "muted": false,
+   "type":"mp4",
+   "src": "https://site.comandato.com/video/",
+   "blockClass": "VideoCross"
+ }
+},
 
 
 
@@ -537,7 +627,7 @@
   },
   "children":["video#VideoUtilitariaDeportivaGSX125"]
 },
-"video#VideoUtilitariaDeportivaGSX125": {//AVERIGUAR VIDEO
+"video#VideoUtilitariaDeportivaGSX125": {
  "props": {
    "width": "100%",
    "height": "540px",
@@ -546,7 +636,7 @@
    "autoPlay": true,
    "muted": false,
    "type":"mp4",
-   "src": "https://site.comandato.com/video/Utilitaria.mp4",
+   "src": "https://site.comandato.com/video/GSX125CVIDEO.mp4",
    "blockClass": "VideoUtiliraria"
  }
 },
@@ -578,6 +668,20 @@
    },
    "children":["video#VideoSporty"]
  },
+ "video#VideoSporty": {
+  "props": {
+    "width": "100%",
+    "height": "540px",
+   
+    "loop": true,
+    "autoPlay": true,
+    "muted": false,
+    "type":"mp4",
+    "src": "https://site.comandato.com/video/KATANASUZUKITRAILER.mp4",
+    "blockClass": "VideoSporty"
+  }
+ },
+ 
  
 //GSX250R
 "condition-layout.product#conditionForTheVideoCategorySportyGSX250R": 
@@ -619,7 +723,7 @@
   }
 },
 
-//
+
  //GSXS750
 "condition-layout.product#conditionForTheVideoCategorySportyGSXS750": 
 {
@@ -700,19 +804,87 @@
 },
 
 
- "video#VideoSporty": {
+
+
+//GSXR1000
+"condition-layout.product#conditionForTheVideoCategorySportyGSXR1000": 
+{
   "props": {
-    "width": "100%",
-    "height": "540px",
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containforTheVideoSportyGSXR1000"
    
-    "loop": true,
-    "autoPlay": true,
-    "muted": false,
-    "type":"mp4",
-    "src": "https://site.comandato.com/video/KATANASUZUKITRAILER.mp4",
-    "blockClass": "VideoSporty"
   }
 },
+"flex-layout.row#containforTheVideoSportyGSXR1000":{
+  "props":{
+    "blockClass": "containforTheVideoSportyGSXR1000",
+    
+    "fullWidth" : true
+  },
+  "children":["video#VideoSportyGSXR1000"]
+},
+"video#VideoSportyGSXR1000": {
+ "props": {
+   "width": "100%",
+   "height": "540px",
+  
+   "loop": true,
+   "autoPlay": true,
+   "muted": false,
+   "type":"mp4",
+   "src": "https://site.comandato.com/video/",
+   "blockClass": "VideoSporty"
+ }
+},
+
+
+//GSX750R
+"condition-layout.product#conditionForTheVideoCategorySportyGSX750R": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containforTheVideoSportyGSX750R"
+   
+  }
+},
+"flex-layout.row#containforTheVideoSportyGSX750R":{
+  "props":{
+    "blockClass": "containforTheVideoSportyGSX750R",
+    
+    "fullWidth" : true
+  },
+  "children":["video#VideoSportyGSX750R"]
+},
+"video#VideoSportyGSX750R": {
+ "props": {
+   "width": "100%",
+   "height": "540px",
+  
+   "loop": true,
+   "autoPlay": true,
+   "muted": false,
+   "type":"mp4",
+   "src": "https://site.comandato.com/video/",
+   "blockClass": "VideoSporty"
+ }
+},
+
 
  
 
@@ -876,6 +1048,221 @@
  "blockClass": "subtittleMoto2"
  }
 },
+
+//AGREGANDO LAS 4 MOTOS
+
+//RMZ450
+"condition-layout.product#conditionForSubittleMotoRMZ450": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#subTitleForTheMotoRMZ450"
+   
+  }
+},
+"flex-layout.row#subTitleForTheMotoRMZ450":{
+ "props":{
+   "blockClass": "subTitleForTheMoto",
+   
+   "fullWidth" : true
+ },
+ "children":["flex-layout.col#columnForTheSubTitleMotoRMZ450"]
+},
+"flex-layout.col#columnForTheSubTitleMotoRMZ450":{
+ "props":{
+   "blockClass": "columnForTheSubTitleMoto"
+  
+ },
+ "children":["rich-text#subtittleMotoRMZ450","rich-text#subtittleMoto2RMZ450"]
+ //"children" :["condition-layout.product#conditionForTheSubtittleCategory","condition-layout.product#conditionForTheDescriptionCategory"]
+
+},
+"rich-text#subtittleMotoRMZ450":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "## ",
+ "blockClass": "subtittleMoto"
+ }
+},
+"rich-text#subtittleMoto2RMZ450":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "### ",
+ "blockClass": "subtittleMoto2"
+ }
+},
+
+//RMZ250
+"condition-layout.product#conditionForSubittleMotoRMZ250": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#subTitleForTheMotoRMZ250"
+   
+  }
+},
+"flex-layout.row#subTitleForTheMotoRMZ250":{
+ "props":{
+   "blockClass": "subTitleForTheMoto",
+   
+   "fullWidth" : true
+ },
+ "children":["flex-layout.col#columnForTheSubTitleMotoRMZ250"]
+},
+"flex-layout.col#columnForTheSubTitleMotoRMZ250":{
+ "props":{
+   "blockClass": "columnForTheSubTitleMoto"
+  
+ },
+ "children":["rich-text#subtittleMotoRMZ250","rich-text#subtittleMoto2RMZ250"]
+ //"children" :["condition-layout.product#conditionForTheSubtittleCategory","condition-layout.product#conditionForTheDescriptionCategory"]
+
+},
+"rich-text#subtittleMotoRMZ250":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "## ",
+ "blockClass": "subtittleMoto"
+ }
+},
+"rich-text#subtittleMoto2RMZ250":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "### ",
+ "blockClass": "subtittleMoto2"
+ }
+},
+
+//GSXR1000
+"condition-layout.product#conditionForSubittleMotoGSXR1000": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#subTitleForTheMotoGSXR1000"
+   
+  }
+},
+"flex-layout.row#subTitleForTheMotoGSXR1000":{
+ "props":{
+   "blockClass": "subTitleForTheMoto",
+   
+   "fullWidth" : true
+ },
+ "children":["flex-layout.col#columnForTheSubTitleMotoGSXR1000"]
+},
+"flex-layout.col#columnForTheSubTitleMotoGSXR1000":{
+ "props":{
+   "blockClass": "columnForTheSubTitleMoto"
+  
+ },
+ "children":["rich-text#subtittleMotoGSXR1000","rich-text#subtittleMoto2GSXR1000"]
+ //"children" :["condition-layout.product#conditionForTheSubtittleCategory","condition-layout.product#conditionForTheDescriptionCategory"]
+
+},
+"rich-text#subtittleMotoGSXR1000":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "## ",
+ "blockClass": "subtittleMoto"
+ }
+},
+"rich-text#subtittleMoto2GSXR1000":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "### ",
+ "blockClass": "subtittleMoto2"
+ }
+},
+//GSX750R
+"condition-layout.product#conditionForSubittleMotoGSX750R": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#subTitleForTheMotoGSX750R"
+   
+  }
+},
+"flex-layout.row#subTitleForTheMotoGSX750R":{
+ "props":{
+   "blockClass": "subTitleForTheMoto",
+   
+   "fullWidth" : true
+ },
+ "children":["flex-layout.col#columnForTheSubTitleMotoGSX750R"]
+},
+"flex-layout.col#columnForTheSubTitleMotoGSX750R":{
+ "props":{
+   "blockClass": "columnForTheSubTitleMoto"
+  
+ },
+ "children":["rich-text#subtittleMotoGSX750R","rich-text#subtittleMoto2GSX750R"]
+ //"children" :["condition-layout.product#conditionForTheSubtittleCategory","condition-layout.product#conditionForTheDescriptionCategory"]
+
+},
+"rich-text#subtittleMotoGSX750R":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "## ",
+ "blockClass": "subtittleMoto"
+ }
+},
+"rich-text#subtittleMoto2GSX750R":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "### ",
+ "blockClass": "subtittleMoto2"
+ }
+},
+
+
+
+
+
+//FINALIZANDO LAS 4 MOTOS
+
+
+
+
 
 //LTZ50
 
@@ -1879,6 +2266,14 @@
     "condition-layout.product#conditionFirstTextKatana",
     "condition-layout.product#conditionFirstTextVstrom650",
     "condition-layout.product#conditionFirstTextVstrom1050",
+
+    //MOTOS AGREGADAS
+    "condition-layout.product#conditionFirstTextRMZ450",
+    "condition-layout.product#conditionFirstTextRMZ250",
+    "condition-layout.product#conditionFirstTextGSXR1000",
+    "condition-layout.product#conditionFirstTextGSX750R",
+
+
     //MOTORES FUERA DE BORDA
      "condition-layout.product#conditionFirstFueraBordaDF175ATX",
      "condition-layout.product#conditionFirstFueraBordaDF200ZX",
@@ -2761,6 +3156,8 @@
    }
  },
 
+
+
  //PRIMERA CONDICION TEXTO  V STROM 1050
  "condition-layout.product#conditionFirstTextVstrom1050": 
  {
@@ -2784,6 +3181,119 @@
      "textAlignment": "CENTER",
    "textPosition": "CENTER",
    "text": "**1037 cc - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+   "textColor": "c-on-emphasis",
+   "font": "t-heading-5",
+   "blockClass": "mensaje1"
+   }
+ },
+//PRIMERA CONDICION RMZ450
+"condition-layout.product#conditionFirstTextRMZ450": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "" 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then":  "rich-text#firstTextRMZ450"
+    
+   }
+ },
+ 
+ "rich-text#firstTextRMZ450":{
+   "props":{
+     "textAlignment": "CENTER",
+   "textPosition": "CENTER",
+   "text": "** cc - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+   "textColor": "c-on-emphasis",
+   "font": "t-heading-5",
+   "blockClass": "mensaje1"
+   }
+ },
+ //PRIMERA CONDICION RMZ250
+"condition-layout.product#conditionFirstTextRMZ250": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextRMZ250"
+   
+  }
+},
+
+"rich-text#firstTextRMZ250":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "** cc - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+
+//PRIMERA CONDICION GSXR1000
+"condition-layout.product#conditionFirstTextGSXR1000": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "" 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then":  "rich-text#firstTextGSXR1000"
+    
+   }
+ },
+ 
+ "rich-text#firstTextGSXR1000":{
+   "props":{
+     "textAlignment": "CENTER",
+   "textPosition": "CENTER",
+   "text": "** cc - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+   "textColor": "c-on-emphasis",
+   "font": "t-heading-5",
+   "blockClass": "mensaje1"
+   }
+ },
+//PRIMERA CONDICION GSX750R
+"condition-layout.product#conditionFirstTextGSX750R": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "" 
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then":  "rich-text#firstTextGSX750R"
+    
+   }
+ },
+ 
+ "rich-text#firstTextGSX750R":{
+   "props":{
+     "textAlignment": "CENTER",
+   "textPosition": "CENTER",
+   "text": "** cc - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
    "textColor": "c-on-emphasis",
    "font": "t-heading-5",
    "blockClass": "mensaje1"
@@ -2844,6 +3354,14 @@
     "condition-layout.product#conditionImageRapidoKATANA",
     "condition-layout.product#conditionImageRapidoVSTROM650",
     "condition-layout.product#conditionImageRapidoVSTROM1050",
+
+    //AGREGANDO IMAGENES PARA MOTOS
+    "condition-layout.product#conditionImageRapidoRMZ450",
+    "condition-layout.product#conditionImageRapidoRMZ250",
+    "condition-layout.product#conditionImageRapidoGSXR1000",
+    "condition-layout.product#conditionImageRapidoGSX750R",
+
+
     "condition-layout.product#conditionImageRapidoLTZ50",
 
 
@@ -2865,6 +3383,14 @@
     "condition-layout.product#conditionSecondTextKatana",
     "condition-layout.product#conditionSecondTextVstrom650",
     "condition-layout.product#conditionSecondTextVstrom1050",
+
+    "condition-layout.product#conditionSecondTextRMZ450",
+    "condition-layout.product#conditionSecondTextRMZ250",
+    "condition-layout.product#conditionSecondTextGSXR1000",
+    "condition-layout.product#conditionSecondTextGSX750R",
+
+
+
     "condition-layout.product#conditionSecondTextLTZ50",
 
     "condition-layout.product#conditionSecondTextDF175ATX",
@@ -3389,6 +3915,70 @@
     
    }
  },
+ "condition-layout.product#conditionImageRapidoRMZ450": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": ""
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#rapido"
+    
+   }
+ },
+ "condition-layout.product#conditionImageRapidoRMZ250": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2054006"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#rapido"
+    
+   }
+ },
+ "condition-layout.product#conditionImageRapidoGSXR1000": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2054006"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#rapido"
+    
+   }
+ },
+ "condition-layout.product#conditionImageRapidoGSX750R": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2054006"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "image#rapido"
+    
+   }
+ },
 
 
 
@@ -3462,7 +4052,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "**4 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "text": "**Transmisión - Semiautomática**\nCon un sistema que te permite llevar a diferentes velocidades",
  "textColor": "c-on-emphasis",
  "font": "t-heading-5",
  "blockClass": "mensaje2"
@@ -3919,6 +4509,116 @@
  "blockClass": "mensaje2"
  }
 },
+//SEGUNDA  CONDICION TEXTO  RMZ450
+"condition-layout.product#conditionSecondTextRMZ450": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextRMZ450"
+   
+  }
+},
+"rich-text#SecondTextRMZ450":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "** -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+//SEGUNDA  CONDICION TEXTO  RMZ250
+"condition-layout.product#conditionSecondTextRMZ250": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextRMZ250"
+   
+  }
+},
+"rich-text#SecondTextRMZ250":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "** -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+
+
+//SEGUNDA  CONDICION TEXTO GSXR1000
+"condition-layout.product#conditionSecondTextGSXR1000": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGSXR1000"
+   
+  }
+},
+"rich-text#SecondTextGSXR1000":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "** -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+//SEGUNDA  CONDICION TEXTO  GSX750R
+"condition-layout.product#conditionSecondTextGSX750R": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGSX750R"
+   
+  }
+},
+"rich-text#SecondTextGSX750R":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "** -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
 
 //LTZ50
 "condition-layout.product#conditionSecondTextLTZ50": 
@@ -4312,6 +5012,12 @@
     "condition-layout.product#conditionImageDiscoFrenoKATANA",
     "condition-layout.product#conditionImageDiscoFrenoVSTROM650",
     "condition-layout.product#conditionImageDiscoFrenoVSTROM1050",
+
+    "condition-layout.product#conditionImageDiscoFrenoRMZ450",
+    "condition-layout.product#conditionImageDiscoFrenoRMZ250",
+    "condition-layout.product#conditionImageDiscoFrenoGSXR1000",
+    "condition-layout.product#conditionImageDiscoFrenoGSX750R",
+
     "condition-layout.product#conditionImageDiscoFrenoLTZ50",
 
     "condition-layout.product#conditionThirdtTextUK110",
@@ -4332,6 +5038,14 @@
     "condition-layout.product#conditionThirdTextKatana",
     "condition-layout.product#conditionThirdTextVstrom650",
     "condition-layout.product#conditionThirdTextVstrom1050",
+
+    "condition-layout.product#conditionThirdTextRMZ450",
+    "condition-layout.product#conditionThirdTextRMZ250",
+    "condition-layout.product#conditionThirdTextGSXR1000",
+    "condition-layout.product#conditionThirdTextGSX750R",
+
+
+
     "condition-layout.product#conditionThirdTextLTZ50",
 
     "condition-layout.product#conditionThirdTextDF175ATX",
@@ -4836,6 +5550,72 @@
     
    }
  },
+
+ "condition-layout.product#conditionImageDiscoFrenoRMZ450":
+  {
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "image#DiscoFreno"
+   
+  }
+  },
+  "condition-layout.product#conditionImageDiscoFrenoRMZ250":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": ""
+          }
+        }
+      ],
+      "toBe" : true,
+      "Then": "image#DiscoFreno"
+      
+    }
+  },
+  "condition-layout.product#conditionImageDiscoFrenoGSXR1000":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": ""
+          }
+        }
+      ],
+      "toBe" : true,
+      "Then": "image#DiscoFreno"
+      
+    }
+  },
+  "condition-layout.product#conditionImageDiscoFrenoGSX750R":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": ""
+          }
+        }
+      ],
+      "toBe" : true,
+      "Then": "image#DiscoFreno"
+      
+    }
+  },
+
  "condition-layout.product#conditionImageDiscoFrenoLTZ50": 
  {
    "props": {
@@ -4890,7 +5670,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
+  "text": "**Discos delanteros / Tambor posterior**\nFrenos de confianza \nrodada en cualquier sitio",
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje3"
@@ -4917,7 +5697,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
+  "text": "**Freno delantero / posterior - Tambor**\nFrenos de confianza \nrodada en cualquier sitio",
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje3"
@@ -4945,7 +5725,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
+  "text": "**Freno delantero / posterior - Tambor**\nFrenos de confianza \nrodada en cualquier sitio",
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje3"
@@ -4972,7 +5752,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
+  "text": "**Freno delantero - Disco / Freno posterior Tambor**\nFrenos de confianza \nrodada en cualquier sitio",
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje3"
@@ -4999,7 +5779,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
+  "text": "**Freno delantero Disco / Freno posterior Tambor**\nFrenos de confianza \nrodada en cualquier sitio",
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje3"
@@ -5363,6 +6143,115 @@
   }
 },
 "rich-text#ThirdTextVstrom1050":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**ABS / ABS  - Frenos (Delantero / Trasero)**\nFrenos de confianza \nrodada en cualquier sitio",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje3"
+  }
+},
+
+//TERCERA CONDICION TEXTO RMZ450
+"condition-layout.product#conditionThirdTextRMZ450": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextRMZ450"
+   
+  }
+},
+"rich-text#ThirdTextRMZ450":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "****\nFrenos de confianza \nrodada en cualquier sitio",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje3"
+  }
+},
+//TERCERA CONDICION TEXTO RMZ250
+"condition-layout.product#conditionThirdTextRMZ250": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextRMZ250"
+   
+  }
+},
+"rich-text#ThirdTextRMZ250":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "****\nFrenos de confianza \nrodada en cualquier sitio",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje3"
+  }
+},
+//TERCERA CONDICION TEXTO GSXR1000
+"condition-layout.product#conditionThirdTextGSXR1000": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGSXR1000"
+   
+  }
+},
+"rich-text#ThirdTextGSXR1000":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "****\nFrenos de confianza \nrodada en cualquier sitio",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje3"
+  }
+},
+//TERCERA CONDICION TEXTO GSX750R
+"condition-layout.product#conditionThirdTextGSX750R": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGSX750R"
+   
+  }
+},
+"rich-text#ThirdTextGSX750R":{
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
@@ -6654,7 +7543,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## FW110\nMotoneta comoda y segura ofrece varios detalles  de calidad",
+  "text": "## FW110\nScooter comoda y segura ofrece varios detalles  de calidad",
   "blockClass": "descripcionDeFoto"
   }
 },
@@ -7081,7 +7970,7 @@
  "image#motorGSX250R": {
    "props": {
      "blockClass": "motovlStrom3",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx250r-3.png"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/GSX250R-2OFICIAL.png"
     
    }
   
@@ -7292,7 +8181,7 @@
    "props":{
      "textAlignment": "CENTER",
    "textPosition": "CENTER",
-   "text": "## XTREMA EL CONTROL. EN CUALQUIER TERRENO\nNo habrá camino que no puedas dominar con V-Strom 650XT, ya que puedes elegir entre 2 modos de conducción o apagarlo para así conseguir un manejo más personalizado. Desde condiciones de camino ideales hasta condiciones de humedad o poca adherencia.",
+   "text": "## XTREMA EL CONTROL. EN CUALQUIER TERRENO\nNo habrá camino que no puedas dominar con V-Strom 650XT, ya que puedes elegir entre 2 modos de control de tracción o apagarlo para así conseguir un manejo más personalizado. Desde condiciones de camino ideales hasta condiciones de humedad o poca adherencia.",
    "blockClass": "descripcionDeFoto"
    }
  },
@@ -7595,7 +8484,7 @@
   "image#motorGD115Evolution": {
     "props": {
       "blockClass": "motovlStrom3",
-      "src": "https://suzukiecuador.vteximg.com.br/arquivos/GD115EVOLITION3.jpg"
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115evolution-3.jpg"
       
     }
     
@@ -7666,7 +8555,7 @@
  "image#motoGD115": {
    "props": {
      "blockClass": "motovlStrom",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/GD115-OFICIAL2.jpg"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115-OFICIAL3.jpg"
      
      
    }
@@ -7697,7 +8586,7 @@
    "props": {
      "blockClass": "motovlStrom2",
      
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/GD115EVOLUTION2.jpg"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115motor.jpg"
    }
    
  },
@@ -7726,7 +8615,7 @@
      "blockClass": "motovlStrom3",
     
      
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115-OFICIAL3.jpg"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115rines.jpg"
      
    }
    
@@ -7992,7 +8881,516 @@
   "blockClass": "descripcionDeFoto"
   }
 },
-//FIN DE AGREGADO
+
+//RMZ450
+"condition-layout.product#conditionRevistaRMZ450": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "" 
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then":  "flex-layout.row#contenedorDivParaImagenRevistaRMZ450" 
+    
+  }
+},
+"flex-layout.row#contenedorDivParaImagenRevistaRMZ450" : {
+  "props": {
+    "blockClass": "contenedorDivParaImagenRevista",
+    "fullWidth":true,
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaRMZ450"]
+},
+
+
+"flex-layout.col#contenedorColumnaDivParaImagenRevistaRMZ450" : {
+  "props": {
+    "blockClass": "contenedorColumnaDivParaImagenRevista",
+    "preventVerticalStretch": true,
+    "rowGap": 0,
+    "hasMoreThanOne" : true
+  },
+  "children":["flex-layout.row#divParaImagenRevistaRMZ450","flex-layout.row#divParaImagenRevista2RMZ450","flex-layout.row#divParaImagenRevista3RMZ450"]
+},
+
+"flex-layout.row#divParaImagenRevistaRMZ450":{
+  "props": {
+    "blockClass": "divParaImagenRevista",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["image#motoRMZ450","rich-text#descripcionDeFoto1RMZ450"]
+},
+"image#motoRMZ450": {
+  "props": {
+    "blockClass": "motovlStrom",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+    
+  }
+  
+},
+"rich-text#descripcionDeFoto1RMZ450":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## \n",
+  "blockClass": "descripcionDeFoto"
+  }
+  
+},
+"flex-layout.row#divParaImagenRevista2RMZ450":{
+  "props": {
+    "blockClass": "divParaImagenRevista2",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["rich-text#descripcionDeFoto2RMZ450","image#arranqueRMZ450"]
+},
+"image#arranqueRMZ450": {
+  "props": {
+    "blockClass": "motovlStrom2",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+  }
+  
+},
+"rich-text#descripcionDeFoto2RMZ450":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## \n",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+"flex-layout.row#divParaImagenRevista3RMZ450":{
+  "props": {
+    "blockClass": "divParaImagenRevista3",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["image#motorRMZ450","rich-text#descripcionDeFoto3RMZ450"]
+},
+"image#motorRMZ450": {
+  "props": {
+    "blockClass": "motovlStrom3",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+    
+  }
+  
+},
+"rich-text#descripcionDeFoto3RMZ450":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "##  \n",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+
+//RMZ250
+"condition-layout.product#conditionRevistaRMZ250": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "" 
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then":  "flex-layout.row#contenedorDivParaImagenRevistaRMZ250" 
+    
+  }
+},
+"flex-layout.row#contenedorDivParaImagenRevistaRMZ250" : {
+  "props": {
+    "blockClass": "contenedorDivParaImagenRevista",
+    "fullWidth":true,
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaRMZ250"]
+},
+
+
+"flex-layout.col#contenedorColumnaDivParaImagenRevistaRMZ250" : {
+  "props": {
+    "blockClass": "contenedorColumnaDivParaImagenRevista",
+    "preventVerticalStretch": true,
+    "rowGap": 0,
+    "hasMoreThanOne" : true
+  },
+  "children":["flex-layout.row#divParaImagenRevistaRMZ250","flex-layout.row#divParaImagenRevista2RMZ250","flex-layout.row#divParaImagenRevista3RMZ250"]
+},
+
+"flex-layout.row#divParaImagenRevistaRMZ250":{
+  "props": {
+    "blockClass": "divParaImagenRevista",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["image#motoRMZ250","rich-text#descripcionDeFoto1RMZ250"]
+},
+"image#motoRMZ250": {
+  "props": {
+    "blockClass": "motovlStrom",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+    
+  }
+  
+},
+"rich-text#descripcionDeFoto1RMZ250":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## \n",
+  "blockClass": "descripcionDeFoto"
+  }
+  
+},
+"flex-layout.row#divParaImagenRevista2RMZ250":{
+  "props": {
+    "blockClass": "divParaImagenRevista2",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["rich-text#descripcionDeFoto2RMZ250","image#arranqueRMZ250"]
+},
+"image#arranqueRMZ250": {
+  "props": {
+    "blockClass": "motovlStrom2",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+  }
+  
+},
+"rich-text#descripcionDeFoto2RMZ250":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## \n",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+"flex-layout.row#divParaImagenRevista3RMZ250":{
+  "props": {
+    "blockClass": "divParaImagenRevista3",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["image#motorRMZ250","rich-text#descripcionDeFoto3RMZ250"]
+},
+"image#motorRMZ250": {
+  "props": {
+    "blockClass": "motovlStrom3",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+    
+  }
+  
+},
+"rich-text#descripcionDeFoto3RMZ250":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## \n",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+
+//GSXR1000
+"condition-layout.product#conditionRevistaGSXR1000": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "" 
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then":  "flex-layout.row#contenedorDivParaImagenRevistaGSXR1000" 
+    
+  }
+},
+"flex-layout.row#contenedorDivParaImagenRevistaGSXR1000" : {
+  "props": {
+    "blockClass": "contenedorDivParaImagenRevista",
+    "fullWidth":true,
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaGSXR1000"]
+},
+
+
+"flex-layout.col#contenedorColumnaDivParaImagenRevistaGSXR1000" : {
+  "props": {
+    "blockClass": "contenedorColumnaDivParaImagenRevista",
+    "preventVerticalStretch": true,
+    "rowGap": 0,
+    "hasMoreThanOne" : true
+  },
+  "children":["flex-layout.row#divParaImagenRevistaGSXR1000","flex-layout.row#divParaImagenRevista2GSXR1000","flex-layout.row#divParaImagenRevista3GSXR1000"]
+},
+
+"flex-layout.row#divParaImagenRevistaGSXR1000":{
+  "props": {
+    "blockClass": "divParaImagenRevista",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["image#motoGSXR1000","rich-text#descripcionDeFoto1GSXR1000"]
+},
+"image#motoGSXR1000": {
+  "props": {
+    "blockClass": "motovlStrom",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+    
+  }
+  
+},
+"rich-text#descripcionDeFoto1GSXR1000":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## \n",
+  "blockClass": "descripcionDeFoto"
+  }
+  
+},
+"flex-layout.row#divParaImagenRevista2GSXR1000":{
+  "props": {
+    "blockClass": "divParaImagenRevista2",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["rich-text#descripcionDeFoto2GSXR1000","image#arranqueGSXR1000"]
+},
+"image#arranqueGSXR1000": {
+  "props": {
+    "blockClass": "motovlStrom2",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+  }
+  
+},
+"rich-text#descripcionDeFoto2GSXR1000":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "##\n",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+"flex-layout.row#divParaImagenRevista3GSXR1000":{
+  "props": {
+    "blockClass": "divParaImagenRevista3",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["image#motorGSXR1000","rich-text#descripcionDeFoto3GSXR1000"]
+},
+"image#motorGSXR1000": {
+  "props": {
+    "blockClass": "motovlStrom3",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+    
+  }
+  
+},
+"rich-text#descripcionDeFoto3GSXR1000":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## \n",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+
+//GSX750R
+"condition-layout.product#conditionRevistaGSX750R": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "" 
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then":  "flex-layout.row#contenedorDivParaImagenRevistaGSX750R" 
+    
+  }
+},
+"flex-layout.row#contenedorDivParaImagenRevistaGSX750R" : {
+  "props": {
+    "blockClass": "contenedorDivParaImagenRevista",
+    "fullWidth":true,
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["flex-layout.col#contenedorColumnaDivParaImagenRevistaGSX750R"]
+},
+
+
+"flex-layout.col#contenedorColumnaDivParaImagenRevistaGSX750R" : {
+  "props": {
+    "blockClass": "contenedorColumnaDivParaImagenRevista",
+    "preventVerticalStretch": true,
+    "rowGap": 0,
+    "hasMoreThanOne" : true
+  },
+  "children":["flex-layout.row#divParaImagenRevistaGSX750R","flex-layout.row#divParaImagenRevista2GSX750R","flex-layout.row#divParaImagenRevista3GSX750R"]
+},
+
+"flex-layout.row#divParaImagenRevistaGSX750R":{
+  "props": {
+    "blockClass": "divParaImagenRevista",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["image#motoGSX750R","rich-text#descripcionDeFoto1GSX750R"]
+},
+"image#motoGSX750R": {
+  "props": {
+    "blockClass": "motovlStrom",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+    
+  }
+  
+},
+"rich-text#descripcionDeFoto1GSX750R":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## \n",
+  "blockClass": "descripcionDeFoto"
+  }
+  
+},
+"flex-layout.row#divParaImagenRevista2GSX750R":{
+  "props": {
+    "blockClass": "divParaImagenRevista2",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["rich-text#descripcionDeFoto2GSX750R","image#arranqueGSX750R"]
+},
+"image#arranqueGSX750R": {
+  "props": {
+    "blockClass": "motovlStrom2",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+  }
+  
+},
+"rich-text#descripcionDeFoto2GSX750R":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "## \n",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+"flex-layout.row#divParaImagenRevista3GSX750R":{
+  "props": {
+    "blockClass": "divParaImagenRevista3",
+    "colGap": 0,
+    "rowGap": 0,
+    "marginTop": 0,
+    "marginBottom": 0,
+    "paddingTop": 0,
+    "paddingBottom": 0
+  },
+  "children":["image#motorGSX750R","rich-text#descripcionDeFoto3GSX750R"]
+},
+"image#motorGSX750R": {
+  "props": {
+    "blockClass": "motovlStrom3",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+    
+  }
+  
+},
+"rich-text#descripcionDeFoto3GSX750R":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "##  \n",
+  "blockClass": "descripcionDeFoto"
+  }
+},
+
+
 
 //LTZ50
 "condition-layout.product#conditionRevistaLTZ50": 
@@ -8336,7 +9734,7 @@
    "image#arranqueRM85": {
      "props": {
        "blockClass": "motovlStrom2",
-       "src": "https://suzukiecuador.vteximg.com.br/arquivos/rm85-2.jpg"
+       "src": "https://suzukiecuador.vteximg.com.br/arquivos/suzukirm85-oficial2.png"
      }
      
    },
@@ -8363,7 +9761,7 @@
    "image#motorRM85": {
      "props": {
        "blockClass": "motovlStrom3",
-       "src": "https://suzukiecuador.vteximg.com.br/arquivos/RM85-3.jpg"
+       "src": "https://suzukiecuador.vteximg.com.br/arquivos/suzukirm85-oficial3.png"
        
      }
      
@@ -9269,14 +10667,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki-gsx125-banner.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki-gsx125-banner.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/gsx125cBanner.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/gsx125cBanner.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki-gsx125-banner.jpg",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki-gsx125-banner.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/gsx125cBanner.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/gsx125cBanner.jpg"
         }
         
       ]
@@ -9320,8 +10718,8 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/drz50banner.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/drz50banner.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/DR-Z50-moto-suzuki-banner.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/DR-Z50-moto-suzuki-banner.jpg"
         },
         {
           "width" : "100%",
@@ -9627,14 +11025,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki-gsx250r-2.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki-gsx250r-2.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/gsx-250r-banner.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/gsx-250r-banner.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-gsx250r.jpg",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-gsx250r.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/gsx-250r-banner.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/gsx-250r-banner.jpg"
         }
         
       ]
@@ -9704,6 +11102,212 @@
       
     }
   },
+
+  //RMZ450
+  "condition-layout.product#conditionForTheSliderRMZ450" :
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": ""
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "list-context.image-list#sliderRMZ450"
+     
+    }
+  },
+  "list-context.image-list#sliderRMZ450": {
+    "children": ["slider-layout#sliderDR650items"],
+    "props": {
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/"
+        },
+        {
+          "width" : "100%",
+         
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/"
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#sliderRMZ450items": {
+    "props": {
+      "blockClass": "sliderRMZ450items",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
+  //RMZ250
+  "condition-layout.product#conditionForTheSliderRMZ250" :
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": ""
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "list-context.image-list#sliderRMZ250"
+     
+    }
+  },
+  "list-context.image-list#sliderRMZ250": {
+    "children": ["slider-layout#sliderRMZ250items"],
+    "props": {
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/"
+        },
+        {
+          "width" : "100%",
+         
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/"
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#sliderRMZ250items": {
+    "props": {
+      "blockClass": "sliderRMZ250items",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
+  //GSXR1000
+  "condition-layout.product#conditionForTheSliderGSXR1000" :
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": ""
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "list-context.image-list#sliderGSXR1000"
+     
+    }
+  },
+  "list-context.image-list#sliderGSXR1000": {
+    "children": ["slider-layout#sliderGSXR1000items"],
+    "props": {
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/"
+        },
+        {
+          "width" : "100%",
+         
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/"
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#sliderGSXR1000items": {
+    "props": {
+      "blockClass": "sliderGSXR1000items",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
+  //GSX750R
+  "condition-layout.product#conditionForTheSliderGSX750R" :
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": ""
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "list-context.image-list#sliderGSX750R"
+     
+    }
+  },
+  "list-context.image-list#sliderGSX750R": {
+    "children": ["slider-layout#sliderGSX750Ritems"],
+    "props": {
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/"
+        },
+        {
+          "width" : "100%",
+         
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/"
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#sliderGSX750Ritems": {
+    "props": {
+      "blockClass": "sliderGSX750Ritems",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+      
+    }
+  },
+
 
   //LTZ50
   "condition-layout.product#conditionForTheSliderLTZ50" :
@@ -9892,6 +11496,10 @@
     "condition-layout.product#conditionFirstTextFW110FichaTecnicaMotor",
     "condition-layout.product#conditionFirstTextGSX250RFichaTecnicaMotor",
     "condition-layout.product#conditionFirstTextDR650FichaTecnicaMotor",
+    "condition-layout.product#conditionFirstTextRMZ450FichaTecnicaMotor",
+    "condition-layout.product#conditionFirstTextRMZ250FichaTecnicaMotor",
+    "condition-layout.product#conditionFirstTextGSXR1000FichaTecnicaMotor",
+    "condition-layout.product#conditionFirstTextGSX750RFichaTecnicaMotor",
 
     "condition-layout.product#conditionFirstTextLTZ50FichaTecnicaMotor"
   ]
@@ -10274,8 +11882,103 @@
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
+// RMZ450  FALTA CONTENIDO
+"condition-layout.product#conditionFirstTextRMZ450FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextRMZ450FichaTecnicaMotor"
+  }
+},
+"rich-text#TextRMZ450FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//  RMZ250 FALTA CONTENIDO
+"condition-layout.product#conditionFirstTextRMZ250FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextRMZ250FichaTecnicaMotor"
+  }
+},
+"rich-text#TextRMZ250FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+// GSXR1000  FALTA CONTENIDO
+"condition-layout.product#conditionFirstTextGSXR1000FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGSXR1000FichaTecnicaMotor"
+  }
+},
+"rich-text#TextGSXR1000FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+// GSX750R  FALTA CONTENIDO
+"condition-layout.product#conditionFirstTextGSX750RFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGSX750RFichaTecnicaMotor"
+  }
+},
+"rich-text#TextGSX750RFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TIPO DE MOTOR** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
 
-//FIN AGREGADO
 //V STROM DL 1050 XT
 "condition-layout.product#conditionFirstTextVstrom1050FichaTecnicaMotor": 
 {
@@ -10411,6 +12114,13 @@
   "condition-layout.product#conditionSecondTextFW110FichaTecnicaMotor",
   "condition-layout.product#conditionSecondTextGSX250RFichaTecnicaMotor",
   "condition-layout.product#conditionSecondTextDR650FichaTecnicaMotor",
+
+  "condition-layout.product#conditionSecondTextRMZ450FichaTecnicaMotor",
+  "condition-layout.product#conditionSecondTextRMZ250FichaTecnicaMotor",
+  "condition-layout.product#conditionSecondTextGSXR1000FichaTecnicaMotor",
+  "condition-layout.product#conditionSecondTextGSX750RFichaTecnicaMotor",
+
+
   "condition-layout.product#conditionSecondTextLTZ50FichaTecnicaMotor"
 
 ]
@@ -10795,6 +12505,104 @@
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
+//RMZ450 FALTA CONTENIDO
+"condition-layout.product#conditionSecondTextRMZ450FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDR650FichaTecnicaMotor"
+  }
+},
+"rich-text#SecondTextRMZ450FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**DESPLAZAMIENTO** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//RMZ250 FALTA CONTENIDO
+"condition-layout.product#conditionSecondTextRMZ250FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDR650FichaTecnicaMotor"
+  }
+},
+"rich-text#SecondTextRMZ250FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**DESPLAZAMIENTO** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSXR1000 FALTA CONTENIDO
+"condition-layout.product#conditionSecondTextGSXR1000FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGSXR1000FichaTecnicaMotor"
+  }
+},
+"rich-text#SecondTextGSXR1000FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**DESPLAZAMIENTO** \n644 cm3",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX750R FALTA CONTENIDO
+"condition-layout.product#conditionSecondTextGSX750RFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGSX750RFichaTecnicaMotor"
+  }
+},
+"rich-text#SecondTextGSX750RFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**DESPLAZAMIENTO** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+
 //FIN DE AGREGADO
 //VSTROM 1050
 "condition-layout.product#conditionSecondTextvstrom1050FichaTecnicaMotor": 
@@ -10930,6 +12738,13 @@
     "condition-layout.product#conditionThirdTextFW110FichaTecnicaMotor",
     "condition-layout.product#conditionThirdTextGSX250RFichaTecnicaMotor",
     "condition-layout.product#conditionThirdTextDR650FichaTecnicaMotor",
+
+    "condition-layout.product#conditionThirdTextRMZ450FichaTecnicaMotor",
+    "condition-layout.product#conditionThirdTextRMZ250FichaTecnicaMotor",
+    "condition-layout.product#conditionThirdTextGSXR1000FichaTecnicaMotor",
+    "condition-layout.product#conditionThirdTextGSX750RFichaTecnicaMotor",
+
+
     "condition-layout.product#conditionThirdTextLTZ50FichaTecnicaMotor"
   
   
@@ -11138,7 +12953,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**SISTEMA DE ARRANQUE** \nPedal",
+  "text": "**SISTEMA DE ARRANQUE** \nEléctrico",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -11310,6 +13125,102 @@
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "**SISTEMA DE ARRANQUE** \nEléctrico",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//RMZ450
+"condition-layout.product#conditionThirdTextRMZ450FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextRMZ450FichaTecnicaMotor"
+  }
+},
+"rich-text#ThirdTextRMZ450FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**SISTEMA DE ARRANQUE** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//RMZ250
+"condition-layout.product#conditionThirdTextRMZ250FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextRMZ250FichaTecnicaMotor"
+  }
+},
+"rich-text#ThirdTextRMZ250FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**SISTEMA DE ARRANQUE** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSXR1000
+"condition-layout.product#conditionThirdTextGSXR1000FichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGSXR1000FichaTecnicaMotor"
+  }
+},
+"rich-text#ThirdTextGSXR1000FichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**SISTEMA DE ARRANQUE** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX750R
+"condition-layout.product#conditionThirdTextGSX750RFichaTecnicaMotor": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGSX750RFichaTecnicaMotor"
+  }
+},
+"rich-text#ThirdTextGSX750RFichaTecnicaMotor":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**SISTEMA DE ARRANQUE** \n",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -11506,6 +13417,14 @@
        "condition-layout.product#conditionFirstTextFW110FichaTecnicaChasis",
        "condition-layout.product#conditionFirstTextGSX250RFichaTecnicaChasis",
        "condition-layout.product#conditionFirstTextDR650FichaTecnicaChasis",
+
+       "condition-layout.product#conditionFirstTextRMZ450FichaTecnicaChasis",
+       "condition-layout.product#conditionFirstTextRMZ250FichaTecnicaChasis",
+       "condition-layout.product#conditionFirstTextGSXR1000FichaTecnicaChasis",
+       "condition-layout.product#conditionFirstTextGSX750RFichaTecnicaChasis",
+
+
+
        "condition-layout.product#conditionFirstTextLTZ50FichaTecnicaChasis"
 
       ]
@@ -11590,7 +13509,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**FARO DELANTERO** \nElectrónico (CDI) luz convencional, luces auxiliares de halógeno",
+  "text": "**FARO DELANTERO** \nLuz convencional, luces auxiliares de halógeno",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -11714,7 +13633,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**FARO DELANTERO** \nLuces LED apiladas verticalmente",
+  "text": "**FARO DELANTERO** \nNo trae luz led",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -11837,7 +13756,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**FARO DELANTERO** \n AHD circulación diurna",
+  "text": "**FARO DELANTERO** \n Luz convencional",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -11886,6 +13805,102 @@
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "**FARO DELANTERO** \nLuz halógena de 60/55 W",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//RMZ450
+"condition-layout.product#conditionFirstTextRMZ450FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextRMZ450FichaTecnicaChasis"
+  }
+},
+"rich-text#TextRMZ450FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**FARO DELANTERO** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//RMZ250
+"condition-layout.product#conditionFirstTextRMZ250FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextRMZ250FichaTecnicaChasis"
+  }
+},
+"rich-text#TextRMZ250FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**FARO DELANTERO** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSXR1000
+"condition-layout.product#conditionFirstTextGSXR1000FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGSXR1000FichaTecnicaChasis"
+  }
+},
+"rich-text#TextGSXR1000FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**FARO DELANTERO** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX750R
+"condition-layout.product#conditionFirstTextGSX750RFichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGSX750RFichaTecnicaChasis"
+  }
+},
+"rich-text#TextGSX750RFichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**FARO DELANTERO** \n",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -12026,6 +14041,13 @@
       "condition-layout.product#conditionSecondTextFW110FichaTecnicaChasis",
       "condition-layout.product#conditionSecondTextGSX250RFichaTecnicaChasis",
       "condition-layout.product#conditionSecondTextDR650FichaTecnicaChasis",
+
+      "condition-layout.product#conditionSecondTextRMZ450FichaTecnicaChasis",
+      "condition-layout.product#conditionSecondTextRMZ250FichaTecnicaChasis",
+      "condition-layout.product#conditionSecondTextGSXR1000FichaTecnicaChasis",
+      "condition-layout.product#conditionSecondTextGSX750RFichaTecnicaChasis",
+
+
       "condition-layout.product#conditionSecondTextLTZ50FichaTecnicaChasis"
     
     
@@ -12178,7 +14200,7 @@
       }
     ],
     "toBe" : true,
-   "Then":  "rich-text#SecondTextGN-125FichaTecnicaMotor"
+   "Then":  "rich-text#SecondTextGN-125FichaTecnicaChasis"
   }
 },
 "rich-text#SecondTextGN-125FichaTecnicaChasis":{
@@ -12410,6 +14432,106 @@
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
+//RMZ450
+"condition-layout.product#conditionSecondTextRMZ450FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextRMZ450FichaTecnicaChasis"
+  }
+},
+"rich-text#SecondTextRMZ450FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**RINES** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//RMZ250
+"condition-layout.product#conditionSecondTextRMZ250FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextRMZ250FichaTecnicaChasis"
+  }
+},
+"rich-text#SecondTextRMZ250FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**RINES** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GSXR1000
+"condition-layout.product#conditionSecondTextGSXR1000FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGSXR1000FichaTecnicaChasis"
+  }
+},
+"rich-text#SecondTextGSXR1000FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**RINES** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GSX750R
+"condition-layout.product#conditionSecondTextGSX750RFichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGSX750RFichaTecnicaChasis"
+  }
+},
+"rich-text#SecondTextGSX750RFichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**RINES** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
 
 
 
@@ -12552,6 +14674,12 @@
       "condition-layout.product#conditionThirdTextFW110FichaTecnicaChasis",
       "condition-layout.product#conditionThirdTextGSX250RFichaTecnicaChasis",
       "condition-layout.product#conditionThirdTextDR650FichaTecnicaChasis",
+      "condition-layout.product#conditionThirdTextRMZ450FichaTecnicaChasis",
+      "condition-layout.product#conditionThirdTextRMZ250FichaTecnicaChasis",
+      "condition-layout.product#conditionThirdTextGSXR1000FichaTecnicaChasis",
+      "condition-layout.product#conditionThirdTextGSX750RFichaTecnicaChasis",
+
+
       "condition-layout.product#conditionThirdTextLTZ50FichaTecnicaChasis"
       
       ]
@@ -12704,7 +14832,7 @@
       }
     ],
     "toBe" : true,
-   "Then":  "rich-text#ThirdTextGN-125FichaTecnicaMotor"
+   "Then":  "rich-text#ThirdTextGN-125FichaTecnicaChasis"
   }
 },
 "rich-text#ThirdTextGN-125FichaTecnicaChasis":{
@@ -12936,6 +15064,106 @@
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
+//RMZ450
+"condition-layout.product#conditionThirdTextRMZ450FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextRMZ450FichaTecnicaChasis"
+  }
+},
+"rich-text#ThirdTextRMZ450FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**SUSPENSIÓN DELANTERA** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//RMZ250
+"condition-layout.product#conditionThirdTextRMZ250FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextRMZ250FichaTecnicaChasis"
+  }
+},
+"rich-text#ThirdTextRMZ250FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**SUSPENSIÓN DELANTERA** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GSXR1000
+"condition-layout.product#conditionThirdTextGSXR1000FichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGSXR1000FichaTecnicaChasis"
+  }
+},
+"rich-text#ThirdTextGSXR1000FichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**SUSPENSIÓN DELANTERA** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+//GSX750R
+"condition-layout.product#conditionThirdTextGSX750RFichaTecnicaChasis": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGSX750RFichaTecnicaChasis"
+  }
+},
+"rich-text#ThirdTextGSX750RFichaTecnicaChasis":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**SUSPENSIÓN DELANTERA** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
 
   //FIN AGREGADO
    //V STROM 1050
@@ -13118,6 +15346,12 @@
     "condition-layout.product#conditionFirstTextFW110FichaTecnicaDP",
     "condition-layout.product#conditionFirstTextGSX250RFichaTecnicaDP",
     "condition-layout.product#conditionFirstTextDR650FichaTecnicaDP",
+    "condition-layout.product#conditionFirstTextRMZ450FichaTecnicaDP",
+    "condition-layout.product#conditionFirstTextRMZ250FichaTecnicaDP",
+    "condition-layout.product#conditionFirstTextGSXR1000FichaTecnicaDP",
+    "condition-layout.product#conditionFirstTextGSX750RFichaTecnicaDP",
+
+
     "condition-layout.product#conditionFirstTextLTZ50FichaTecnicaDP"
 
     
@@ -13505,6 +15739,104 @@
   }
 },
 
+//RMZ450
+"condition-layout.product#conditionFirstTextRMZ450FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextRMZ450FichaTecnicaDP"
+  }
+},
+"rich-text#TextRMZ450FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**PESO** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//RMZ250
+"condition-layout.product#conditionFirstTextRMZ250FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextRMZ250FichaTecnicaDP"
+  }
+},
+"rich-text#TextRMZ250FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**PESO** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSXR1000
+"condition-layout.product#conditionFirstTextGSXR1000FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGSXR1000FichaTecnicaDP"
+  }
+},
+"rich-text#TextGSXR1000FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**PESO** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX750R
+"condition-layout.product#conditionFirstTextGSX750RFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#TextGSX750RFichaTecnicaDP"
+  }
+},
+"rich-text#TextGSX750RFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**PESO** \n166 Kg",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+
+
 
 //FIN AGREGADO
 
@@ -13643,6 +15975,12 @@
     "condition-layout.product#conditionSecondTextFW110FichaTecnicaDP",
     "condition-layout.product#conditionSecondTextGSX250RFichaTecnicaDP",
     "condition-layout.product#conditionSecondTextDR650FichaTecnicaDP",
+    "condition-layout.product#conditionSecondTextRMZ450FichaTecnicaDP",
+    "condition-layout.product#conditionSecondTextRMZ250FichaTecnicaDP",
+    "condition-layout.product#conditionSecondTextGSXR1000FichaTecnicaDP",
+    "condition-layout.product#conditionSecondTextGSX750RFichaTecnicaDP",
+
+
     "condition-layout.product#conditionSecondTextLTZ50FichaTecnicaDP"
   
   ]
@@ -14025,6 +16363,102 @@
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
+//RMZ450
+"condition-layout.product#conditionSecondTextRMZ450FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextRMZ450FichaTecnicaDP"
+  }
+},
+"rich-text#SecondTextRMZ450FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**LARGO TOTAL** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//RMZ250
+"condition-layout.product#conditionSecondTextRMZ250FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextRMZ250FichaTecnicaDP"
+  }
+},
+"rich-text#SecondTextRMZ250FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**LARGO TOTAL** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSXR1000
+"condition-layout.product#conditionSecondTextGSXR1000FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextGSXR1000FichaTecnicaDP"
+  }
+},
+"rich-text#SecondTextGSXR1000FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**LARGO TOTAL** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX750R
+"condition-layout.product#conditionSecondTextGSX750RFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDR650FichaTecnicaDP"
+  }
+},
+"rich-text#SecondTextGSX750RFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**LARGO TOTAL** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
 
 //FIN AGREGADO
 //VLSTROM 1050
@@ -14164,6 +16598,10 @@
       "condition-layout.product#conditionThirdTextFW110FichaTecnicaDP",
       "condition-layout.product#conditionThirdTextGSX250RFichaTecnicaDP",
       "condition-layout.product#conditionThirdTextDR650FichaTecnicaDP",
+      "condition-layout.product#conditionThirdTextRMZ450FichaTecnicaDP",
+      "condition-layout.product#conditionThirdTextRMZ250FichaTecnicaDP",
+      "condition-layout.product#conditionThirdTextGSXR1000FichaTecnicaDP",
+      "condition-layout.product#conditionThirdTextGSX750RFichaTecnicaDP",
       "condition-layout.product#conditionThirdTextLTZ50FichaTecnicaDP"
     
     ]
@@ -14542,6 +16980,102 @@
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "**TANQUE DE COMBUSTIBLE** \n13 Lts (Incluída reserva)",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//RMZ450
+"condition-layout.product#conditionThirdTextRMZ450FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextRMZ450FichaTecnicaDP"
+  }
+},
+"rich-text#ThirdTextRMZ450FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TANQUE DE COMBUSTIBLE** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//RMZ250
+"condition-layout.product#conditionThirdTextRMZ250FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextRMZ250FichaTecnicaDP"
+  }
+},
+"rich-text#ThirdTextRMZ250FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TANQUE DE COMBUSTIBLE** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSXR1000
+"condition-layout.product#conditionThirdTextGSXR1000FichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGSXR1000FichaTecnicaDP"
+  }
+},
+"rich-text#ThirdTextGSXR1000FichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TANQUE DE COMBUSTIBLE** \n",
+  "blockClass": "TextFichaTecnicaMotor"
+  }
+},
+//GSX750R
+"condition-layout.product#conditionThirdTextGSX750RFichaTecnicaDP": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextGSX750RFichaTecnicaDP"
+  }
+},
+"rich-text#ThirdTextGSX750RFichaTecnicaDP":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**TANQUE DE COMBUSTIBLE** \n",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -15372,6 +17906,14 @@
      "condition-layout.product#conditionForTheVideoCategoryScooterUR110",
      "condition-layout.product#conditionForTheVideoCategoryScooterFW110",
 
+
+     //AGREGANDO LAS MOTOS QUE FALTAN
+     "condition-layout.product#conditionForTheVideoCategoryCrossRMZ450",
+     "condition-layout.product#conditionForTheVideoCategoryCrossRMZ250",
+     "condition-layout.product#conditionForTheVideoCategorySportyGSXR1000",
+     "condition-layout.product#conditionForTheVideoCategorySportyGSX750R",
+
+
      "condition-layout.product#conditionForTheVideoCategoryUTVltz50",
      //FIN DE CONDICIONES PARA LOS VIDEOS
 
@@ -15395,6 +17937,11 @@
      "condition-layout.product#conditionForSubittleMotoGN125",
      "condition-layout.product#conditionForSubittleMotoUR110",
      "condition-layout.product#conditionForSubittleMotoFW110",
+      //AGREGANDO LAS MOTOS QUE FALTAN
+      "condition-layout.product#conditionForSubittleMotoRMZ450",
+      "condition-layout.product#conditionForSubittleMotoRMZ250",
+      "condition-layout.product#conditionForSubittleMotoGSXR1000",
+      "condition-layout.product#conditionForSubittleMotoGSX750R",
 
      "condition-layout.product#conditionForSubittleUTVLTZ50",
    //  "wishlist-button",
@@ -15474,6 +18021,14 @@
 
  "condition-layout.product#conditionRevistaUR110",
  "condition-layout.product#conditionRevistaGN125",
+//AGREGANDO MOTOS
+"condition-layout.product#conditionRevistaRMZ450",
+"condition-layout.product#conditionRevistaRMZ250",
+"condition-layout.product#conditionRevistaGSXR1000",
+"condition-layout.product#conditionRevistaGSX750R",
+//FIN DE AGREGANDO MOTOS
+
+
  "condition-layout.product#conditionRevistaLTZ50",
   //FIN REVISTAS PARA LAS MOTOS
 
@@ -15518,6 +18073,14 @@
   "condition-layout.product#conditionForTheSliderVSTROM1050XT",
   "condition-layout.product#conditionForTheSliderGSX250R",
   "condition-layout.product#conditionForTheSliderDR650",
+
+  "condition-layout.product#conditionForTheSliderRMZ450",
+  "condition-layout.product#conditionForTheSliderRMZ250",
+  "condition-layout.product#conditionForTheSliderGSXR1000",
+  "condition-layout.product#conditionForTheSliderGSX750R",
+
+
+
   "condition-layout.product#conditionForTheSliderLTZ50",
 
   //FIN AGREGANDO SLIDERS
@@ -15550,6 +18113,13 @@
 "condition-layout.product#conditionContainFichaTecnicaVSTROM1050XT",
 "condition-layout.product#conditionContainFichaTecnicaGSX250R",
 "condition-layout.product#conditionContainFichaTecnicaDR650",
+
+"condition-layout.product#conditionContainFichaTecnicaRMZ450",
+"condition-layout.product#conditionContainFichaTecnicaRMZ250",
+"condition-layout.product#conditionContainFichaTecnicaGSXR1000",
+"condition-layout.product#conditionContainFichaTecnicaGSX750R",
+
+
 "condition-layout.product#conditionContainFichaTecnicaLTZ50",
  //"flex-layout.row#containFichcaTecnica",
 
@@ -15571,6 +18141,13 @@
 "condition-layout.product#conditionContainNameMotorFichaTecnicaVSTROM1050XT",
 "condition-layout.product#conditionContainNameMotorFichaTecnicaGSX250R",
 "condition-layout.product#conditionContainNameMotorFichaTecnicaDR650",
+
+"condition-layout.product#conditionContainNameMotorFichaTecnicaRMZ450",
+"condition-layout.product#conditionContainNameMotorFichaTecnicaRMZ250",
+"condition-layout.product#conditionContainNameMotorFichaTecnicaGSXR1000",
+"condition-layout.product#conditionContainNameMotorFichaTecnicaGSX750R",
+
+
 "condition-layout.product#conditionContainNameMotorFichaTecnicaLTZ50",
 // "flex-layout.row#containNameMotor",
 
@@ -15593,6 +18170,12 @@
 "condition-layout.product#conditionContainContenedorMotorFichaTecnicaVSTROM1050XT",
 "condition-layout.product#conditionContainContenedorMotorFichaTecnicaGSX250R",
 "condition-layout.product#conditionContainContenedorMotorFichaTecnicaDR650",
+
+"condition-layout.product#conditionContainContenedorMotorFichaTecnicaRMZ450",
+"condition-layout.product#conditionContainContenedorMotorFichaTecnicaRMZ250",
+"condition-layout.product#conditionContainContenedorMotorFichaTecnicaGSXR1000",
+"condition-layout.product#conditionContainContenedorMotorFichaTecnicaGSX750R",
+
 "condition-layout.product#conditionContainContenedorMotorFichaTecnicaLTZ50",
 // "flex-layout.row#contenedorMotor",
 
@@ -15615,6 +18198,13 @@
 "condition-layout.product#conditionContainNameChasisFichaTecnicaVSTROM1050XT",
 "condition-layout.product#conditionContainNameChasisFichaTecnicaGSX250R",
 "condition-layout.product#conditionContainNameChasisFichaTecnicaDR650",
+
+
+"condition-layout.product#conditionContainNameChasisFichaTecnicaRMZ450",
+"condition-layout.product#conditionContainNameChasisFichaTecnicaRMZ250",
+"condition-layout.product#conditionContainNameChasisFichaTecnicaGSXR1000",
+"condition-layout.product#conditionContainNameChasisFichaTecnicaGSX750R",
+
 "condition-layout.product#conditionContainNameChasisFichaTecnicaLTZ50",
 // "flex-layout.row#containNameChasis",
 
@@ -15637,6 +18227,13 @@
 "condition-layout.product#conditionContainContenedorChasisFichaTecnicaVSTROM1050XT",
 "condition-layout.product#conditionContainContenedorChasisFichaTecnicaGSX250R",
 "condition-layout.product#conditionContainContenedorChasisFichaTecnicaDR650",
+
+"condition-layout.product#conditionContainContenedorChasisFichaTecnicaRMZ450",
+"condition-layout.product#conditionContainContenedorChasisFichaTecnicaRMZ250",
+"condition-layout.product#conditionContainContenedorChasisFichaTecnicaGSXR1000",
+"condition-layout.product#conditionContainContenedorChasisFichaTecnicaGSX750R",
+
+
 "condition-layout.product#conditionContainContenedorChasisFichaTecnicaLTZ50",
 // "flex-layout.row#contenedorChasis",
 
@@ -15660,6 +18257,12 @@
 "condition-layout.product#conditionContainNameDi_WeiFichaTecnicaVSTROM1050XT",
 "condition-layout.product#conditionContainNameDi_WeiFichaTecnicaGSX250R",
 "condition-layout.product#conditionContainNameDi_WeiFichaTecnicaDR650",
+
+"condition-layout.product#conditionContainNameDi_WeiFichaTecnicaRMZ450",
+"condition-layout.product#conditionContainNameDi_WeiFichaTecnicaRMZ250",
+"condition-layout.product#conditionContainNameDi_WeiFichaTecnicaGSXR1000",
+"condition-layout.product#conditionContainNameDi_WeiFichaTecnicaGSX750R",
+
 "condition-layout.product#conditionContainNameDi_WeiFichaTecnicaLTZ50",
  //"flex-layout.row#containNameDi_Wei",
 
@@ -15682,6 +18285,13 @@
  "condition-layout.product#conditionContainContenedorDyPFichaTecnicaVSTROM1050XT",
  "condition-layout.product#conditionContainContenedorDyPFichaTecnicaGSX250R",
  "condition-layout.product#conditionContainContenedorDyPFichaTecnicaDR650",
+
+ "condition-layout.product#conditionContainContenedorDyPFichaTecnicaRMZ450",
+ "condition-layout.product#conditionContainContenedorDyPFichaTecnicaRMZ250",
+ "condition-layout.product#conditionContainContenedorDyPFichaTecnicaGSXR1000",
+ "condition-layout.product#conditionContainContenedorDyPFichaTecnicaGSX750R",
+
+
  "condition-layout.product#conditionContainContenedorDyPFichaTecnicaLTZ50",
  //"flex-layout.row#contenedorDyP",
 
@@ -16015,6 +18625,76 @@
    
   }
 },
+
+//AGREGANDO FALTA EL ID
+"condition-layout.product#conditionContainFichaTecnicaRMZ450":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containFichcaTecnica"
+   
+  }
+},
+"condition-layout.product#conditionContainFichaTecnicaRMZ250":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containFichcaTecnica"
+   
+  }
+},
+"condition-layout.product#conditionContainFichaTecnicaGSXR1000":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containFichcaTecnica"
+   
+  }
+},
+"condition-layout.product#conditionContainFichaTecnicaGSX750R":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containFichcaTecnica"
+   
+  }
+},
+//FIN AGREGANDO FALTA EL ID
+
+
+
 "condition-layout.product#conditionContainFichaTecnicaLTZ50": 
 {
   "props": {
@@ -16320,6 +19000,74 @@
    
   }
 },
+//AGREGANDO FALTA ID
+"condition-layout.product#conditionContainNameMotorFichaTecnicaRMZ450":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containNameMotor"
+   
+  }
+},
+"condition-layout.product#conditionContainNameMotorFichaTecnicaRMZ250":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containNameMotor"
+   
+  }
+},
+"condition-layout.product#conditionContainNameMotorFichaTecnicaGSXR1000":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containNameMotor"
+   
+  }
+},
+"condition-layout.product#conditionContainNameMotorFichaTecnicaGSX750R":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containNameMotor"
+   
+  }
+},
+//FIN AGREGANDO FALTA ID
+
+
 "condition-layout.product#conditionContainNameMotorFichaTecnicaLTZ50": 
 {
   "props": {
@@ -16625,6 +19373,77 @@
    
   }
 },
+//FALTA ID
+"condition-layout.product#conditionContainContenedorMotorFichaTecnicaRMZ450":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedorMotor"
+   
+  }
+},
+
+"condition-layout.product#conditionContainContenedorMotorFichaTecnicaRMZ250":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedorMotor"
+   
+  }
+},
+
+"condition-layout.product#conditionContainContenedorMotorFichaTecnicaGSXR1000":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedorMotor"
+   
+  }
+},
+
+"condition-layout.product#conditionContainContenedorMotorFichaTecnicaGSX750R":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedorMotor"
+   
+  }
+},
+//FIN DE FALTA ID
+
+
 "condition-layout.product#conditionContainContenedorMotorFichaTecnicaLTZ50": 
 {
   "props": {
@@ -16931,6 +19750,74 @@
    
   }
 },
+//AGREGANDO MOTOS FALTA ID
+"condition-layout.product#conditionContainNameChasisFichaTecnicaRMZ450":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containNameChasis"
+   
+  }
+},
+"condition-layout.product#conditionContainNameChasisFichaTecnicaRMZ250":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containNameChasis"
+   
+  }
+},
+"condition-layout.product#conditionContainNameChasisFichaTecnicaGSXR1000":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containNameChasis"
+   
+  }
+},
+"condition-layout.product#conditionContainNameChasisFichaTecnicaGSX750R":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containNameChasis"
+   
+  }
+},
+//FIN AGREGANDO MOTOS FALTA ID
+
+
 "condition-layout.product#conditionContainNameChasisFichaTecnicaLTZ50": 
 {
   "props": {
@@ -17236,6 +20123,73 @@
    
   }
 },
+//FALTA ID
+"condition-layout.product#conditionContainContenedorChasisFichaTecnicaRMZ450":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedorChasis"
+   
+  }
+},
+"condition-layout.product#conditionContainContenedorChasisFichaTecnicaRMZ250":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedorChasis"
+   
+  }
+},
+"condition-layout.product#conditionContainContenedorChasisFichaTecnicaGSXR1000":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedorChasis"
+   
+  }
+},
+"condition-layout.product#conditionContainContenedorChasisFichaTecnicaGSX750R":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedorChasis"
+   
+  }
+},
+//FIN DE FALTA ID
+
 "condition-layout.product#conditionContainContenedorChasisFichaTecnicaLTZ50": 
 {
   "props": {
@@ -17541,6 +20495,75 @@
    
   }
 },
+
+//FALTA ID
+"condition-layout.product#conditionContainNameDi_WeiFichaTecnicaRMZ450":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containNameDi_Wei"
+   
+  }
+},
+"condition-layout.product#conditionContainNameDi_WeiFichaTecnicaRMZ250":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containNameDi_Wei"
+   
+  }
+},
+"condition-layout.product#conditionContainNameDi_WeiFichaTecnicaGSXR1000":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containNameDi_Wei"
+   
+  }
+},
+"condition-layout.product#conditionContainNameDi_WeiFichaTecnicaGSX750R":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containNameDi_Wei"
+   
+  }
+},
+//FIN FALTA ID
+
+
 "condition-layout.product#conditionContainNameDi_WeiFichaTecnicaLTZ50": 
 {
   "props": {
@@ -17847,6 +20870,77 @@
    
   }
 },
+//FALTA ID
+"condition-layout.product#conditionContainContenedorDyPFichaTecnicaRMZ450":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedorDyP"
+   
+  }
+},
+
+"condition-layout.product#conditionContainContenedorDyPFichaTecnicaRMZ250":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedorDyP"
+   
+  }
+},
+
+"condition-layout.product#conditionContainContenedorDyPFichaTecnicaGSXR1000":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedorDyP"
+   
+  }
+},
+
+"condition-layout.product#conditionContainContenedorDyPFichaTecnicaGSX750R":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": ""
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedorDyP"
+   
+  }
+},
+
+//FIN FALTA ID
+
 "condition-layout.product#conditionContainContenedorDyPFichaTecnicaLTZ50": 
 {
   "props": {
