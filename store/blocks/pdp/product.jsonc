@@ -935,7 +935,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## UTILITARIA DEPORITVA",
+  "text": "## UTILITARIA",
   "blockClass": "subtittleMoto"
   }
  },
@@ -943,7 +943,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "### CONFIABLE Y ÁGIL CON DISEÑO DEPORTIVO",
+  "text": "### CONFIABLE Y ÁGIL",
   "blockClass": "subtittleMoto2"
   }
  },
@@ -4024,7 +4024,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "**5 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "text": "**Automática -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
  "textColor": "c-on-emphasis",
  "font": "t-heading-5",
  "blockClass": "mensaje2"
@@ -5806,7 +5806,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
+  "text": "**Freno delantero / posterior - Disco**\nFrenos de confianza \nrodada en cualquier sitio",
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje3"
@@ -5835,7 +5835,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
+  "text": "**Freno delantero / posterior - Tambor**\nFrenos de confianza \nrodada en cualquier sitio",
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje3"
@@ -5921,7 +5921,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
+  "text": "**Freno delantero / posterior - Disco**\nFrenos de confianza \nrodada en cualquier sitio",
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje3"
@@ -5950,7 +5950,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
+  "text": "**Freno delantero / posterior - Disco**\nFrenos de confianza \nrodada en cualquier sitio",
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje3"
@@ -5978,7 +5978,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**Disco / Disco-Frenos (Tambor / Tambor )**\nFrenos de confianza \nrodada en cualquier sitio",
+  "text": "**Freno delantero / posterior - Disco**\nFrenos de confianza \nrodada en cualquier sitio",
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje3"
@@ -6283,7 +6283,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**Tambor / Tambor - Frenos (Delantero / Trasero)**\nFrenos de confianza \nrodada en cualquier sitio",
+  "text": "**Freno delantero / posterior - Disco**\nFrenos de confianza \nrodada en cualquier sitio",
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje3"
@@ -7463,7 +7463,7 @@
 "image#moto3UK110": {
   "props": {
     "blockClass": "motovlStrom3",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/UK110-3.jpg"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/UK110-3OFICIAL.jpg"
    
   }
  
@@ -7726,7 +7726,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## EL LÍMITIE EN CADA RODADA LO PONES TÚ, NO EL CALOR\nSi el motor de tu moto se calienta, deja de funcionar bien y hasta se apaga. Por eso, equipamos la V-Strom 250 ABS con el Sistema de Enfriamiento por Líquido –más eficiente que enfriarla con aire–, para asegurarte de que la temperatura va a estar bajo control y tú sigas viviendo la mejor experiencia de tu vida todos los días.",
+  "text": "## EL LÍMITIE EN CADA RODADA LO PONES TÚ, NO EL CALOR\nPotente  motor de 25 caballos de fuerza en v,si el motor de tu moto se calienta, deja de funcionar bien y hasta se apaga. Por eso, equipamos la V-Strom 250 ABS con el Sistema de Enfriamiento por Líquido –más eficiente que enfriarla con aire–, para asegurarte de que la temperatura va a estar bajo control y tú sigas viviendo la mejor experiencia de tu vida todos los días.",
   "blockClass": "descripcionDeFoto"
   }
 },
@@ -7816,7 +7816,7 @@
 "image#arranqueKatana": {
   "props": {
     "blockClass": "motovlStrom2",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/katanasuperior.jpg"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM250-2OFICIAL.jpg"
   }
  
 },
@@ -8686,7 +8686,7 @@
 "image#motoUR110": {
   "props": {
     "blockClass": "motovlStrom",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/UR110-1.jpg"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/UR110-1OFICIAL.jpg"
     
   }
   
@@ -8715,7 +8715,7 @@
 "image#arranqueUR110": {
   "props": {
     "blockClass": "motovlStrom2",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/letsUR110-2.jpg"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/UR110-2OFICIAL.jpg"
   }
   
 },
@@ -8742,7 +8742,7 @@
 "image#motorUR110": {
   "props": {
     "blockClass": "motovlStrom3",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/UR110lets-3.jpg"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/letsUR110-2.jpg"
     
   }
   
@@ -8812,7 +8812,7 @@
 "image#motoGN125": {
   "props": {
     "blockClass": "motovlStrom",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/GN125-1.png"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/gn125oficial-3.png"
     
   }
   
@@ -8849,7 +8849,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## LA PRACTICIDAD Y COMODIDAD CABEN EN UN BOTÓN\nRelájate y preocúpate solo por disfrutar tus trayectos. No importa si estás en medio del tráfico o rodando por gusto, GN125F te brinda una posición de manejo cómoda y relajada que te permitirá estar más tiempo arriba de tu moto volviendo el manejo menos cansado",
+  "text": "## PRACTICIDAD Y COMODIDAD TODO EN UNO\nRelájate y preocúpate solo por disfrutar tus trayectos. No importa si estás en medio del tráfico o rodando por gusto, GN125F te brinda una posición de manejo cómoda y relajada que te permitirá estar más tiempo arriba de tu moto volviendo el manejo menos cansado",
   "blockClass": "descripcionDeFoto"
   }
 },
@@ -8877,7 +8877,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "##  INFORMACIÓN ES PODER. Y TRANQUILIDAD\nTu primera moto tiene que hacer que te encante rodar, pero sin dejar de lado la seguridad. GN125F es perfecta para que disfrutes cada traslado en la ciudad con total confianza",
+  "text": "##  COMODA, CONFIABLE Y EFICIENTE\nTu primera moto tiene que hacer que te encante rodar, pero sin dejar de lado la seguridad. GN125F es perfecta para que disfrutes cada traslado en la ciudad con total confianza",
   "blockClass": "descripcionDeFoto"
   }
 },
@@ -9862,7 +9862,7 @@
     "image#arranqueDR650": {
       "props": {
         "blockClass": "motovlStrom2",
-        "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT3.jpg"
+        "src": "https://suzukiecuador.vteximg.com.br/arquivos/dr650-2oficial.jpg"
        
       }
       
@@ -10308,8 +10308,8 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/banneroficialvstrom650.jpg",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/banneroficialvstrom650.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/BANNER650OFICIALVSTROM.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/BANNER650OFICIALVSTROM.jpg"
         },
         {
           "width" : "100%",
@@ -12978,7 +12978,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**SISTEMA DE ARRANQUE** \nEléctrico",
+  "text": "**SISTEMA DE ARRANQUE** \nEléctrico y Pedal",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -13026,7 +13026,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**SISTEMA DE ARRANQUE** \nEléctrico ",
+  "text": "**SISTEMA DE ARRANQUE** \nManual pedal",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -13459,7 +13459,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**FARO DELANTERO** \nTipo linterna, antiniebla LED",
+  "text": "**FARO DELANTERO** \nLuz convencional, amarilla",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -13484,7 +13484,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**FARO DELANTERO** \nEn el guardabarros delantero",
+  "text": "**FARO DELANTERO** \nNo contiene faro delantero",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -13608,7 +13608,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**FARO DELANTERO** \nElectrónico (CDI) luz convencional, luces auxiliares de halógeno",
+  "text": "**FARO DELANTERO** \nLuz convencional, luces auxiliares de halógeno",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -13658,7 +13658,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**FARO DELANTERO** \nLuces LED apiladas verticalmente",
+  "text": "**FARO DELANTERO** \nNo contiene faro delantero",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -13706,7 +13706,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**FARO DELANTERO** \nLED Vision, tapa de lente de cristal cubierta de hierro",
+  "text": "**FARO DELANTERO** \nNo contiene faro delantero",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -13780,7 +13780,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**FARO DELANTERO** \nLED Vision, tapa de lente de cristal cubierta de hierro",
+  "text": "**FARO DELANTERO** \nFaro Halógeno",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -13926,7 +13926,7 @@
       "props":{
         "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "**FARO DELANTERO** \nTipo linterna, de aluminio anodizado",
+      "text": "**FARO DELANTERO** \nFaro plano para mejor iluminosidad, luz convencional",
       "blockClass": "descriptionfrontlight"
       }
     },
@@ -14914,7 +14914,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**SUSPENSIÓN DELANTERA** \nTelescópica invertida",
+  "text": "**SUSPENSIÓN DELANTERA** \nTelescópica convencional",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -14962,7 +14962,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**SUSPENSIÓN DELANTERA** \nTelescópica hidráulica con resorte",
+  "text": "**SUSPENSIÓN DELANTERA** \nInvertida",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -15388,7 +15388,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**PESO** \n",
+  "text": "**PESO** \n198 Kg",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -15414,7 +15414,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**PESO** \n198 Kg",
+  "text": "**PESO** \n78 Kg",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -16826,7 +16826,7 @@
       }
     ],
     "toBe" : true,
-   "Then":  "rich-text#SecondTextDR-Z50FichaTecnicaDP"
+   "Then":  "rich-text#ThirdTextDR-Z50FichaTecnicaDP"
   }
 },
 "rich-text#ThirdTextDR-Z50FichaTecnicaDP":{
@@ -22001,7 +22001,7 @@
     "src": "https://site.comandato.com/360/intruder/"
   }
 },
-//hola como te llaams
+
 "iframe#formulario": {
   "props": {
     "width": "100%",
