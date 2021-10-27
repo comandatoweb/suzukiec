@@ -944,7 +944,7 @@
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "### CONFIABLE Y ÁGIL",
-  "blockClass": "subtittleMoto2"//hola
+  "blockClass": "subtittleMoto2"
   }
  },
   //UR110
@@ -1353,7 +1353,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "## UTILITARIA DEPORITVA",
+ "text": "## UTILITARIA",
  "blockClass": "subtittleMoto"
  }
 },
