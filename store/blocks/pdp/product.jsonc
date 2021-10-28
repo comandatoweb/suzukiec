@@ -1361,7 +1361,7 @@
  "props":{
    "textAlignment": "CENTER", 
  "textPosition": "CENTER",
- "text": "### CONFIABLE Y ÁGIL CON DISEÑO DEPORTIVO",
+ "text": "### CONFIABLE Y ÁGIL",
  "blockClass": "subtittleMoto2"
  }
 },
@@ -7726,7 +7726,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## EL LÍMITIE EN CADA RODADA LO PONES TÚ, NO EL CALOR\nPotente  motor de 25 caballos de fuerza en v,si el motor de tu moto se calienta, deja de funcionar bien y hasta se apaga. Por eso, equipamos la V-Strom 250 ABS con el Sistema de Enfriamiento por Líquido –más eficiente que enfriarla con aire–, para asegurarte de que la temperatura va a estar bajo control y tú sigas viviendo la mejor experiencia de tu vida todos los días.",
+  "text": "## EL LÍMITIE EN CADA RODADA LO PONES TÚ, NO EL CALOR\nPotente  motor de 25 caballos de fuerza,si el motor de tu moto se calienta, deja de funcionar bien y hasta se apaga. Por eso, equipamos la V-Strom 250 ABS con el Sistema de Enfriamiento por Líquido –más eficiente que enfriarla con aire–, para asegurarte de que la temperatura va a estar bajo control y tú sigas viviendo la mejor experiencia de tu vida todos los días.",
   "blockClass": "descripcionDeFoto"
   }
 },
@@ -8555,7 +8555,7 @@
  "image#motoGD115": {
    "props": {
      "blockClass": "motovlStrom",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115-OFICIAL3.jpg"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115rines.jpg"
      
      
    }
@@ -8615,7 +8615,7 @@
      "blockClass": "motovlStrom3",
     
      
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115rines.jpg"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115-OFICIAL3.jpg"
      
    }
    
@@ -8821,7 +8821,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## CONTROLAS EL ASFALTO, DOMINAS LA CIUDAD\nConoce rápidamente el estado de la GN125F. Con el panel más completo del mercado en su categoría, sabrás inmediatamente el nivel de gasolina, revoluciones, velocidad, kilómetros, marcha neutral, entre otros.",
+  "text": "## CONTROLAS EL ASFALTO, DOMINAS LA CIUDAD\nRelájate y preocúpate solo por disfrutar tus trayectos. No importa si estás en medio del tráfico o rodando por gusto, GN125F te brinda una posición de manejo cómoda y relajada que te permitirá estar más tiempo arriba de tu moto volviendo el manejo menos cansado",
   "blockClass": "descripcionDeFoto"
   }
   
@@ -8849,7 +8849,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## PRACTICIDAD Y COMODIDAD TODO EN UNO\nRelájate y preocúpate solo por disfrutar tus trayectos. No importa si estás en medio del tráfico o rodando por gusto, GN125F te brinda una posición de manejo cómoda y relajada que te permitirá estar más tiempo arriba de tu moto volviendo el manejo menos cansado",
+  "text": "## PRACTICIDAD Y COMODIDAD TODO EN UNO\n Conoce rápidamente el estado de la GN125F. Con el panel más completo del mercado en su categoría, sabrás inmediatamente el nivel de gasolina, revoluciones, velocidad, kilómetros, marcha neutral, entre otros.",
   "blockClass": "descripcionDeFoto"
   }
 },
