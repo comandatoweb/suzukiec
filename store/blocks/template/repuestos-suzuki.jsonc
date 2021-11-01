@@ -14,7 +14,7 @@
       "blockClass": "talleres-suzuki",
       "allowfullscreen":"true",
       "allowtransparency":"true", 
-      "src": "https://site.comandato.com/FormularioRepuestosSuzuki/index.html"
+      "src": "https://site.comandato.com/FormularioRepuestosSuzuki/index.php"
     }
   } 
 }

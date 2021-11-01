@@ -30,14 +30,14 @@
   "video#VideoFW110": {
    "props": {
      "width": "100%",
-     "height": "540px",
+     "height": "450px",
     
      "loop": true,
      "autoPlay": true,
      "muted": false,
      "type":"mp4",
      "src": "https://site.comandato.com/video/VivaCool.mp4",
-     "blockClass": "VideoFW110"
+     "blockClass": "video"
    }
  },
   //CATEGORIA CUSTOM  
@@ -69,14 +69,14 @@
   "video#VideoCustom": {
    "props": {
      "width": "100%",
-     "height": "540px",
+     "height": "450px",
     
      "loop": true,
      "autoPlay": true,
      "muted": false,
      "type":"mp4",
      "src": "https://site.comandato.com/video/Custom.mp4",
-     "blockClass": "VideoCross"
+     "blockClass": "video"
    }
  },
 
@@ -109,14 +109,14 @@
 "video#VideoUTV": {//MODIFICAR
  "props": {
    "width": "100%",
-   "height": "540px",
+   "height": "450px",
   
    "loop": true,
    "autoPlay": true,
    "muted": false,
    "type":"mp4",
    "src": "https://site.comandato.com/video/UTV.mp4",
-   "blockClass": "VideoUTV"
+   "blockClass": "video"
  }
 },
 
@@ -149,14 +149,14 @@
   "video#VideoScooterUK110": {
    "props": {
      "width": "100%",
-     "height": "540px",
+     "height": "450px",
     
      "loop": true,
      "autoPlay": true,
      "muted": false,
      "type":"mp4",
      "src": "https://site.comandato.com/video/UK110VIDEO.mp4",
-     "blockClass": "VideoScooterUK110"
+     "blockClass": "video"
    }
  },
   "condition-layout.product#conditionForTheVideoCategoryScooterUR110":
@@ -186,14 +186,14 @@
   "video#VideoScooterUR110": {
    "props": {
      "width": "100%",
-     "height": "540px",
+     "height": "450px",
     
      "loop": true,
      "autoPlay": true,
      "muted": false,
      "type":"mp4",
      "src": "https://site.comandato.com/video/UR110VIDEO.mp4",
-     "blockClass": "VideoScooter"
+     "blockClass": "video"
    }
  },
 
@@ -258,14 +258,14 @@
   "video#VideoCross": {
    "props": {
      "width": "100%",
-     "height": "540px",
+     "height": "450px",
     
      "loop": true,
      "autoPlay": true,
      "muted": false,
      "type":"mp4",
      "src": "https://site.comandato.com/video/RM85-OFICIALVIDEO.mp4",
-     "blockClass": "VideoCross"
+     "blockClass": "video"
    }
  },
  //RMZ250
@@ -296,14 +296,14 @@
  "video#VideoCrossRMZ250": {
   "props": {
     "width": "100%",
-    "height": "540px",
+    "height": "450px",
    
     "loop": true,
     "autoPlay": true,
     "muted": false,
     "type":"mp4",
     "src": "https://site.comandato.com/video/",
-    "blockClass": "VideoCross"
+    "blockClass": "video"
   }
 },
 //RMZ450
@@ -334,14 +334,14 @@
 "video#VideoCrossRMZ450": {
  "props": {
    "width": "100%",
-   "height": "540px",
+   "height": "450px",
   
    "loop": true,
    "autoPlay": true,
    "muted": false,
    "type":"mp4",
    "src": "https://site.comandato.com/video/",
-   "blockClass": "VideoCross"
+   "blockClass": "video"
  }
 },
 
@@ -377,14 +377,14 @@
   "video#VideoDoublePurposeVSTROM250": {
    "props": {
      "width": "100%",
-     "height": "540px",
+     "height": "450px",
     
      "loop": true,
      "autoPlay": true,
      "muted": false,
      "type":"mp4",
      "src": "https://site.comandato.com/video/vstrom250-videoOficial.mp4",
-     "blockClass": "VideoDoublePurpose"
+     "blockClass": "video"
    }
  },
 
@@ -415,14 +415,14 @@
   "video#VideoDoublePurposeVSTROM650": {
    "props": {
      "width": "100%",
-     "height": "540px",
+     "height": "450px",
     
      "loop": true,
      "autoPlay": true,
      "muted": false,
      "type":"mp4",
      "src": "https://site.comandato.com/video/vstrom650oficial.mp4",
-     "blockClass": "VideoDoublePurpose"
+     "blockClass": "video"
    }
  },
  //VSTROM1050
@@ -453,14 +453,14 @@
   "video#VideoDoublePurposeVSTROM1050": {
    "props": {
      "width": "100%",
-     "height": "540px",
+     "height": "450px",
     
      "loop": true,
      "autoPlay": true,
      "muted": false,
      "type":"mp4",
      "src": "https://site.comandato.com/video/vstrom.mp4",
-     "blockClass": "VideoDoublePurpose"
+     "blockClass": "video"
    }
  },
    //DR650 
@@ -492,14 +492,14 @@
   "video#VideoDoublePurposeDR650": {
    "props": {
      "width": "100%",
-     "height": "540px",
+     "height": "450px",
     
      "loop": true,
      "autoPlay": true,
      "muted": false,
      "type":"mp4",
      "src": "https://site.comandato.com/video/DR650-OFICIALVIDEO.mp4",
-     "blockClass": "VideoDoublePurpose"
+     "blockClass": "video"
    }
  },
  //CATEGORIA UTILITARIA
@@ -565,14 +565,14 @@
 "video#VideoUtilitariaGN125": {
  "props": {
    "width": "100%",
-   "height": "540px",
+   "height": "450px",
   
    "loop": true,
    "autoPlay": true,
    "muted": false,
    "type":"mp4",
    "src": "https://site.comandato.com/video/GN125VIDEO.mp4",
-   "blockClass": "VideoUtilitariaGN125"
+   "blockClass": "video"
  }
 },
 
@@ -590,14 +590,14 @@
 "video#VideoUtilitaria": {
  "props": {
    "width": "100%",
-   "height": "540px",
+   "height": "450px",
   
    "loop": true,
    "autoPlay": true,
    "muted": false,
    "type":"mp4",
    "src": "https://site.comandato.com/video/Utilitaria.mp4",
-   "blockClass": "VideoUtiliraria"
+   "blockClass": "video"
  }
 },
 
@@ -630,14 +630,14 @@
 "video#VideoUtilitariaDeportivaGSX125": {
  "props": {
    "width": "100%",
-   "height": "540px",
+   "height": "450px",
   
    "loop": true,
    "autoPlay": true,
    "muted": false,
    "type":"mp4",
    "src": "https://site.comandato.com/video/GSX125CVIDEO.mp4",
-   "blockClass": "VideoUtiliraria"
+   "blockClass": "video"
  }
 },
 
@@ -671,14 +671,14 @@
  "video#VideoSporty": {
   "props": {
     "width": "100%",
-    "height": "540px",
+    "height": "450px",
    
     "loop": true,
     "autoPlay": true,
     "muted": false,
     "type":"mp4",
     "src": "https://site.comandato.com/video/KATANASUZUKITRAILER.mp4",
-    "blockClass": "VideoSporty"
+    "blockClass": "video"
   }
  },
  
@@ -712,14 +712,14 @@
  "video#VideoSportyGSX250R": {
   "props": {
     "width": "100%",
-    "height": "540px",
+    "height": "450px",
    
     "loop": true,
     "autoPlay": true,
     "muted": false,
     "type":"mp4",
     "src": "https://site.comandato.com/video/GSX250R.mp4",
-    "blockClass": "VideoSportyGSX250R"
+    "blockClass": "video"
   }
 },
 
@@ -752,14 +752,14 @@
 "video#VideoSportyGSXS750": {
   "props": {
     "width": "100%",
-    "height": "540px",
+    "height": "450px",
    
     "loop": true,
     "autoPlay": true,
     "muted": false,
     "type":"mp4",
     "src": "https://site.comandato.com/video/GSX750AVIDEO.mp4",
-    "blockClass": "VideoSporty"
+    "blockClass": "video"
   }
 },
 
@@ -792,14 +792,14 @@
  "video#VideoSportySV650XA": {
   "props": {
     "width": "100%",
-    "height": "540px",
+    "height": "450px",
    
     "loop": true,
     "autoPlay": true,
     "muted": false,
     "type":"mp4",
     "src": "https://site.comandato.com/video/SV650XA-OFICIALVIDEO.mp4",
-    "blockClass": "VideoSporty"
+    "blockClass": "video"
   }
 },
 
@@ -814,7 +814,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2067064"
         }
       }
     ],
@@ -834,14 +834,14 @@
 "video#VideoSportyGSXR1000": {
  "props": {
    "width": "100%",
-   "height": "540px",
+   "height": "450px",
   
    "loop": true,
    "autoPlay": true,
    "muted": false,
    "type":"mp4",
-   "src": "https://site.comandato.com/video/",
-   "blockClass": "VideoSporty"
+   "src": "https://site.comandato.com/video/GSXR1000VIDEO.mp4",
+   "blockClass": "video"
  }
 },
 
@@ -874,14 +874,14 @@
 "video#VideoSportyGSX750R": {
  "props": {
    "width": "100%",
-   "height": "540px",
+   "height": "450px",
   
    "loop": true,
    "autoPlay": true,
    "muted": false,
    "type":"mp4",
    "src": "https://site.comandato.com/video/",
-   "blockClass": "VideoSporty"
+   "blockClass": "video"
  }
 },
 
@@ -1089,7 +1089,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "## ",
+ "text": "## CROSS",
  "blockClass": "subtittleMoto"
  }
 },
@@ -1097,7 +1097,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "### ",
+ "text": "### SE EL #1 EN TODAS LAS CARRERAS",
  "blockClass": "subtittleMoto2"
  }
 },
@@ -1140,7 +1140,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "## ",
+ "text": "## CROSS",
  "blockClass": "subtittleMoto"
  }
 },
@@ -1148,7 +1148,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "### ",
+ "text": "### SE EL #1 EN TODAS LAS CARRERAS",
  "blockClass": "subtittleMoto2"
  }
 },
@@ -1161,7 +1161,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "" 
+          "id": "2067064" 
         }
       }
     ],
@@ -1191,7 +1191,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "## ",
+ "text": "## DEPORITVA",
  "blockClass": "subtittleMoto"
  }
 },
@@ -1199,7 +1199,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "### ",
+ "text": "### HAZTE DUEÑO DE LA PISTA",
  "blockClass": "subtittleMoto2"
  }
 },
@@ -1241,7 +1241,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "## ",
+ "text": "## DEPORTIVA",
  "blockClass": "subtittleMoto"
  }
 },
@@ -1249,7 +1249,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "### ",
+ "text": "### VELOCIDAD Y ADRENALINA AL MÁXIMO",
  "blockClass": "subtittleMoto2"
  }
 },
@@ -1609,7 +1609,7 @@
 
 },
 "rich-text#subtittleMotoDR-Z50":{
-  "props":{
+  "props":{ 
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
   "text": "## CROSS",
@@ -1620,10 +1620,12 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "### SE EL #1 EN TODAS LAS CARRERAS",
+  "text": "###SENTANDO LAS BASES PARA LA DIVERSIÓN",
   "blockClass": "subtittleMoto2"
   }
 },
+
+
 
  //RM85
  "condition-layout.product#conditionForSubittleRM85": 
@@ -1774,7 +1776,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "### EL CAMINO ESTA EN TUS MANOS",
+  "text": "### LA MOTO JAPONESA MÁS AGRESIVA Y CON MÁS TECNOLÓGIA  DEL MERCADO",
   "blockClass": "subtittleMoto2"
   }
 },
@@ -1925,7 +1927,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "## DEPORTIVA",
+ "text": "## DOBLE PROPOSITO",
  "blockClass": "subtittleMoto"
  }
 },
@@ -3251,7 +3253,7 @@
        {
          "subject": "productId",
          "arguments": {
-           "id": "" 
+           "id": "2067064" 
          }
        }
      ],
@@ -3265,7 +3267,7 @@
    "props":{
      "textAlignment": "CENTER",
    "textPosition": "CENTER",
-   "text": "** cc - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+   "text": "**999cc - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
    "textColor": "c-on-emphasis",
    "font": "t-heading-5",
    "blockClass": "mensaje1"
@@ -3938,7 +3940,7 @@
        {
          "subject": "productId",
          "arguments": {
-           "id": "2054006"
+           "id": ""
          }
        }
      ],
@@ -3954,7 +3956,7 @@
        {
          "subject": "productId",
          "arguments": {
-           "id": "2054006"
+           "id": "2067064"
          }
        }
      ],
@@ -3970,7 +3972,7 @@
        {
          "subject": "productId",
          "arguments": {
-           "id": "2054006"
+           "id": ""
          }
        }
      ],
@@ -4573,7 +4575,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "" 
+          "id": "2067064" 
         }
       }
     ],
@@ -4586,7 +4588,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "** -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "text": "**6 Velocidades-Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
  "textColor": "c-on-emphasis",
  "font": "t-heading-5",
  "blockClass": "mensaje2"
@@ -5590,7 +5592,7 @@
         {
           "subject": "productId",
           "arguments": {
-            "id": ""
+            "id": "2067064"
           }
         }
       ],
@@ -6215,7 +6217,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "" 
+          "id": "2067064" 
         }
       }
     ],
@@ -6228,7 +6230,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "****\nFrenos de confianza \nrodada en cualquier sitio",
+  "text": "**Delantero - Doble Disco con sistema de frenos ABS / Trasero - Disco sencillo**\nFrenos de confianza \nrodada en cualquier sitio",
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje3"
@@ -7060,7 +7062,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "## UNA MOTOCICLETA DISEÑADA PARA LA DIVERSIÓN Y EMOCIÓN\nRespuesta acescente y lineal del propulsor de 155cc, muy bajo en vibraciones.",
+ "text": "## UNA MOTOCICLETA DISEÑADA PARA LA DIVERSIÓN Y EMOCIÓN\nRespuesta ascendente y lineal del propulsor de 155cc, muy bajo en vibraciones.",
  "blockClass": "descripcionDeFoto"
  }
 },
@@ -7180,7 +7182,9 @@
 "image#moto2SV650XA": {
  "props": {
    "blockClass": "motovlStrom2",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/SV650AX-2.jpg"
+  
+  
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/SV650AX-2OFICIAL.png"
  }
 
 },
@@ -7188,7 +7192,8 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "## ESTÉTICA\nLo primordial ha sido montar unos semimanillares para que el piloto adopte una postura deportiva. Además, se ha recurrido a una cúpula de forma redondeada con una banda central negra, perfectamente integrada en su óptica circular.",
+ "text": "## ASIENTO\nEl asiento situado a unos accesible 790 mm, es otro ingrediente esencial en su lograda estética, gracias a un acolchado de apariencia vintage que además ofrece mayor comodidad a los ocupantes.",
+
  "blockClass": "descripcionDeFoto"
  }
 },
@@ -7208,6 +7213,7 @@
  "props": {
    "blockClass": "motovlStrom3",
    "src": "https://suzukiecuador.vteximg.com.br/arquivos/SV650XA-3.png"
+   
   
  }
 
@@ -7216,8 +7222,9 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "## ASIENTO\nEl asiento situado a unos accesible 790 mm, es otro ingrediente esencial en su lograda estética, gracias a un acolchado de apariencia vintage que además ofrece mayor comodidad a los ocupantes.",
- "blockClass": "descripcionDeFoto"
+ "blockClass": "descripcionDeFoto",
+ "text": "## ESTÉTICA\nLo primordial ha sido montar unos semimanillares para que el piloto adopte una postura deportiva. Además, se ha recurrido a una cúpula de forma redondeada con una banda central negra, perfectamente integrada en su óptica circular."
+
  }
 },
 
@@ -7331,13 +7338,14 @@
  },
  "children":["image#moto3Intruder","rich-text#descripcionDeFoto3Intruder"]
 },
+
+
+
 "image#moto3Intruder": {
  "props": {
    "blockClass": "motovlStrom3",
    "src": "https://suzukiecuador.vteximg.com.br/arquivos/INTRUDEROFICIAL-3.jpg"
-  
  }
-
 },
 "rich-text#descripcionDeFoto3Intruder":{
  "props":{
@@ -7366,7 +7374,7 @@
      "toBe" : true,
     "Then":  "flex-layout.row#contenedorDivParaImagenRevistaUK110"
     
-   }
+          }
  },
  
  "flex-layout.row#contenedorDivParaImagenRevistaUK110" : {
@@ -7562,7 +7570,7 @@
 "image#moto2FW110": {
   "props": {
     "blockClass": "motovlStrom2",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/VIVARCOOL2.jpg"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/vivarcoolmodificado-2.png"
   }
  
 },
@@ -7570,7 +7578,8 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## DISFRUTA SIN PROBLEMAS GRACIAS A SU ENCENDIDO ELECTRÓNICO Y MECÁNICO\n",
+  "text": "## ESTILO AUDAZ, BAJO CONSUMO DE COMBUSTIBLE, UN MANEJO CONFORTABLE GRACIAS A SU SUSPENSIÓN Y SUAVIDAD ENTRE CAMBIOS DE MARCHA\n",
+
   "blockClass": "descripcionDeFoto"
   }
 },
@@ -7589,7 +7598,7 @@
 "image#moto3FW110": {
   "props": {
     "blockClass": "motovlStrom3",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/VIVARCOOL3.jpg"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/VIVARCOOL2.jpg"
    
   }
  
@@ -7598,8 +7607,9 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## ESTILO AUDAZ, BAJO CONSUMO DE COMBUSTIBLE, UN MANEJO CONFORTABLE GRACIAS A SU SUSPENSIÓN Y SUAVIDAD ENTRE CAMBIOS DE MARCHA\n",
+  "text": "## DISFRUTA SIN PROBLEMAS GRACIAS A SU ENCENDIDO ELECTRÓNICO Y MECÁNICO\n",
   "blockClass": "descripcionDeFoto"
+  
   }
 },
 
@@ -7690,7 +7700,7 @@
 "image#motovlStrom2": {
   "props": {
     "blockClass": "motovlStrom2",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/arranqueVLSTROM-DL-250.jpg"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM2502OFICIAIL.jpg"
   }
  
 },
@@ -7797,7 +7807,8 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## DISEÑADA PARA DARTE POTENCIA Y AVENTURA\nLa máquina perfecta para el motociclismo de turismo, ahora con sistema de frenos ABS para mayor seguridad. V-Strom 250 ABS entrega un desempeño impecable gracias a su tecnología japonesa que hará que tengas mayor potencia con menor consumo de combustible.",
+  "text": "## CUATRO CILINDROS EN LÍNEA DE 999 CC CON DISTRIBUCIÓN DOHC Y REFRIGERACIÓN LÍQUIDA\nEste despliegue de rendimiento lo puede controlar el conductor gracias a la nueva dotación de ayudas electrónicas de la Suzuki GSX-S1000 2021",
+
   "blockClass": "descripcionDeFoto"
   }
 },
@@ -7816,7 +7827,7 @@
 "image#arranqueKatana": {
   "props": {
     "blockClass": "motovlStrom2",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM250-2OFICIAL.jpg"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/KatanaMotor.png"
   }
  
 },
@@ -7824,7 +7835,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## LLEGAR MÁS LEJOS ES PODER DETENERTE EN EL MOMENTO PRECISO\nRodar en una V-Strom 250 ABS es contar con la confianza de tener lo necesario para tu seguridad. Con frenos de disco de pétalo no solo le das un toque elegante y moderno al conjunto de llantas, sobre todo incrementas la seguridad, pues te proporcionan mayor poder de frenado y disipación de calor más veloz, lo que mantiene las pastillas en las condiciones óptimas.",
+  "text": "## KATANA\nNorma Euro 5, por lo que el motor de la Suzuki GSX-S1000 2021",
   "blockClass": "descripcionDeFoto"
   }
 },
@@ -7843,7 +7854,8 @@
 "image#motorKatana": {
   "props": {
     "blockClass": "motovlStrom3",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/KatanaMotor.png"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/katana3-oficialmodificado.png"
+   
    
   }
  
@@ -7852,7 +7864,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## EL LÍMITIE EN CADA RODADA LO PONES TÚ, NO EL CALOR\nSi el motor de tu moto se calienta, deja de funcionar bien y hasta se apaga. Por eso, equipamos la V-Strom 250 ABS con el Sistema de Enfriamiento por Líquido –más eficiente que enfriarla con aire–, para asegurarte de que la temperatura va a estar bajo control y tú sigas viviendo la mejor experiencia de tu vida todos los días.",
+  "text": "## LA GSX-S1000 CUENTA CON SUZUKI DRIVE MODE SELECTOR CON TRES MODOS DE CONDUCCIÓN\nTus viajes sean más placenteros y seguros, un conjunto de ayudas denominado Sistema de Conducción Inteligente de Suzuki (S.I.R.S.).",
   "blockClass": "descripcionDeFoto"
   }
 },
@@ -7970,7 +7982,7 @@
  "image#motorGSX250R": {
    "props": {
      "blockClass": "motovlStrom3",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/GSX250R-2OFICIAL.png"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx250r-oficialmodificado.png"
     
    }
   
@@ -8079,7 +8091,8 @@
    "props":{
      "textAlignment": "CENTER",
    "textPosition": "CENTER",
-   "text": "## POCA VIBRACIÓN A GRANDES VELOCIDADES \nsiéntete seguro y cómodo en cualquier condicion de asfalto,  estabilidad y suavidad al máximo",
+   "text": "## POTENTE MOTOR Y SISTEMA DE FRENOS\nLa tecnología de la gsx750r permite aprovechar al máximo sus 150 hp y además un frenado seguro y preciso con sus discos de freno de gran diámetro",
+
    "blockClass": "descripcionDeFoto"
    }
  },
@@ -8108,7 +8121,8 @@
    "props":{
      "textAlignment": "CENTER",
    "textPosition": "CENTER",
-   "text": "## POTENTE MOTOR Y SISTEMA DE FRENOS\nLa tecnología de la gsx750r permite aprovechar al máximo sus 150 hp y además un frenado seguro y preciso con sus discos de freno de gran diámetro",
+   "text": "## POCA VIBRACIÓN A GRANDES VELOCIDADES \nsiéntete seguro y cómodo en cualquier condicion de asfalto,  estabilidad y suavidad al máximo",
+
    "blockClass": "descripcionDeFoto"
    }
  },
@@ -8329,7 +8343,7 @@
   "image#arranqueVstrom1050": {
     "props": {
       "blockClass": "motovlStrom2",
-      "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT2.jpg"
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT3.jpg"
     }
    
   },
@@ -8337,7 +8351,7 @@
     "props":{
       "textAlignment": "CENTER",
     "textPosition": "CENTER",
-    "text": "## COMODIDAD PARA LARGOS VIAJES\nSistema crucero que puede establecer hasta una velocidad de 160km, se puede activar desde el manillar de forma rápida",
+    "text": "## MOTOR  V-TWIN DOHC\nSu nuevo motor de cuatro tiempos V-Twin DOHC de 1037 cc con tecnología de doble bujía es capaz de desarrollar una potencia de 105 cv a 8.500 rpm, seis más que la anterior versión, y un par máximo de 100 Nm a 6.000 rpm.",
     "blockClass": "descripcionDeFoto"
     }
   },
@@ -8356,7 +8370,7 @@
   "image#motorVstrom1050": {
     "props": {
       "blockClass": "motovlStrom3",
-      "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT3.jpg"
+      "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM1050XT3.png"
      
     }
    
@@ -8365,7 +8379,7 @@
     "props":{
       "textAlignment": "CENTER",
     "textPosition": "CENTER",
-    "text": "## TECNOLOGÍA INSUPERABLE\nCON UNIDADES DE MEDIDA INERCIAL ANALIZA A CADA INSTANTE INCLINACION, VELOCIDAD Y DERRAPE PARA MAYOR ESTABILIDAD DE FRENADO EN LINEA RECTA, CURVA, O FRENADO DE EMERGENCIA, ADEMAS APLICA FRENADO COMBINADO AL NOTAR QUE LA LLANTA DELANTERA A ALCANZADO SU LIMITE DE FRENADO",
+    "text": "## COMODIDAD PARA LARGOS VIAJES\nSistema crucero que puede establecer hasta una velocidad de 160km, se puede activar desde el manillar de forma rápida",
     "blockClass": "descripcionDeFoto"
     }
   },
@@ -8555,8 +8569,8 @@
  "image#motoGD115": {
    "props": {
      "blockClass": "motovlStrom",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115rines.jpg"
-     
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115-OFICIAL3.jpg"
+    
      
    }
    
@@ -8613,9 +8627,10 @@
  "image#motorGD115": {
    "props": {
      "blockClass": "motovlStrom3",
-    
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115rines.jpg"
      
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gd115-OFICIAL3.jpg"
+     
+    
      
    }
    
@@ -8939,7 +8954,7 @@
 "image#motoRMZ450": {
   "props": {
     "blockClass": "motovlStrom",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/RMZ450-OFICIAL1.jpg"
     
   }
   
@@ -8948,7 +8963,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## \n",
+  "text": "## EL BALANCE GANADOR\n29 Campeonatos mundiales, 5 títulos AMA 450 Motocross y 2 títulos AMA Supercross. A esta historia ganadora se suma un motor, chasis y componentes electrónicos bien equilibrados, además de un estilo espectacular. ¿El resultado? La RM-Z450 más potente, equilibrada y competitiva hasta ahora.",
   "blockClass": "descripcionDeFoto"
   }
   
@@ -8968,7 +8983,7 @@
 "image#arranqueRMZ450": {
   "props": {
     "blockClass": "motovlStrom2",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/RMZ450-OFICIAL2.jpg"
   }
   
 },
@@ -8976,7 +8991,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## \n",
+  "text": "## ESTILO, DISEÑO Y DESEMPEÑO\nAcabado en amarillo Suzuki con nuevos gráficos y logotipos del equipo, la RM-Z450 más potente hasta ahora es reconocible de un vistazo. La actualización de estilo también se extiende a la forma del asiento, lo que facilita el movimiento entre las posiciones sentadas y de pie, así como el cambio de peso hacia adelante o hacia atrás. Y para los corredores, ¡lo más fácil siempre es más rápido!",
   "blockClass": "descripcionDeFoto"
   }
 },
@@ -8995,7 +9010,7 @@
 "image#motorRMZ450": {
   "props": {
     "blockClass": "motovlStrom3",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/RMZ450-OFICIAL3.png"
     
   }
   
@@ -9004,7 +9019,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "##  \n",
+  "text": "## ARRANCA PRIMERO\nQue arranque bien, se solicita como una propuesta imprescindible entre los pilotos. Y conseguir disparos es exactamente de lo que se trata la última versión del Suzuki Holeshot Assist Control (S-HAC). Como parte integral del paquete electrónico del RM-Z450, el sistema S-HAC de 3 etapas actualizado evalúa la posición del acelerador y la selección de marchas, y luego ajusta el tiempo de encendido para optimizar la salida del motor para lanzamientos rápidos.",
   "blockClass": "descripcionDeFoto"
   }
 },
@@ -9066,7 +9081,7 @@
 "image#motoRMZ250": {
   "props": {
     "blockClass": "motovlStrom",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/RMZ250-1.png"
     
   }
   
@@ -9075,7 +9090,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## \n",
+  "text": "##RM-Z250\nAcelera, curva y frena de la mejor manera en las pistas",
   "blockClass": "descripcionDeFoto"
   }
   
@@ -9095,7 +9110,7 @@
 "image#arranqueRMZ250": {
   "props": {
     "blockClass": "motovlStrom2",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/RMZ250-2.png"
   }
   
 },
@@ -9103,7 +9118,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## \n",
+  "text": "##MOTOR POTENTE Y DISEÑO DE CHASIS INNOVADOR\nLa RM-Z250 permite un manejo espectacular en pista gracias a su potente motor 250 y su desarrollo en el chasis, ultra liviano.",
   "blockClass": "descripcionDeFoto"
   }
 },
@@ -9122,7 +9137,7 @@
 "image#motorRMZ250": {
   "props": {
     "blockClass": "motovlStrom3",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/RMZ250-3.jpg"
     
   }
   
@@ -9131,7 +9146,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## \n",
+  "text": "##SISTEMA SHAC\nSal primero en todas las partidas, con el sistema shac  vas a lograr un mejor arranque de carrera",
   "blockClass": "descripcionDeFoto"
   }
 },
@@ -9144,7 +9159,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "" 
+          "id": "2067064" 
         }
       }
     ],
@@ -9193,7 +9208,7 @@
 "image#motoGSXR1000": {
   "props": {
     "blockClass": "motovlStrom",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/GSXR1000-OFICIAL1.jpg"
     
   }
   
@@ -9202,7 +9217,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## \n",
+  "text": "## CORRER, GIRAR Y PARAR\nConstruir un motor más compacto y liviano con una potencia líder en su clase, Diseñar un chasis más compacto que brinde un manejo ágil con una excelente sensación y frenado en la parte delantera, tan útil para frenar en la pista de carreras como para rodar en curvas cerradas de las carreteras, RETO CUMPLIDO",
   "blockClass": "descripcionDeFoto"
   }
   
@@ -9222,7 +9237,7 @@
 "image#arranqueGSXR1000": {
   "props": {
     "blockClass": "motovlStrom2",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/GSXR1000-OFICIAL3.png"
   }
   
 },
@@ -9230,7 +9245,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "##\n",
+  "text": "## IMU\nEl avanzado sistema de gestión electrónica de la GSX-R1000 incorpora información de una unidad de medición inercial continental (IMU) que rastrea el movimiento y la posición de la motocicleta en 6 direcciones, a lo largo de 3 ejes, cabeceo, balanceo y guiñada.",
   "blockClass": "descripcionDeFoto"
   }
 },
@@ -9249,7 +9264,7 @@
 "image#motorGSXR1000": {
   "props": {
     "blockClass": "motovlStrom3",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/GSXR1000-OFICIAL2.png"
     
   }
   
@@ -9258,7 +9273,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## \n",
+  "text": "## SELECTOR DE MODO DE CONDUCCION Y CONTROL DE TRACCION\nSelector de modo de conducción Suzuki (SDMS) y seguimiento de movimiento TCS (sistema de control de tracción), posee tres configuraciones diferentes de distribución y entrega de potencia del motor diseñadas para adaptar la entrega de potencia a diversas condiciones ambientales, como conducir en diferentes pistas de carreras, o en carreteras estrechas y curveadas, también  para urbanos y en el tráfico, o en carreteras rectas y abiertas.",
   "blockClass": "descripcionDeFoto"
   }
 },
@@ -9320,7 +9335,7 @@
 "image#motoGSX750R": {
   "props": {
     "blockClass": "motovlStrom",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/GSX750ROFICIAL-1.png"
     
   }
   
@@ -9329,7 +9344,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## \n",
+  "text": "## GSXR750\nLa moto perfecta para ir a velocidad",
   "blockClass": "descripcionDeFoto"
   }
   
@@ -9349,7 +9364,7 @@
 "image#arranqueGSX750R": {
   "props": {
     "blockClass": "motovlStrom2",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/GSX750ROFICIAL-2.jpg"
   }
   
 },
@@ -9357,7 +9372,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## \n",
+  "text": "## POTENTE MOTOR Y SISTEMA DE FRENOS\nLa tecnología de la gsx750r permite aprovechar al máximo sus 150 hp y además un frenado seguro y preciso con sus discos de freno de gran diámetro",
   "blockClass": "descripcionDeFoto"
   }
 },
@@ -9376,7 +9391,7 @@
 "image#motorGSX750R": {
   "props": {
     "blockClass": "motovlStrom3",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/GSX750ROFICIAL-3.jpg"
     
   }
   
@@ -9385,7 +9400,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "##  \n",
+  "text": "##  POCA VIBRACIÓN A GRANDES VELOCIDADES\nSiéntete seguro y cómodo en cualquier condición de asfalto, estabilidad y suavidad al máximo",
   "blockClass": "descripcionDeFoto"
   }
 },
@@ -9514,7 +9529,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "##  Diseñado para los aventureros más jóvenes\nAl igual que los quads de tamaño completo de Suzuki, está repleto de calidad, seguridad y estilo, pero es pequeño y liviano y está diseñado para motociclistas principiantes supervisados ​​por adultos",
+  "text": "##  SIEMPRE SEGURO Y BAJO CONTROL\nCuenta con un regulador de aceleración con la tranquilidad para los más pequeños",
   "blockClass": "descripcionDeFoto"
   }
 },
@@ -9577,7 +9592,7 @@
    "image#motoDRZ50": {
      "props": {
        "blockClass": "motovlStrom",
-       "src": "https://suzukiecuador.vteximg.com.br/arquivos/DR-Z50-1.jpg"
+       "src": "https://suzukiecuador.vteximg.com.br/arquivos/DRZ50-1.jpg"
        
      }
      
@@ -9586,7 +9601,7 @@
      "props":{
        "textAlignment": "CENTER",
      "textPosition": "CENTER",
-     "text": "## DR-Z50\nAcelera, curva y frena de la mejor manera en las pistas",
+     "text": "## LOOK GENIAL CON ESTILO DE CARRERA\nMotor de 4 tiempos de 50 cm3 y arranque eléctrico. Una opción fácil y divertida para que los niños aprendan los fundamentos de la conducción.",
      "blockClass": "descripcionDeFoto"
      }
      
@@ -9606,7 +9621,7 @@
    "image#arranqueDRZ50": {
      "props": {
        "blockClass": "motovlStrom2",
-       "src": "https://suzukiecuador.vteximg.com.br/arquivos/drz50-2.jpg"
+       "src": "https://suzukiecuador.vteximg.com.br/arquivos/DRZ50-2.jpg"
      }
      
    },
@@ -9614,7 +9629,7 @@
      "props":{
        "textAlignment": "CENTER",
      "textPosition": "CENTER",
-     "text": "## MOTOR POTENTE Y DISEÑO DE CHASIS INNOVADOR\nLa RM250 permite un manejo espectacular en pista gracias a su potente motor 250 y su desarrollo en el chasis, ultra liviano.",
+     "text": "## GRAN VIDA UTIL\nCon un motor y chasis de tamaño adecuado, la DR-Z50 es fácil de usar y está lista para muchos años agradables.",
      "blockClass": "descripcionDeFoto"
      }
    },
@@ -9633,7 +9648,7 @@
    "image#motorDRZ50": {
      "props": {
        "blockClass": "motovlStrom3",
-       "src": "https://suzukiecuador.vteximg.com.br/arquivos/DR-Z50-3.jpg"
+       "src": "https://suzukiecuador.vteximg.com.br/arquivos/DRZ50-3.png"
        
        
      }
@@ -9643,7 +9658,7 @@
      "props":{
        "textAlignment": "CENTER",
      "textPosition": "CENTER",
-     "text": "## SISTEMA SHAC\nSal primero en todas las partidas, con el sistema SHAC vas a lograr un mejor arranque de carrera",
+     "text": "## ARRANQUE ELÉCTRICO\nCómodo sistema de arranque dual (arranque eléctrico con botón y arranque de patada tradicional).",
      "blockClass": "descripcionDeFoto"
      }
    },
@@ -9734,7 +9749,7 @@
    "image#arranqueRM85": {
      "props": {
        "blockClass": "motovlStrom2",
-       "src": "https://suzukiecuador.vteximg.com.br/arquivos/suzukirm85-oficial2.png"
+       "src": "https://suzukiecuador.vteximg.com.br/arquivos/suzukirm85-oficial2modificado.png"
      }
      
    },
@@ -11128,14 +11143,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/RMZ450BANNER.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/RMZ450BANNER.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/RMZ450BANNER.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/RMZ450BANNER.jpg"
         }
         
       ]
@@ -11179,14 +11194,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/RMZ250BANNEROFICIAL.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/RMZ250BANNEROFICIAL.jpg"
         },
         {
           "width" : "100%",
          
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/RMZ250BANNEROFICIAL.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/RMZ250BANNEROFICIAL.jpg"
         }
         
       ]
@@ -11213,7 +11228,7 @@
         {
           "subject": "productId",
           "arguments": {
-            "id": ""
+            "id": "2067064"
           }
         }
       ],
@@ -11230,14 +11245,14 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/GSXR1000BANNER.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/GSXR1000BANNER.png"
         },
         {
           "width" : "100%",
          
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/GSXR1000BANNER.png",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/GSXR1000BANNER.png"
         }
         
       ]
@@ -11256,7 +11271,7 @@
       
     }
   },
-  //GSX750R
+  //GSX750R FALTA 
   "condition-layout.product#conditionForTheSliderGSX750R" :
   {
     "props": {
@@ -11496,10 +11511,10 @@
     "condition-layout.product#conditionFirstTextFW110FichaTecnicaMotor",
     "condition-layout.product#conditionFirstTextGSX250RFichaTecnicaMotor",
     "condition-layout.product#conditionFirstTextDR650FichaTecnicaMotor",
-    "condition-layout.product#conditionFirstTextRMZ450FichaTecnicaMotor",
-    "condition-layout.product#conditionFirstTextRMZ250FichaTecnicaMotor",
-    "condition-layout.product#conditionFirstTextGSXR1000FichaTecnicaMotor",
-    "condition-layout.product#conditionFirstTextGSX750RFichaTecnicaMotor",
+    "condition-layout.product#conditionFirstTextRMZ450FichaTecnicaMotor",//COMPLETADO
+    "condition-layout.product#conditionFirstTextRMZ250FichaTecnicaMotor",//COMPLETADO
+    "condition-layout.product#conditionFirstTextGSXR1000FichaTecnicaMotor",//COMPLETADO
+    "condition-layout.product#conditionFirstTextGSX750RFichaTecnicaMotor",//COMPLETADO
 
     "condition-layout.product#conditionFirstTextLTZ50FichaTecnicaMotor"
   ]
@@ -11854,7 +11869,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeracion por liquido SOHC",
+  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeracion por liquido DOHC",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -11882,7 +11897,7 @@
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
-// RMZ450  FALTA CONTENIDO
+// RMZ450 
 "condition-layout.product#conditionFirstTextRMZ450FichaTecnicaMotor": 
 {
   "props": {
@@ -11902,11 +11917,11 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, inyectado",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
-//  RMZ250 FALTA CONTENIDO
+//  RMZ250 
 "condition-layout.product#conditionFirstTextRMZ250FichaTecnicaMotor": 
 {
   "props": {
@@ -11926,11 +11941,11 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n",
+  "text": "**TIPO DE MOTOR** \nDOHC",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
-// GSXR1000  FALTA CONTENIDO
+// GSXR1000 
 "condition-layout.product#conditionFirstTextGSXR1000FichaTecnicaMotor": 
 {
   "props": {
@@ -11938,7 +11953,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2067064"
         }
       }
     ],
@@ -11950,7 +11965,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 4 cilindros, refrigeración líquida, DOHC",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -11974,7 +11989,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n",
+  "text": "**TIPO DE MOTOR** \n4 tiempos, 4 cilindros, refrigerado por líquido, DOHC",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -12049,7 +12064,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TIPO DE MOTOR** \n4 tiempos refrigeración líquida DOHC",
+  "text": "**TIPO DE MOTOR** \n4 tiempos , 4 cilindros, refrigeración líquida DOHC",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -12115,10 +12130,10 @@
   "condition-layout.product#conditionSecondTextGSX250RFichaTecnicaMotor",
   "condition-layout.product#conditionSecondTextDR650FichaTecnicaMotor",
 
-  "condition-layout.product#conditionSecondTextRMZ450FichaTecnicaMotor",
-  "condition-layout.product#conditionSecondTextRMZ250FichaTecnicaMotor",
-  "condition-layout.product#conditionSecondTextGSXR1000FichaTecnicaMotor",
-  "condition-layout.product#conditionSecondTextGSX750RFichaTecnicaMotor",
+  "condition-layout.product#conditionSecondTextRMZ450FichaTecnicaMotor",//COMPLETADO
+  "condition-layout.product#conditionSecondTextRMZ250FichaTecnicaMotor",//colocado
+  "condition-layout.product#conditionSecondTextGSXR1000FichaTecnicaMotor",//COMPLETADO
+  "condition-layout.product#conditionSecondTextGSX750RFichaTecnicaMotor",//COMPLETADO
 
 
   "condition-layout.product#conditionSecondTextLTZ50FichaTecnicaMotor"
@@ -12403,7 +12418,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**DESPLAZAMIENTO** \n199 cm3",
+  "text": "**DESPLAZAMIENTO** \n85 cm3",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -12505,7 +12520,7 @@
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
-//RMZ450 FALTA CONTENIDO
+//RMZ450 
 "condition-layout.product#conditionSecondTextRMZ450FichaTecnicaMotor": 
 {
   "props": {
@@ -12525,7 +12540,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**DESPLAZAMIENTO** \n",
+  "text": "**DESPLAZAMIENTO** \n449 cm3",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -12549,11 +12564,11 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**DESPLAZAMIENTO** \n",
+  "text": "**DESPLAZAMIENTO** \n249 cm3",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
-//GSXR1000 FALTA CONTENIDO
+//GSXR1000 
 "condition-layout.product#conditionSecondTextGSXR1000FichaTecnicaMotor": 
 {
   "props": {
@@ -12561,7 +12576,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2067064"
         }
       }
     ],
@@ -12573,11 +12588,11 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**DESPLAZAMIENTO** \n644 cm3",
+  "text": "**DESPLAZAMIENTO** \n998.3 cm3",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
-//GSX750R FALTA CONTENIDO
+//GSX750R 
 "condition-layout.product#conditionSecondTextGSX750RFichaTecnicaMotor": 
 {
   "props": {
@@ -12597,7 +12612,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**DESPLAZAMIENTO** \n",
+  "text": "**DESPLAZAMIENTO** \n750 cm3",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -12739,10 +12754,10 @@
     "condition-layout.product#conditionThirdTextGSX250RFichaTecnicaMotor",
     "condition-layout.product#conditionThirdTextDR650FichaTecnicaMotor",
 
-    "condition-layout.product#conditionThirdTextRMZ450FichaTecnicaMotor",
-    "condition-layout.product#conditionThirdTextRMZ250FichaTecnicaMotor",
-    "condition-layout.product#conditionThirdTextGSXR1000FichaTecnicaMotor",
-    "condition-layout.product#conditionThirdTextGSX750RFichaTecnicaMotor",
+    "condition-layout.product#conditionThirdTextRMZ450FichaTecnicaMotor",//completado
+    "condition-layout.product#conditionThirdTextRMZ250FichaTecnicaMotor",//COLOCADO
+    "condition-layout.product#conditionThirdTextGSXR1000FichaTecnicaMotor",//completado
+    "condition-layout.product#conditionThirdTextGSX750RFichaTecnicaMotor",//completado
 
 
     "condition-layout.product#conditionThirdTextLTZ50FichaTecnicaMotor"
@@ -12804,7 +12819,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**SISTEMA DE ARRANQUE** \nEléctrico y retroceso",
+  "text": "**SISTEMA DE ARRANQUE** \nEléctrico y polea",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -13148,7 +13163,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**SISTEMA DE ARRANQUE** \n",
+  "text": "**SISTEMA DE ARRANQUE** \nPedal",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -13172,7 +13187,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**SISTEMA DE ARRANQUE** \n",
+  "text": "**SISTEMA DE ARRANQUE** \nArranque y descompresión automática",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -13184,7 +13199,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2067064"
         }
       }
     ],
@@ -13196,7 +13211,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**SISTEMA DE ARRANQUE** \n",
+  "text": "**SISTEMA DE ARRANQUE** \nEléctrico",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -13220,7 +13235,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**SISTEMA DE ARRANQUE** \n",
+  "text": "**SISTEMA DE ARRANQUE** \nEléctrico",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -13418,10 +13433,10 @@
        "condition-layout.product#conditionFirstTextGSX250RFichaTecnicaChasis",
        "condition-layout.product#conditionFirstTextDR650FichaTecnicaChasis",
 
-       "condition-layout.product#conditionFirstTextRMZ450FichaTecnicaChasis",
-       "condition-layout.product#conditionFirstTextRMZ250FichaTecnicaChasis",
-       "condition-layout.product#conditionFirstTextGSXR1000FichaTecnicaChasis",
-       "condition-layout.product#conditionFirstTextGSX750RFichaTecnicaChasis",
+       "condition-layout.product#conditionFirstTextRMZ450FichaTecnicaChasis",//completado
+       "condition-layout.product#conditionFirstTextRMZ250FichaTecnicaChasis",//cCOLOCADO
+       "condition-layout.product#conditionFirstTextGSXR1000FichaTecnicaChasis",//completado
+       "condition-layout.product#conditionFirstTextGSX750RFichaTecnicaChasis",//completado
 
 
 
@@ -13633,7 +13648,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**FARO DELANTERO** \nNo trae luz led",
+  "text": "**FARO DELANTERO** \nHalógeno",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -13731,7 +13746,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**FARO DELANTERO** \nLED - DRL",
+  "text": "**FARO DELANTERO** \nHalógeno",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -13804,7 +13819,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**FARO DELANTERO** \nLuz halógena de 60/55 W",
+  "text": "**FARO DELANTERO** \nLuz halógena",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -13828,7 +13843,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**FARO DELANTERO** \n",
+  "text": "**FARO DELANTERO** \nNo contiene faro delantero",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -13852,11 +13867,11 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**FARO DELANTERO** \n",
+  "text": "**FARO DELANTERO** \nNo contiene faro delantero",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
-//GSXR1000
+//GSXR1000 CONFIRMAR
 "condition-layout.product#conditionFirstTextGSXR1000FichaTecnicaChasis": 
 {
   "props": {
@@ -13864,7 +13879,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2067064"
         }
       }
     ],
@@ -13876,7 +13891,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**FARO DELANTERO** \n",
+  "text": "**FARO DELANTERO** \nHalógeno doble",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -13900,7 +13915,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**FARO DELANTERO** \n",
+  "text": "**FARO DELANTERO** \nHalógeno doble",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -14042,10 +14057,10 @@
       "condition-layout.product#conditionSecondTextGSX250RFichaTecnicaChasis",
       "condition-layout.product#conditionSecondTextDR650FichaTecnicaChasis",
 
-      "condition-layout.product#conditionSecondTextRMZ450FichaTecnicaChasis",
-      "condition-layout.product#conditionSecondTextRMZ250FichaTecnicaChasis",
-      "condition-layout.product#conditionSecondTextGSXR1000FichaTecnicaChasis",
-      "condition-layout.product#conditionSecondTextGSX750RFichaTecnicaChasis",
+      "condition-layout.product#conditionSecondTextRMZ450FichaTecnicaChasis",//COMPLETADO
+      "condition-layout.product#conditionSecondTextRMZ250FichaTecnicaChasis",//COMPLETADO
+      "condition-layout.product#conditionSecondTextGSXR1000FichaTecnicaChasis",//COMPLETADO
+      "condition-layout.product#conditionSecondTextGSX750RFichaTecnicaChasis",//COMPLETADO
 
 
       "condition-layout.product#conditionSecondTextLTZ50FichaTecnicaChasis"
@@ -14109,7 +14124,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**RINES** \nAleación de aluminio",
+  "text": "**RINES** \nAleación",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -14158,7 +14173,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**RINES** \nAleación de aluminio",
+  "text": "**RINES** \nAleación",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -14183,7 +14198,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**RINES** \nRayos de acero inoxidable",
+  "text": "**RINES** \nRayos de acero",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -14207,7 +14222,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**RINES** \nAleación de aluminio",
+  "text": "**RINES** \nAleación",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -14257,7 +14272,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**RINES** \nAleación de aluminio",
+  "text": "**RINES** \nAleación",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -14452,7 +14467,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**RINES** \n",
+  "text": "**RINES** \nRin de rayos",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -14477,7 +14492,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**RINES** \n",
+  "text": "**RINES** \nRayos",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -14490,7 +14505,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2067064"
         }
       }
     ],
@@ -14502,7 +14517,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**RINES** \n",
+  "text": "**RINES** \nAleación de aluminio",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -14527,7 +14542,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**RINES** \n",
+  "text": "**RINES** \nAleación de aluminio",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -14674,10 +14689,10 @@
       "condition-layout.product#conditionThirdTextFW110FichaTecnicaChasis",
       "condition-layout.product#conditionThirdTextGSX250RFichaTecnicaChasis",
       "condition-layout.product#conditionThirdTextDR650FichaTecnicaChasis",
-      "condition-layout.product#conditionThirdTextRMZ450FichaTecnicaChasis",
-      "condition-layout.product#conditionThirdTextRMZ250FichaTecnicaChasis",
-      "condition-layout.product#conditionThirdTextGSXR1000FichaTecnicaChasis",
-      "condition-layout.product#conditionThirdTextGSX750RFichaTecnicaChasis",
+      "condition-layout.product#conditionThirdTextRMZ450FichaTecnicaChasis",//completado
+      "condition-layout.product#conditionThirdTextRMZ250FichaTecnicaChasis",//completado
+      "condition-layout.product#conditionThirdTextGSXR1000FichaTecnicaChasis",//completado
+      "condition-layout.product#conditionThirdTextGSX750RFichaTecnicaChasis",//completado
 
 
       "condition-layout.product#conditionThirdTextLTZ50FichaTecnicaChasis"
@@ -15084,7 +15099,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**SUSPENSIÓN DELANTERA** \n",
+  "text": "**SUSPENSIÓN DELANTERA** \nPedal",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -15109,7 +15124,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**SUSPENSIÓN DELANTERA** \n",
+  "text": "**SUSPENSIÓN DELANTERA** \nFreno de disco, rotor simple",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -15122,7 +15137,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2067064"
         }
       }
     ],
@@ -15134,7 +15149,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**SUSPENSIÓN DELANTERA** \n",
+  "text": "**SUSPENSIÓN DELANTERA** \nEléctrico",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -15159,7 +15174,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**SUSPENSIÓN DELANTERA** \n",
+  "text": "**SUSPENSIÓN DELANTERA** \nEléctrico",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -15346,10 +15361,10 @@
     "condition-layout.product#conditionFirstTextFW110FichaTecnicaDP",
     "condition-layout.product#conditionFirstTextGSX250RFichaTecnicaDP",
     "condition-layout.product#conditionFirstTextDR650FichaTecnicaDP",
-    "condition-layout.product#conditionFirstTextRMZ450FichaTecnicaDP",
-    "condition-layout.product#conditionFirstTextRMZ250FichaTecnicaDP",
-    "condition-layout.product#conditionFirstTextGSXR1000FichaTecnicaDP",
-    "condition-layout.product#conditionFirstTextGSX750RFichaTecnicaDP",
+    "condition-layout.product#conditionFirstTextRMZ450FichaTecnicaDP",//completado
+    "condition-layout.product#conditionFirstTextRMZ250FichaTecnicaDP",//completado
+    "condition-layout.product#conditionFirstTextGSXR1000FichaTecnicaDP",//completado
+    "condition-layout.product#conditionFirstTextGSX750RFichaTecnicaDP",//completado
 
 
     "condition-layout.product#conditionFirstTextLTZ50FichaTecnicaDP"
@@ -15759,7 +15774,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**PESO** \n",
+  "text": "**PESO** \n112 Kg",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -15783,7 +15798,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**PESO** \n",
+  "text": "**PESO** \n106 Kg",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -15795,7 +15810,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2067064"
         }
       }
     ],
@@ -15807,7 +15822,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**PESO** \n",
+  "text": "**PESO** \n201 Kg",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -15831,7 +15846,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**PESO** \n166 Kg",
+  "text": "**PESO** \n190 kg",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -15975,10 +15990,10 @@
     "condition-layout.product#conditionSecondTextFW110FichaTecnicaDP",
     "condition-layout.product#conditionSecondTextGSX250RFichaTecnicaDP",
     "condition-layout.product#conditionSecondTextDR650FichaTecnicaDP",
-    "condition-layout.product#conditionSecondTextRMZ450FichaTecnicaDP",
-    "condition-layout.product#conditionSecondTextRMZ250FichaTecnicaDP",
-    "condition-layout.product#conditionSecondTextGSXR1000FichaTecnicaDP",
-    "condition-layout.product#conditionSecondTextGSX750RFichaTecnicaDP",
+    "condition-layout.product#conditionSecondTextRMZ450FichaTecnicaDP",//completado
+    "condition-layout.product#conditionSecondTextRMZ250FichaTecnicaDP",//completado
+    "condition-layout.product#conditionSecondTextGSXR1000FichaTecnicaDP",//completado
+    "condition-layout.product#conditionSecondTextGSX750RFichaTecnicaDP",//completado
 
 
     "condition-layout.product#conditionSecondTextLTZ50FichaTecnicaDP"
@@ -16383,7 +16398,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**LARGO TOTAL** \n",
+  "text": "**LARGO TOTAL** \n2175 mm",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -16407,7 +16422,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**LARGO TOTAL** \n",
+  "text": "**LARGO TOTAL** \n2185 mm",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -16419,7 +16434,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2067064"
         }
       }
     ],
@@ -16431,7 +16446,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**LARGO TOTAL** \n",
+  "text": "**LARGO TOTAL** \n2075 mm",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -16455,7 +16470,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**LARGO TOTAL** \n",
+  "text": "**LARGO TOTAL** \n2030 mm",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -16598,10 +16613,10 @@
       "condition-layout.product#conditionThirdTextFW110FichaTecnicaDP",
       "condition-layout.product#conditionThirdTextGSX250RFichaTecnicaDP",
       "condition-layout.product#conditionThirdTextDR650FichaTecnicaDP",
-      "condition-layout.product#conditionThirdTextRMZ450FichaTecnicaDP",
-      "condition-layout.product#conditionThirdTextRMZ250FichaTecnicaDP",
-      "condition-layout.product#conditionThirdTextGSXR1000FichaTecnicaDP",
-      "condition-layout.product#conditionThirdTextGSX750RFichaTecnicaDP",
+      "condition-layout.product#conditionThirdTextRMZ450FichaTecnicaDP",//completado
+      "condition-layout.product#conditionThirdTextRMZ250FichaTecnicaDP",//completado
+      "condition-layout.product#conditionThirdTextGSXR1000FichaTecnicaDP",//completado
+      "condition-layout.product#conditionThirdTextGSX750RFichaTecnicaDP",//completado
       "condition-layout.product#conditionThirdTextLTZ50FichaTecnicaDP"
     
     ]
@@ -17003,7 +17018,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TANQUE DE COMBUSTIBLE** \n",
+  "text": "**TANQUE DE COMBUSTIBLE** \n6.3 L",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -17027,7 +17042,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TANQUE DE COMBUSTIBLE** \n",
+  "text": "**TANQUE DE COMBUSTIBLE** \n6.3 L",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -17039,7 +17054,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2067064"
         }
       }
     ],
@@ -17051,7 +17066,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TANQUE DE COMBUSTIBLE** \n",
+  "text": "**TANQUE DE COMBUSTIBLE** \n16 L",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -17075,7 +17090,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**TANQUE DE COMBUSTIBLE** \n",
+  "text": "**TANQUE DE COMBUSTIBLE** \n17 L",
   "blockClass": "TextFichaTecnicaMotor"
   }
 },
@@ -17938,10 +17953,10 @@
      "condition-layout.product#conditionForSubittleMotoUR110",
      "condition-layout.product#conditionForSubittleMotoFW110",
       //AGREGANDO LAS MOTOS QUE FALTAN
-      "condition-layout.product#conditionForSubittleMotoRMZ450",
-      "condition-layout.product#conditionForSubittleMotoRMZ250",
-      "condition-layout.product#conditionForSubittleMotoGSXR1000",
-      "condition-layout.product#conditionForSubittleMotoGSX750R",
+      "condition-layout.product#conditionForSubittleMotoRMZ450",//COMPLETADO
+      "condition-layout.product#conditionForSubittleMotoRMZ250",//COMPLETADO
+      "condition-layout.product#conditionForSubittleMotoGSXR1000",//COMPLETADO
+      "condition-layout.product#conditionForSubittleMotoGSX750R",//COMPLETADO
 
      "condition-layout.product#conditionForSubittleUTVLTZ50",
    //  "wishlist-button",
@@ -18017,15 +18032,15 @@
  "condition-layout.product#conditionRevistaVstrom650",
  "condition-layout.product#conditionRevistaVstrom1050",
  "condition-layout.product#conditionRevistaGD115Evolution",
- "condition-layout.product#conditionRevistaDRZ50",
+ "condition-layout.product#conditionRevistaDRZ50",//COLOCADO
 
  "condition-layout.product#conditionRevistaUR110",
  "condition-layout.product#conditionRevistaGN125",
 //AGREGANDO MOTOS
-"condition-layout.product#conditionRevistaRMZ450",
-"condition-layout.product#conditionRevistaRMZ250",
-"condition-layout.product#conditionRevistaGSXR1000",
-"condition-layout.product#conditionRevistaGSX750R",
+"condition-layout.product#conditionRevistaRMZ450",//COLOCADO
+"condition-layout.product#conditionRevistaRMZ250",//COLOCADO
+"condition-layout.product#conditionRevistaGSXR1000",//COLOCADO
+"condition-layout.product#conditionRevistaGSX750R",//COLOCADO
 //FIN DE AGREGANDO MOTOS
 
 
@@ -18065,7 +18080,7 @@
   "condition-layout.product#conditionForTheSliderUK110",
   "condition-layout.product#conditionForTheSliderFW110",
   "condition-layout.product#conditionForTheSliderGSX125-C",
-  "condition-layout.product#conditionForTheSliderDR-Z50",
+  "condition-layout.product#conditionForTheSliderDR-Z50",//COLOCADO
   "condition-layout.product#conditionForTheSliderGSX-S750A",
   "condition-layout.product#conditionForTheSliderRM85",
   "condition-layout.product#conditionForTheSliderINTRUDER",
@@ -18074,10 +18089,10 @@
   "condition-layout.product#conditionForTheSliderGSX250R",
   "condition-layout.product#conditionForTheSliderDR650",
 
-  "condition-layout.product#conditionForTheSliderRMZ450",
-  "condition-layout.product#conditionForTheSliderRMZ250",
-  "condition-layout.product#conditionForTheSliderGSXR1000",
-  "condition-layout.product#conditionForTheSliderGSX750R",
+  "condition-layout.product#conditionForTheSliderRMZ450",//COLOCADO
+  "condition-layout.product#conditionForTheSliderRMZ250",//COLOCADO
+  "condition-layout.product#conditionForTheSliderGSXR1000",//COLOCADO
+  "condition-layout.product#conditionForTheSliderGSX750R",//COLOCADO
 
 
 
@@ -18177,7 +18192,7 @@
 "condition-layout.product#conditionContainContenedorMotorFichaTecnicaGSX750R",
 
 "condition-layout.product#conditionContainContenedorMotorFichaTecnicaLTZ50",
-// "flex-layout.row#contenedorMotor",
+// "flex-layout.row#conditionContainContenedorMotorFichaTecnicaRMZ450",
 
 
 "condition-layout.product#conditionContainNameChasisFichaTecnicaVSTROMDL250",
@@ -18666,7 +18681,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2067064"
         }
       }
     ],
@@ -19040,7 +19055,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2067064"
         }
       }
     ],
@@ -19415,7 +19430,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2067064"
         }
       }
     ],
@@ -19790,7 +19805,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2067064"
         }
       }
     ],
@@ -20163,7 +20178,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2067064"
         }
       }
     ],
@@ -20536,7 +20551,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2067064"
         }
       }
     ],
@@ -20912,7 +20927,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2067064"
         }
       }
     ],

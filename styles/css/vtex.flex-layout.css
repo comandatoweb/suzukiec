@@ -1200,7 +1200,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 :global(.vtex-store-video-1-x-videoElement--VideoDoublePurpose)
 {
   width: 100%;
-  height: auto;
+ 
 }
 /*poner en medio el las cuotas de la moto*/
 :global(.vtex-flex-layout-0-x-flexColChild--subContenedorRenglonesFichaTecnica)
