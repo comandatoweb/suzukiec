@@ -40,14 +40,6 @@
         {
           "image": "https://suzukiecuador.vteximg.com.br/arquivos/banner-landing.png",
           "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/banner-landing-mobile.png"
-        },
-        {
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-dr650-esc.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-dr650-esc.jpg"
-        },
-        {
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-uk110-es.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-uk110-es.jpg"
         }
       ]
     }
@@ -190,7 +182,7 @@
     "props":{
       "textAlignment": "CENTER",
     "textPosition": "CENTER",
-    "text": "## Pregunta por repuestos suzuki",
+    "text": "## PREGUNTA POR REPUESTOS SUZUKI",
     "blockClass": "descriptionHayunaSuzuki"
     }
   },
