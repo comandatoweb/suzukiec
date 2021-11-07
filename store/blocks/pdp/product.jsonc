@@ -226,6 +226,8 @@
   },
   "image#ImageCrossDRZ50": {
     "props": {
+      "height":"462px",
+      "width":"100%",
       "src": "https://suzukiecuador.vteximg.com.br/arquivos/drz50banner.jpg"
       
     }
@@ -276,7 +278,7 @@
        {
          "subject": "productId",
          "arguments": {
-           "id": "" 
+           "id": "2009963" 
          }
        }
      ],
@@ -302,7 +304,7 @@
     "autoPlay": true,
     "muted": false,
     "type":"mp4",
-    "src": "https://site.comandato.com/video/",
+    "src": "https://site.comandato.com/video/RMZ250VIDEO.mp4",
     "blockClass": "video"
   }
 },
@@ -516,9 +518,30 @@
       }
     ],
     "toBe" : true,
-   "Then": "flex-layout.row#containforTheVideoUtilitaria"
+   "Then": "flex-layout.row#containforTheVideoUtilitariaGD115EVOLUTION"
    
   }
+},
+"flex-layout.row#containforTheVideoUtilitariaGD115EVOLUTION":{
+  "props":{
+    "blockClass": "containforTheVideoUtilitariaGD115EVOLUTION",
+    
+    "fullWidth" : true
+  },
+  "children":["video#VideoUtilitariaGD115EVOLUTION"]
+},
+"video#VideoUtilitariaGD115EVOLUTION": {
+ "props": {
+   "width": "100%",
+   "height": "450px",
+  
+   "loop": true,
+   "autoPlay": true,
+   "muted": false,
+   "type":"mp4",
+   "src": "https://site.comandato.com/video/VIDEOAX4EVOLUTION.mp4",
+   "blockClass": "video"
+ }
 },
 //GD 115
 "condition-layout.product#conditionForTheVideoCategoryeUtilitariaGD115": 
@@ -537,6 +560,7 @@
    
   }
 },
+
 //GN-125
 "condition-layout.product#conditionForTheVideoCategoryeUtilitariaGN125": 
 {
@@ -550,11 +574,27 @@
       }
     ],
     "toBe" : true,
-   "Then": "flex-layout.row#containforTheVideoUtilitariaGN125"
+   "Then": "flex-layout.row#containforTheImageGN125"
    
   }
 },
-"flex-layout.row#containforTheVideoUtilitariaGN125":{
+"flex-layout.row#containforTheImageGN125":{
+  "props":{
+    "blockClass": "containforTheImageGN125",
+    
+    "fullWidth" : true
+  },
+  "children":["image#ImageGN125"]
+},
+"image#ImageGN125": {
+  "props": {
+    "height":"470px",
+    "width":"100%",
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/gn125bannerprincipal.png"
+    
+  }
+},
+/*"flex-layout.row#containforTheVideoUtilitariaGN125":{
   "props":{
     "blockClass": "containforTheVideoUtilitaria",
     
@@ -574,7 +614,7 @@
    "src": "https://site.comandato.com/video/GN125VIDEO.mp4",
    "blockClass": "video"
  }
-},
+},*/
 
 
 //FIN GN 125
@@ -854,7 +894,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2049442"
         }
       }
     ],
@@ -880,7 +920,7 @@
    "autoPlay": true,
    "muted": false,
    "type":"mp4",
-   "src": "https://site.comandato.com/video/",
+   "src": "https://site.comandato.com/video/GSXR750VIDDEO.mp4",
    "blockClass": "video"
  }
 },
@@ -1110,7 +1150,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "" 
+          "id": "2009963" 
         }
       }
     ],
@@ -1211,7 +1251,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "" 
+          "id": "2049442" 
         }
       }
     ],
@@ -1413,7 +1453,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "### ",
+ "text": "### POTENCIA Y AGILIDAD CON EL ASPECTO CLÁSICO",
  "blockClass": "subtittleMoto2"
  }
 },
@@ -1516,7 +1556,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "### SUZUKI INTRUDER, UNA PEQUEÑA CRUISER CON MUCHOS ARGUMENTOS",
+  "text": "### UNA PEQUEÑA CRUISER CON MUCHOS ARGUMENTOS",
   "blockClass": "subtittleMoto2"
   }
 },
@@ -1620,7 +1660,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "###SENTANDO LAS BASES PARA LA DIVERSIÓN",
+  "text": "### SENTANDO LAS BASES PARA LA DIVERSIÓN",
   "blockClass": "subtittleMoto2"
   }
 },
@@ -3224,7 +3264,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "" 
+          "id": "2009963" 
         }
       }
     ],
@@ -3238,7 +3278,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "** cc - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+  "text": "**250 cc - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje1"
@@ -3281,7 +3321,7 @@
        {
          "subject": "productId",
          "arguments": {
-           "id": "" 
+           "id": "2049442" 
          }
        }
      ],
@@ -3295,7 +3335,7 @@
    "props":{
      "textAlignment": "CENTER",
    "textPosition": "CENTER",
-   "text": "** cc - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
+   "text": "**750 cc - Motor**\nCon una gran fuerza en motor para que nunca te detengas",
    "textColor": "c-on-emphasis",
    "font": "t-heading-5",
    "blockClass": "mensaje1"
@@ -3940,7 +3980,7 @@
        {
          "subject": "productId",
          "arguments": {
-           "id": ""
+           "id": "2009963"
          }
        }
      ],
@@ -3972,7 +4012,7 @@
        {
          "subject": "productId",
          "arguments": {
-           "id": ""
+           "id": "2049442"
          }
        }
      ],
@@ -4546,7 +4586,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "" 
+          "id": "2009963" 
         }
       }
     ],
@@ -4559,7 +4599,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "** -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "text": "**5 Velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
  "textColor": "c-on-emphasis",
  "font": "t-heading-5",
  "blockClass": "mensaje2"
@@ -4602,7 +4642,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "" 
+          "id": "2049442" 
         }
       }
     ],
@@ -4615,7 +4655,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "** -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
+ "text": "**6 velocidades -Transmisión**\nCon un sistema que te permite llevar a diferentes velocidades",
  "textColor": "c-on-emphasis",
  "font": "t-heading-5",
  "blockClass": "mensaje2"
@@ -5576,7 +5616,7 @@
         {
           "subject": "productId",
           "arguments": {
-            "id": ""
+            "id": "2009963"
           }
         }
       ],
@@ -5608,7 +5648,7 @@
         {
           "subject": "productId",
           "arguments": {
-            "id": ""
+            "id": "2049442"
           }
         }
       ],
@@ -6190,7 +6230,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "" 
+          "id": "2009963" 
         }
       }
     ],
@@ -6203,7 +6243,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "****\nFrenos de confianza \nrodada en cualquier sitio",
+  "text": "**Frenos (Delantero / Trasero)**\nFrenos de confianza \nrodada en cualquier sitio",
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje3"
@@ -6244,7 +6284,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "" 
+          "id": "2049442" 
         }
       }
     ],
@@ -6257,7 +6297,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "**ABS / ABS  - Frenos (Delantero / Trasero)**\nFrenos de confianza \nrodada en cualquier sitio",
+  "text": "**Delantero - flotante 310 mm y pistón BREMBO / Trasero - Sencillo**\nFrenos de confianza \nrodada en cualquier sitio",
   "textColor": "c-on-emphasis",
   "font": "t-heading-5",
   "blockClass": "mensaje3"
@@ -7700,7 +7740,7 @@
 "image#motovlStrom2": {
   "props": {
     "blockClass": "motovlStrom2",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/VSTROM2502OFICIAIL.jpg"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/vstrom250Parasubir.jpg"
   }
  
 },
@@ -8186,7 +8226,7 @@
  "image#motoVstrom650": {
    "props": {
      "blockClass": "motovlStrom",
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/VLSTROM6501.jpg"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/VLSTROM6501-oficial.png"
      
    }
   
@@ -8195,7 +8235,7 @@
    "props":{
      "textAlignment": "CENTER",
    "textPosition": "CENTER",
-   "text": "## XTREMA EL CONTROL. EN CUALQUIER TERRENO\nNo habrá camino que no puedas dominar con V-Strom 650XT, ya que puedes elegir entre 2 modos de control de tracción o apagarlo para así conseguir un manejo más personalizado. Desde condiciones de camino ideales hasta condiciones de humedad o poca adherencia.",
+   "text": "## XTREMA EL CONTROL EN CUALQUIER TERRENO\nNo habrá camino que no puedas dominar con V-Strom 650XT, ya que puedes elegir entre 2 modos de control de tracción o apagarlo para así conseguir un manejo más personalizado. Desde condiciones de camino ideales hasta condiciones de humedad o poca adherencia.",
    "blockClass": "descripcionDeFoto"
    }
  },
@@ -9032,7 +9072,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "" 
+          "id": "2009963" 
         }
       }
     ],
@@ -9090,7 +9130,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "##RM-Z250\nAcelera, curva y frena de la mejor manera en las pistas",
+  "text": "## RM-Z250\nAcelera, curva y frena de la mejor manera en las pistas",
   "blockClass": "descripcionDeFoto"
   }
   
@@ -9110,7 +9150,7 @@
 "image#arranqueRMZ250": {
   "props": {
     "blockClass": "motovlStrom2",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/RMZ250-2.png"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/RMZ250-3.jpg"
   }
   
 },
@@ -9118,7 +9158,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "##MOTOR POTENTE Y DISEÑO DE CHASIS INNOVADOR\nLa RM-Z250 permite un manejo espectacular en pista gracias a su potente motor 250 y su desarrollo en el chasis, ultra liviano.",
+  "text": "## MOTOR POTENTE Y DISEÑO DE CHASIS INNOVADOR\nLa RM-Z250 permite un manejo espectacular en pista gracias a su potente motor 250 y su desarrollo en el chasis, ultra liviano.",
   "blockClass": "descripcionDeFoto"
   }
 },
@@ -9137,7 +9177,8 @@
 "image#motorRMZ250": {
   "props": {
     "blockClass": "motovlStrom3",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/RMZ250-3.jpg"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/RMZ250-2.png"
+    
     
   }
   
@@ -9146,7 +9187,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "##SISTEMA SHAC\nSal primero en todas las partidas, con el sistema shac  vas a lograr un mejor arranque de carrera",
+  "text": "## SISTEMA SHAC\nSal primero en todas las partidas, con el sistema shac  vas a lograr un mejor arranque de carrera",
   "blockClass": "descripcionDeFoto"
   }
 },
@@ -9286,7 +9327,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": "" 
+          "id": "2049442" 
         }
       }
     ],
@@ -10426,12 +10467,6 @@
           "width" : "100%",
           "image": "https://suzukiecuador.vteximg.com.br/arquivos/GD115EVOLUTIONBANNEROFICIAL.jpg",
           "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/GD115EVOLUTIONBANNEROFICIAL.jpg"
-        },
-        {
-          "width" : "100%",
-         
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/GD115EVOLUTIONBANNEROFICIAL.jpg",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/GD115EVOLUTIONBANNEROFICIAL.jpg"
         }
         
       ]
@@ -10477,12 +10512,6 @@
           "width" : "100%",
           "image": "https://suzukiecuador.vteximg.com.br/arquivos/GD115BANNEROFICIAL.jpg",
           "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/GD115BANNEROFICIAL.jpg"
-        },
-        {
-          "width" : "100%",
-         
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/GD115BANNEROFICIAL.jpg",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/GD115BANNEROFICIAL.jpg"
         }
         
       ]
@@ -10528,12 +10557,6 @@
           "width" : "100%",
           "image": "https://suzukiecuador.vteximg.com.br/arquivos/banner_gn125OFICIAL.jpg",
           "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/banner_gn125OFICIAL.jpg"
-        },
-        {
-          "width" : "100%",
-         
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/banner_gn125OFICIAL.jpg",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/banner_gn125OFICIAL.jpg"
         }
         
       ]
@@ -11177,7 +11200,7 @@
         {
           "subject": "productId",
           "arguments": {
-            "id": ""
+            "id": "2009963"
           }
         }
       ],
@@ -11194,14 +11217,8 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/RMZ250BANNEROFICIAL.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/RMZ250BANNEROFICIAL.jpg"
-        },
-        {
-          "width" : "100%",
-         
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/RMZ250BANNEROFICIAL.jpg",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/RMZ250BANNEROFICIAL.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/RMZ250BANNER.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/RMZ250BANNER.png"
         }
         
       ]
@@ -11279,7 +11296,7 @@
         {
           "subject": "productId",
           "arguments": {
-            "id": ""
+            "id": "2049442"
           }
         }
       ],
@@ -11296,14 +11313,8 @@
       "images": [
         {
           "width" : "100%",
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/"
-        },
-        {
-          "width" : "100%",
-         
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/bannergsx750rpng.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/bannergsx750rpng.png"
         }
         
       ]
@@ -11929,7 +11940,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2009963"
         }
       }
     ],
@@ -11977,7 +11988,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2049442"
         }
       }
     ],
@@ -12552,7 +12563,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2009963"
         }
       }
     ],
@@ -12600,7 +12611,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2049442"
         }
       }
     ],
@@ -13175,7 +13186,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2009963"
         }
       }
     ],
@@ -13223,7 +13234,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2049442"
         }
       }
     ],
@@ -13855,7 +13866,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2009963"
         }
       }
     ],
@@ -13903,7 +13914,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2049442"
         }
       }
     ],
@@ -14480,7 +14491,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2009963"
         }
       }
     ],
@@ -14530,7 +14541,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2049442"
         }
       }
     ],
@@ -15112,7 +15123,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2009963"
         }
       }
     ],
@@ -15162,7 +15173,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2049442"
         }
       }
     ],
@@ -15786,7 +15797,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2009963"
         }
       }
     ],
@@ -15834,7 +15845,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2049442"
         }
       }
     ],
@@ -16410,7 +16421,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2009963"
         }
       }
     ],
@@ -16458,7 +16469,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2049442"
         }
       }
     ],
@@ -17030,7 +17041,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2009963"
         }
       }
     ],
@@ -17078,7 +17089,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2049442"
         }
       }
     ],
@@ -17979,15 +17990,14 @@
    //  "flex-layout.row#product-main",
    "flex-layout.row#containImageDescription",
   // "flex-layout.row#conoceMasTuMotoText",
-  // "condition-layout.product#conditionForTheGaleryVstrom250",
+   //"condition-layout.product#conditionForTheGaleryVstrom250",
 
   // "flex-layout.row#containImageDescription",////tyjty
-//   "flex-layout.row#containGalleryMoto",
+//  "flex-layout.row#containGalleryMoto",
 //   "flex-layout.row#divParaimagenes",//Div que contiene las imagenes motor, velocidad, freno
   // "flex-layout.row#descripciondivimagenes",//Descripcion del motor velocidad, freno
 //PARTE DEL CREDITO DIRECTO
 //FIN DE PARTE DEL CREDITO DIRECTO
-
 
 //IFRAME
 //"iframe#galleryMoto",
@@ -18340,7 +18350,45 @@
  //"flex-layout.row#contenedorImagen",
  /*FIN FICHA TECNICA*/
  //"flex-layout.row#containercompraEnLineaVlStrom250",
- "flex-layout.row#contenedor_final",
+ "flex-layout.row#containPoderyDeno",
+
+ "condition-layout.product#conditionContenedor_final_VSTROMDL250",
+ "condition-layout.product#conditionContenedor_final_KATANA",
+ "condition-layout.product#conditionContenedor_final_VStrom650",
+ "condition-layout.product#conditionContenedor_final_UR110",
+ "condition-layout.product#conditionContenedor_final_DGD115EVOLUTION",
+ "condition-layout.product#conditionContenedor_final_GD115",
+ "condition-layout.product#conditionContenedor_final_GN-125",
+ "condition-layout.product#conditionContenedor_final_UK110",
+ "condition-layout.product#conditionContenedor_final_FW110",
+ "condition-layout.product#conditionContenedor_final_GSX125-C",
+ "condition-layout.product#conditionContenedor_final_DR-Z50",
+ "condition-layout.product#conditionContenedor_final_GSX-S750A",
+ "condition-layout.product#conditionContenedor_final_RM85",
+ "condition-layout.product#conditionContenedor_final_INTRUDER",
+ "condition-layout.product#conditionContenedor_final_SV650XA",
+ "condition-layout.product#conditionContenedor_final_VSTROM1050XT",
+ "condition-layout.product#conditionContenedor_final_GSX250R",
+ "condition-layout.product#conditionContenedor_final_DR650",
+ "condition-layout.product#conditionContenedor_final_RMZ450",
+ "condition-layout.product#conditionContenedor_final_RMZ250",
+ "condition-layout.product#conditionContenedor_final_GSXR1000",
+ "condition-layout.product#conditionContenedor_final_GSX750R",
+ "condition-layout.product#conditionContenedor_final_LTZ50",
+ //MOTORES FUERA DE BORDA
+"condition-layout.product#conditionContenedor_final_DF175ATX",
+"condition-layout.product#conditionContenedor_final_DF200ZX", 
+"condition-layout.product#conditionContenedor_final_DF20AS",
+"condition-layout.product#conditionContenedor_final_DF150ZX",
+"condition-layout.product#conditionContenedor_final_DF150TX",
+"condition-layout.product#conditionContenedor_final_DF30AS",
+"condition-layout.product#conditionContenedor_final_DF30AL",
+"condition-layout.product#conditionContenedor_final_DT15AL",
+"condition-layout.product#conditionContenedor_final_DF9.9AS",
+"condition-layout.product#conditionContenedor_final_DF6AS",
+"condition-layout.product#conditionContenedor_final_DT30L",
+"condition-layout.product#conditionContenedor_final_DF175AZX",
+ //"flex-layout.row#contenedor_final",
 
     // "product-specification-group#table",
      // "shelf.relatedProducts",
@@ -18349,6 +18397,569 @@
     ]
   },
 
+  //Condiciones para el contendor final para motores
+  "condition-layout.product#conditionContenedor_final_DF175ATX": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2067061"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#contenedor_final_FueraBorda"
+     
+    }
+  },
+  
+"condition-layout.product#conditionContenedor_final_DF200ZX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2058125"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedor_final_FueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionContenedor_final_DF20AS": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052764"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedor_final_FueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionContenedor_final_DF150ZX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052763"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedor_final_FueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionContenedor_final_DF150TX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052762"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedor_final_FueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionContenedor_final_DF30AS": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052760"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedor_final_FueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionContenedor_final_DF30AL": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052759"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedor_final_FueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionContenedor_final_DT15AL": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052757"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedor_final_FueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionContenedor_final_DF9.9AS": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052756"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedor_final_FueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionContenedor_final_DF6AS": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052755"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedor_final_FueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionContenedor_final_DT30L": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052758"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedor_final_FueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionContenedor_final_DF175AZX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054551"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedor_final_FueraBorda"
+   
+  }
+},
+//Condiciones para el contenedor final para motos
+"condition-layout.product#conditionContenedor_final_VSTROMDL250": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2048798"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedor_final"
+   
+  }
+},
+"condition-layout.product#conditionContenedor_final_KATANA": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2049621"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedor_final"
+   
+  }
+},
+ "condition-layout.product#conditionContenedor_final_VStrom650": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049038"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#contenedor_final"
+    
+   }
+ },
+ "condition-layout.product#conditionContenedor_final_UR110": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2011740"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#contenedor_final"
+    
+   }
+ },
+ "condition-layout.product#conditionContenedor_final_DGD115EVOLUTION": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2054549"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#contenedor_final"
+    
+   }
+ },
+ "condition-layout.product#conditionContenedor_final_GD115": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2011222"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#contenedor_final"
+    
+   }
+ },
+ "condition-layout.product#conditionContenedor_final_GN-125": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2000139"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#contenedor_final"
+    
+   }
+ },
+ "condition-layout.product#conditionContenedor_final_UK110": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2054550"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#contenedor_final"
+    
+   }
+ },
+ "condition-layout.product#conditionContenedor_final_FW110": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049186"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#contenedor_final"
+    
+   }
+ },
+ "condition-layout.product#conditionContenedor_final_GSX125-C": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049461"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#contenedor_final"
+    
+   }
+ },
+ "condition-layout.product#conditionContenedor_final_DR-Z50": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049492"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#contenedor_final"
+    
+   }
+ },
+ "condition-layout.product#conditionContenedor_final_GSX-S750A": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049300"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#contenedor_final"
+    
+   }
+ },
+ "condition-layout.product#conditionContenedor_final_RM85": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049584"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#contenedor_final"
+    
+   }
+ },
+ "condition-layout.product#conditionContenedor_final_INTRUDER": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049444"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#contenedor_final"
+    
+   }
+ },
+ "condition-layout.product#conditionContenedor_final_SV650XA": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2054376"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#contenedor_final"
+    
+   }
+ },
+ "condition-layout.product#conditionContenedor_final_VSTROM1050XT": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2054006"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#contenedor_final"
+    
+   }
+ },
+ "condition-layout.product#conditionContenedor_final_GSX250R": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2048797"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#contenedor_final"
+    
+   }
+ },
+ "condition-layout.product#conditionContenedor_final_DR650": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2000136"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#contenedor_final"
+    
+   }
+ },
+ "condition-layout.product#conditionContenedor_final_RMZ450": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": ""
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#contenedor_final"
+    
+   }
+ },
+ "condition-layout.product#conditionContenedor_final_RMZ250": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2009963"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#contenedor_final"
+    
+   }
+ },
+ "condition-layout.product#conditionContenedor_final_GSXR1000": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2067064"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#contenedor_final"
+    
+   }
+ },
+ "condition-layout.product#conditionContenedor_final_GSX750R": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2049442"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#contenedor_final"
+    
+   }
+ },
+ "condition-layout.product#conditionContenedor_final_LTZ50": 
+ {
+   "props": {
+     "conditions": [
+       {
+         "subject": "productId",
+         "arguments": {
+           "id": "2067063"
+         }
+       }
+     ],
+     "toBe" : true,
+    "Then": "flex-layout.row#contenedor_final"
+    
+   }
+ },
 
 
 //condiciones para la ficha tecnica
@@ -18665,7 +19276,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2009963"
         }
       }
     ],
@@ -18697,7 +19308,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2049442"
         }
       }
     ],
@@ -19039,7 +19650,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2009963"
         }
       }
     ],
@@ -19071,7 +19682,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2049442"
         }
       }
     ],
@@ -19413,7 +20024,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2009963"
         }
       }
     ],
@@ -19447,7 +20058,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2049442"
         }
       }
     ],
@@ -19789,7 +20400,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2009963"
         }
       }
     ],
@@ -19821,7 +20432,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2049442"
         }
       }
     ],
@@ -20162,7 +20773,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2009963"
         }
       }
     ],
@@ -20194,7 +20805,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2049442"
         }
       }
     ],
@@ -20535,7 +21146,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2009963"
         }
       }
     ],
@@ -20567,7 +21178,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2049442"
         }
       }
     ],
@@ -20910,7 +21521,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2009963"
         }
       }
     ],
@@ -20944,7 +21555,7 @@
       {
         "subject": "productId",
         "arguments": {
-          "id": ""
+          "id": "2049442"
         }
       }
     ],
@@ -21369,10 +21980,25 @@
       "blockClass": "contenedor_final",
       "colGap": 0,
       "rowGap": 0,
-      "marginTop": 5,
+      "marginTop": 0,
       "marginBottom": 0,
-      "paddingTop": 5,
-      "paddingBottom": 0,
+      "paddingTop": 9,
+      "paddingBottom": 9,
+      "fullWidth" : true
+
+    },
+    "children" :["flex-layout.col#subContainerRenglon"]
+  },
+  "flex-layout.row#contenedor_final_FueraBorda":
+  {
+    "props":{
+      "blockClass": "contenedor_final_FueraBorda",
+      "colGap": 0,
+      "rowGap": 0,
+      "marginTop": 0,
+      "marginBottom": 0,
+      "paddingTop": 9,
+      "paddingBottom": 9,
       "fullWidth" : true
 
     },
@@ -21386,16 +22012,25 @@
       "rowGap": 0,
       "hasMoreThanOne" : true
     },
-    "children" :["rich-text#PoderyDeno", "product-installments#TEXTOFINAL","rich-text#cotizala","flex-layout.row#rowbotones"]
+    "children" :[ "product-installments#TEXTOFINAL","rich-text#cotizala","flex-layout.row#rowbotones"]
   },
-  "rich-text#PoderyDeno":{
-    "props":{
-      "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-    "text": "## ***Poder y dominación en***\n## ***ti***",
-    "blockClass": "PoderyDeno"
-    }
-  },
+  //
+  "flex-layout.row#containPoderyDeno" : {
+    "props": {
+      "blockClass": "caracteristicasEspecialesTextSUZUKI",
+      "fullWidth" : true
+    },
+      "children" :["rich-text#PoderyDeno"]
+    },
+    "rich-text#PoderyDeno":{
+      "props":{
+        "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "## **PODER Y DOMINACIÓN EN TI**",
+      "blockClass": "textoCaracterisitcasEspecialesSUZUKI"
+      }
+    },
+  //
   "rich-text#NameMoto":{
     "props":{
       "textAlignment": "CENTER",

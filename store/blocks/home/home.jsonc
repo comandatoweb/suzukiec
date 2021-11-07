@@ -38,8 +38,8 @@
       "height": 450,
       "images": [
         {
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-viva-cool-es.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-viva-cool-es.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/banner-landing.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/banner-landing-mobile.png"
         },
         {
           "image": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-dr650-esc.jpg",
@@ -274,7 +274,7 @@
       "blockClass": "menumoto",
       "allowfullscreen":"true",
       "allowtransparency":"true", 
-      "src": "https://consultordigitalec.com/suzuki/menu-escritorio/"
+      "src": "https://consultordigitalec.com/store/menu/"
     }
   },
   "iframe#menumotomb": {
