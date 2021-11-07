@@ -806,10 +806,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     border: none;
 
 }
-.flexRow--buyNowButtonw  :global(.vtex-button):hover/*HECHO POR ENRIQUE CALLE*/
-{
- 
-}
+
 :global(.vtex-add-to-cart-button-0-x-buttonText--buyNoww)
 {
   font-family: 'Poppins', sans-serif;
@@ -817,13 +814,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 
 
 }
-.flexRow--buyNowButtons  :global(.vtex-button):hover
-{
- /* border: 3px silver solid; */
- 
- 
-  
-}
+
 
 
 :global(.vtex-flex-layout-0-x-flexRow--containImageDescription)
@@ -866,6 +857,43 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   font-size: x-large;
   letter-spacing: .5rem;
 }
+
+/*PARTE FINAL PARA SUZUKI*/
+:global(.vtex-flex-layout-0-x-flexRowContent--caracteristicasEspecialesTextSUZUKI)
+{
+  border: 4px solid #002f4a ;
+  background: #002f4a;
+  height: 4rem !important;
+ /* position: relative;
+  bottom: 23rem; */
+}
+
+:global(.vtex-rich-text-0-x-strong--textoCaracterisitcasEspecialesSUZUKI)
+{
+  color: white!important;
+  letter-spacing: .5rem;
+  font-weight: 500 !important;
+}
+:global(.vtex-flex-layout-0-x-flexRow--contenedor_final)
+{
+  background-image: url(https://suzukiecuador.vteximg.com.br/arquivos/bannerSuzuki.png);
+  background-attachment: fixed;
+  
+  background-size: cover;
+  background-position: bottom;
+  height: 400px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--contenedor_final_FueraBorda)
+{
+  background-image: url(https://suzukiecuador.vteximg.com.br/arquivos/BANNER_FINAL.png);
+  background-attachment: fixed;
+  
+  background-size: cover;
+  background-position: bottom;
+  height: 400px;
+}
+
+
 
 :global(.vtex-flex-layout-0-x-flexRowContent--listaparatuaventuraText)
 {
@@ -1064,11 +1092,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     transition: 0.2s ease-in-out;
     letter-spacing: 0.7px !important;
   }
- /* :global(.vtex-rich-text-0-x-heading--subtittleMoto2):hover
-  {
-    border: 2px solid rgb(0, 48, 69) !important;
-  
-  } */
+
   :global(.vtex-rich-text-0-x-container--mensaje1),
   :global(.vtex-rich-text-0-x-container--mensaje2),
   :global(.vtex-rich-text-0-x-container--mensaje3)
@@ -1190,7 +1214,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   margin-right: 0rem  !important;
   margin-left: 0rem !important;
   
-  background-color: #00bb2d !important;
+  background-color:   #00bb2d !important;
   border: 2px solid #00bb2d !important;
 
 }
@@ -1238,16 +1262,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   transition: 0.2s ease-in-out;
   
 }
-:global(.vtex-store-link-0-x-buttonLink--cotizaTuMoto):hover
-{
-  
-  letter-spacing: 4px;
-  background-color: white;
-  border: 2px solid rgb(0,48,69);
-  
-  color: black;
-  
-}
+
 
 /*FICHA TECNICA*/
 :global(.vtex-flex-layout-0-x-flexRow--IMC1),
@@ -1303,20 +1318,43 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   margin-right: 2rem;
   margin-left: 2rem;
   
-  background-color: #00bb2d !important;
+  background-color: transparent !important;
+  color: black;
   border: 2px solid #00bb2d !important;
-
+  
 }
 :global(.vtex-store-link-0-x-link--PreguntaPorTusRepuestos)
 {
-  background-color: rgb(0,48,69);
+  background-color: transparent !important;
+  color: black;
   border: 2px solid rgb(0,48,69);
+ 
+
+}
+:global(.vtex-store-link-0-x-link--cotizaPorWhatsapp):hover
+{
+  margin-right: 2rem;
+  margin-left: 2rem;
+  
+  background-color: transparent !important;
+  color: black;
+  border: 2px solid #00bb2d !important;
+  
+}
+:global(.vtex-store-link-0-x-link--PreguntaPorTusRepuestos):hover
+{
+  background-color: transparent !important;
+  color: black;
+  border: 2px solid rgb(0,48,69);
+ 
 
 }
 .flexRow--containsolicitarProducto :global(.vtex-button)
 {
-  background-color: rgb(0,48,69);
+  background-color: transparent !important;
+  color: black;
   border: 2px solid rgb(0,48,69);
+  transition: 0.2s ease-in-out;
 }
 
 :global(.vtex-iframe-0-x-container--fichatecnicamotorfueraborda)
