@@ -212,23 +212,35 @@
         }
       ],
       "toBe" : true,
-     "Then": "flex-layout.row#containforTheImageCross"
+     "Then":  "list-context.image-list#imageDR-Z50"
      
     }
   },
-  "flex-layout.row#containforTheImageCross":{
-    "props":{
-      "blockClass": "containforTheImageCross",
-      
-      "fullWidth" : true
-    },
-    "children":["image#ImageCrossDRZ50"]
-  },
-  "image#ImageCrossDRZ50": {
+  "list-context.image-list#imageDR-Z50": {
+    "children": ["slider-layout#imageDR-Z50"],
     "props": {
-      "height":"462px",
-      "width":"100%",
-      "src": "https://suzukiecuador.vteximg.com.br/arquivos/drz50banner.jpg"
+  
+      "height":"100%",
+      "images": [
+        {
+          "width" : "100%",
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/drz50banner.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/bannermoviledrz50.png"
+        }
+        
+      ]
+    }
+  },
+  "slider-layout#imageDR-Z50": {
+    "props": {
+      "blockClass": "sliderVLSitems",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
       
     }
   },
@@ -574,11 +586,39 @@
       }
     ],
     "toBe" : true,
-   "Then": "flex-layout.row#containforTheImageGN125"
+   "Then": "list-context.image-list#containforTheImageGN125S"
    
   }
 },
-"flex-layout.row#containforTheImageGN125":{
+"list-context.image-list#containforTheImageGN125S": {
+  "children": ["slider-layout#sliderGN-125banner"],
+  "props": {
+
+    "height":"100%",
+    "images": [
+      {
+        "width" : "100%",
+        "image": "https://suzukiecuador.vteximg.com.br/arquivos/gn125bannerprincipal.png",
+        "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/GN125MOVILEBANNER.png"
+      }
+      
+    ]
+  }
+},
+"slider-layout#sliderGN-125banner": {
+  "props": {
+    "blockClass": "sliderVLSitems",
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "infinite": true,
+    "showNavigationArrows": "desktopOnly"
+    
+  }
+},
+/*"flex-layout.row#containforTheImageGN125":{
   "props":{
     "blockClass": "containforTheImageGN125",
     
@@ -593,7 +633,7 @@
     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gn125bannerprincipal.png"
     
   }
-},
+},*/
 /*"flex-layout.row#containforTheVideoUtilitariaGN125":{
   "props":{
     "blockClass": "containforTheVideoUtilitaria",
@@ -2180,6 +2220,8 @@
    // "store-link#producto",
    // "flex-layout.row#buyNowButtonCreditoDirecto",
    // "flex-layout.row#buyNowButtonCotizaTuMoto"
+   //////
+   
    
   ]
 },
@@ -2247,8 +2289,12 @@
   "flex-layout.row#product-image",//COMPONENTE QUE MUESTRA EL LADO IZQUIERDO DE LA IMAGEN
  "product-bookmark",
    "product-specification-badges"
+ 
   ]
 },
+
+
+
 //==============================================================================================================================
  //********************************************* FIN PARTES DE LA MOTO CON SU CARACTERITISTICA*******************************************//
  //==============================================================================================================================
@@ -7094,7 +7140,7 @@
 "image#moto2GSX125": {
  "props": {
    "blockClass": "motovlStrom2",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/asiento-anchoGSX125C.jpg"
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx125OFICIAL-2.jpg"
  }
 
 },
@@ -7102,7 +7148,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "## ASIENTO ANCHO\nAsiento de conductor ancho y ergonómico para tener un manejo cómodo diario",
+ "text": "## UNA MOTOCICLETA DISEÑADA PARA LA DIVERSIÓN Y EMOCIÓN\nRespuesta ascendente y lineal del propulsor de 155cc, muy bajo en vibraciones.",
  "blockClass": "descripcionDeFoto"
  }
 },
@@ -10758,12 +10804,6 @@
           "width" : "100%",
           "image": "https://suzukiecuador.vteximg.com.br/arquivos/DR-Z50-moto-suzuki-banner.jpg",
           "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/DR-Z50-moto-suzuki-banner.jpg"
-        },
-        {
-          "width" : "100%",
-         
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/drz50banner.jpg",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/drz50banner.jpg"
         }
         
       ]
@@ -21982,8 +22022,8 @@
       "rowGap": 0,
       "marginTop": 0,
       "marginBottom": 0,
-      "paddingTop": 9,
-      "paddingBottom": 9,
+      "paddingTop": 0,
+      "paddingBottom": 0,
       "fullWidth" : true
 
     },
