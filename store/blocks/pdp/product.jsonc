@@ -7094,7 +7094,7 @@
 "image#moto2GSX125": {
  "props": {
    "blockClass": "motovlStrom2",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx125OFICIAL-2.jpg"
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/asiento-anchoGSX125C.jpg"
  }
 
 },
@@ -7102,7 +7102,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "## UNA MOTOCICLETA DISEÑADA PARA LA DIVERSIÓN Y EMOCIÓN\nRespuesta ascendente y lineal del propulsor de 155cc, muy bajo en vibraciones.",
+ "text": "## ASIENTO ANCHO\nAsiento de conductor ancho y ergonómico para tener un manejo cómodo diario",
  "blockClass": "descripcionDeFoto"
  }
 },
