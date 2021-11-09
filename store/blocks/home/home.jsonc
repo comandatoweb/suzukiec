@@ -275,7 +275,7 @@
       "height":"620px",
       "scrolling":"no" ,
       "frameborder":"0",
-      "overflow": "hidden",
+      "overflow": "visible",
       "blockClass": "menumotomb",
       "allowfullscreen":"true",
       "allowtransparency":"true", 

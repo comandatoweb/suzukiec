@@ -7140,7 +7140,7 @@
 "image#moto2GSX125": {
  "props": {
    "blockClass": "motovlStrom2",
-   "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx125OFICIAL-2.jpg"
+   "src": "https://suzukiecuador.vteximg.com.br/arquivos/frenosgsx125c.png"
  }
 
 },
@@ -7148,7 +7148,7 @@
  "props":{
    "textAlignment": "CENTER",
  "textPosition": "CENTER",
- "text": "## UNA MOTOCICLETA DISEÑADA PARA LA DIVERSIÓN Y EMOCIÓN\nRespuesta ascendente y lineal del propulsor de 155cc, muy bajo en vibraciones.",
+ "text": "## FRENO DELANTERO DE DISCO VENTILADO\nFreno delantero de disco para mayor seguridad ante imprevistos.",
  "blockClass": "descripcionDeFoto"
  }
 },
