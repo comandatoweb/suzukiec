@@ -1907,7 +1907,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "### VELOCIDAD Y ADRENALINA AL MÁXIMO",
+  "text": "### IMPONENTE EN CADA LINEA DE DISEÑO",
   "blockClass": "subtittleMoto2"
   }
 },
@@ -7893,7 +7893,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## CUATRO CILINDROS EN LÍNEA DE 999 CC CON DISTRIBUCIÓN DOHC Y REFRIGERACIÓN LÍQUIDA\nEste despliegue de rendimiento lo puede controlar el conductor gracias a la nueva dotación de ayudas electrónicas de la Suzuki GSX-S1000 2021",
+  "text": "## CUATRO CILINDROS EN LÍNEA DE 999 CC CON DISTRIBUCIÓN DOHC Y REFRIGERACIÓN LÍQUIDA\nEste despliegue de rendimiento lo puede controlar el conductor gracias a la nueva dotación de ayudas electrónicas de la Suzuki KATANA 1000",
 
   "blockClass": "descripcionDeFoto"
   }
@@ -7913,7 +7913,10 @@
 "image#arranqueKatana": {
   "props": {
     "blockClass": "motovlStrom2",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/KatanaMotor.png"
+    //KatanaMotor.png
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/KATANAOFICIAL3.png"
+
+    
   }
  
 },
@@ -7921,7 +7924,8 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## KATANA\nNorma Euro 5, por lo que el motor de la Suzuki GSX-S1000 2021",
+  "text": "## LA GSX-S1000 CUENTA CON SUZUKI DRIVE MODE SELECTOR CON TRES MODOS DE CONDUCCIÓN\nTus viajes sean más placenteros y seguros, un conjunto de ayudas denominado Sistema de Conducción Inteligente de Suzuki (S.I.R.S.).",
+
   "blockClass": "descripcionDeFoto"
   }
 },
@@ -7940,7 +7944,7 @@
 "image#motorKatana": {
   "props": {
     "blockClass": "motovlStrom3",
-    "src": "https://suzukiecuador.vteximg.com.br/arquivos/katana3-oficialmodificado.png"
+    "src": "https://suzukiecuador.vteximg.com.br/arquivos/katanaoficial2.jpg"
    
    
   }
@@ -7950,7 +7954,8 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## LA GSX-S1000 CUENTA CON SUZUKI DRIVE MODE SELECTOR CON TRES MODOS DE CONDUCCIÓN\nTus viajes sean más placenteros y seguros, un conjunto de ayudas denominado Sistema de Conducción Inteligente de Suzuki (S.I.R.S.).",
+  "text": "## FUERTE Y LIGERA POR DENTRO Y POR FUERA\nPor fuera, Katana muestra un desempeño espectacular. Por dentro, un chasis ligero y compacto de doble mástil fabricado en aleación de aluminio que brinda un soporte sólido para ofrecerte una conducción ágil, controlada, cómoda y electrizante en condiciones reales: caminos públicos, tráfico, carretera o caminos rurales sinuosos.",
+
   "blockClass": "descripcionDeFoto"
   }
 },
@@ -8049,7 +8054,7 @@
    "props":{
      "textAlignment": "CENTER",
    "textPosition": "CENTER",
-   "text": "## POTENTE MOTOR  Y ESTILO DEPORTIVO\nLa Gsx250r tiene un potente motor cilíndrico de 25 hp , disfruta de las calles y autopistas al máximo.",
+   "text": "## POTENTE MOTOR  Y ESTILO DEPORTIVO\nLa Gsx250r tiene un potente motor bicilíndrico de 25 hp , disfruta de las calles y autopistas al máximo.",
    "blockClass": "descripcionDeFoto"
    }
  },
@@ -8149,7 +8154,7 @@
    "props":{
      "textAlignment": "CENTER",
    "textPosition": "CENTER",
-   "text": "## GSXS-750\nLa moto perfecta para ir a velocidad",
+   "text": "## GSXS-750\nSeguridad en cada rodada con nuestro sistema de frenado inteligente",
    "blockClass": "descripcionDeFoto"
    }
  },
@@ -8177,8 +8182,7 @@
    "props":{
      "textAlignment": "CENTER",
    "textPosition": "CENTER",
-   "text": "## POTENTE MOTOR Y SISTEMA DE FRENOS\nLa tecnología de la gsx750r permite aprovechar al máximo sus 150 hp y además un frenado seguro y preciso con sus discos de freno de gran diámetro",
-
+   "text": "## MOTOR CON HERENCIA DEPORTIVA\nMotor heredado de sus hermanas GSXR y adaptado a las condiciones de manejo de carretera y ciudad",
    "blockClass": "descripcionDeFoto"
    }
  },
@@ -8198,7 +8202,7 @@
    "props": {
      "blockClass": "motovlStrom3",
     
-     "src": "https://suzukiecuador.vteximg.com.br/arquivos/GSX750A-2-OFICIAIL.jpg"
+     "src": "https://suzukiecuador.vteximg.com.br/arquivos/gsx750aTABLERO.png"
     
    }
   
@@ -8207,7 +8211,7 @@
    "props":{
      "textAlignment": "CENTER",
    "textPosition": "CENTER",
-   "text": "## POCA VIBRACIÓN A GRANDES VELOCIDADES \nsiéntete seguro y cómodo en cualquier condicion de asfalto,  estabilidad y suavidad al máximo",
+   "text": "## TABLERO 100% DIGITAL\nTodo se ve más fácil con un tablero led que te permite tener el control d tu motocicleta sin distracciones",
 
    "blockClass": "descripcionDeFoto"
    }
@@ -8665,7 +8669,7 @@
    "props":{
      "textAlignment": "CENTER",
    "textPosition": "CENTER",
-   "text": "## AX4\nRecorridos cómodos, suspensión regulable según estilo de conducción",
+   "text": "## PARA TRABAJO DURO\nNo solo en componentes mecánicos es duradera, su equipamiento es excepcional, incluye rines de rayo para mayor absorción de golpes",
    "blockClass": "descripcionDeFoto"
    }
    
@@ -8725,7 +8729,7 @@
    "props":{
      "textAlignment": "CENTER",
    "textPosition": "CENTER",
-   "text": "## PARA TRABAJO DURO\nNo solo en componentes mecánicos es duradera, su equipamiento es excepcional, incluye rines de rayo para mayor absorción de golpes ",
+   "text": "## AX4\nRecorridos cómodos, suspensión regulable según estilo de conducción",
    "blockClass": "descripcionDeFoto"
    }
  },
@@ -9560,7 +9564,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "## EL CAMINO COMIENZA ACÁ\nDiseñado para jinetes de 6 años o más, supervisados por adultos. Incluye muchas características que hacen que el aprendizaje sea una experiencia segura y divertida.",
+  "text": "## EL CAMINO COMIENZA ACÁ\nDiseñado para niños de 6 años o más, supervisados por adultos. Incluye muchas características que hacen que el aprendizaje sea una experiencia segura y divertida.",
   "blockClass": "descripcionDeFoto"
   }
   
@@ -9616,7 +9620,7 @@
   "props":{
     "textAlignment": "CENTER",
   "textPosition": "CENTER",
-  "text": "##  SIEMPRE SEGURO Y BAJO CONTROL\nCuenta con un regulador de aceleración con la tranquilidad para los más pequeños",
+  "text": "##  SIEMPRE SEGURO Y BAJO CONTROL\nCuenta con un regulador de aceleración para mayor control parental",
   "blockClass": "descripcionDeFoto"
   }
 },
