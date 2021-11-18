@@ -2238,7 +2238,7 @@
 "link#cotizaTuMoto": {
   "props": {
     "href": "https://api.whatsapp.com/send?phone=593993227987&text=Hola!,%20Me%20gustar%C3%ADa%20adquirir%20un%20producto!&utm_source=wsweb&utm_social=whatsapp&utm_campaing=whatsapp",
-    "label": "COTIZA TU MOTO",
+    "label": "COTIZA POR WHATSAPP",
     "target" : "https://api.whatsapp.com/send?phone=593993227987&text=Hola!,%20Me%20gustar%C3%ADa%20adquirir%20un%20producto!&utm_source=wsweb&utm_social=whatsapp&utm_campaing=whatsapp",
     "displayMode" : "button",
     "blockClass" : "cotizaTuMoto"
@@ -9806,7 +9806,7 @@
        "paddingTop": 0,
        "paddingBottom": 0
      },
-     "children":["image#motoRM85","rich-text#descripcionDeFoto1RM85"]
+     "children":["rich-text#descripcionDeFoto1RM85","image#motoRM85"]
    },
    "image#motoRM85": {
      "props": {
@@ -9848,7 +9848,7 @@
      "props":{
        "textAlignment": "CENTER",
      "textPosition": "CENTER",
-     "text": "## EL CONFIABLE MOTOR DE DOS TIEMPOS PRODUCE UNA POTENCIA CONTROLADA A CUALQUIER RPM\n",
+     "text": "## MOTOR DE CONFIANZA\nEl confiable motor de dos tiempos produce una potencia controlada a cualquier rpm",
      "blockClass": "descripcionDeFoto"
      }
    },
@@ -9862,7 +9862,7 @@
        "paddingTop": 0,
        "paddingBottom": 0
      },
-     "children":["image#motorRM85","rich-text#descripcionDeFoto3RM85"]
+     "children":["rich-text#descripcionDeFoto3RM85","image#motorRM85"]
    },
    "image#motorRM85": {
      "props": {
@@ -9876,7 +9876,7 @@
      "props":{
        "textAlignment": "CENTER",
      "textPosition": "CENTER",
-     "text": "## OFRECE UN MANEJO LÍDER EN SU CLASE TANTO COMO PARA PROFESIONALES Y NOVATOS\n",
+     "text": "## MANEJO\nOfrece un manejo líder en su clase tanto como para profesionales y novatos",
      "blockClass": "descripcionDeFoto"
      }
    },

@@ -1053,7 +1053,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 }
 
 @media screen and (max-width: 600px)
-{
+{/*INICIO DEL MEADIA SCREN*/
   :global(.vtex-rich-text-0-x-heading--textoCaracterisitcasEspecialesSUZUKI)
 {
 	font-size: 1.3rem !important;
@@ -1175,8 +1175,41 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   {
     font-weight: 600 !important;
   }
-}
+  :global(.vtex-flex-layout-0-x-flexRow--contenedor_final)
+  {
+    background-image: url(https://suzukiecuador.vteximg.com.br/arquivos/bannerFinalMovile.png);
+    background-attachment: fixed;
+    
+    background-size: cover;
+    background-position: bottom;
+    height: 400px;
+  } 
+  :global(.vtex-flex-layout-0-x-flexCol--BlockcolorSwatchBlock):nth-child(odd)
+    {
+      text-align: center;
+    }
+    :global(.vtex-flex-layout-0-x-flexCol--BlockcolorSwatchBlock)
+    {
+    background-position: top;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--IMC1),
+  :global(.vtex-flex-layout-0-x-flexRow--IMC2),
+  :global(.vtex-flex-layout-0-x-flexRow--IMC3),
+  :global(.vtex-flex-layout-0-x-flexRow--IMG1),
+  :global(.vtex-flex-layout-0-x-flexRow--IMG2),
+  :global(.vtex-flex-layout-0-x-flexRow--IMG3),
+  :global(.vtex-flex-layout-0-x-flexRow--IMDP1),
+  :global(.vtex-flex-layout-0-x-flexRow--IMDP2),
+  :global(.vtex-flex-layout-0-x-flexRow--IMDP3)
+  {
+    border-right:none !important;
+    border-bottom: 2px dashed red;
+    width: 75% !important;
+    margin: 9px;
+  }
+}/*FIN DEL MEADIA SCREN*/
 
+/*IMAGEN DE FONDO SUZUKI*/
 
 :global(.vtex-rich-text-0-x-heading--subtittleDescriptionMoto)
 {
@@ -1251,31 +1284,35 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 /*BOTONES DE ENLACE*/
 :global(.vtex-store-link-0-x-link--solicitaCredito)
 {
+  font-family: 'Poppins', sans-serif;
   position: relative;
   top: -0.4rem;
-  background: red;
-  border: 2px solid red;
+  border-radius: 3px;
+  background: rgb(0,48,69);
+  border: 2px solid rgb(0,48,69);
   letter-spacing: 4px;
   color: white;
-  transition: 0.2s ease-in-out;
+  font-size: .8rem !important;
+  /*transition: 0.2s ease-in-out;*/
 }
+/*
 :global(.vtex-store-link-0-x-link--solicitaCredito):hover
 {
   background: white;
   border: 2px solid red;
   letter-spacing: 4px;
   color: black;
-}
+}*/
 :global(.vtex-store-link-0-x-buttonLink--cotizaTuMoto)
 {
+  font-family: 'Poppins', sans-serif;
   position: relative;
   top: -0.2rem;
   letter-spacing: 4px;
-  background-color: rgb(0,48,69);
-  border: 2px solid rgb(0,48,69) ;
+  background-color: #25D366;
+  border: 2px solid #25D366 ;
   color: white;
-  transition: 0.2s ease-in-out;
-  
+  font-size: .8rem !important;
 }
 
 
@@ -1333,41 +1370,48 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   margin-right: 2rem;
   margin-left: 2rem;
   
-  background-color: transparent !important;
+  background-color: #00bb2d !important;
   color: black;
+  border: 2px solid #00bb2d !important;
+  
+  
+  
+}
+:global(.vtex-store-link-0-x-link--cotizaPorWhatsapp):hover
+{
+  
+  background-color: #00bb2d !important;
   border: 2px solid #00bb2d !important;
   
 }
 :global(.vtex-store-link-0-x-link--PreguntaPorTusRepuestos)
 {
-  background-color: transparent !important;
-  color: black;
+  background-color: rgb(0,48,69) !important;
+  color: white;
   border: 2px solid rgb(0,48,69);
- 
-
 }
 :global(.vtex-store-link-0-x-link--cotizaPorWhatsapp):hover
 {
   margin-right: 2rem;
   margin-left: 2rem;
   
-  background-color: transparent !important;
+  background-color: #00bb2d !important;
   color: black;
   border: 2px solid #00bb2d !important;
   
 }
 :global(.vtex-store-link-0-x-link--PreguntaPorTusRepuestos):hover
 {
-  background-color: transparent !important;
-  color: black;
+  background-color: rgb(0,48,69) !important;
+  color: white;
   border: 2px solid rgb(0,48,69);
  
 
 }
 .flexRow--containsolicitarProducto :global(.vtex-button)
 {
-  background-color: transparent !important;
-  color: black;
+  background-color: rgb(0,48,69) !important;
+  color: white;
   border: 2px solid rgb(0,48,69);
   transition: 0.2s ease-in-out;
 }
@@ -1386,7 +1430,6 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   right: 1.7rem ;
 }
 
-
 @media screen and (max-width: 1400px) {
 
   :global(.vtex-menu-2-x-styledLinkContainer)
@@ -1400,4 +1443,12 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     font-weight: bold;
     font-family: poppins;
   }
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--BlockcolorSwatchBlock)
+  {
+  
+  background-image: url("https://suzukiecuador.vteximg.com.br/arquivos/LogoOficiailSuzuki1.png");
+  background-repeat: no-repeat;
+  background-position: center 4rem;
   }
