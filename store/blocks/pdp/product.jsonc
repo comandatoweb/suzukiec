@@ -9867,7 +9867,7 @@
    "image#motorRM85": {
      "props": {
        "blockClass": "motovlStrom3",
-       "src": "https://suzukiecuador.vteximg.com.br/arquivos/suzukirm85-oficial3.png"
+       "src": "https://suzukiecuador.vteximg.com.br/arquivos/suzukirm85-oficial3MODIFICADO.png"
        
      }
      
@@ -10031,7 +10031,7 @@
       "props":{
         "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "**LISTO PARA TU PRIMER AVENTURA**",
+      "text": "#### WAY **OF LIFE!**",
       "blockClass": "textolistaparatuaventuraText"
       }
     },
@@ -10903,13 +10903,19 @@
         {
           "width" : "100%",
           "image": "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki--RM85-banner.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki--RM85-banner.jpg"
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/suzukiRM85WAY1Movile.png"
         },
         {
           "width" : "100%",
          
           "image": "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki--RM85-banner.jpg",
-          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki--RM85-banner.jpg"
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/suzukiRM85WAY2Movile.png"
+        },
+        {
+          "width" : "100%",
+         
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/moto-suzuki--RM85-banner.jpg",
+          "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/suzukiRM85WAY3Movile.png"
         }
         
       ]
