@@ -104,16 +104,16 @@
 
  
 
- // "rich-text#shelf-title": {
- //   "props": {
- //     "text": "## Motocicletas",
- //     "blockClass": "shelfTitle"
- //   }
- // },
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Motocicletas",
+      "blockClass": "shelfTitle"
+    }
+  },
 
- // "flex-layout.row#shelf": {
- //   "children": ["list-context.product-list#demo1"]
- // },
+  "flex-layout.row#shelf": {
+   "children": ["list-context.product-list#demo1"]
+  },
   "list-context.product-list#demo1": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],

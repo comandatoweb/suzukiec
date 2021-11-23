@@ -58,14 +58,14 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "https://www.suzukiec.com/motos?_q=motos&map=ft",
         "noFollow": false,
         "tagTitle": "MOTOS",
         "text": "MOTOS"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#menumb"
+    
     ]
   },
   "vtex.menu@2.x:submenu#menumb": {
@@ -82,7 +82,7 @@
       "blockClass": "motos_menu_tipos_mb"
     },
     "children": [
-      "iframe#menumotomb"
+      "list-context.product-list#demo1"
     ]
   },
 
