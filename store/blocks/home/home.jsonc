@@ -38,8 +38,20 @@
       "height": 450,
       "images": [
         {
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/black-friday-moto-e.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/black-friday-moto-mobile.jpg"
+          "image": "https://site.comandato.com/cyberday/banner-escritorio-suzuki.jpg",
+          "mobileImage": "https://site.comandato.com/cyberday/banner-mobile-suzuki.jpg"
+        },
+        {
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/BannerCyberMonday-GL150.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/GL150.png"
+        },
+        {
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/BannerCyberMonday-GN125.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/GN125.png"
+        },
+        {
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/BannerCyberMonday-GSX250R.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/gsx250r.png"
         }
       ]
     }
