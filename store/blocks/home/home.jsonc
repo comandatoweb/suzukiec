@@ -38,22 +38,22 @@
       "height": 450,
       "images": [
         {
-          "image": "https://site.comandato.com/cyberday/banner-escritorio-suzuki.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/BannerGeneralMoviel.jpg"
+          "image": "https://site.comandato.com/navidad/banner-escritorio-suzuki.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/navidad/banner-mobile-suzuki.jpg"
         
-        },
-        {
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/BannerCyberMonday-GL150.png",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/GL150RBANNERMOVILECYBER.jpg"
-        },
-        {
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/BannerCyberMonday-GN125.png",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/GN125BANNERMOVILECYBER.jpg"
-        },
-        {
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/BannerCyberMonday-GSX250R.png",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/GSX250RBANNERMOVILECYBER.jpg"
         }
+     //   {
+     //     "image": "https://suzukiecuador.vteximg.com.br/arquivos/BannerCyberMonday-GL150.png",
+     //     "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/GL150RBANNERMOVILECYBER.jpg"
+    //    },
+      //  {
+      //    "image": "https://suzukiecuador.vteximg.com.br/arquivos/BannerCyberMonday-GN125.png",
+      //    "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/GN125BANNERMOVILECYBER.jpg"
+      //  },
+      //  {
+      //    "image": "https://suzukiecuador.vteximg.com.br/arquivos/BannerCyberMonday-GSX250R.png",
+      //    "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/GSX250RBANNERMOVILECYBER.jpg"
+      //  }
       ]
     }
   },
