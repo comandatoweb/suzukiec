@@ -2374,7 +2374,15 @@
      "condition-layout.product#conditionFirstFueraBordaDF9.9AS",
      "condition-layout.product#conditionFirstFueraBordaDF6AS",
      "condition-layout.product#conditionFirstFueraBordaDT30L",
-     "condition-layout.product#conditionFirstFueraBordaDF175AZX"
+     "condition-layout.product#conditionFirstFueraBordaDF175AZX",
+     //AGREGANDO
+     "condition-layout.product#conditionFirstFueraBordaDF250TX",
+     "condition-layout.product#conditionFirstFueraBordaDF250ZX",
+     "condition-layout.product#conditionFirstFueraBordaDF300APX",
+     "condition-layout.product#conditionFirstFueraBordaDF325ATX",
+     "condition-layout.product#conditionFirstFueraBordaDT15-S",
+     "condition-layout.product#conditionFirstFueraBordaDT30S"
+     //FIN AGREGADO
   ]
 
   
@@ -2753,6 +2761,174 @@
   "blockClass": "mensaje1"
   }
 },
+//*****
+//DF250TX 
+"condition-layout.product#conditionFirstFueraBordaDF250TX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2059912" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextDF250TX"
+   
+  }
+},
+
+"rich-text#firstTextDF250TX":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Motor 4 Tiempos DOHC 24 Válvulas**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+//DF250ZX
+"condition-layout.product#conditionFirstFueraBordaDF250ZX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2061699" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextDF250ZX"
+   
+  }
+},
+
+"rich-text#firstTextDF250ZX":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Motor DOHC 24-Valvulas**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+//DF300APX
+"condition-layout.product#conditionFirstFueraBordaDF300APX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2063486" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextDF300APX"
+   
+  }
+},
+
+"rich-text#firstTextDF300APX":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Motor 4 tiempos, DOHC, 24 válvulas**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+//DF325ATX
+"condition-layout.product#conditionFirstFueraBordaDF325ATX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2067060" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextDF325ATX"
+   
+  }
+},
+
+"rich-text#firstTextDF325ATX":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Motor DOHC 24-Valvulas 4 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+"condition-layout.product#conditionFirstFueraBordaDT15-S": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011763" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextDT15-S"
+   
+  }
+},
+
+"rich-text#firstTextDT15-S":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Motor 2 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+"condition-layout.product#conditionFirstFueraBordaDT30S": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011764" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#firstTextDT30S"
+   
+  }
+},
+
+"rich-text#firstTextDT30S":{
+  "props":{
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text": "**Motor 2 tiempos**\nCon una gran fuerza en motor para que nunca te detengas",
+  "textColor": "c-on-emphasis",
+  "font": "t-heading-5",
+  "blockClass": "mensaje1"
+  }
+},
+//**
 
 
 
@@ -3423,6 +3599,16 @@
     "condition-layout.product#conditionImagePotenciaDF6AS",
     "condition-layout.product#conditionImagePotenciaDT30L",
     "condition-layout.product#conditionImagePotenciaDF175AZX",
+    //**AGREGANDO
+      "condition-layout.product#conditionImagePotenciaDF250TX",
+      "condition-layout.product#conditionImagePotenciaDF250ZX",
+      "condition-layout.product#conditionImagePotenciaDF300APX",
+      "condition-layout.product#conditionImagePotenciaDF325ATX",
+      "condition-layout.product#conditionImagePotenciaDT15-S",
+      "condition-layout.product#conditionImagePotenciaDT30S",
+    //**FIN AGREGADO
+
+
 
     "condition-layout.product#conditionImageRapidoUK110",
     "condition-layout.product#conditionImageRapidoFW110",
@@ -3492,12 +3678,15 @@
     "condition-layout.product#conditionSecondTextDF9.9AS",
     "condition-layout.product#conditionSecondTextDF6AS",
     "condition-layout.product#conditionSecondTextDT30L",
-    "condition-layout.product#conditionSecondTextDF175AZX"
-
-
-
-
-  
+    "condition-layout.product#conditionSecondTextDF175AZX",
+    //AGREGADO
+    "condition-layout.product#conditionSecondTextDF250TX",
+    "condition-layout.product#conditionSecondTextDF250ZX",
+    "condition-layout.product#conditionSecondTextDF300APX",
+    "condition-layout.product#conditionSecondTextDF325ATX",
+    "condition-layout.product#conditionSecondTextDT15-S",
+    "condition-layout.product#conditionSecondTextDT30S"
+    //FIN AGREGADO
   ]
  },
 
@@ -3696,6 +3885,105 @@
     
   }
 },
+//**AGREGADO
+
+"condition-layout.product#conditionImagePotenciaDF250TX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2059912"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#potencia"
+    
+  }
+},
+"condition-layout.product#conditionImagePotenciaDF250ZX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2061699"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#potencia"
+    
+  }
+},
+"condition-layout.product#conditionImagePotenciaDF300APX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2063486"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#potencia"
+    
+  }
+},
+"condition-layout.product#conditionImagePotenciaDF325ATX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2067060"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#potencia"
+    
+  }
+},
+"condition-layout.product#conditionImagePotenciaDT15-S": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011763"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#potencia"
+    
+  }
+},
+"condition-layout.product#conditionImagePotenciaDT30S": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011764"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#potencia"
+    
+  }
+},
+//**FIN AGREGADO
 
 
  //Condiciones para la imagen rapido que son para las motos
@@ -5046,6 +5334,159 @@
  "blockClass": "mensaje2"
  }
 },
+//AGREGANDO
+
+"condition-layout.product#conditionSecondTextDF250TX":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2059912"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDF250TX"
+   
+  }
+},
+"rich-text#SecondTextDF250TX":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Potencia 250Hp**\nCon un poder para recorrer todas las aguas que quieras",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionSecondTextDF250ZX":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2061699"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDF250ZX"
+   
+  }
+},
+"rich-text#SecondTextDF250ZX":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Potencia 184 HP**\nCon un poder para recorrer todas las aguas que quieras",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionSecondTextDF300APX":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2063486"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDF300APX"
+   
+  }
+},
+"rich-text#SecondTextDF300APX":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Potencia 300 HP**\nCon un poder para recorrer todas las aguas que quieras",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionSecondTextDF325ATX":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2067060"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDF325ATX"
+   
+  }
+},
+"rich-text#SecondTextDF325ATX":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Potencia 325 HP**\nCon un poder para recorrer todas las aguas que quieras",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionSecondTextDT15-S":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011763"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDT15-S"
+   
+  }
+},
+"rich-text#SecondTextDT15-S":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Potencia 15 HP**\nCon un poder para recorrer todas las aguas que quieras",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionSecondTextDT30S":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011764"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#SecondTextDT30S"
+   
+  }
+},
+"rich-text#SecondTextDT30S":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Potencia 30 HP**\nCon un poder para recorrer todas las aguas que quieras",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+//FIN AGREGADO
 
 
 
@@ -5081,6 +5522,14 @@
     "condition-layout.product#conditionImageCombustibleDF6AS",
     "condition-layout.product#conditionImageCombustibleDT30L",
     "condition-layout.product#conditionImageCombustibleDF175AZX",
+    //AGREGADO
+    "condition-layout.product#conditionImageCombustibleDF250ZX",
+    "condition-layout.product#conditionImageCombustibleDF250TX",
+    "condition-layout.product#conditionImageCombustibleDF300APX",
+    "condition-layout.product#conditionImageCombustibleDF325ATX",
+    "condition-layout.product#conditionImageCombustibleDT15-S",
+    "condition-layout.product#conditionImageCombustibleDT30S",
+    //FIN AGREGADO
 
     "condition-layout.product#conditionImageDiscoFrenoUK110",
     "condition-layout.product#conditionImageDiscoFrenoFW110",
@@ -5147,7 +5596,15 @@
     "condition-layout.product#conditionThirdTextDF9.9AS",
     "condition-layout.product#conditionThirdTextDF6AS",
     "condition-layout.product#conditionThirdTextDT30L",
-    "condition-layout.product#conditionThirdTextDF175AZX"
+    "condition-layout.product#conditionThirdTextDF175AZX",
+    //AGREGANDO
+    "condition-layout.product#conditionThirdTextDF250TX",
+    "condition-layout.product#conditionThirdTextDF250ZX",
+    "condition-layout.product#conditionThirdTextDF300APX",
+    "condition-layout.product#conditionThirdTextDF325ATX",
+    "condition-layout.product#conditionThirdTextDT15-S",
+    "condition-layout.product#conditionThirdTextDT30S"
+    //FIN AGREGANDO
 
   ]
  },
@@ -5337,6 +5794,102 @@
         "subject": "productId",
         "arguments": {
           "id": "2054551"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#Combustible"
+    
+  }
+},
+"condition-layout.product#conditionImageCombustibleDF250ZX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2059912"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#Combustible"
+    
+  }
+},
+"condition-layout.product#conditionImageCombustibleDF250TX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2061699"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#Combustible"
+    
+  }
+},
+"condition-layout.product#conditionImageCombustibleDF300APX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2063486"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#Combustible"
+    
+  }
+},
+"condition-layout.product#conditionImageCombustibleDF325ATX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2067060"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#Combustible"
+    
+  }
+},
+"condition-layout.product#conditionImageCombustibleDT15-S": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011763"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "image#Combustible"
+    
+  }
+},
+"condition-layout.product#conditionImageCombustibleDT30S": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011764"
         }
       }
     ],
@@ -6688,6 +7241,158 @@
  "blockClass": "mensaje2"
  }
 },
+//AGREGADO
+"condition-layout.product#conditionThirdTextDF250TX":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2059912"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextDF250TX"
+   
+  }
+},
+"rich-text#ThirdTextDF250TX":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Combustible Inyección Electrónica**\nCon una larga duración para que nunca se apague tu motor",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionThirdTextDF250ZX":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2061699"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextDF250ZX"
+   
+  }
+},
+"rich-text#ThirdTextDF250ZX":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Combustible Inyección Electrónica**\nCon una larga duración para que nunca se apague tu motor",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionThirdTextDF300APX":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2063486"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextDF300APX"
+   
+  }
+},
+"rich-text#ThirdTextDF300APX":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Combustible Inyección Electrónica**\nCon una larga duración para que nunca se apague tu motor",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionThirdTextDF325ATX":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2067060"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextDF325ATX"
+   
+  }
+},
+"rich-text#ThirdTextDF325ATX":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Combustible Inyección Electrónica**\nCon una larga duración para que nunca se apague tu motor",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionThirdTextDT15-S":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011763"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextDT15-S"
+   
+  }
+},
+"rich-text#ThirdTextDT15-S":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Combustible Carburador**\nCon una larga duración para que nunca se apague tu motor",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+"condition-layout.product#conditionThirdTextDT30S":{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011764"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "rich-text#ThirdTextDT30S"
+   
+  }
+},
+"rich-text#ThirdTextDT30S":{
+ "props":{
+   "textAlignment": "CENTER",
+ "textPosition": "CENTER",
+ "text": "**Combustible Carburador**\nCon una larga duración para que nunca se apague tu motor",
+ "textColor": "c-on-emphasis",
+ "font": "t-heading-5",
+ "blockClass": "mensaje2"
+ }
+},
+//FIN AGREGADO
 
  //==============================================================================================================================
  //********************************************* FIN CARACTERISTICAS DE LA MOTO*******************************************//
@@ -7005,7 +7710,287 @@
    
  }
 },
-//
+//AGREGADO
+"condition-layout.product#conditionRevistaDF250TX": 
+{
+ "props": {
+   "conditions": [
+     {
+       "subject": "productId",
+       "arguments": {
+         "id": "2059912"
+       }
+     }
+   ],
+   "toBe" : true,
+   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
+   
+ }
+},
+"condition-layout.product#conditionRevistaDF250ZX": 
+{
+ "props": {
+   "conditions": [
+     {
+       "subject": "productId",
+       "arguments": {
+         "id": "2061699"
+       }
+     }
+   ],
+   "toBe" : true,
+   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda"
+   
+ }
+},
+
+"condition-layout.product#conditionRevistaDF300APX": 
+{
+ "props": {
+   "conditions": [
+     {
+       "subject": "productId",
+       "arguments": {
+         "id": "2063486"
+       }
+     }
+   ],
+   "toBe" : true,
+   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda300APX"
+   
+ }
+},
+"list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda300APX": {
+  "children": ["slider-layout#MotoresFueraBordaCaracteristica300APX"],
+  "props": {
+    "width" : "100%",
+    "height":"100%",
+    "images": [
+      {
+        "width" : "100%",
+        "image": "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA1-DF300APX.png",
+        "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA1-DF300APX.png"
+      },
+      {
+        "width" : "100%",
+        
+        "image": "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA2-DF300APX.png",
+        "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA2-DF300APX.png"
+      },
+      {
+        "width" : "100%",
+       
+        "image": "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA3-DF300APX.png",
+        "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA3-DF300APX.png"
+      },
+      {
+        "width" : "100%",
+       
+        "image": "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA4-DF300APX.png",
+        "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA4-DF300APX.png"
+      }
+      
+    ]
+  }
+},
+"slider-layout#MotoresFueraBordaCaracteristica300APX": {
+  "props": {
+    "blockClass": "sliderVLSitems",
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "infinite": true,
+    "showNavigationArrows": "desktopOnly"
+    
+  }
+},
+
+
+"condition-layout.product#conditionRevistaDF325ATX": 
+{
+ "props": {
+   "conditions": [
+     {
+       "subject": "productId",
+       "arguments": {
+         "id": "2067060"
+       }
+     }
+   ],
+   "toBe" : true,
+   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBordaDF325ATX"
+   
+ }
+},
+"list-context.image-list#sliderRevistaCaracteristicaMotorFueraBordaDF325ATX": {
+  "children": ["slider-layout#MotoresFueraBordaCaracteristicaDF325ATX"],
+  "props": {
+    "width" : "100%",
+    "height":"100%",
+    "images": [
+      {
+        "width" : "100%",
+        "image": "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA1-DF325ATX.png",
+        "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA1-DF325ATX.png"
+      },
+      {
+        "width" : "100%",
+        
+        "image": "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA2-DF325ATX.png",
+        "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA2-DF325ATX.png"
+      },
+      {
+        "width" : "100%",
+       
+        "image": "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA3-DF325ATX.png",
+        "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA3-DF325ATX.png"
+      }
+      
+    ]
+  }
+},
+"slider-layout#MotoresFueraBordaCaracteristicaDF325ATX": {
+  "props": {
+    "blockClass": "sliderVLSitems",
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "infinite": true,
+    "showNavigationArrows": "desktopOnly"
+    
+  }
+},
+
+"condition-layout.product#conditionRevistaDT15-S": 
+{
+ "props": {
+   "conditions": [
+     {
+       "subject": "productId",
+       "arguments": {
+         "id": "2011763"
+       }
+     }
+   ],
+   "toBe" : true,
+   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBordaDT15-S"
+   
+ }
+},
+"list-context.image-list#sliderRevistaCaracteristicaMotorFueraBordaDT15-S": {
+  "children": ["slider-layout#MotoresFueraBordaCaracteristicaDT15-S"],
+  "props": {
+    "width" : "100%",
+    "height":"100%",
+    "images": [
+      {
+        "width" : "100%",
+        "image": "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA1-DT15AS.png",
+        "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA1-DT15AS.png"
+      },
+      {
+        "width" : "100%",
+        
+        "image": "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA2-DT15AS.png",
+        "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA2-DT15AS.png"
+      },
+      {
+        "width" : "100%",
+       
+        "image": "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA3-DT15AS.png",
+        "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA3-DT15AS.png"
+      },
+      {
+        "width" : "100%",
+       
+        "image": "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA4-DT15AS.png",
+        "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA4-DT15AS.png"
+      }
+      
+    ]
+  }
+},
+"slider-layout#MotoresFueraBordaCaracteristicaDT15-S": {
+  "props": {
+    "blockClass": "sliderVLSitems",
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "infinite": true,
+    "showNavigationArrows": "desktopOnly"
+    
+  }
+},
+
+"condition-layout.product#conditionRevistaDT30S": 
+{
+ "props": {
+   "conditions": [
+     {
+       "subject": "productId",
+       "arguments": {
+         "id": "2011764"
+       }
+     }
+   ],
+   "toBe" : true,
+   "Then": "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBordaDT30S"
+   
+ }
+},
+"list-context.image-list#sliderRevistaCaracteristicaMotorFueraBordaDT30S": {
+  "children": ["slider-layout#MotoresFueraBordaCaracteristicaDT30S"],
+  "props": {
+    "width" : "100%",
+    "height":"100%",
+    "images": [
+      {
+        "width" : "100%",
+        "image": "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA-1DT30S.png",
+        "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA-1DT30S.png"
+      },
+      {
+        "width" : "100%",
+        
+        "image": "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA-2DT30S.png",
+        "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA-2DT30S.png"
+      },
+      {
+        "width" : "100%",
+       
+        "image": "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA-3DT30S.png",
+        "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA-3DT30S.png"
+      },
+      {
+        "width" : "100%",
+       
+        "image": "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA-4DT30S.png",
+        "mobileImage":  "https://suzukiecuador.vteximg.com.br/arquivos/CARACTERISTICA-4DT30S.png"
+      }
+      
+    ]
+  }
+},
+"slider-layout#MotoresFueraBordaCaracteristicaDT30S": {
+  "props": {
+    "blockClass": "sliderVLSitems",
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "infinite": true,
+    "showNavigationArrows": "desktopOnly"
+    
+  }
+},
+//FIN AGREGADO
   "list-context.image-list#sliderRevistaCaracteristicaMotorFueraBorda": {
     "children": ["slider-layout#MotoresFueraBordaCaracteristica"],
     "props": {
@@ -10239,8 +11224,105 @@
    "Then":  "list-context.image-list#sliderMotoresFueraBorda"
    
   }
-},//
-//
+},
+//AGREGADO
+"condition-layout.product#conditionForTheSliderFueraBordaDF250TX":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2059912" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "list-context.image-list#sliderMotoresFueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionForTheSliderFueraBordaDF250ZX":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2061699" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "list-context.image-list#sliderMotoresFueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionForTheSliderFueraBordaDF300APX":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2063486" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "list-context.image-list#sliderMotoresFueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionForTheSliderFueraBordaDF325ATX":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2067060" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "list-context.image-list#sliderMotoresFueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionForTheSliderFueraBordaDT15-S":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011763" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "list-context.image-list#sliderMotoresFueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionForTheSliderFueraBordaDT30S":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011764" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then":  "list-context.image-list#sliderMotoresFueraBorda"
+   
+  }
+},
+//FIN AGREGADO
 "list-context.image-list#sliderMotoresFueraBorda": {
   "children": ["slider-layout#MotoresFueraBordaitems"],
   "props": {
@@ -17658,7 +18740,104 @@
      
     }
   },
-
+  //AGREGADO
+  "condition-layout.product#motorFueraBordaDF250TX":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2059912" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#containMotorFueraBorda"
+     
+    }
+  },
+  "condition-layout.product#motorFueraBordaDF250ZX":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2061699" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#containMotorFueraBorda"
+     
+    }
+  },
+  "condition-layout.product#motorFueraBordaDF300APX":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2063486" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#containMotorFueraBorda"
+     
+    }
+  },
+  "condition-layout.product#motorFueraBordaDF325ATX":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2067060" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#containMotorFueraBorda"
+     
+    }
+  },
+  "condition-layout.product#motorFueraBordaDT15-S":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2011763" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#containMotorFueraBorda"
+     
+    }
+  },
+  "condition-layout.product#motorFueraBordaDT30S":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2011764" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#containMotorFueraBorda"
+     
+    }
+  },
+  //FIN DE AGREGADOS
   //DT15AL
      //DF9.9AS
      //DF6AS
@@ -17892,7 +19071,107 @@
     
    }
  },
+//AGREGANDO MOTORES
 
+
+"condition-layout.product#ImagemotorFueraBordaDF250TX":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2059912" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containImage"
+   
+  }
+},
+"condition-layout.product#ImagemotorFueraBordaDF250ZX":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2061699" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containImage"
+   
+  }
+},
+"condition-layout.product#ImagemotorFueraBordaDF300APX":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2063486" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containImage"
+   
+  }
+},
+"condition-layout.product#ImagemotorFueraBordaDF325ATX":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2067060" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containImage"
+   
+  }
+},
+"condition-layout.product#ImagemotorFueraBordaDT15-S":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011763" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containImage"
+   
+  }
+},
+"condition-layout.product#ImagemotorFueraBordaDT30S":
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011764" 
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#containImage"
+   
+  }
+},
+
+//FIN DE AGREGANDO MOTORES
 
  "flex-layout.row#containImage":
  {
@@ -17934,8 +19213,14 @@
      "condition-layout.product#motorFueraBordaDF175ATX",
      "condition-layout.product#motorFueraBordaDF200ZX",
      "condition-layout.product#motorFueraBordaDF175AZX",
-     
-     
+     //AGREGANDO LOS MOTORES FUERA DE BORDA QUE FALTAN
+     "condition-layout.product#motorFueraBordaDF250TX",
+     "condition-layout.product#motorFueraBordaDF250ZX",
+     "condition-layout.product#motorFueraBordaDF300APX",
+     "condition-layout.product#motorFueraBordaDF325ATX",
+     "condition-layout.product#motorFueraBordaDT15-S",
+     "condition-layout.product#motorFueraBordaDT30S",
+     /////////////////////////////////////////////////
      
      
      
@@ -17953,6 +19238,14 @@
      "condition-layout.product#ImagemotorFueraBordaDT30L",
      "condition-layout.product#ImagemotorFueraBordaDF175AZX",
      //FIN AGREGADO
+     //AGREGANDO LOS MOTORES FUERA DE BORDA QUE FALTAN
+     "condition-layout.product#ImagemotorFueraBordaDF250TX",
+     "condition-layout.product#ImagemotorFueraBordaDF250ZX",
+     "condition-layout.product#ImagemotorFueraBordaDF300APX",
+     "condition-layout.product#ImagemotorFueraBordaDF325ATX",
+     "condition-layout.product#ImagemotorFueraBordaDT15-S",
+     "condition-layout.product#ImagemotorFueraBordaDT30S",
+     /////////////////////////////////////////////////
      
 
 
@@ -17988,8 +19281,6 @@
      "condition-layout.product#conditionForTheVideoCategoryCrossRMZ250",
      "condition-layout.product#conditionForTheVideoCategorySportyGSXR1000",
      "condition-layout.product#conditionForTheVideoCategorySportyGSX750R",
-
-
      "condition-layout.product#conditionForTheVideoCategoryUTVltz50",
      //FIN DE CONDICIONES PARA LOS VIDEOS
 
@@ -18075,6 +19366,15 @@
   "condition-layout.product#conditionRevistaDT30L",//COMANDATO LISTO
   "condition-layout.product#conditionRevistaDF175AZX",//LISTO
   //FIN DE MOROTES FUERA DE BORDA
+  //AGREGANDO
+  "condition-layout.product#conditionRevistaDF250TX",
+  "condition-layout.product#conditionRevistaDF250ZX",
+  "condition-layout.product#conditionRevistaDF300APX",
+  "condition-layout.product#conditionRevistaDF325ATX",
+  "condition-layout.product#conditionRevistaDT15-S",
+  "condition-layout.product#conditionRevistaDT30S",
+
+  //FIN AGREGANDO
 
 
   "condition-layout.product#conditionRevistaGSX125",
@@ -18128,6 +19428,14 @@
   "condition-layout.product#conditionForTheSliderFueraBordaDF175ATX",
   "condition-layout.product#conditionForTheSliderFueraBordaDF200ZX",
   "condition-layout.product#conditionForTheSliderFueraBordaDF175AZX",
+  //AGREGADO
+  "condition-layout.product#conditionForTheSliderFueraBordaDF250TX",
+  "condition-layout.product#conditionForTheSliderFueraBordaDF250ZX",
+  "condition-layout.product#conditionForTheSliderFueraBordaDF300APX",
+  "condition-layout.product#conditionForTheSliderFueraBordaDF325ATX",
+  "condition-layout.product#conditionForTheSliderFueraBordaDT15-S",
+  "condition-layout.product#conditionForTheSliderFueraBordaDT30S",
+  //FIN AGREGADO
 
   //FIN DE MOTORES FUERA DE BORDA
   "condition-layout.product#conditionForTheSliderVSTROMDL250",
@@ -18385,7 +19693,14 @@
 "condition-layout.product#conditionIframeFichaTecnicaDF6AS",
 "condition-layout.product#conditionIframeFichaTecnicaDT30L",
 "condition-layout.product#conditionIframeFichaTecnicaDF175AZX",
- 
+ //AGREGADO
+  "condition-layout.product#conditionIframeFichaTecnicaDF250TX",
+  "condition-layout.product#conditionIframeFichaTecnicaDF250ZX",
+  "condition-layout.product#conditionIframeFichaTecnicaDF300APX",
+  "condition-layout.product#conditionIframeFichaTecnicaDF325ATX",
+  "condition-layout.product#conditionIframeFichaTecnicaDT15-S",
+  "condition-layout.product#conditionIframeFichaTecnicaDT30S",
+ //FIN DE AGREGADO
 
  //FICHA TECNICA MOTORES FUERA DE BORDA
 
@@ -18438,6 +19753,15 @@
 "condition-layout.product#conditionContenedor_final_DF6AS",
 "condition-layout.product#conditionContenedor_final_DT30L",
 "condition-layout.product#conditionContenedor_final_DF175AZX",
+
+//AGEGANDO
+"condition-layout.product#conditionContenedor_final_DF250TX",
+"condition-layout.product#conditionContenedor_final_DF250ZX",
+"condition-layout.product#conditionContenedor_final_DF300APX",
+"condition-layout.product#conditionContenedor_final_DF325ATX",
+"condition-layout.product#conditionContenedor_final_DT15-S",
+"condition-layout.product#conditionContenedor_final_DT30S",
+//FIN AGREGADO
  //"flex-layout.row#contenedor_final",
 
     // "product-specification-group#table",
@@ -18641,6 +19965,104 @@
    
   }
 },
+//AGREGADO
+"condition-layout.product#conditionContenedor_final_DF250TX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2059912"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedor_final_FueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionContenedor_final_DF250ZX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2061699"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedor_final_FueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionContenedor_final_DF300APX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2063486"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedor_final_FueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionContenedor_final_DF325ATX": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2067060"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedor_final_FueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionContenedor_final_DT15-S": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011763"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedor_final_FueraBorda"
+   
+  }
+},
+"condition-layout.product#conditionContenedor_final_DT30S": 
+{
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011764"
+        }
+      }
+    ],
+    "toBe" : true,
+   "Then": "flex-layout.row#contenedor_final_FueraBorda"
+   
+  }
+},
+//FIN AGREGADO
 //Condiciones para el contenedor final para motos
 "condition-layout.product#conditionContenedor_final_VSTROMDL250": 
 {
@@ -22021,6 +23443,189 @@
      
     }
   },
+  //AGREGANDO
+  
+  "condition-layout.product#conditionIframeFichaTecnicaDF250TX":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2059912" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "iframe#FichaTecnicaDF250TX"
+     
+    }
+  },
+  "iframe#FichaTecnicaDF250TX": {
+    "props": {
+      "width": "100%",
+      "height" : "600px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "fichatecnicamotorfueraborda",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/FichaTecnicaMotoresFueraBorda/DF250TX.html"
+     
+    }
+  },
+  "condition-layout.product#conditionIframeFichaTecnicaDF250ZX":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2059912" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "iframe#FichaTecnicaDF250ZX"
+     
+    }
+  },
+  "iframe#FichaTecnicaDF250ZX": {
+    "props": {
+      "width": "100%",
+      "height" : "600px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "fichatecnicamotorfueraborda",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/FichaTecnicaMotoresFueraBorda/DF250ZX.html"
+     
+    }
+  },
+  "condition-layout.product#conditionIframeFichaTecnicaDF300APX":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2063486" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "iframe#FichaTecnicaDF300APX"
+     
+    }
+  },
+  "iframe#FichaTecnicaDF300APX": {
+    "props": {
+      "width": "100%",
+      "height" : "600px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "fichatecnicamotorfueraborda",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/FichaTecnicaMotoresFueraBorda/DF300APX.html"
+     
+    }
+  },
+  "condition-layout.product#conditionIframeFichaTecnicaDF325ATX":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2067060" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "iframe#FichaTecnicaDF325ATX"
+     
+    }
+  },
+  "iframe#FichaTecnicaDF325ATX": {
+    "props": {
+      "width": "100%",
+      "height" : "600px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "fichatecnicamotorfueraborda",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/FichaTecnicaMotoresFueraBorda/DF325ATX.html"
+     
+    }
+  },
+  "condition-layout.product#conditionIframeFichaTecnicaDT15-S":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2011763" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "iframe#FichaTecnicaDT15-S"
+     
+    }
+  },
+  "iframe#FichaTecnicaDT15-S": {
+    "props": {
+      "width": "100%",
+      "height" : "600px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "fichatecnicamotorfueraborda",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/FichaTecnicaMotoresFueraBorda/DT15AS.html"
+     
+    }
+  },
+  "condition-layout.product#conditionIframeFichaTecnicaDT30S":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2011764" 
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "iframe#FichaTecnicaDT30S"
+     
+    }
+  },
+  "iframe#FichaTecnicaDT30S": {
+    "props": {
+      "width": "100%",
+      "height" : "600px",
+      "scrolling":"no" ,
+      "frameborder":"0",
+      "overflow": "hidden",
+      "blockClass": "fichatecnicamotorfueraborda",
+      "allowfullscreen":"true",
+      "allowtransparency":"true", 
+      "src": "https://site.comandato.com/FichaTecnicaMotoresFueraBorda/DT30S.html"
+     
+    }
+  },
+  //FIN AGREGADO
 
 
 
