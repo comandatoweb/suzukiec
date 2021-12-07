@@ -19409,14 +19409,36 @@
 
 
 
+//LISTA PARA TU AVENTURA
+  
+  "condition-layout.product#conditionListaParaTuAventuraVSTROMDL250",
+  "condition-layout.product#conditionListaParaTuAventuraKATANA",
+  "condition-layout.product#conditionListaParaTuAventuraVStrom650",
+  "condition-layout.product#conditionListaParaTuAventuraUR110",
+  "condition-layout.product#conditionListaParaTuAventuraDGD115EVOLUTION",
+  "condition-layout.product#conditionListaParaTuAventuraGD115",
+  "condition-layout.product#conditionListaParaTuAventuraGN-125",
+  "condition-layout.product#conditionListaParaTuAventuraUK110",
+  "condition-layout.product#conditionListaParaTuAventuraFW110",
+  "condition-layout.product#conditionListaParaTuAventuraGSX125-C",
+  "condition-layout.product#conditionListaParaTuAventuraDR-Z50",//COLOCADO
+  "condition-layout.product#conditionListaParaTuAventuraGSX-S750A",
+  "condition-layout.product#conditionListaParaTuAventuraRM85",
+  "condition-layout.product#conditionListaParaTuAventuraINTRUDER",
+  "condition-layout.product#conditionListaParaTuAventuraSV650XA",
+  "condition-layout.product#conditionListaParaTuAventuraVSTROM1050XT",
+  "condition-layout.product#conditionListaParaTuAventuraGSX250R",
+  "condition-layout.product#conditionListaParaTuAventuraDR650",
+  "condition-layout.product#conditionListaParaTuAventuraRMZ450",//COLOCADO
+  "condition-layout.product#conditionListaParaTuAventuraRMZ250",//COLOCADO
+  "condition-layout.product#conditionListaParaTuAventuraGSXR1000",//COLOCADO
+  "condition-layout.product#conditionListaParaTuAventuraGSX750R",//COLOCADO
 
-  "flex-layout.row#listaparatuaventuraText",
-
-
+//FIN DE LISTA PARA TU AVENTURA
   //SLIDERS
 
   //MOTORES FUERA DE BORDA
-  "condition-layout.product#conditionForTheSliderFueraBordaDF20AS",
+/*  "condition-layout.product#conditionForTheSliderFueraBordaDF20AS",
   "condition-layout.product#conditionForTheSliderFueraBordaDF150ZX",
   "condition-layout.product#conditionForTheSliderFueraBordaDF150TX",
   "condition-layout.product#conditionForTheSliderFueraBordaDF30AS",
@@ -19434,7 +19456,7 @@
   "condition-layout.product#conditionForTheSliderFueraBordaDF300APX",
   "condition-layout.product#conditionForTheSliderFueraBordaDF325ATX",
   "condition-layout.product#conditionForTheSliderFueraBordaDT15-S",
-  "condition-layout.product#conditionForTheSliderFueraBordaDT30S",
+  "condition-layout.product#conditionForTheSliderFueraBordaDT30S",*/
   //FIN AGREGADO
 
   //FIN DE MOTORES FUERA DE BORDA
@@ -19770,7 +19792,339 @@
      "product-questions-and-answers"
     ]
   },
+  //LISTA PARA TU AVENTURA
+  "condition-layout.product#conditionListaParaTuAventuraVSTROMDL250" : {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2048798"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#listaparatuaventuraText"
+     
+    }
+  },
+  "condition-layout.product#conditionListaParaTuAventuraKATANA": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049621"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#listaparatuaventuraText"
+     
+    }
+  },
+  "condition-layout.product#conditionListaParaTuAventuraVStrom650": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049038"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#listaparatuaventuraText"
+     
+    }
+  },
+  "condition-layout.product#conditionListaParaTuAventuraUR110": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2011740"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#listaparatuaventuraText"
+     
+    }
+  },
+  "condition-layout.product#conditionListaParaTuAventuraDGD115EVOLUTION": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2054549"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#listaparatuaventuraText"
+     
+    }
+  },
+  "condition-layout.product#conditionListaParaTuAventuraGD115": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2011222"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#listaparatuaventuraText"
+     
+    }
+  },
+  "condition-layout.product#conditionListaParaTuAventuraGN-125": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2000139"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#listaparatuaventuraText"
+     
+    }
+  },
+  "condition-layout.product#conditionListaParaTuAventuraUK110": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2054550"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#listaparatuaventuraText"
+     
+    }
+  },
+  "condition-layout.product#conditionListaParaTuAventuraFW110": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049186"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#listaparatuaventuraText"
+     
+    }
+  },
+  "condition-layout.product#conditionListaParaTuAventuraGSX125-C": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049461"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#listaparatuaventuraText"
+     
+    }
+  },
+  "condition-layout.product#conditionListaParaTuAventuraDR-Z50": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049492"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#listaparatuaventuraText"
+     
+    }
+  },
+  "condition-layout.product#conditionListaParaTuAventuraGSX-S750A": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049300"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#listaparatuaventuraText"
+     
+    }
+  },
+  "condition-layout.product#conditionListaParaTuAventuraRM85": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049584"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#listaparatuaventuraText"
+     
+    }
+  },
+  "condition-layout.product#conditionListaParaTuAventuraINTRUDER": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049444"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#listaparatuaventuraText"
+     
+    }
+  },
+  "condition-layout.product#conditionListaParaTuAventuraSV650XA": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2054376"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#listaparatuaventuraText"
+     
+    }
+  },
+  "condition-layout.product#conditionListaParaTuAventuraVSTROM1050XT": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2054006"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#listaparatuaventuraText"
+     
+    }
+  },
+  "condition-layout.product#conditionListaParaTuAventuraGSX250R": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2048797"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#listaparatuaventuraText"
+     
+    }
+  },
+  "condition-layout.product#conditionListaParaTuAventuraDR650": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2000136"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#listaparatuaventuraText"
+     
+    }
+  },
+  "condition-layout.product#conditionListaParaTuAventuraRMZ450": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": ""
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#listaparatuaventuraText"
+     
+    }
+  },
+  "condition-layout.product#conditionListaParaTuAventuraRMZ250": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2009963"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#listaparatuaventuraText"
+     
+    }
+  },
+  "condition-layout.product#conditionListaParaTuAventuraGSXR1000": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2067064"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#listaparatuaventuraText"
+     
+    }
+  },
+  "condition-layout.product#conditionListaParaTuAventuraGSX750R": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049442"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "flex-layout.row#listaparatuaventuraText"
+     
+    }
+  },
 
+  //FIN DE LISTA PARA TU AVENTURA
   //Condiciones para el contendor final para motores
   "condition-layout.product#conditionContenedor_final_DF175ATX": 
   {
