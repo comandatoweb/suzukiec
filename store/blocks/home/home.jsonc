@@ -39,7 +39,32 @@
       "images": [
         {
           "image": "https://site.comandato.com/navidad/banner-escritorio-suzuki.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/navidad/banner-mobile-suzuki.jpg"
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/oficial.jpg"
+        
+        },
+        {
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/SV650XANAVIDAD.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/SV650XANAVIDAD.jpg"
+        
+        },
+        {
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/UK110NAVIDAD.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/UK110NAVIDAD.jpg"
+        
+        },
+        {
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/vivacoolNAVIDAD.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/vivaCoolNavidad.jpg"
+        
+        },
+        {
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/GL150NAVIDADESCRITORIO.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/GL150navidad.jpg"
+        
+        },
+        {
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/RM85NAVIDAD.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/rm85Navidad.jpg"
         
         }
      //   {
