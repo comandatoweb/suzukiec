@@ -7,8 +7,761 @@
       "marginBottom": 4
     },
     "children": [
-      "product-selling-price"
+     // "product-selling-price",//Muestra el pvp
+
+     //MOTORES FUERA DE BORDA
+     "condition-layout.product#conditionPriceDF175ATX",
+     "condition-layout.product#conditionPriceDF200ZX",
+     "condition-layout.product#conditionPriceDF20AS",
+     "condition-layout.product#conditionPriceDF150ZX",
+     "condition-layout.product#conditionPriceDF150TX",
+     "condition-layout.product#conditionPriceDF30AS",
+     "condition-layout.product#conditionPriceDF30AL",
+     "condition-layout.product#conditionPriceDT15AL",
+     "condition-layout.product#conditionPriceDF9.9AS",
+     "condition-layout.product#conditionPriceDF6AS",
+     "condition-layout.product#conditionPriceDT30L",
+     "condition-layout.product#conditionPriceDF175AZX",
+     "condition-layout.product#conditionPriceDF250TX",
+     "condition-layout.product#conditionPriceDF250ZX",
+     "condition-layout.product#conditionPriceDF300APX",
+     "condition-layout.product#conditionPriceDF325ATX",
+     "condition-layout.product#conditionPriceDT15-S",
+     "condition-layout.product#conditionPriceDT30S",
+     //FIN DE MOTORES FUERA DE BORDA
+     //INICIO DE MOTOS
+     "condition-layout.product#conditionPriceVSTROMDL250",
+     "condition-layout.product#conditionPriceKATANA",
+     "condition-layout.product#conditionPriceVStrom650",
+     "condition-layout.product#conditionPriceUR110",
+     "condition-layout.product#conditionPriceDGD115EVOLUTION",
+     "condition-layout.product#conditionPriceGD115",
+     "condition-layout.product#conditionPriceGN-125",
+     "condition-layout.product#conditionPriceUK110",
+     "condition-layout.product#conditionPriceFW110",
+     "condition-layout.product#conditionPriceGSX125-C",
+     "condition-layout.product#conditionPriceDR-Z50",
+     "condition-layout.product#conditionPriceGSX-S750A",
+     "condition-layout.product#conditionPriceRM85",
+     "condition-layout.product#conditionPriceINTRUDER",
+     "condition-layout.product#conditionPriceSV650XA",
+     "condition-layout.product#conditionPriceVSTROM1050XT",
+     "condition-layout.product#conditionPriceGSX250R",
+     "condition-layout.product#conditionPriceDR650",
+     "condition-layout.product#conditionPriceRMZ450",
+     "condition-layout.product#conditionPriceRMZ250",
+     "condition-layout.product#conditionPriceGSXR1000",
+     "condition-layout.product#conditionPriceGSX750R",
+     "condition-layout.product#conditionPriceLTZ50"
     ]
+  },
+
+  //MOTOS
+  "condition-layout.product#conditionPriceVSTROMDL250": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2048798"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "product-installments-list#moto"
+     
+    }
+  },
+  "condition-layout.product#conditionPriceKATANA": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049621"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "product-installments-list#moto"
+     
+    }
+  },
+  "condition-layout.product#conditionPriceVStrom650": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049038"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "product-installments-list#moto"
+     
+    }
+  },
+  "condition-layout.product#conditionPriceUR110": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2011740"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "product-installments-list#moto"
+     
+    }
+  },
+  "condition-layout.product#conditionPriceDGD115EVOLUTION": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2054549"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "product-installments-list#moto"
+     
+    }
+  },
+  "condition-layout.product#conditionPriceGD115": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2011222"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "product-installments-list#moto"
+     
+    }
+  },
+  "condition-layout.product#conditionPriceGN-125": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2000139"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "product-installments-list#moto"
+     
+    }
+  },
+  "condition-layout.product#conditionPriceUK110": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2054550"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "product-installments-list#moto"
+     
+    }
+  },
+  "condition-layout.product#conditionPriceFW110": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049186"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "product-installments-list#moto"
+     
+    }
+  },
+  "condition-layout.product#conditionPriceGSX125-C": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049461"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "product-installments-list#moto"
+     
+    }
+  },
+  "condition-layout.product#conditionPriceDR-Z50": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049492"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "product-installments-list#moto"
+     
+    }
+  },
+  "condition-layout.product#conditionPriceGSX-S750A": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049300"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "product-installments-list#moto"
+     
+    }
+  },
+  "condition-layout.product#conditionPriceRM85": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049584"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "product-installments-list#moto"
+     
+    }
+  },
+  "condition-layout.product#conditionPriceINTRUDER": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049444"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "product-installments-list#moto"
+     
+    }
+  },
+  "condition-layout.product#conditionPriceSV650XA": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2054376"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "product-installments-list#moto"
+     
+    }
+  },
+  "condition-layout.product#conditionPriceVSTROM1050XT": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2054006"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "product-installments-list#moto"
+     
+    }
+  },
+  "condition-layout.product#conditionPriceGSX250R": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2048797"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "product-installments-list#moto"
+     
+    }
+  },
+  "condition-layout.product#conditionPriceDR650": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2000136"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "product-installments-list#moto"
+     
+    }
+  },
+  
+  //AGREGANDO FALTA EL ID
+  "condition-layout.product#conditionPriceRMZ450":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": ""
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then": "product-installments-list#moto"
+     
+    }
+  },
+  "condition-layout.product#conditionPriceRMZ250":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2009963"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "product-installments-list#moto"
+     
+    }
+  },
+  "condition-layout.product#conditionPriceGSXR1000":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2067064"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "product-installments-list#moto"
+     
+    }
+  },
+  "condition-layout.product#conditionPriceGSX750R":
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2049442"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "product-installments-list#moto"
+     
+    }
+  },
+  //FIN AGREGANDO FALTA EL ID
+  
+  
+  
+  "condition-layout.product#conditionPriceLTZ50": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2067063"
+          }
+        }
+      ],
+      "toBe" : true,
+     "Then":  "product-installments-list#moto"
+     
+    }
+  },
+  
+  //FIN DE MOTOS
+
+  //INICIO DE MOTORES FUERA DE BORDA
+  "condition-layout.product#conditionPriceDF175ATX": 
+  {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2067061"
+          }
+        }
+      ],
+      "toBe" : true,
+    "Then":  "product-installments-list#motores"
+    
+    }
+  },
+  "condition-layout.product#conditionPriceDF200ZX": 
+  {
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2058125"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "product-installments-list#motores"
+    
+  }
+  },
+  "condition-layout.product#conditionPriceDF20AS": 
+  {
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052764"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then":  "product-installments-list#motores"
+    
+  }
+  },
+  "condition-layout.product#conditionPriceDF150ZX": 
+  {
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052763"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then":  "product-installments-list#motores"
+    
+  }
+  },
+  "condition-layout.product#conditionPriceDF150TX": 
+  {
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052762"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then":  "product-installments-list#motores"
+    
+  }
+  },
+  "condition-layout.product#conditionPriceDF30AS": 
+  {
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052760"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then":  "product-installments-list#motores"
+    
+  }
+  },
+  "condition-layout.product#conditionPriceDF30AL": 
+  {
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052759"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then":  "product-installments-list#motores"
+    
+  }
+  },
+  "condition-layout.product#conditionPriceDT15AL": 
+  {
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052757"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then":  "product-installments-list#motores"
+    
+  }
+  },
+  "condition-layout.product#conditionPriceDF9.9AS": 
+  {
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052756"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then":  "product-installments-list#motores"
+    
+  }
+  },
+  "condition-layout.product#conditionPriceDF6AS": 
+  {
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052755"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then":  "product-installments-list#motores"
+    
+  }
+  },
+  "condition-layout.product#conditionPriceDT30L": 
+  {
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2052758"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then":  "product-installments-list#motores"
+    
+  }
+  },
+  "condition-layout.product#conditionPriceDF175AZX": 
+  {
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2054551"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then":  "product-installments-list#motores"
+    
+  }
+  },
+  
+  "condition-layout.product#conditionPriceDF250TX": 
+  {
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2059912"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then":  "product-installments-list#motores"
+    
+  }
+  },
+  "condition-layout.product#conditionPriceDF250ZX": 
+  {
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2061699"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then": "product-installments-list#motores"
+    
+  }
+  },
+
+    "condition-layout.product#conditionPriceDF300APX": 
+    {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2063486"
+          }
+        }
+      ],
+      "toBe" : true,
+      "Then":  "product-installments-list#motores"
+      
+    }
+    },
+    "condition-layout.product#conditionPriceDF325ATX": 
+    {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2067060"
+          }
+        }
+      ],
+      "toBe" : true,
+      "Then":  "product-installments-list#motores"
+      
+    }
+    },
+    "condition-layout.product#conditionPriceDT15-S": 
+  {
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011763"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then":  "product-installments-list#motores"
+    
+  }
+  },
+  "condition-layout.product#conditionPriceDT30S": 
+  {
+  "props": {
+    "conditions": [
+      {
+        "subject": "productId",
+        "arguments": {
+          "id": "2011764"
+        }
+      }
+    ],
+    "toBe" : true,
+    "Then":  "product-installments-list#motores"
+    
+  }
+  },
+
+
+
+
+  "product-installments-list#moto":{
+    "children":[
+      "product-installments-list-item#moto"
+    ],
+    "props":{
+      "installmentsToShow":[36]
+    }
+  },
+  "product-installments-list-item#moto":{
+    "props": {
+      "blockClass": "text",
+      // "installmenerwfenterés} false { }}"
+      "message" : "DESDE {installmentsNumber} CUOTAS DE {installmentValue}{hasInterest, select, true {, {interestRate} de interés} false { }}"
+ 
+     }
+  },
+
+
+  "product-installments-list#motores":{
+    "children":[
+      "product-installments-list-item"
+    ],
+    "props":{
+      "installmentsToShow":[24]
+    }
+  },
+  "product-installments-list-item":{
+    "props": {
+      "blockClass": "text",
+      // "installmenerwfenterés} false { }}"
+      "message" : "DESDE {installmentsNumber} CUOTAS DE {installmentValue}{hasInterest, select, true {, {interestRate} de interés} false { }}"
+ 
+     }
   },
 
   "flex-layout.row#list-price-savings": {

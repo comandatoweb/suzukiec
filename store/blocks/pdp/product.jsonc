@@ -2212,7 +2212,10 @@
  //     "rich-text#Category",
     "flex-layout.row#product-name",//NOMBRE DEL PRODUCTO
     "rich-text#subtittleDescriptionMoto",
-    "product-installments#text",//DESDE 36 CUOTAS 
+  //  "product-installments#text",
+  // "product-installments-list-item#textuno",//DESDE 36 CUOTAS 
+   "flex-layout.row#selling-price",//Desde 36 cuotas
+  
     //"product-separator",
     "sku-selector",
     "link#solicitaCredito",
@@ -8092,7 +8095,7 @@
    "paddingTop": 0,
    "paddingBottom": 0
  },
- "children":["image#motoGSX125","rich-text#descripcionDeFoto1GSX125"]
+ "children":["rich-text#descripcionDeFoto1GSX125","image#motoGSX125"]
 },
 "image#motoGSX125": {
  "props": {
@@ -8147,7 +8150,7 @@
    "paddingTop": 0,
    "paddingBottom": 0
  },
- "children":["image#moto3GSX125","rich-text#descripcionDeFoto3GSX125"]
+ "children":["rich-text#descripcionDeFoto3GSX125","image#moto3GSX125"]
 },
 "image#moto3GSX125": {
  "props": {
@@ -8220,7 +8223,7 @@
    "paddingTop": 0,
    "paddingBottom": 0
  },
- "children":["image#motoSV650XA","rich-text#descripcionDeFoto1SV650XA"]
+ "children":["rich-text#descripcionDeFoto1SV650XA","image#motoSV650XA"]
 },
 "image#motoSV650XA": {
  "props": {
@@ -8278,7 +8281,7 @@
    "paddingTop": 0,
    "paddingBottom": 0
  },
- "children":["image#moto3SV650XA","rich-text#descripcionDeFoto3SV650XA"]
+ "children":["rich-text#descripcionDeFoto3SV650XA","image#moto3SV650XA"]
 },
 "image#moto3SV650XA": {
  "props": {
@@ -8352,7 +8355,7 @@
    "paddingTop": 0,
    "paddingBottom": 0
  },
- "children":["image#motoIntruder","rich-text#descripcionDeFoto1Intruder"]
+ "children":["rich-text#descripcionDeFoto1Intruder","image#motoIntruder"]
 },
 "image#motoIntruder": {
  "props": {
@@ -8407,7 +8410,7 @@
    "paddingTop": 0,
    "paddingBottom": 0
  },
- "children":["image#moto3Intruder","rich-text#descripcionDeFoto3Intruder"]
+ "children":["rich-text#descripcionDeFoto3Intruder","image#moto3Intruder"]
 },
 
 
@@ -8482,7 +8485,7 @@
     "paddingTop": 0,
     "paddingBottom": 0
   },
-  "children":["image#motoUK110","rich-text#descripcionDeFoto1UK110"]
+  "children":["rich-text#descripcionDeFoto1UK110","image#motoUK110"]
 },
 "image#motoUK110": {
   "props": {
@@ -8537,7 +8540,7 @@
     "paddingTop": 0,
     "paddingBottom": 0
   },
-  "children":["image#moto3UK110","rich-text#descripcionDeFoto3UK110"]
+  "children":["rich-text#descripcionDeFoto3UK110","image#moto3UK110"]
 },
 "image#moto3UK110": {
   "props": {
@@ -8608,7 +8611,7 @@
     "paddingTop": 0,
     "paddingBottom": 0
   },
-  "children":["image#motoFW110","rich-text#descripcionDeFoto1FW110"]
+  "children":["rich-text#descripcionDeFoto1FW110","image#motoFW110"]
 },
 "image#motoFW110": {
   "props": {
@@ -8664,7 +8667,7 @@
     "paddingTop": 0,
     "paddingBottom": 0
   },
-  "children":["image#moto3FW110","rich-text#descripcionDeFoto3FW110"]
+  "children":["rich-text#descripcionDeFoto3FW110","image#moto3FW110"]
 },
 "image#moto3FW110": {
   "props": {
@@ -8738,7 +8741,7 @@
     "paddingTop": 0,
     "paddingBottom": 0
   },
-  "children":["image#motovlStrom","rich-text#descripcionDeFoto1VSTROMDL250"]
+  "children":["rich-text#descripcionDeFoto1VSTROMDL250","image#motovlStrom"]
 },
 "image#motovlStrom": {
   "props": {
@@ -8793,7 +8796,7 @@
     "paddingTop": 0,
     "paddingBottom": 0
   },
-  "children":["image#motovlStrom3","rich-text#descripcionDeFoto3VSTROMDL250"]
+  "children":["rich-text#descripcionDeFoto3VSTROMDL250","image#motovlStrom3"]
 },
 "image#motovlStrom3": {
   "props": {
@@ -8864,7 +8867,7 @@
     "paddingTop": 0,
     "paddingBottom": 0
   },
-  "children":["image#motoKatana","rich-text#descripcionDeFoto1Katana"]
+  "children":["rich-text#descripcionDeFoto1Katana","image#motoKatana"]
 },
 "image#motoKatana": {
   "props": {
@@ -8924,7 +8927,7 @@
     "paddingTop": 0,
     "paddingBottom": 0
   },
-  "children":["image#motorKatana","rich-text#descripcionDeFoto3Katana"]
+  "children":["rich-text#descripcionDeFoto3Katana","image#motorKatana"]
 },
 "image#motorKatana": {
   "props": {
@@ -8998,7 +9001,7 @@
      "paddingTop": 0,
      "paddingBottom": 0
    },
-   "children":["image#motoGSX250R","rich-text#descripcionDeFoto1GSX250R"]
+   "children":["rich-text#descripcionDeFoto1GSX250R","image#motoGSX250R"]
  },
  "image#motoGSX250R": {
    "props": {
@@ -9053,7 +9056,7 @@
      "paddingTop": 0,
      "paddingBottom": 0
    },
-   "children":["image#motorGSX250R","rich-text#descripcionDeFoto3GSX250R"]
+   "children":["rich-text#descripcionDeFoto3GSX250R","image#motorGSX250R"]
  },
  "image#motorGSX250R": {
    "props": {
@@ -9125,7 +9128,7 @@
      "paddingTop": 0,
      "paddingBottom": 0
    },
-   "children":["image#motoGSXS750","rich-text#descripcionDeFoto1GSXS750"]
+   "children":["rich-text#descripcionDeFoto1GSXS750","image#motoGSXS750"]
  },
  "image#motoGSXS750": {
    "props": {
@@ -9181,7 +9184,7 @@
      "paddingTop": 0,
      "paddingBottom": 0
    },
-   "children":["image#motorGSXS750","rich-text#descripcionDeFoto3GSXS750"]
+   "children":["rich-text#descripcionDeFoto3GSXS750","image#motorGSXS750"]
  },
  "image#motorGSXS750": {
    "props": {
@@ -9256,7 +9259,7 @@
      "paddingTop": 0,
      "paddingBottom": 0
    },
-   "children":["image#motoVstrom650","rich-text#descripcionDeFoto1Vstrom650"]
+   "children":["rich-text#descripcionDeFoto1Vstrom650","image#motoVstrom650"]
  },
  "image#motoVstrom650": {
    "props": {
@@ -9311,7 +9314,7 @@
      "paddingTop": 0,
      "paddingBottom": 0
    },
-   "children":["image#motorVstrom650","rich-text#descripcionDeFoto3Vstrom650"]
+   "children":["rich-text#descripcionDeFoto3Vstrom650","image#motorVstrom650"]
  },
  "image#motorVstrom650": {
    "props": {
@@ -9384,7 +9387,7 @@
       "paddingTop": 0,
       "paddingBottom": 0
     },
-    "children":["image#motoVstrom1050","rich-text#descripcionDeFoto1Vstrom1050"]
+    "children":["rich-text#descripcionDeFoto1Vstrom1050","image#motoVstrom1050"]
   },
   "image#motoVstrom1050": {
     "props": {
@@ -9440,7 +9443,7 @@
       "paddingTop": 0,
       "paddingBottom": 0
     },
-    "children":["image#motorVstrom1050","rich-text#descripcionDeFoto3Vstrom1050"]
+    "children":["rich-text#descripcionDeFoto3Vstrom1050","image#motorVstrom1050"]
   },
   "image#motorVstrom1050": {
     "props": {
@@ -9512,7 +9515,7 @@
       "paddingTop": 0,
       "paddingBottom": 0
     },
-    "children":["image#motoGD115Evolution","rich-text#descripcionDeFoto1GD115Evolution"]
+    "children":["rich-text#descripcionDeFoto1GD115Evolution","image#motoGD115Evolution"]
   },
   "image#motoGD115Evolution": {
     "props": {
@@ -9568,7 +9571,7 @@
       "paddingTop": 0,
       "paddingBottom": 0
     },
-    "children":["image#motorGD115Evolution","rich-text#descripcionDeFoto3GD115Evolution"]
+    "children":["rich-text#descripcionDeFoto3GD115Evolution","image#motorGD115Evolution"]
   },
   "image#motorGD115Evolution": {
     "props": {
@@ -9639,7 +9642,7 @@
      "paddingTop": 0,
      "paddingBottom": 0
    },
-   "children":["image#motoGD115","rich-text#descripcionDeFoto1GD115"]
+   "children":["rich-text#descripcionDeFoto1GD115","image#motoGD115"]
  },
  "image#motoGD115": {
    "props": {
@@ -9697,7 +9700,7 @@
      "paddingTop": 0,
      "paddingBottom": 0
    },
-   "children":["image#motorGD115","rich-text#descripcionDeFoto3GD115"]
+   "children":["rich-text#descripcionDeFoto3GD115","image#motorGD115"]
  },
  "image#motorGD115": {
    "props": {
@@ -9771,7 +9774,7 @@
     "paddingTop": 0,
     "paddingBottom": 0
   },
-  "children":["image#motoUR110","rich-text#descripcionDeFoto1UR110"]
+  "children":["rich-text#descripcionDeFoto1UR110","image#motoUR110"]
 },
 "image#motoUR110": {
   "props": {
@@ -9827,7 +9830,7 @@
     "paddingTop": 0,
     "paddingBottom": 0
   },
-  "children":["image#motorUR110","rich-text#descripcionDeFoto3UR110"]
+  "children":["rich-text#descripcionDeFoto3UR110","image#motorUR110"]
 },
 "image#motorUR110": {
   "props": {
@@ -9897,7 +9900,7 @@
     "paddingTop": 0,
     "paddingBottom": 0
   },
-  "children":["image#motoGN125","rich-text#descripcionDeFoto1GN125"]
+  "children":["rich-text#descripcionDeFoto1GN125","image#motoGN125"]
 },
 "image#motoGN125": {
   "props": {
@@ -9953,7 +9956,7 @@
     "paddingTop": 0,
     "paddingBottom": 0
   },
-  "children":["image#motorGN125","rich-text#descripcionDeFoto3GN125"]
+  "children":["rich-text#descripcionDeFoto3GN125","image#motorGN125"]
 },
 "image#motorGN125": {
   "props": {
@@ -10024,7 +10027,7 @@
     "paddingTop": 0,
     "paddingBottom": 0
   },
-  "children":["image#motoRMZ450","rich-text#descripcionDeFoto1RMZ450"]
+  "children":["rich-text#descripcionDeFoto1RMZ450","image#motoRMZ450"]
 },
 "image#motoRMZ450": {
   "props": {
@@ -10080,7 +10083,7 @@
     "paddingTop": 0,
     "paddingBottom": 0
   },
-  "children":["image#motorRMZ450","rich-text#descripcionDeFoto3RMZ450"]
+  "children":["rich-text#descripcionDeFoto3RMZ450","image#motorRMZ450"]
 },
 "image#motorRMZ450": {
   "props": {
@@ -10151,7 +10154,7 @@
     "paddingTop": 0,
     "paddingBottom": 0
   },
-  "children":["image#motoRMZ250","rich-text#descripcionDeFoto1RMZ250"]
+  "children":["rich-text#descripcionDeFoto1RMZ250","image#motoRMZ250"]
 },
 "image#motoRMZ250": {
   "props": {
@@ -10207,7 +10210,7 @@
     "paddingTop": 0,
     "paddingBottom": 0
   },
-  "children":["image#motorRMZ250","rich-text#descripcionDeFoto3RMZ250"]
+  "children":["rich-text#descripcionDeFoto3RMZ250","image#motorRMZ250"]
 },
 "image#motorRMZ250": {
   "props": {
@@ -10279,7 +10282,7 @@
     "paddingTop": 0,
     "paddingBottom": 0
   },
-  "children":["image#motoGSXR1000","rich-text#descripcionDeFoto1GSXR1000"]
+  "children":["rich-text#descripcionDeFoto1GSXR1000","image#motoGSXR1000"]
 },
 "image#motoGSXR1000": {
   "props": {
@@ -10335,7 +10338,7 @@
     "paddingTop": 0,
     "paddingBottom": 0
   },
-  "children":["image#motorGSXR1000","rich-text#descripcionDeFoto3GSXR1000"]
+  "children":["rich-text#descripcionDeFoto3GSXR1000","image#motorGSXR1000"]
 },
 "image#motorGSXR1000": {
   "props": {
@@ -10406,7 +10409,7 @@
     "paddingTop": 0,
     "paddingBottom": 0
   },
-  "children":["image#motoGSX750R","rich-text#descripcionDeFoto1GSX750R"]
+  "children":["rich-text#descripcionDeFoto1GSX750R","image#motoGSX750R"]
 },
 "image#motoGSX750R": {
   "props": {
@@ -10462,7 +10465,7 @@
     "paddingTop": 0,
     "paddingBottom": 0
   },
-  "children":["image#motorGSX750R","rich-text#descripcionDeFoto3GSX750R"]
+  "children":["rich-text#descripcionDeFoto3GSX750R","image#motorGSX750R"]
 },
 "image#motorGSX750R": {
   "props": {
@@ -10535,7 +10538,7 @@
     "paddingTop": 0,
     "paddingBottom": 0
   },
-  "children":["image#motoLTZ50","rich-text#descripcionDeFoto1LTZ50"]
+  "children":["rich-text#descripcionDeFoto1LTZ50","image#motoLTZ50"]
 },
 "image#motoLTZ50": {
   "props": {
@@ -10591,7 +10594,7 @@
     "paddingTop": 0,
     "paddingBottom": 0
   },
-  "children":["image#motorLTZ50","rich-text#descripcionDeFoto3LTZ50"]
+  "children":["rich-text#descripcionDeFoto3LTZ50","image#motorLTZ50"]
 },
 "image#motorLTZ50": {
   "props": {
@@ -10663,7 +10666,7 @@
        "paddingTop": 0,
        "paddingBottom": 0
      },
-     "children":["image#motoDRZ50","rich-text#descripcionDeFoto1DRZ50"]
+     "children":["rich-text#descripcionDeFoto1DRZ50","image#motoDRZ50"]
    },
    "image#motoDRZ50": {
      "props": {
@@ -10719,7 +10722,7 @@
        "paddingTop": 0,
        "paddingBottom": 0
      },
-     "children":["image#motorDRZ50","rich-text#descripcionDeFoto3DRZ50"]
+     "children":["rich-text#descripcionDeFoto3DRZ50","image#motorDRZ50"]
    },
    "image#motorDRZ50": {
      "props": {
@@ -10919,7 +10922,7 @@
         "paddingTop": 0,
         "paddingBottom": 0
       },
-      "children":["image#motoDR650","rich-text#descripcionDeFoto1DR650"]
+      "children":["rich-text#descripcionDeFoto1DR650","image#motoDR650"]
     },
     "image#motoDR650": {
       "props": {
@@ -10976,7 +10979,7 @@
         "paddingTop": 0,
         "paddingBottom": 0
       },
-      "children":["image#motorDR650","rich-text#descripcionDeFoto3DR650"]
+      "children":["rich-text#descripcionDeFoto3DR650","image#motorDR650"]
     },
     "image#motorDR650": {
       "props": {
@@ -24517,6 +24520,7 @@
 
     }
   },
+ 
   "product-installments#TEXTOFINAL": {
     "props": {
      "blockClass": "TEXTOFINAL",
