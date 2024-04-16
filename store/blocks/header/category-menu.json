@@ -7,6 +7,7 @@
       "menu-item#category-apparel",
       "menu-item#category-fueradeborda",
       "menu-item#category-repuestos",
+      "menu-item#repuestos-originales",
       "menu-item#category-tiendasuzuki",
 	    "menu-item#solicita-credito"
       
@@ -57,14 +58,14 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/motos?_q=motos&map=ft",
+        "href": "https://www.suzukiec.com/motos?_q=motos&map=ft",
         "noFollow": false,
         "tagTitle": "MOTOS",
         "text": "MOTOS"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#menumb"
+    
     ]
   },
   "vtex.menu@2.x:submenu#menumb": {
@@ -81,7 +82,7 @@
       "blockClass": "motos_menu_tipos_mb"
     },
     "children": [
-      "iframe#menumotomb"
+      "list-context.product-list#demo1"
     ]
   },
 
@@ -136,6 +137,21 @@
         "noFollow": false,
         "tagTitle": "TALLERES AUTORIZADOS",
         "text": "TALLERES AUTORIZADOS"
+      }
+    }
+  },
+  "menu-item#repuestos-originales": {
+    "props": {
+      "id": "menu-item-category-repuestos-originales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/repuestos-originales",
+        "noFollow": false,
+        "tagTitle": "REPUESTOS",
+        "text": "REPUESTOS"
       }
     }
   },

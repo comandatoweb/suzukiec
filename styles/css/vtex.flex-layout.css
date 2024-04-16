@@ -551,7 +551,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 {
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;
-  font-weight: 200;
+  
 }
 :global(.vtex-store-components-3-x-skuSelectorNameSeparator)
 {
@@ -721,6 +721,23 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     font-weight: 600;
     color: rgb(0,48,69);
 }
+
+:global(.vtex-product-price-1-x-installments--TEXTOFINAL)
+{
+  color: #3f3f40!important;
+  font-family: 'Poppins',sans-serif!important;
+  font-size: 1.5rem;
+  font-weight: 300;
+  
+}
+/*REPRESENTA EL VALOR*/
+:global(.vtex-product-price-1-x-currencyContainer--TEXTOFINAL)
+{
+  font-size: 2.5rem;
+  font-style: italic;
+    font-weight: 600;
+    color: rgb(0,48,69);
+}
  /*BLOQUE PARA CAMBIAR LAS LETRAS QUE VIENE POR DEFECTO A DL250VSTROM*/
  /*.flexRow--name :global(.vtex-store-components-3-x-productBrand)
  {
@@ -789,10 +806,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     border: none;
 
 }
-.flexRow--buyNowButtonw  :global(.vtex-button):hover/*HECHO POR ENRIQUE CALLE*/
-{
- 
-}
+
 :global(.vtex-add-to-cart-button-0-x-buttonText--buyNoww)
 {
   font-family: 'Poppins', sans-serif;
@@ -800,13 +814,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 
 
 }
-.flexRow--buyNowButtons  :global(.vtex-button):hover
-{
- /* border: 3px silver solid; */
- 
- 
-  
-}
+
 
 
 :global(.vtex-flex-layout-0-x-flexRow--containImageDescription)
@@ -838,6 +846,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--caracteristicasEspecialesText)
 {
+  
   background: black;
  /* position: relative;
   bottom: 23rem; */
@@ -850,9 +859,53 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   letter-spacing: .5rem;
 }
 
+/*PARTE FINAL PARA SUZUKI*/
+:global(.vtex-flex-layout-0-x-flexRowContent--caracteristicasEspecialesTextSUZUKI)
+{
+  border: 4px solid #002f4a ;
+  background: #002f4a;
+  height: 4rem !important;
+ /* position: relative;
+  bottom: 23rem; */
+}
+/*TEXTO PODER Y DOMINACION EN TI*/
+:global(.vtex-rich-text-0-x-strong--textoCaracterisitcasEspecialesSUZUKI)
+{
+  color: white!important;
+  letter-spacing: .23rem;
+  font-weight: 600 !important;
+}
+/*CONTENEDOR FINAL DESDE 36 CON UN MARGEN TOP DE 2 REM*/
+:global(.vtex-flex-layout-0-x-flexCol--subContenedorRenglonesFichaTecnica)
+{
+  margin-top: 2rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--contenedor_final)
+{
+  background-image: url(https://suzukiecuador.vteximg.com.br/arquivos/bannerSuzuki.png);
+  background-attachment: fixed;
+  
+  background-size: cover;
+  background-position: bottom;
+  height: 400px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--contenedor_final_FueraBorda)
+{
+  background-image: url(https://suzukiecuador.vteximg.com.br/arquivos/BANNER_FINAL.png);
+  background-attachment: fixed;
+  
+  background-size: cover;
+  background-position: bottom;
+  height: 400px;
+}
+
+/*INICIO DE CODIGO DE WAY OF LIFE*/
+
 :global(.vtex-flex-layout-0-x-flexRowContent--listaparatuaventuraText)
 {
-  background: black;
+  background: rgba(240,240,240,0.8);
+  
  /* position: relative;
   bottom: 20rem;*/
 
@@ -864,8 +917,17 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   font-size: x-large;
   letter-spacing: .5rem;
 }
-
-
+:global(.vtex-rich-text-0-x-headingLevel4--textolistaparatuaventuraText)
+{
+  color: rgb(0,48,69);
+  font-weight: 800;
+}
+:global(.vtex-rich-text-0-x-strong--textolistaparatuaventuraText)
+{
+  color: #ff0000;
+  font-weight: 800 !important;
+ }
+/*FIN DE CODIGO WAY OF LIFE*/
 
 /*ficha tecnica*/
 :global(.vtex-flex-layout-0-x-flexRow--contenedorFichaTecnia)
@@ -976,6 +1038,12 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 }
 
 @media screen and (max-width: 900px){
+  :global(.vtex-store-components-3-x-logoContainer)
+{
+  position: relative !important;
+  right: 0.7rem !important;
+}
+
   .flexRow--buyNowButtonw  :global(.vtex-button)
 {
     
@@ -1000,6 +1068,189 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
      transition: 0.2s ease-in-out;
      border: none; 
 }
+
+@media screen and (max-width: 600px)
+{/*INICIO DEL MEADIA SCREN*/
+  :global(.vtex-rich-text-0-x-heading--textoCaracterisitcasEspecialesSUZUKI)
+{
+	font-size: 1.3rem !important;
+}
+
+:global(.vtex-rich-text-0-x-container--textoCaracterisitcasEspecialesSUZUKI)
+{
+	    margin-top: -0.5rem;
+}
+
+  :global(.vtex-rich-text-0-x-heading--descriptionHayunaSuzuki)
+  {
+    font-size: 1.55rem !important;
+    padding: 4px;
+  }
+  :global(.vtex-rich-text-0-x-heading--subtittleMoto)
+  {
+    font-size: 1rem !important; 
+  }
+  :global(.vtex-rich-text-0-x-heading--subtittleMoto2)
+  {
+    font-size: 0.75rem !important;
+  }
+  :global(.vtex-store-components-3-x-productBrand)
+  {
+    font-size: 1.15rem !important;
+  }
+  :global(.vtex-rich-text-0-x-heading--subtittleDescriptionMoto)
+  {
+    font-size: 1rem !important;
+  }
+  :global(.vtex-product-price-1-x-installments--text)
+  {
+    font-size: 1.15rem !important; 
+  }
+  :global(.vtex-flex-layout-0-x-flexColChild--BlockcolorSwatchBlock)
+  {
+    margin: 0 auto !important;
+  }
+  :global(.vtex-rich-text-0-x-container--subtittleMoto2)
+  {
+    background-color: white !important;
+  }
+ 
+  :global(.vtex-rich-text-0-x-heading--subtittleMoto2)
+  {
+    border-bottom: 2px solid rgb(0, 48, 69) !important;
+    padding: 12px 12px !important;
+    font-weight: 500 !important;
+    width: 100% !important;
+    transition: 0.2s ease-in-out;
+    letter-spacing: 0.7px !important;
+  }
+
+  :global(.vtex-rich-text-0-x-container--mensaje1),
+  :global(.vtex-rich-text-0-x-container--mensaje2),
+  :global(.vtex-rich-text-0-x-container--mensaje3)
+  {
+    color: black;
+    font-size: 0.95rem;
+    
+  }
+  :global(.vtex-flex-layout-0-x-flexCol--IMD2col)
+  {
+    border: none !important;
+  }
+ /* :global(.vtex-rich-text-0-x-strong--textoCaracterisitcasEspeciales)
+  {
+    font-size: 0.9rem !important;
+    letter-spacing: .3rem !important;
+  } */
+  :global(.vtex-flex-layout-0-x-flexRowContent--containGallery)
+  {
+    width: 100%;
+    /* float: left; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+ /* :global(.vtex-rich-text-0-x-strong--textoCaracterisitcasEspeciales)
+  {
+    letter-spacing: .1rem!important;
+  }*/
+  :global(.vtex-rich-text-0-x-strong--textoCaracterisitcasEspeciales)
+  {
+    color: white;
+    font-weight: 800;
+    font-size: 1.5rem !important;
+  }
+  :global(.vtex-rich-text-1-x-heading--descripcionDeFoto)/*Esto afecta a todos los titulos*/
+  {
+    font-size: 2rem !important;
+  }
+  :global(.vtex-rich-text-0-x-paragraph)/*Esto afecta a todas las descripciones de las fotos*/
+  {
+    font-size: .85rem !important;
+  }
+  :global(.vtex-rich-text-0-x-strong--textolistaparatuaventuraText)
+  {
+    font-size: 1rem !important;
+    letter-spacing: .1rem;
+  }
+  :global(.vtex-rich-text-0-x-heading--namefichaTecnica)
+  {
+    font-size: 2.75rem !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--IMC1),
+  :global(.vtex-flex-layout-0-x-flexRow--IMC2),
+  :global(.vtex-flex-layout-0-x-flexRow--IMG1),
+  :global(.vtex-flex-layout-0-x-flexRow--IMG2),
+  :global(.vtex-flex-layout-0-x-flexRow--IMDP1),
+  :global(.vtex-flex-layout-0-x-flexRow--IMDP2)
+  {
+    border-right:none !important;
+  }
+  :global(.vtex-product-price-1-x-installments--TEXTOFINAL)
+  {
+    font-size: 1.5rem !important;
+    font-weight:600 !important ;
+  }
+  :global(.vtex-flex-layout-0-x-flexColChild--subContenedorRenglonesFichaTecnica)
+  {
+    text-align: center;
+  }
+  :global(.vtex-rich-text-0-x-italic)
+  {
+    font-weight: 600 !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--contenedor_final)
+  {
+    background-image: url(https://suzukiecuador.vteximg.com.br/arquivos/bannerFinalMovile.png);
+    background-attachment: fixed;
+    
+    background-size: cover;
+    background-position: bottom;
+    height: 400px;
+  } 
+  :global(.vtex-flex-layout-0-x-flexCol--BlockcolorSwatchBlock):nth-child(odd)
+    {
+      text-align: center;
+    }
+    :global(.vtex-flex-layout-0-x-flexCol--BlockcolorSwatchBlock)
+    {
+    background-position: top;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--IMC1),
+  :global(.vtex-flex-layout-0-x-flexRow--IMC2),
+  :global(.vtex-flex-layout-0-x-flexRow--IMC3),
+  :global(.vtex-flex-layout-0-x-flexRow--IMG1),
+  :global(.vtex-flex-layout-0-x-flexRow--IMG2),
+  :global(.vtex-flex-layout-0-x-flexRow--IMG3),
+  :global(.vtex-flex-layout-0-x-flexRow--IMDP1),
+  :global(.vtex-flex-layout-0-x-flexRow--IMDP2),
+  :global(.vtex-flex-layout-0-x-flexRow--IMDP3)
+  {
+    border-right:none !important;
+    border-bottom: 2px dashed red;
+    width: 75% !important;
+    margin: 9px;
+  }
+  /*WAY OF LIFE*/
+  :global(.vtex-rich-text-0-x-strong--textolistaparatuaventuraText)
+  {
+    font-size: 1.5rem !important;
+  }
+}/*FIN DEL MEADIA SCREN*/
+
+/*IMAGEN DE FONDO SUZUKI*/
+
+:global(.vtex-rich-text-0-x-heading--subtittleDescriptionMoto)
+{
+  color: black;
+}
+:global(.vtex-product-price-1-x-installments--text)
+{
+  color: black !important;
+  font-weight: normal;
+}
+
+
+
 :global(.vtex-flex-layout-0-x-flexRow--menu-row),
 :global(.vtex-flex-layout-0-x-flexColChild--payment-methods)
 { 
@@ -1039,7 +1290,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   margin-right: 0rem  !important;
   margin-left: 0rem !important;
   
-  background-color: #00bb2d !important;
+  background-color:   #00bb2d !important;
   border: 2px solid #00bb2d !important;
 
 }
@@ -1049,7 +1300,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 :global(.vtex-store-video-1-x-videoElement--VideoDoublePurpose)
 {
   width: 100%;
-  height: auto;
+ 
 }
 /*poner en medio el las cuotas de la moto*/
 :global(.vtex-flex-layout-0-x-flexColChild--subContenedorRenglonesFichaTecnica)
@@ -1061,42 +1312,37 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 /*BOTONES DE ENLACE*/
 :global(.vtex-store-link-0-x-link--solicitaCredito)
 {
+  font-family: 'Poppins', sans-serif;
   position: relative;
   top: -0.4rem;
-  background: red;
-  border: 2px solid red;
+  border-radius: 3px;
+  background: rgb(0,48,69);
+  border: 2px solid rgb(0,48,69);
   letter-spacing: 4px;
   color: white;
-  transition: 0.2s ease-in-out;
+  font-size: .8rem !important;
+  /*transition: 0.2s ease-in-out;*/
 }
+/*
 :global(.vtex-store-link-0-x-link--solicitaCredito):hover
 {
   background: white;
   border: 2px solid red;
   letter-spacing: 4px;
   color: black;
-}
+}*/
 :global(.vtex-store-link-0-x-buttonLink--cotizaTuMoto)
 {
+  font-family: 'Poppins', sans-serif;
   position: relative;
   top: -0.2rem;
   letter-spacing: 4px;
-  background-color: rgb(0,48,69);
-  border: 2px solid rgb(0,48,69) ;
+  background-color: #25D366;
+  border: 2px solid #25D366 ;
   color: white;
-  transition: 0.2s ease-in-out;
-  
+  font-size: .8rem !important;
 }
-:global(.vtex-store-link-0-x-buttonLink--cotizaTuMoto):hover
-{
-  
-  letter-spacing: 4px;
-  background-color: white;
-  border: 2px solid rgb(0,48,69);
-  
-  color: black;
-  
-}
+
 
 /*FICHA TECNICA*/
 :global(.vtex-flex-layout-0-x-flexRow--IMC1),
@@ -1117,6 +1363,15 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 {
   font-weight: 900;
 }
+:global(.vtex-rich-text-0-x-strong--textoCaracterisitcasEspeciales)
+{
+  font-weight: normal;
+}
+:global(.vtex-rich-text-0-x-strong--textolistaparatuaventuraText)
+{
+  font-weight: normal;
+}
+
 :global(.vtex-rich-text-0-x-heading--nameMotor),
 :global(.vtex-rich-text-0-x-heading--nameChasis),
 :global(.vtex-rich-text-0-x-heading--nameDi_Wei)
@@ -1144,20 +1399,84 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   margin-left: 2rem;
   
   background-color: #00bb2d !important;
+  color: black;
   border: 2px solid #00bb2d !important;
-
+  
+  
+  
+}
+:global(.vtex-store-link-0-x-link--cotizaPorWhatsapp):hover
+{
+  
+  background-color: #00bb2d !important;
+  border: 2px solid #00bb2d !important;
+  
 }
 :global(.vtex-store-link-0-x-link--PreguntaPorTusRepuestos)
 {
-  background-color: rgb(0,48,69);
+  background-color: rgb(0,48,69) !important;
+  color: white;
   border: 2px solid rgb(0,48,69);
+}
+:global(.vtex-store-link-0-x-link--cotizaPorWhatsapp):hover
+{
+  margin-right: 2rem;
+  margin-left: 2rem;
+  
+  background-color: #00bb2d !important;
+  color: black;
+  border: 2px solid #00bb2d !important;
+  
+}
+:global(.vtex-store-link-0-x-link--PreguntaPorTusRepuestos):hover
+{
+  background-color: rgb(0,48,69) !important;
+  color: white;
+  border: 2px solid rgb(0,48,69);
+ 
 
 }
 .flexRow--containsolicitarProducto :global(.vtex-button)
 {
-  background-color: rgb(0,48,69);
+  background-color: rgb(0,48,69) !important;
+  color: white;
   border: 2px solid rgb(0,48,69);
+  transition: 0.2s ease-in-out;
 }
 
+:global(.vtex-iframe-0-x-container--fichatecnicamotorfueraborda)
+{
+   background-image: url('https://suzukiecuador.vteximg.com.br/arquivos/motor-DT30-BANNERS.jpg') !important; 
+     background-size: cover; 
+     background-position: center; 
+     background-attachment: fixed;
+}
 
+:global(.vtex-store-components-3-x-logoContainer)
+{
+  position: relative !important;
+  right: 1.7rem ;
+}
 
+@media screen and (max-width: 1400px) {
+
+  :global(.vtex-menu-2-x-styledLinkContainer)
+  {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  :global(.vtex-menu-2-x-styledLinkContent)
+   {
+    font-size: 13px;
+    font-weight: bold;
+    font-family: poppins;
+  }
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--BlockcolorSwatchBlock)
+  {
+  
+  background-image: url("https://suzukiecuador.vteximg.com.br/arquivos/LogoOficiailSuzuki1.png");
+  background-repeat: no-repeat;
+  background-position: center 4rem;
+  }

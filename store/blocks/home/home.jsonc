@@ -38,17 +38,47 @@
       "height": 450,
       "images": [
         {
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-viva-cool-es.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-viva-cool-es.jpg"
+          "image": "https://site.comandato.com/navidad/banner-escritorio-suzuki.jpg",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/oficial.jpg"
+        
         },
         {
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-dr650-esc.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-dr650-esc.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/SV650XANAVIDAD.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/SV650XANAVIDAD.jpg"
+        
         },
         {
-          "image": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-uk110-es.jpg",
-          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/suzuki-uk110-es.jpg"
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/UK110NAVIDAD.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/UK110NAVIDAD.jpg"
+        
+        },
+        {
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/vivacoolNAVIDAD.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/vivaCoolNavidad.jpg"
+        
+        },
+        {
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/GL150NAVIDADESCRITORIO.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/GL150navidad.jpg"
+        
+        },
+        {
+          "image": "https://suzukiecuador.vteximg.com.br/arquivos/RM85NAVIDAD.png",
+          "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/rm85Navidad.jpg"
+        
         }
+     //   {
+     //     "image": "https://suzukiecuador.vteximg.com.br/arquivos/BannerCyberMonday-GL150.png",
+     //     "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/GL150RBANNERMOVILECYBER.jpg"
+    //    },
+      //  {
+      //    "image": "https://suzukiecuador.vteximg.com.br/arquivos/BannerCyberMonday-GN125.png",
+      //    "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/GN125BANNERMOVILECYBER.jpg"
+      //  },
+      //  {
+      //    "image": "https://suzukiecuador.vteximg.com.br/arquivos/BannerCyberMonday-GSX250R.png",
+      //    "mobileImage": "https://suzukiecuador.vteximg.com.br/arquivos/GSX250RBANNERMOVILECYBER.jpg"
+      //  }
       ]
     }
   },
@@ -112,16 +142,16 @@
 
  
 
- // "rich-text#shelf-title": {
- //   "props": {
- //     "text": "## Motocicletas",
- //     "blockClass": "shelfTitle"
- //   }
- // },
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Motocicletas",
+      "blockClass": "shelfTitle"
+    }
+  },
 
- // "flex-layout.row#shelf": {
- //   "children": ["list-context.product-list#demo1"]
- // },
+  "flex-layout.row#shelf": {
+   "children": ["list-context.product-list#demo1"]
+  },
   "list-context.product-list#demo1": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
@@ -190,7 +220,7 @@
     "props":{
       "textAlignment": "CENTER",
     "textPosition": "CENTER",
-    "text": "## Pregunta por repuestos suzuki",
+    "text": "## PREGUNTA POR REPUESTOS SUZUKI",
     "blockClass": "descriptionHayunaSuzuki"
     }
   },
@@ -283,7 +313,7 @@
       "height":"620px",
       "scrolling":"no" ,
       "frameborder":"0",
-      "overflow": "hidden",
+      "overflow": "visible",
       "blockClass": "menumotomb",
       "allowfullscreen":"true",
       "allowtransparency":"true", 
